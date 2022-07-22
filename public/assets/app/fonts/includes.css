@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+/* DB Heavent */
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DBHeavent_Li.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_LiIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:200; font-style:normal;
+    src:url('./DBHeavent/DBHeavent_Thin.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:200; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_ThinIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:300; font-style:normal;
+    src:url('./DBHeavent/DBHeavent.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:300; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_It.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:400; font-style:normal;
+    src:url('./DBHeavent/DBHeavent_Med.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:400; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_MedIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:500; font-style:normal;
+    src:url('./DBHeavent/DBHeavent_Bd.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:500; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_BdIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:600; font-style:normal;
+    src:url('./DBHeavent/DBHeavent_Blk.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:600; font-style:italic;
+    src:url('./DBHeavent/DBHeavent_BlkIt.ttf') format('truetype');
+}
