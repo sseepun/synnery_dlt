@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* DB Heavent */
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Med_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:400; font-style:thin;
+    src:url('./DBHeavent/DB_Heavent_Thin_v3.2.ttf')format('truetype');
+}
+/* @font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Bd_It_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Bd_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:200; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Blk_It_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:300; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Blk_v3.2.ttf')format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:500; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Bd_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Blk_It_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:200; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Blk_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:300; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_It_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:400; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Li_It_v3.2.ttf')format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:500; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Li_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:100; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Med_It_v3.2.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Heavent'; font-weight:300; font-style:normal;
+    src:url('./DBHeavent/DB_Heavent_Thin_It_v3.2.ttf') format('truetype');
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DB Ozone X */
+/* @font-face{
+    font-family:'DB Ozone X'; font-weight:100; font-style:normal;
+    src:url('./DB-Ozone-X/DB-Ozone-X-UltraLi.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:100; font-style:italic;
+    src:url('./DB-Ozone-X/DB-Ozone-X-UltraLiIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:200; font-style:normal;
+    src:url('./DB-Ozone-X/DB-Ozone-X-Li.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:200; font-style:italic;
+    src:url('./DB-Ozone-X/DB-Ozone-X-LiIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:300; font-style:normal;
+    src:url('./DB-Ozone-X/DB-Ozone-X.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:300; font-style:italic;
+    src:url('./DB-Ozone-X/DB-Ozone-X-Italic.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:400; font-style:normal;
+    src:url('./DB-Ozone-X/DB-Ozone-X-Med.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:400; font-style:italic;
+    src:url('./DB-Ozone-X/DB-Ozone-X-MedIt.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:600; font-style:normal;
+    src:url('./DB-Ozone-X/DB-Ozone-X-Bd.ttf') format('truetype');
+}
+@font-face{
+    font-family:'DB Ozone X'; font-weight:600; font-style:italic;
+    src:url('./DB-Ozone-X/DB-Ozone-X-BdIt.ttf') format('truetype');
+} */
+
+
+/* TH Sarabun New */
+/* @font-face{
+    font-family:'TH Sarabun New'; font-weight:300; font-style:normal;
+    src:url('./THSarabunNew/THSarabunNew.ttf') format('truetype');
+}
+@font-face{
+    font-family:'TH Sarabun New'; font-weight:300; font-style:italic;
+    src:url('./THSarabunNew/THSarabunNew_Italic.ttf') format('truetype');
+}
+@font-face{
+    font-family:'TH Sarabun New'; font-weight:600; font-style:normal;
+    src:url('./THSarabunNew/THSarabunNew_Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family:'TH Sarabun New'; font-weight:600; font-style:italic;
+    src:url('./THSarabunNew/THSarabunNew_BoldItalic.ttf') format('truetype');
+} */
+
+
+/* Sukhumvit */
+/* @font-face{
+    font-family:'Sukhumvit'; font-weight:100; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-Thin.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Sukhumvit'; font-weight:200; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-Light.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Sukhumvit'; font-weight:300; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-Text.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Sukhumvit'; font-weight:400; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-Medium.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Sukhumvit'; font-weight:500; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-SemiBold.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Sukhumvit'; font-weight:600; font-style:normal;
+    src:url('./Sukhumvit/SukhumvitSet-Bold.ttf') format('truetype');
+} */
+

@@ -1,0 +1,46 @@
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    
+    /* Topnav Option */
+    .topnav-option .dropdown{display:none;}
+    .topnav-option .block:hover > .dropdown{display:block;}
+
+    /* Sidenav */
+    nav.sidenav .option > .dropdown{display:none;}
+    nav.sidenav .option:hover > .dropdown{display:block;}
+    @media screen and (max-width:1199.98px){
+        nav.sidenav ~ .sidenav-filter{display:none;}
+        nav.sidenav.active ~ .sidenav-filter{display:block;}
+    }
+    
+    /* Global Search Container */
+    .global-search-container{display:none;}
+    .global-search-container.active{display:block;}
+
+    /* Popup */
+    .popup-container{display:none;}
+    .popup-container.active{display:block;}
+
+    /* Toggle Target */
+    .toggle-target{display:none;}
+    .toggle-target.active{display:none;}
+
+    /* Special Card 05 */
+    .ss-card-05 > .img-container .img-wrapper{display:none;}
+    .ss-card-05 > .img-container .img-wrapper.active{display:block;}
+
+
+    /* Topnav Secretary */
+    nav.topnav-secretary .submenu-dropdown{display:none;}
+    nav.topnav-secretary .menu:hover > .submenu-dropdown{display:block;}
+    
+    /* Accessibility Container */
+    .accessibility-container{display:none;}
+    .accessibility-container.active{display:block;}
+
+
+    /* Topnav Minisite */
+    nav.topnav-minisite .submenu-dropdown{display:none;}
+    nav.topnav-minisite .menu:hover > .submenu-dropdown{display:block;}
+
+}
