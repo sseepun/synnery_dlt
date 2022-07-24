@@ -2,8 +2,7 @@
 $(function(){ 'use strict';
 
     // Topnav
-    var topnav = $('nav.topnav'),
-        topnavMinisite = $('nav.topnav-minisite');
+    var topnav = $('nav.topnav');
     var sidenav = $('nav.sidenav'),
         sidenavMenus = sidenav.find('.menu-container'),
         sidenavToggle = $('nav .sidenav-toggle');
@@ -14,18 +13,6 @@ $(function(){ 'use strict';
         sidenavMenus.html( topnav.find('#topnav-menu').html() );
         sidenavMenus.find('em').remove();
         sidenavMenus.find('.num, .title, .submenu-title').remove();
-        sidenavMenus.find('.has-children').each(function(){
-            $(this).append('<div class="dropdown-toggle"><em class="fas fa-chevron-right"></em></div>');
-        });
-        sidenavMenus.find('.dropdown-toggle').click(function(e){
-            e.preventDefault();
-            var self = $(this);
-            self.toggleClass('active');
-            self.prev().slideToggle();
-        });
-    }else if(topnavMinisite.length){
-        // Generate Sidenav
-        sidenavMenus.html( topnavMinisite.find('#topnav-menu').html() );
         sidenavMenus.find('.has-children').each(function(){
             $(this).append('<div class="dropdown-toggle"><em class="fas fa-chevron-right"></em></div>');
         });
@@ -140,11 +127,9 @@ $(function(){ 'use strict';
         $('#css-theme').attr('href', 'public/assets/app/css/color-'+$(this).data('theme')+'.css');
         $('body').removeClass('theme-0 theme-1 theme-2');
         $('body').addClass('theme-'+self.data('theme'));
-
-        if(self.hasClass('option-row')){
-            themeBtns.removeClass('active');
-            self.addClass('active');
-        }
+        
+        themeBtns.removeClass('active');
+        themeBtns.filter('[data-theme="'+self.data('theme')+'"]').addClass('active');
     });
 
     // Letter Spacing
@@ -188,20 +173,11 @@ $(function(){ 'use strict';
             backToTop.removeClass('active');
         }
         if(topnav.length){
-            if(st > 2.375*bodySize){
+            // if(st > 2.375*bodySize){
+            if(st > 38){
                 topnav.addClass('sticky');
             }else{
                 topnav.removeClass('sticky');
-            }
-        }else if(topnavMinisite.length){
-            var scale = 4.4375;
-            if(window.innerWidth < 992) scale = 3.9375;
-            if(st > scale*bodySize){
-                topnavMinisite.addClass('sticky');
-                accessPanel.addClass('sticky');
-            }else{
-                topnavMinisite.removeClass('sticky');
-                accessPanel.removeClass('sticky');
             }
         }
     }
