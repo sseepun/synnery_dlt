@@ -1,120 +1,6 @@
 
-<!-- Super Topnav -->
-<nav class="stopnav bg-p color-white">
-  <div class="wrapper">
-    <div class="blocks blocks-main">
-      <div class="blocks">
-        <a class="option h-color-s" href="#">
-          <div class="icon"><em class="fa-solid fa-phone"></em></div>
-          +66 0-2141-8888
-        </a>
-        <a class="option h-color-s" href="#">
-          <div class="icon"><em class="fa-solid fa-envelope"></em></div>
-          webmaster@ect.go.th
-        </a>
-      </div>
-      <div class="blocks hide-mobile">
-        <div class="option-select">
-          <div class="select bg-s">
-            TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>
-          </div>
-          <div class="dropdown">
-            <a class="item" href="#">EN</a>
-            <a class="item" href="#">US</a>
-          </div>
-        </div>
-        <a class="btn-social" href="#">
-          <em class="fa-brands fa-facebook-f"></em>
-        </a>
-        <a class="btn-social" href="#">
-          <em class="fa-brands fa-twitter"></em>
-        </a>
-        <a class="btn-social" href="#">
-          <em class="fa-brands fa-youtube"></em>
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>
-
 <!-- Topnav -->
-<nav class="topnav">
-  <div class="wrapper">
-
-    <a class="logo" href="#">
-      <div class="img-container">
-        <img src="public/assets/app/images/logo.png" alt="Website Logo" />
-      </div>
-      <div class="text-wrapper">
-        <p>สำนักงานคณะกรรมการการเลือกตั้ง</p>
-      </div>
-    </a>
-
-    <div class="menu-container hide-tablet" id="topnav-menu">
-      <?php
-        foreach([
-          'หน้าหลัก', 'กกต.', 'รวมกฏหมาย', 'ข่าวสาร', 'บริการข้อมูล', 'หน่วยงาน',
-          'ตอบข้อซักถาม/แจ้งเบาะเเส', 'จัดซื้อ/จัดจ้าง'
-        ] as $i=>$d){
-      ?>
-        <div class="menu has-children">
-          <a href="#" data-dropdown="<?= $i ?>">
-            <?= $d ?> <em class="fas fa-chevron-down"></em>
-          </a>
-          <div class="submenu-dropdown <?php if($i>5)echo 'anchor-right'; ?>">
-            <div class="submenu-container">
-              <div class="submenu-wrapper">
-                <div class="submenu">
-                  <a href="#">ทิศทางองค์กร</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">ภารกิจ 4 ด้าน</a>
-                </div>
-                <div class="submenu">
-                    <a href="#">การแบ่งส่วนราชการกรมโยธาธิการและผังเมือง</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">อำนาจหน้าที่ของกรมและส่วนราชการ</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">ประวัติความเป็นมาและตราสัญลักษณ์</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">โครงสร้างองค์กร</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">ทำเนียบผู้บริหารกรมฯ</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">ผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">รายงานผล</a>
-                </div>
-                <div class="submenu">
-                  <a href="#">แผนงาน</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <?php }?>
-    </div>
-
-    <div class="blocks">
-      <a class="option global-search-toggle pb-1" href="#">
-        <img src="public/assets/app/images/icon/01.png" alt="Icon" />
-      </a>
-      <a class="option sidenav-toggle show-tablet" href="#">
-        <div class="hamburger">
-          <div></div><div></div><div></div>
-        </div>
-      </a>
-    </div>
-        
-  </div>
-</nav>
-<div class="topnav-spacer"></div>
+<img class="img" src="public/assets/app/images/topnav-02.jpg" alt="Topnav" />
 
 <!-- Sidenav -->
 <nav class="sidenav">
@@ -193,27 +79,27 @@
         <div class="icon">
           <img src="https://www.dpt.go.th/assets/app/images/icon/access.png" alt="Image icon access in accessibility ">
         </div>
-        <div class="font-01 fw-600"> การช่วยการเข้าถึง </div>
+        <div class="p fw-400">การช่วยการเข้าถึง</div>
       </div>
       <div class="panel-row">
         <div class="icon-width">
-          <p class="fw-600"><span class="font-01">ขนาดตัวอักษร </span></p>
+          <p class="fw-400 pr-2">ขนาดตัวอักษร</p>
         </div>
         <div class="options">
           <a class="option btn font-size-btn" data-size="14">
-            <span style="font-size:14px;">ก </span>
+            <span class="fw-500" style="font-size:16px;">ก</span>
           </a>
           <a class="option btn font-size-btn active" data-size="16">
-            <span style="font-size:16px;">ก </span>
+            <span class="fw-500" style="font-size:20px;">ก</span>
           </a>
           <a class="option btn font-size-btn" data-size="18">
-            <span style="font-size:20px;">ก </span>
+            <span class="fw-500" style="font-size:24px;">ก</span>
           </a>
         </div>
       </div>
       <div class="panel-row">
         <div class="icon-width">
-          <p class="fw-600"><span class="font-01">การเว้นระยะห่าง</span></p>
+          <p class="fw-400 pr-2">การเว้นระยะห่าง</p>
         </div>
         <div class="options">
           <span class="option btn-lsp active cursor-pointer" data-lsp="0">
@@ -230,26 +116,26 @@
       </div>
       <div class="panel-row">
         <div class="icon-width">
-            <p class="fw-600"><span class="font-01">ความตัดกันของสี</span></p>
+          <p class="fw-400 pr-2">ความตัดกันของสี</p>
         </div>
         <div class="options">
           <div class="option-row theme-btn cursor-pointer theme-btn-0  active" data-theme="0">
             <div class="icon">
               <img src="https://www.dpt.go.th/assets/app/images/misc/color-0.png" alt="Image Icon of web template name color 01">
             </div>
-            <p class="fw-600"><span class="font-01">สีปกติ</span></p>
+            <p><span class="fw-400">สีปกติ</span></p>
           </div>
           <div class="option-row theme-btn cursor-pointer theme-btn-1 " data-theme="1">
             <div class="icon">
               <img src="https://www.dpt.go.th/assets/app/images/misc/color-1.png" alt="Image Icon of web template name color 02">
             </div>
-            <p class="fw-600"><span class="font-01">ขาว-ดำ</span></p>
+            <p><span class="fw-400">ขาว-ดำ</span></p>
           </div>
           <div class="option-row theme-btn cursor-pointer theme-btn-2 " data-theme="2">
             <div class="icon">
               <img src="https://www.dpt.go.th/assets/app/images/misc/color-2.png" alt="Image Icon of web template name color 03">
             </div>
-            <p class="fw-600"><span class="font-01">ดำ-เหลือง</span></p>
+            <p><span class="fw-400">ดำ-เหลือง</span></p>
           </div>
         </div>
       </div>

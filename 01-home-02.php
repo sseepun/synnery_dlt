@@ -6,9 +6,134 @@
 </head>
 <body class="loading">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-02.php'); ?>
 
-  <img class="img" src="public/assets/app/images/banner-2.jpg" alt="Banner" />
+  <section class="banner-01">
+    <div class="slide-container">
+      <div class="slides">
+        <?php for($i=0; $i<7; $i++){?>
+          <div class="slide">
+            <div class="wrapper">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/02.jpg');"></div>
+              <div class="container"></div>
+            </div>
+          </div>
+        <?php }?>
+      </div>
+      <div class="dot-wrapper">
+        <div class="container">
+          <div class="dot-container"></div>
+        </div>
+      </div>
+      <div class="arrow-container">
+        <div class="arrow arrow-prev">
+          <img src="public/assets/app/images/icon/05.png" alt="Arrow" />
+        </div>
+        <div class="arrow arrow-next">
+          <img src="public/assets/app/images/icon/06.png" alt="Arrow" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-05">
+    <div class="container">
+      <div class="slide-container">
+        <div class="slides">
+          <div class="slide">
+            <a class="section-card type-01" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="sm lh-2xs">จองทำใบขับขี่</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-02" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">ระบบรายงาน</p>
+                <p class="sm lh-2xs">ความพึงพอใจแท็กซี่</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-03" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">สอบถามข้อมูลค่าภาษี</p>
+                <p class="sm lh-2xs">รถประจำปี</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-04" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">ชำระภาษีรถ</p>
+                <p class="sm lh-2xs">ผ่านอินเตอร์เน็ต</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-05" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">ประมูลเลข</p>
+                <p class="sm lh-2xs">ทะเบียนรถสวย</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-06" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="sm lh-2xs">จองเลขทะเบียนรถ</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-07" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">บริการ</p>
+                <p class="sm lh-2xs">ข้อมูลกฏหมาย</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+          <div class="slide">
+            <a class="section-card type-08" href="#">
+              <div class="filter"></div>
+              <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
+              <div class="text-wrapper">
+                <p class="xs">ใบรับรองระบบการจ่ายตรงเงิน</p>
+                <p class="xs lh-2xs">บำเหน็จบำนาญและเงินอื่นๆ</p>
+              </div>
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
+        </div>
+        <div class="arrow-container">
+          <div class="arrow arrow-prev"><em class="fa-solid fa-chevron-left"></em></div>
+          <div class="arrow arrow-next"><em class="fa-solid fa-chevron-right"></em></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="section-padding ovf-hidden">
     <div class="container">
@@ -129,7 +254,7 @@
     </div>
   </section>
 
-  <section class="section-01 section-padding ovf-hidden">
+  <section class="section-01 section-padding pb-0">
     <div class="container">
       <div class="ss-title-02" data-aos="fade-up" data-aos-delay="0">
         <h1 class="title fw-500 lh-3xs color-p">ONE DLT</h1>
@@ -279,13 +404,88 @@
     </div>
   </section>
 
-  <section class="section-02">
-    
+  <section class="section-02" data-aos="fade-up" data-aos-delay="0">
+    <div class="slide-container">
+      <div class="slides">
+        <?php for($i=0; $i<10; $i++){?>
+          <div class="slide">
+            <div class="wrapper">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/01.jpg');"></div>
+            </div>
+          </div>
+        <?php }?>
+      </div>
+      <div class="dot-container"></div>
+    </div>
+  </section>
+
+  <section class="section-03 section-padding">
+    <div class="hero" data-aos="fade-up" data-aos-delay="150">
+      <img src="public/assets/app/images/hero/02.jpg" alt="Hero" />
+    </div>
+    <div class="container">
+      <div class="container">
+        <div class="grids">
+          <div class="grid sm-50">
+            <div class="info-container" data-aos="fade-up" data-aos-delay="0">
+              <h3 class="fw-600 lh-xs">E-Newsletter</h3>
+              <p class="lg fw-500">
+                ติดตามอัพเดททุกความเคลื่อนไหวของ <br />
+                กรมการขนส่งทางบกได้ง่ายๆ
+              </p>
+              <form action="">
+                <div class="input-icon mt-2">
+                  <input 
+                    type="text" class="fgray" placeholder="Your e-mail Address" 
+                    style="border-color:transparent!important;"
+                  />
+                  <button type="submit" class="icon">
+                    <em class="fa-solid fa-chevron-right"></em>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-04" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="section-tabs">
+        <a class="section-tab main" href="#">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/04.png" alt="Icon" />
+          </div>
+          <div class="text-wrapper">
+            <p class="sm">Call Center</p>
+            <h2 class="fw-400 lh-3xs color-01">1584</h2>
+          </div>
+        </a>
+        <a class="section-tab" href="#">
+          <div class="icon"><em class="fa-solid fa-book"></em></div>
+          <div class="text-wrapper">
+            <p class="lg fw-400">จัดซื้อจัดจ้าง</p>
+          </div>
+        </a>
+        <a class="section-tab" href="#">
+          <div class="icon"><em class="fa-solid fa-location-dot"></em></div>
+          <div class="text-wrapper">
+            <p class="lg fw-400">ค้นหาสำนักงาน</p>
+          </div>
+        </a>
+        <a class="section-tab" href="#">
+          <div class="icon"><em class="fa-solid fa-envelope"></em></div>
+          <div class="text-wrapper">
+            <p class="lg fw-400">ติดต่อกรม</p>
+          </div>
+        </a>
+      </div>
+    </div>
   </section>
   
-  <img class="img" src="public/assets/app/images/footer-2.jpg" alt="Footer" />
-
-  <?php // include_once('include/footer.php'); ?>
+  <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

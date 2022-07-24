@@ -59,7 +59,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p, li, label{
     margin:0; font-weight:300; line-height:1.12;
 }
 h1, .h1{font-size:6.5rem;}
-/* h2, .h2{font-size:3.5rem;} */
+h2, .h2{font-size:5.5rem;}
 h3, .h3{font-size:3.25rem;}
 h4, .h4{font-size:2.5rem;}
 h5, .h5{font-size:2rem;}
@@ -70,11 +70,13 @@ p.sm, .p.sm, li.sm, label.sm{font-size:1.1875rem;}
 p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 @media screen and (max-width:1199.98px){
     h1, .h1{font-size:6rem;}
+    h2, .h2{font-size:5rem;}
     h3, .h3{font-size:3rem;}
     h4, .h4{font-size:2.375rem;}
 }
 @media screen and (max-width:991.98px){
     h1, .h1{font-size:5.5rem;}
+    h2, .h2{font-size:4.5rem;}
     h3, .h3{font-size:2.75rem;}
     h4, .h4{font-size:2.125rem;}
     h5, .h5{font-size:1.875rem;}
@@ -83,6 +85,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 }
 @media screen and (max-width:767.98px){
     h1, .h1{font-size:4.875rem;}
+    h2, .h2{font-size:3rem;}
     h3, .h3{font-size:2.5rem;}
     h4, .h4{font-size:2rem;}
     h5, .h5{font-size:1.75rem;}
@@ -92,6 +95,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 }
 @media screen and (max-width:575.98px){
     h1, .h1{font-size:4.25rem;}
+    h2, .h2{font-size:3.5rem;}
     h3, .h3{font-size:2.25rem;}
     h4, .h4{font-size:1.875rem;}
     h5, .h5{font-size:1.625rem;}
@@ -132,28 +136,35 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
 input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea,
 .form-group .upload-wrapper::before{
-    border:1.6px solid transparent; border-radius:0; box-shadow:none!important; width:100%;
-    padding:.4375rem .875rem; font-size:1rem; font-weight:400; margin:0; line-height:1.5;
+    border:1.6px solid transparent; border-radius:.25rem; box-shadow:none!important; width:100%;
+    padding:.5625rem .875rem; font-size:1.3125rem; font-weight:300; margin:0; line-height:1.12;
     outline:none!important; transition:border-color .25s, color .25s;
 }
 select{padding:.59375rem .875rem;}
 input[type=file]{padding:.25rem .875rem .25rem .25rem;}
 
-input[type=text].md, input[type=email].md, input[type=password].md, input[type=date].md, 
+/* input[type=text].md, input[type=email].md, input[type=password].md, input[type=date].md, 
 input[type=tel].md, input[type=number].md, input[type=phone].md, input[type=submit].md, 
 input[type=file].md, select.md, textarea.md{font-size:1rem; padding:.625rem 1rem; height:auto;}
 
 input[type=text].sm, input[type=email].sm, input[type=password].sm, input[type=date].sm, 
 input[type=tel].sm, input[type=number].sm, input[type=phone].sm, input[type=submit].sm, 
-input[type=file].sm, select.sm, textarea.sm{font-size:.875rem; padding:.25rem .875rem; height:auto;}
+input[type=file].sm, select.sm, textarea.sm{font-size:.875rem; padding:.25rem .875rem; height:auto;} */
 
-textarea[data-copy]{pointer-events:none!important;}
-@media screen and (max-width:991.98px){
-    textarea[data-copy].adaptive{height:5.875rem;}
+/* Input Icon */
+.input-icon{position:relative; display:flex; border-radius:.25rem; padding:1.6px;}
+.input-icon::before{
+    content:''; position:absolute; top:0; bottom:0; left:0; width:0; border-radius:.25rem;
+    transition:width .25s, background .25s;
 }
-@media screen and (max-width:575.98px){
-    textarea[data-copy].adaptive{height:8.25rem;}
+.input-icon:hover::before{width:100%;}
+.input-icon > *{position:relative;}
+.input-icon > .icon{
+    width:2.8125rem; height:2.8125rem; display:flex; align-items:center; justify-content:center;
+    background:transparent; border:0; box-shadow:none; padding:0; margin:0; cursor:pointer;
+    font-size:.9375rem;
 }
+
 
 /* Radio & Checkbox Container */
 fieldset{padding:0; margin:0; border:0;}
@@ -520,38 +531,6 @@ fieldset{padding:0; margin:0; border:0;}
 /* Slide Container */
 .slide-container{display:block; position:relative; width:100%;}
 
-/* Slide Container 01 */
-.slide-container-01{overflow:hidden;}
-.slide-container-01 .slick-dots{
-    display:flex; width:100%; align-items:center; justify-content:center;
-    list-style:none; padding:0; margin:1.375rem 0 .3125rem 0;
-}
-.slide-container-01 .slick-dots li{padding:0; margin:0;}
-.slide-container-01 .slick-dots button{
-    display:block; width:.6875rem; height:.6875rem; padding:0; margin:0 .375rem;
-    border:0; border-radius:50%; outline:none; font-size:0; opacity:.25;
-    box-shadow:none; transition:opacity .25s, background .25s;
-}
-.slide-container-01 .slick-dots li.slick-active button{opacity:1;}
-.slide-container-01 .dots-square .slick-dots button{border-radius:0; opacity:1;}
-.slide-container-01 .btns-absolute{position:absolute; bottom:0; right:0;}
-.slide-container-01 .style-right > .slick-dots{justify-content:flex-end; margin-top:-.75rem;}
-@media screen and (max-width:767.98px){
-    .slide-container-01 .style-right > .slick-dots{justify-content:center; margin-top:.5rem;}
-}
-
-/* Slide Container 02 */
-.slide-container-02 .slide{padding:.125rem .0625rem 0 .0625rem;}
-
-
-/* Special Band */
-.ss-band{position:relative;}
-.ss-band::after{
-    content:''; position:absolute; top:calc(50% - .05rem); left:calc(100% + .5rem); 
-    width:2.125rem; height:.1rem;
-}
-.ss-band.left::after{left:unset; right:calc(100% + .5rem);}
-
 
 /* Special Box */
 .ss-box{display:block; width:100%; max-width:30rem; margin:0 auto;}
@@ -605,6 +584,8 @@ fieldset{padding:0; margin:0; border:0;}
     display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
     -webkit-box-orient:vertical; transition:color .25s;
 }
+
+.ss-card .filter{position:absolute; top:0; bottom:0; left:0; right:0;}
 
 .ss-card .line-1, .ss-card .line-2{pointer-events:none;}
 .ss-card .line-1::before, .ss-card .line-1::after,
@@ -667,6 +648,17 @@ fieldset{padding:0; margin:0; border:0;}
     position:absolute; bottom:2rem; left:0; right:0; display:flex; justify-content:center;
 }
 .ss-card-02 .text-container .icon img{display:block; height:3rem; width:auto;}
+
+/* Special Card 03 */
+.ss-card-03 .ss-img{padding:120% 0 0 0; overflow:hidden; border-radius:.5rem;}
+.ss-card-03 .text-container{position:absolute; top:0; bottom:0; left:0; right:0; padding:.625rem;}
+.ss-card-03 .filter{border-radius:.5rem;}
+.ss-card-03 .icon{
+    position:absolute; bottom:.625rem; right:.625rem;
+    display:flex; align-items:center; justify-content:center; font-size:.625rem;
+    width:1.25rem; height:1.25rem; border-radius:50%; margin:0 0 0 .5rem;
+    transition:background .25s, color .25s;
+}
 
 
 /* Special Image */

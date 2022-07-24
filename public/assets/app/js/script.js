@@ -328,7 +328,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('.slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 arrows: false, dots: true, appendDots: self.find('.dots')
             });
         });
@@ -341,7 +341,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('.slides').slick({
                 centerMode: false, centerPadding: 0, slidesToShow: 6, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 arrows: false, dots: false,
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 5, } },
@@ -392,7 +392,7 @@ $(function(){ 'use strict';
             if(slideContainer.length){
                 slideContainer.find('> .slides').slick({
                     centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
-                    focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 900, 
+                    focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 900, 
                     adaptiveHeight: true, dots: false,
                     arrows: true, appendArrows: slideContainer.find('> .arrows'),
                     asNavFor: slideNav.find('> .slides'),
@@ -419,16 +419,16 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                    focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
-                    dots: false, arrows: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
                     nextArrow: self.find('.arrow.arrow-next'),
                 };
             if(self.hasClass('img-only')){
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                    focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
-                    dots: false, adaptiveHeight: false, arrows: true, 
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
                     nextArrow: self.find('.arrow.arrow-next'),
                 };
@@ -437,20 +437,58 @@ $(function(){ 'use strict';
         });
     }
     
-    // Client 01
-    var client01 = $('.client-01');
-    if(client01.length){
-        client01.find('.slide-container').each(function(){
+    // Section 02
+    var section02 = $('.section-02');
+    if(section02.length){
+        section02.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '8px', slidesToShow: 5, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                dots: false, arrows: false,
+                slidesToShow: 1, swipeToSlide: true, infinite: false, vertical: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                arrows: false, dots: true, appendDots: self.find('.dot-container')
+            });
+        });
+    }
+    
+    // Section 05
+    var section05 = $('.section-05');
+    if(section05.length){
+        section05.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                slidesToShow: 8, swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: false, arrows: true,
+                prevArrow: self.find('.arrow.arrow-prev'),
+                nextArrow: self.find('.arrow.arrow-next'),
                 responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, centerPadding: '40px' } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                    { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
+        });
+    }
+
+
+    // Footer Style 02
+    var footerStyle02 = $('nav.footer.style-02');
+    if(footerStyle02.length){
+        footerStyle02.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                slidesToShow: 6, swipeToSlide: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: false, arrows: true,
+                prevArrow: self.find('.arrow.arrow-prev'),
+                nextArrow: self.find('.arrow.arrow-next'),
+                responsive: [
+                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
                 ]
             });
         });
