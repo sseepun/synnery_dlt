@@ -134,18 +134,14 @@
                           <div class="ss-tags mb-4">
                             <a class="tag fw-700" href="#">ข่าวประชาสัมพันธ์</a>
                           </div>
-                          <a class="h3 mt-6  fw-800">
+                          <a href="#" class="h3 mt-6 fw-800 h-color-p lh-2xs ">
                             กรมการขนส่งทางบก มีความห่วงใยและ <br> เข้าใจถึงผลกระทบจากราคาพลังงานขอ 
                             <br> ให้ผู้ประกอบการขนส่งสินค้า
                           </a>
                           <div class="d-flex mt-4">
-                            <div>
+                            <div class="date">
                               <em class="fa-solid fa-calendar-days color-p p xs"></em>
-                              <span class="color-gray ml-1">16 กุมภาพันธ์ 2565</span>
-                            </div>
-                            <div class="ml-4">
-                              <em class="fa-regular fa-eye color-p p xs"></em>
-                              <span class="color-gray ml-1">285</span>
+                              <span class="ml-1 color-gray">16 กุมภาพันธ์ 2565</span>
                             </div>
                           </div>
                             <p class="mt-4 fw-600">
