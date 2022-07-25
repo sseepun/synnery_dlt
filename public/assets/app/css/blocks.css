@@ -295,7 +295,76 @@
 
 
 /* Section 06 */
-.section-06{}
+.section-06 .section-tabs{position:relative; width:100%; display:flex; flex-wrap:wrap;}
+.section-06 .ss-card{
+    position:relative; width:50%; display:flex; align-items:center; justify-content:center;
+    background-size:cover; background-position:center; overflow:hidden;
+}
+.section-06 .ss-card .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+    background-position:center; opacity:0; transition:opacity .25s;
+}
+.section-06 .ss-card:hover .img-bg{opacity:1;}
+.section-06 .ss-card .text-wrapper{position:relative; text-align:center; padding:2.5rem 0;}
+.section-06 .ss-card .hero{
+    position:absolute; top:0; bottom:0; display:flex; align-items:center; opacity:0;
+    padding:1.25rem 0 0 0; transition:opacity .25s;
+}
+.section-06 .ss-card:hover .hero{opacity:1;}
+.section-06 .ss-card:nth-child(odd) .hero{right:-5rem;}
+.section-06 .ss-card:nth-child(even) .hero{left:-5rem;}
+.section-06 .ss-card .hero img{display:block; height:150%; width:auto;}
+@media screen and (max-width:1199.98px){
+    .section-06 .ss-card .text-wrapper{padding:2rem 0;}
+    .section-06 .ss-card .hero img{height:140%;}
+    .section-06 .ss-card:nth-child(odd) .hero{right:-4.5rem;}
+    .section-06 .ss-card:nth-child(even) .hero{left:-4.5rem;}
+}
+@media screen and (max-width:991.98px){
+    .section-06 .ss-card .text-wrapper{padding:1.5rem 0;}
+    .section-06 .ss-card:nth-child(odd) .hero{right:-3.5rem;}
+    .section-06 .ss-card:nth-child(even) .hero{left:-3.5rem;}
+}
+@media screen and (max-width:767.98px){
+    .section-06 .ss-card .hero{display:none;}
+}
+@media screen and (max-width:575.98px){
+    .section-06 .ss-card{width:100%;}
+}
+
+
+/* Section 07 */
+.section-07{position:relative; margin:-1rem 0 0 0; z-index:2;}
+.section-07 .slide{padding:1rem 0 0 0;}
+.section-07 .slide > .wrapper{
+    position:relative; display:block; width:100%; height:100%; padding:1rem .5rem 2.75rem .5rem;
+    cursor:pointer; transition:background .25s, color .25s;
+}
+.section-07 .slide > .wrapper::after{
+    content:''; position:absolute; bottom:calc(100% - 1px); left:calc(50% - .875rem);
+    width:1.75rem; height:1rem; clip-path:polygon(50% 0,100% 100%,0 100%);
+    opacity:0; transition:opacity .25s;
+}
+.section-07 .slide:hover > .wrapper::after{opacity:1;}
+.section-07 .slide .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+    background-position:center; opacity:0; transition:opacity .25s;
+}
+.section-07 .slide:hover .img-bg{opacity:1;}
+.section-07 .slide .hero{
+    position:relative; display:flex; align-items:center; justify-content:center;
+    width:100%; height:5rem;
+}
+.section-07 .slide .hero > img{
+    display:block; width:auto; max-width:6.5rem; height:auto; max-height:5rem;
+}
+.section-07 .slide .text-wrapper{position:relative; min-height:2.1875rem; margin:.75rem 0 0 0;}
+.section-07 .slide .icon{
+    position:absolute; bottom:.75rem; left:calc(50% - .6875rem); width:1.375rem; height:1.375rem;
+    border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.625rem;
+    opacity:0; transition:opacity .25s, background .25s, color .25s;
+}
+.section-07 .slide:hover .icon{opacity:1;}
 
 
 /* Tab Container */

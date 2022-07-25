@@ -381,6 +381,28 @@ $(function(){ 'use strict';
             });
         });
     }
+    
+    // Section 07
+    var section07 = $('.section-07');
+    if(section07.length){
+        section07.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                slidesToShow: 8, swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: false, arrows: true,
+                prevArrow: self.find('.arrow.arrow-prev'),
+                nextArrow: self.find('.arrow.arrow-next'),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
+        });
+    }
 
 
     // Footer Style 02
