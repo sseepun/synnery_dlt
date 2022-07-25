@@ -59,7 +59,39 @@
             </a>
           </div>
         </div>
-       
+        <div>
+        <div class="footer-socials-other d-flex jc-end">
+          <div class="d-flex ai-center mr-6">
+            <a class="social" href="#">
+              <em class="fa-brands fa-facebook-f"></em>
+            </a>
+            <h4 class="fw-500 lh-sm">RSS</h4>
+          </div>
+          <div class="d-flex ai-center mr-6">
+            <a class="social" href="#">
+              <em class="fa-brands fa-facebook-f"></em>
+            </a>
+            <h4 class="fw-500">เสนอแนะ</h4>
+          </div>
+          <div class="d-flex ai-center mr-6">
+            <a class="social" href="#">
+              <em class="fa-brands fa-facebook-f"></em>
+            </a>
+            <h4 class="fw-500">ระบบอินทราเน็ต</h4>
+          </div>
+          <div class="d-flex ai-center">
+            <a class="social" href="#">
+              <em class="fa-brands fa-facebook-f"></em>
+            </a>
+            <h4 class="fw-500">กฎหมายที่เกี่ยวข้อง</h4>
+          </div>
+        </div>
+        <ul class="footer-policy d-flex jc-end">
+          <li><a class="#">นโยบาย</a></li>
+          <li><a class="#">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a></li>
+          <li><a class="#">นโยบายการรักษาความมั่นคงปลอดภัยของเว็บไซต์</a></li>
+        </ul>
+        </div>
       </div>
       <div class="grid sm-100">
         <p class="sm mt-3">

@@ -112,6 +112,9 @@ nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 /* Footer */
 nav.footer{background:#191b29; color:#ffffff;}
 nav.footer .footer-line{background:#323238;}
+nav.footer .footer-socials-other .social{
+    background:#663399; color:#ffffff; border-color:#663399;
+}
 nav.footer .footer-socials > .social{
     background:#663399; color:#ffffff; border-color:#663399;
 }
