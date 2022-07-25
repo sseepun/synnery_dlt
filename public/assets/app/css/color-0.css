@@ -310,6 +310,18 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-05 .slide-container .arrow{color:#ffffff;}
 
 
+/* Section 06 */
+.section-06 .ss-card .line-1::before, .section-06 .ss-card .line-1::after,
+.section-06 .ss-card .line-2::before, .section-06 .ss-card .line-2::after{background:#dcb365;}
+
+
+/* Section 07 */
+.section-07 .slide > .wrapper{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.section-07 .slide:hover > .wrapper{color:#540467;}
+.section-07 .slide > .wrapper::after{background:#eebf15;}
+.section-07 .slide .icon{background:#540467; color:#ffffff;}
+
+
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,
 .tab-container .tabs.tabs-01 .tab::after{background:#77108e;}
