@@ -347,6 +347,31 @@ $(function(){ 'use strict';
         });
     }
     
+    // Banner 03
+    var banner03 = $('.banner-03');
+    if(banner03.length){
+        banner03.each(function(){
+            var self = $(this),
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            if(self.hasClass('img-only')){
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            }
+            self.find('.slides').slick(options);
+        });
+    }
+    
     // Section 02
     var section02 = $('.section-02');
     if(section02.length){
@@ -399,6 +424,25 @@ $(function(){ 'use strict';
                     { breakpoint: 991.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 3, } },
                     { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
+        });
+    }
+    
+    // Section 10
+    var section10 = $('.section-10');
+    if(section10.length){
+        section10.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
                 ]
             });
         });

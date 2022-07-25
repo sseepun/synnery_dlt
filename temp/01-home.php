@@ -257,100 +257,100 @@
 
   
   <section class="banner-02" style="background-image:url('public/assets/app/images/bg/01.png');">
-      <div class="slide-container">
-        <div class="slides">
-          <?php for($i=0; $i<4; $i++){?>
-            <div class="slide">
-              <div class="container">
-                <div class="elementor-container">
-                  <div class="grids">
-                    <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
-                      <div class="elementor-item">
-                        <div class="elementor-text">
-                            <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
-                                คู่มือการใช้ระบบบริหารจัดการอุปกรณ์และเครื่องมือด้าน ICT สำหรับคนพิการ
-                            </a>
-                        </div>
-                        <div class="d-flex jc-space-between ai-center">
-                          <div class="elementor-icon">
-                            <img src="public/assets/app/images/icon/05.png" width="45" alt="internet-service"/>
-                          </div>
-                          <a href="#" class="btn-sm">
-                            <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+    <div class="slide-container">
+      <div class="slides">
+        <?php for($i=0; $i<4; $i++){?>
+          <div class="slide">
+            <div class="container">
+              <div class="elementor-container">
+                <div class="grids">
+                  <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
+                    <div class="elementor-item">
+                      <div class="elementor-text">
+                          <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
+                              คู่มือการใช้ระบบบริหารจัดการอุปกรณ์และเครื่องมือด้าน ICT สำหรับคนพิการ
                           </a>
+                      </div>
+                      <div class="d-flex jc-space-between ai-center">
+                        <div class="elementor-icon">
+                          <img src="public/assets/app/images/icon/05.png" width="45" alt="internet-service"/>
                         </div>
-                      </div> 
+                        <a href="#" class="btn-sm">
+                          <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
+                  <div class="elementor-item">
+                      <div class="elementor-text">
+                          <a href="#" class="h4 title d-block fw-600 h-color-s ">
+                            โครงการศึกษา M-MAP ระยะที่ 2 
+                          </a>
+                      </div>
+                      <div class="d-flex jc-space-between ai-center">
+                        <div class="elementor-icon">
+                          <img src="public/assets/app/images/icon/06.png" width="45" alt="internet-service"/>
+                        </div>
+                        <a href="#" class="btn-sm">
+                          <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                        </a>
+                      </div>
+                    </div>
                     </div>
                     <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
                     <div class="elementor-item">
-                        <div class="elementor-text">
-                            <a href="#" class="h4 title d-block fw-600 h-color-s ">
-                             โครงการศึกษา M-MAP ระยะที่ 2 
-                            </a>
-                        </div>
-                        <div class="d-flex jc-space-between ai-center">
-                          <div class="elementor-icon">
-                            <img src="public/assets/app/images/icon/06.png" width="45" alt="internet-service"/>
-                          </div>
-                          <a href="#" class="btn-sm">
-                            <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                      <div class="elementor-text">
+                          <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
+                          ข้อมูลผลการคำนวณต้นทุนต่อหน่วยผลผลิต ประจำปี
                           </a>
-                        </div>
                       </div>
-                      </div>
-                      <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
-                      <div class="elementor-item">
-                        <div class="elementor-text">
-                            <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
-                            ข้อมูลผลการคำนวณต้นทุนต่อหน่วยผลผลิต ประจำปี
-                            </a>
+                      <div class="d-flex jc-space-between ai-center">
+                        <div class="elementor-icon">
+                          <img src="public/assets/app/images/icon/07.png" width="45" alt="internet-service"/>
                         </div>
-                        <div class="d-flex jc-space-between ai-center">
-                          <div class="elementor-icon">
-                            <img src="public/assets/app/images/icon/07.png" width="45" alt="internet-service"/>
-                          </div>
-                          <a href="#" class="btn-sm">
-                            <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                        <a href="#" class="btn-sm">
+                          <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                        </a>
+                      </div>
+                    </div> 
+                    </div>
+                    <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
+                    <div class="elementor-item">
+                      <div class="elementor-text">
+                          <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
+                          E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ
                           </a>
-                        </div>
-                      </div> 
                       </div>
-                      <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
-                      <div class="elementor-item">
-                        <div class="elementor-text">
-                            <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
-                            E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ
-                            </a>
+                      <div class="d-flex jc-space-between ai-center">
+                        <div class="elementor-icon">
+                          <img src="public/assets/app/images/icon/08.png" width="45" alt="internet-service"/>
                         </div>
-                        <div class="d-flex jc-space-between ai-center">
-                          <div class="elementor-icon">
-                            <img src="public/assets/app/images/icon/08.png" width="45" alt="internet-service"/>
-                          </div>
-                          <a href="#" class="btn-sm">
-                            <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
-                          </a>
-                        </div>
-                      </div> 
+                        <a href="#" class="btn-sm">
+                          <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+                        </a>
                       </div>
-                  </div>
+                    </div> 
+                    </div>
                 </div>
               </div>
             </div>
-          <?php }?>
-        </div>
-          <div class="bullet">
-            <div class="container">
-              <div class="bullet-wrapper">
-                <div class="dots"></div>
-              </div>
-              <div class="btns-right">
-              <a href="#" class="btn btn-action btn-s">ดูทั้งหมด 
-                <em class="fa-solid fa-arrow-right-long ml-2"></em>
-              </a>
-              </div>
           </div>
-        </div>
-    </section>
+        <?php }?>
+      </div>
+      <div class="bullet">
+        <div class="container">
+          <div class="bullet-wrapper">
+            <div class="dots"></div>
+          </div>
+          <div class="btns-right">
+          <a href="#" class="btn btn-action btn-s">ดูทั้งหมด 
+            <em class="fa-solid fa-arrow-right-long ml-2"></em>
+          </a>
+          </div>
+      </div>
+    </div>
+  </section>
 
     <!-- <div class="client-01 ">
       <div class="slide-container" data-aos="fade-up" data-aos-delay="0">

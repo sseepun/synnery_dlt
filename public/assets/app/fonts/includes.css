@@ -4,11 +4,13 @@
 /* DB Heavent */
 @font-face{
     font-family:'DB Heavent'; font-weight:100; font-style:normal;
-    src:url('./DBHeavent/DBHeavent_Li.ttf') format('truetype');
+    /* src:url('./DBHeavent/DBHeavent_Li.ttf') format('truetype'); */
+    src:url('./DBHeavent/DBHeavent_Thin.ttf') format('truetype');
 }
 @font-face{
     font-family:'DB Heavent'; font-weight:100; font-style:italic;
-    src:url('./DBHeavent/DBHeavent_LiIt.ttf') format('truetype');
+    /* src:url('./DBHeavent/DBHeavent_LiIt.ttf') format('truetype'); */
+    src:url('./DBHeavent/DBHeavent_ThinIt.ttf') format('truetype');
 }
 @font-face{
     font-family:'DB Heavent'; font-weight:200; font-style:normal;
