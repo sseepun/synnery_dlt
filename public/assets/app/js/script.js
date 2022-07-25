@@ -297,101 +297,35 @@ $(function(){ 'use strict';
     })
 
 
-    // Slide Container 01
-    var slideContainer01 = $('.slide-container-01');
-    if(slideContainer01.length){
-        slideContainer01.each(function(){
-            var self = $(this);
-            self.find('.slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                arrows: false, dots: true, appendDots: self.find('.dots')
-            });
-        });
-    }
-
-    // Slide Container 02
-    var slideContainer02 = $('.slide-container-02');
-    if(slideContainer02.length){
-        slideContainer02.each(function(){
-            var self = $(this);
-            self.find('.slides').slick({
-                centerMode: false, centerPadding: 0, slidesToShow: 6, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                arrows: false, dots: false,
-                responsive: [
-                    { breakpoint: 1299.98, settings: { slidesToShow: 5, } },
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } }
-                ]
-            });
-        });
-    }
-
-    
-    // Slide Target 01
-    var slideTarget01 = $('.slide-target-01');
-    if(slideTarget01.length){
-        slideTarget01.each(function(){
-            var self = $(this),
-                slideContainer = self.find('.slide-display'),
-                slideNav = self.find('.slide-nav');
-            if(slideContainer.length){
-                slideContainer.find('> .slides').slick({
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
-                    focusOnSelect: true, autoplay: false, speed: 900,  adaptiveHeight: true, 
-                    arrows: false, dots: false, asNavFor: slideNav.find('> .slides'),
-                });
-                slideNav.find('> .slides').slick({
-                    centerMode: true, centerPadding: 0, slidesToShow: 6, infinite: true,
-                    focusOnSelect: true, autoplay: false, speed: 900,
-                    arrows: false, dots: false, asNavFor: slideContainer.find('> .slides'),
-                    responsive: [
-                        { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
-                        { breakpoint: 991.98, settings: { slidesToShow: 4, } },
-                        { breakpoint: 767.98, settings: { slidesToShow: 3, } },
-                        { breakpoint: 575.98, settings: { slidesToShow: 2, } },
-                    ]
-                });
-            }
-        });
-    }
-    
-    // Slide Target 02
-    var slideTarget02 = $('.slide-target-02');
-    if(slideTarget02.length){
-        slideTarget02.each(function(){
-            var self = $(this),
-                slideContainer = self.find('.slide-display'),
-                slideNav = self.find('.slide-nav');
-            if(slideContainer.length){
-                slideContainer.find('> .slides').slick({
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
-                    focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 900, 
-                    adaptiveHeight: true, dots: false,
-                    arrows: true, appendArrows: slideContainer.find('> .arrows'),
-                    asNavFor: slideNav.find('> .slides'),
-                });
-                slideNav.find('> .slides').slick({
-                    centerMode: true, centerPadding: 0, slidesToShow: 5, infinite: true,
-                    focusOnSelect: true, autoplay: false, speed: 900,
-                    arrows: false, dots: false, asNavFor: slideContainer.find('> .slides'),
-                    responsive: [
-                        { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                        { breakpoint: 767.98, settings: { slidesToShow: 3, } },
-                        { breakpoint: 575.98, settings: { slidesToShow: 2, } },
-                    ]
-                });
-            }
-        });
-    }
-
-
     // Banner 01
     var banner01 = $('.banner-01');
     if(banner01.length){
         banner01.each(function(){
+            var self = $(this),
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            if(self.hasClass('img-only')){
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            }
+            self.find('.slides').slick(options);
+        });
+    }
+    
+    // Banner 02
+    var banner02 = $('.banner-02');
+    if(banner02.length){
+        banner02.each(function(){
             var self = $(this),
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,

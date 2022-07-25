@@ -54,6 +54,62 @@
 .loading .banner-01 .slide.slick-current .img-bg{transform:scale(1.2);}
 
 
+/* Banner 02 */
+.banner-02 .slide-container{position:relative;}
+.banner-02 .slide .wrapper{position:relative; width:100%; padding:37% 0 0 0; overflow:hidden;}
+.banner-02 .slide .wrapper > .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+    background-position:center;
+}
+.banner-02 .dot-wrapper{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
+    pointer-events:none;
+}
+.banner-02 .dot-container{pointer-events:auto;}
+.banner-02 .slick-dots{list-style:none; padding:0; margin:0; width:.75rem;}
+.banner-02 .slick-dots li{padding:0; margin:0;}
+.banner-02 .slick-dots button{
+    position:relative; display:block; width:.3125rem; height:.3125rem;
+    padding:0; margin:.5625rem auto; border:0; border-radius:50%; outline:none;
+    font-size:0; opacity:1; cursor:pointer; box-shadow:none;
+    transition:background .25s, width .25s, height .25s, margin .25s;
+}
+.banner-02 .slick-dots li.slick-active button{
+    width:.5625rem; height:.5625rem; margin:.75rem auto;
+}
+.banner-02 .slick-dots button::before{
+    content:''; position:absolute; top:50%; left:50%; width:.9375rem; height:.9375rem;
+    border-radius:50%; border:1px solid transparent; transform:translate(-50%,-50%);
+    opacity:0; transition:opacity .25s;
+}
+.banner-02 .slick-dots li.slick-active button::before{opacity:1;}
+.banner-02 .arrow-container{
+    position:absolute; top:0; bottom:0; left:0; right:0; pointer-events:none;
+    display:flex; align-items:center; justify-content:space-between; padding:0 1rem;
+}
+.banner-02 .arrow{display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;}
+.banner-02 .arrow:hover{opacity:.75;}
+.banner-02 .arrow img{display:block; height:2.5rem; width:auto;}
+@media screen and (max-width:992.98px){
+    .banner-02 .slide .wrapper{padding:50% 0 0 0;}
+    .banner-02 .arrow img{height:2.25rem;}
+}
+@media screen and (max-width:767.98px){
+    .banner-02 .slide .wrapper{padding:56% 0 0 0;}
+    .banner-02 .dot-container{display:none;}
+    .banner-02 .arrow img{height:2rem;}
+}
+@media screen and (max-width:575.98px){
+    .banner-02 .slide .wrapper{padding:66% 0 0 0;}
+}
+
+.banner-02 .slide .img-bg{transform:scale(1.2); transition:transform linear .9s;}
+.banner-02 .slide.slick-current .img-bg{
+    transform:scale(1); transition-duration:14s; transition-delay:.6s;
+}
+.loading .banner-02 .slide.slick-current .img-bg{transform:scale(1.2);}
+
+
 /* Paginate */
 .paginate{display:flex; align-items:center; justify-content:center; flex-wrap:wrap;}
 .paginate > .pages{display:flex; justify-content:center; align-items:center;}
@@ -236,6 +292,10 @@
   cursor:pointer; pointer-events:auto; font-size:1.25rem; opacity:1;
   transition:opacity .25s, background .25s, color .25s;
 }
+
+
+/* Section 06 */
+.section-06{}
 
 
 /* Tab Container */

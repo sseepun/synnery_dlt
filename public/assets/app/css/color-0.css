@@ -15,6 +15,7 @@ html, body, table.table{color:#000000;}
 .color-01, .h-color-01:hover{color:#f6df76!important;}
 .color-02, .h-color-02:hover{color:#9608b4!important;}
 .color-03, .h-color-03:hover{color:#68459b!important;}
+.color-04, .h-color-04:hover{color:#f9c816!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -27,6 +28,7 @@ html, body, table.table{color:#000000;}
 .bg-01{background:#f6df76!important;}
 .bg-02{background:#9608b4!important;}
 .bg-03{background:#68459b!important;}
+.bg-04{background:#f9c816!important;}
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -39,6 +41,7 @@ html, body, table.table{color:#000000;}
 .bcolor-01{border-color:#f6df76!important;}
 .bcolor-02{border-color:#9608b4!important;}
 .bcolor-03{border-color:#68459b!important;}
+.bcolor-04{border-color:#f9c816!important;}
 
 
 /* Buttons */
