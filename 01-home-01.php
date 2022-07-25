@@ -120,14 +120,19 @@
         <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
           <?php foreach($categories as $i=>$d){?>
             <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-
-              <!-- <div class="grids jc-center">
+              
+              <div class="grids jc-center ai-center">
                 <div class="grid lg-80 sm-100">
                   <div class="ss-card ss-card-06">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+1 ?>.jpg');"></div>
+                    <div class="img-container">
+                      <div class="wrapper">
+                        <div class="ss-img">
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
+                        </div>
+                      </div>
                     </div>
                     <div class="text-container">
+                      <div class="wrapper">
                       <div class="ss-tags mb-4">
                         <a class="tag fw-700" href="#">ข่าวประชาสัมพันธ์</a>
                       </div>
@@ -145,10 +150,11 @@
                         กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึงผลกระทบจาก <br> ราคาพลังงาน ขอให้ผู้ประกอบการขนส่งสินค้า 
                         ผู้ขับรถบรรทุก และ <br> ผู้ขับรถแท็กซี่ แสดงออกอย่างเหมาะสมภายใต้ขอบเขตของ
                       </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
               <div class="grids jc-center pt-2">
                 <?php for($j=0; $j<3; $j++){?>
