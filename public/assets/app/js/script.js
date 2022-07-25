@@ -261,7 +261,7 @@ $(function(){ 'use strict';
     if(tabContainers.length){
         tabContainers.each(function(){
             var self = $(this),
-                tabs = self.find('.tabs > .tab'),
+                tabs = self.find('.tabs .tab'),
                 tabContents = self.find('.tab-contents > .tab-content');
             tabs.click(function(e){
                 var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),

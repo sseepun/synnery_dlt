@@ -102,6 +102,7 @@ nav.stopnav.style-03 .submenu-dropdown{
   position:absolute; top:calc(100% + .5rem); right:0;
   box-shadow:0px 4px 8px 4px rgba(0,0,0,.1); border-radius:0; overflow:hidden;
   border-top:.1875rem solid transparent; opacity:0; pointer-events:none;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 2rem),calc(100% - 2rem) 100%,0 100%);
   transition:opacity .5s, top .5s;
 }
 nav.stopnav.style-03 .option:hover > .submenu-dropdown{opacity:1; top:100%; pointer-events:auto;}
@@ -113,11 +114,10 @@ nav.stopnav.style-03 .submenu > *:first-child{
   display:block; position:relative; width:100%; margin:0; padding:.5rem .875rem .5rem .875rem;
   font-size:1.25rem; line-height:1.12; font-weight:300; transition:background .25s, color .25s;
 }
-nav.stopnav + .stopnav-spacer{height:38px;}
+nav.stopnav.style-03 + .stopnav-spacer{height:38px;}
 @media screen and (max-width:575.98px){
   nav.stopnav.style-03 .hide-mobile{display:none!important;}
 }
-
 
 
 /* Topnav */
@@ -180,6 +180,9 @@ nav.topnav.style-03 .logo h6{font-size:1.75rem; font-weight:400; line-height:.8;
 nav.topnav.style-03 .logo p{font-size:1.25rem; font-weight:300; line-height:1.12;}
 nav.topnav.style-03 .show-tablet{display:none!important;}
 nav.topnav.style-03 + .topnav-spacer{height:4.5625rem;}
+nav.topnav.style-03 .submenu-dropdown{
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 2rem),calc(100% - 2rem) 100%,0 100%);
+}
 @media screen and (max-width:991.98px){
   nav.topnav.style-03 .show-tablet{display:flex!important;}
   nav.topnav.style-03 .hide-tablet{display:none!important;}

@@ -85,7 +85,7 @@
 .gallery-grids > .grid.all-2-3{width:calc(66.6666% - var(--ggs));}
 .gallery-grids > .grid.mt-0{margin-top:0;}
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1300px){
     /* xs */
     .grids > .grid{width:calc(100% - var(--gs));}
     .gallery-grids > .grid{width:calc(100% - var(--ggs));}

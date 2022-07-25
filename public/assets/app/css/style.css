@@ -61,6 +61,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p, li, label{
 h1, .h1{font-size:6.5rem;}
 h2, .h2{font-size:5.5rem;}
 h3, .h3{font-size:3.25rem;}
+h3.sm, .h3.sm{font-size:3rem;}
 h4, .h4{font-size:2.5rem;}
 h5, .h5{font-size:2rem;}
 h6, .h6{font-size:1.625rem;}
@@ -72,12 +73,14 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
     h1, .h1{font-size:6rem;}
     h2, .h2{font-size:5rem;}
     h3, .h3{font-size:3rem;}
+    h3.sm, .h3.sm{font-size:2.875rem;}
     h4, .h4{font-size:2.375rem;}
 }
 @media screen and (max-width:991.98px){
     h1, .h1{font-size:5.5rem;}
     h2, .h2{font-size:4.5rem;}
     h3, .h3{font-size:2.75rem;}
+    h3.sm, .h3.sm{font-size:2.5625rem;}
     h4, .h4{font-size:2.125rem;}
     h5, .h5{font-size:1.875rem;}
     h6, .h6{font-size:1.5625rem;}
@@ -87,6 +90,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
     h1, .h1{font-size:4.875rem;}
     h2, .h2{font-size:3rem;}
     h3, .h3{font-size:2.5rem;}
+    h3.sm, .h3.sm{font-size:2.3125rem;}
     h4, .h4{font-size:2rem;}
     h5, .h5{font-size:1.75rem;}
     h6, .h6{font-size:1.5rem;}
@@ -97,6 +101,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
     h1, .h1{font-size:4.25rem;}
     h2, .h2{font-size:3.5rem;}
     h3, .h3{font-size:2.25rem;}
+    h3.sm, .h3.sm{font-size:2.0625rem;}
     h4, .h4{font-size:1.875rem;}
     h5, .h5{font-size:1.625rem;}
 }
@@ -124,6 +129,16 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 
 .btn.btn-action.btn-xs{
     font-size:1.0625rem; font-weight:300; padding:.4rem 1rem .275rem 1rem; min-width:8rem;
+}
+
+.btns > .btn-more{
+    display:flex; align-items:center; font-size:1.3125rem; font-weight:300;
+    transition:background .25s, color .25s;
+}
+.btns > .btn-more .icon{
+    display:flex; align-items:center; justify-content:center; margin:0 0 0 .5rem;
+    font-size:.75rem; border-radius:50%; width:1.4375rem; height:1.4375rem;
+    transition:background .25s, color .25s;
 }
 
 
@@ -660,6 +675,29 @@ fieldset{padding:0; margin:0; border:0;}
     transition:background .25s, color .25s;
 }
 
+/* Special Card 04 */
+.ss-card-04{padding:0 0 1.25rem 0; transition:padding .25s;}
+.ss-card-04:hover{padding:0;}
+.ss-card-04 .text-container{
+    position:relative; padding:2.5rem 1rem 1rem 1rem;
+    clip-path:polygon(0 0,100% 0,100% calc(100% - 2rem),calc(100% - 2rem) 100%,0 100%);
+    transition:background .25s, color .25s, padding .25s;
+}
+.ss-card-04:hover .text-container{padding:2.5rem 1rem 2.25rem 1rem;}
+.ss-card-04 .text-container .title{min-height:3.0625rem; -webkit-line-clamp:2; transition:none;}
+.ss-card-04 .text-container .ss-tags{position:absolute; top:0; left:0;}
+.ss-card-04 .card-footer{
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; margin:.25rem 0 0 0; padding:0 1.5rem 0 0;
+}
+.ss-card-04 .card-footer .date, .ss-card-04 .card-footer .view{
+    display:flex; align-items:center; margin:.5rem 0 0 0;
+}
+.ss-card-04 .card-footer .view .icon{font-size:.75rem; margin:0 .5rem 0 0;}
+@media screen and (max-width:767.98px){
+    .ss-card-04 .text-container .title{min-height:0;}
+}
+
 
 /* Special Image */
 .ss-img{display:block; position:relative; width:100%; padding:66% 0 0 0; overflow:hidden;}
@@ -681,8 +719,8 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-card:hover .ss-img .hover-container,
 .ss-img:hover .hover-container{opacity:1;}
 .ss-img .hover-container .icon{display:block; width:4.5rem;}
-.ss-img .hover-container .icon.sm{width:3rem;}
-.ss-img .hover-container .icon.xs{width:2.25rem;}
+.ss-img .hover-container .icon.sm{width:3.5rem;}
+.ss-img .hover-container .icon.xs{width:2.5rem;}
 .ss-img .hover-container .icon > img{display:block; width:100%; height:auto;}
 
 .ss-img .hover-container > *{
@@ -694,11 +732,6 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-img .hover-container > *:nth-child(3){transition-delay:.30s;}
 .ss-img .hover-container > *:nth-child(4){transition-delay:.45s;}
 .ss-img .hover-container > *:nth-child(5){transition-delay:.60s;}
-
-@media screen and (max-width:575.98px){
-    .ss-img.adaptive-xs{padding:66% 0 0 0; height:unset;}
-    .ss-img.horizontal{padding:66% 0 0 0;}
-}
 
 
 /* Special List */
@@ -715,8 +748,8 @@ fieldset{padding:0; margin:0; border:0;}
 /* Special Tags */
 .ss-tags{display:block;}
 .ss-tags > .tag{
-    display:inline-block; font-size:.8125rem; font-weight:300;
-    padding:.3125rem .875rem .25rem .875rem; border-radius:.5rem;
+    display:inline-block; font-size:1.0625rem; font-weight:300;
+    padding:.3125rem .75rem .25rem .75rem; border-radius:0;
 }
 
 

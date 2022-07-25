@@ -137,7 +137,7 @@
 
   <section class="section-padding ovf-hidden">
     <div class="container">
-      <h3 class="ss-title-01 fw-600 lh-xs" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="ss-title-01 fw-500 lh-xs" data-aos="fade-up" data-aos-delay="0">
         ข่าวสารประชาสัมพันธ์
       </h3>
       <p data-aos="fade-up" data-aos-delay="150">
@@ -263,7 +263,7 @@
           <h6 class="lh-sm">เน้นโทคโนโลยีดิจิทัล กำกับตามกฎหมาย โปร่งใส เป็นธรรม</h6>
         </div>
       </div>
-      <h3 class="ss-title-01 fw-600 lh-xs" data-aos="fade-up" data-aos-delay="150">
+      <h3 class="ss-title-01 fw-500 lh-xs" data-aos="fade-up" data-aos-delay="150">
         <span class="op-0">ข่าวสารประชาสัมพันธ์</span>
       </h3>
     </div>

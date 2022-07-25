@@ -161,6 +161,198 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $category = [
+      [
+        'title' => 'ข่าวสาร<br />ประชาสัมพันธ์', 'alert' => 10,
+        'icon_inactive' => 'public/assets/app/images/icon/11.png',
+        'icon_active' => 'public/assets/app/images/icon/11-active.png'
+      ], [
+        'title' => 'ข่าวประกาศ<br />กรมขนส่ง', 'alert' => 0,
+        'icon_inactive' => 'public/assets/app/images/icon/12.png',
+        'icon_active' => 'public/assets/app/images/icon/12-active.png'
+      ], [
+        'title' => 'ภาพรวมการ<br />ขนส่งทางบก', 'alert' => 0,
+        'icon_inactive' => 'public/assets/app/images/icon/13.png',
+        'icon_active' => 'public/assets/app/images/icon/13-active.png'
+      ]
+    ];
+  ?>
+  <section class="section-08 section-padding pt-0 bg-sgray">
+    <div class="container">
+      <div class="tab-container">
+
+        <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
+          <div class="tabs-title">
+            <div class="tab-contents">
+              <?php foreach($category as $i=>$d){?>
+                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                  <h3 class="title sm fw-500 lh-2xs no-br"><?= $d['title'] ?></h3>
+                  <p class="sm">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
+                </div>
+              <?php }?>
+            </div>
+          </div>
+          <div class="tabs-wrapper">
+            <?php foreach($category as $i=>$d){?>
+              <div class="tab <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
+                <div class="icon">
+                  <img class="inactive" src="<?= $d['icon_inactive'] ?>" alt="Icon Inactive" />
+                  <img class="active" src="<?= $d['icon_active'] ?>" alt="Icon Active" />
+                </div>
+                <p class="sm fw-400 lh-xs"><?= $d['title'] ?></p>
+                <?php if($d['alert'] > 0){?>
+                  <div class="alert"><?= $d['alert'] ?></div>
+                <?php }?>
+              </div>
+            <?php }?>
+          </div>
+        </div>
+
+        <div class="tab-contents mt-6" data-aos="fade-up" data-aos-delay="150">
+          <?php foreach($category as $i=>$d){?>
+            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+              <div class="grids">
+                <?php for($j=0; $j<4; $j++){?>
+                  <div class="grid lg-25 sm-50">
+                    <div class="ss-card ss-card-04">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+$j)%4+1 ?>.jpg')"></div>
+                        <div class="hover-container">
+                          <div class="icon sm">
+                            <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-container">
+                        <div class="ss-tags">
+                          <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
+                        </div>
+                        <a class="title p lg fw-400 lh-sm" href="#">
+                          กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
+                          กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
+                        </a>
+                        <div class="card-footer">
+                          <div class="date p sm">7 กุมภาพันธ์ 2565</div>
+                          <div class="view p sm">
+                            <div class="icon"><em class="fa-solid fa-eye"></em></div>
+                            200
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php }?>
+              </div>
+              <div class="btns jc-center mt-6">
+                <a class="btn-more" href="#">
+                  อ่านทั้งหมด
+                  <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+                </a>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <?php
+    $category = [
+      [
+        'title' => 'คลังวิดีโอ', 'alert' => 0,
+        'icon_inactive' => 'public/assets/app/images/icon/14.png',
+        'icon_active' => 'public/assets/app/images/icon/14-active.png'
+      ], [
+        'title' => 'คลังภาพ', 'alert' => 10,
+        'icon_inactive' => 'public/assets/app/images/icon/15.png',
+        'icon_active' => 'public/assets/app/images/icon/15-active.png'
+      ]
+    ];
+  ?>
+  <section class="section-08 section-padding pt-0 bg-white">
+    <div class="container">
+      <div class="tab-container">
+
+        <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
+          <div class="tabs-title">
+            <div class="tab-contents">
+              <?php foreach($category as $i=>$d){?>
+                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                  <h3 class="title sm fw-500 lh-2xs no-br"><?= $d['title'] ?></h3>
+                  <p class="sm">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
+                </div>
+              <?php }?>
+            </div>
+          </div>
+          <div class="tabs-wrapper">
+            <?php foreach($category as $i=>$d){?>
+              <div class="tab <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
+                <div class="icon">
+                  <img class="inactive" src="<?= $d['icon_inactive'] ?>" alt="Icon Inactive" />
+                  <img class="active" src="<?= $d['icon_active'] ?>" alt="Icon Active" />
+                </div>
+                <p class="sm fw-400 lh-xs"><?= $d['title'] ?></p>
+                <?php if($d['alert'] > 0){?>
+                  <div class="alert"><?= $d['alert'] ?></div>
+                <?php }?>
+              </div>
+            <?php }?>
+          </div>
+        </div>
+
+        <div class="tab-contents" data-aos="fade-up" data-aos-delay="150">
+          <?php foreach($category as $i=>$d){?>
+            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+              <div class="grids">
+                <?php for($j=0; $j<4; $j++){?>
+                  <div class="grid lg-25 sm-50">
+                    <div class="ss-card ss-card-04">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+$j)%4+1 ?>.jpg')"></div>
+                        <div class="hover-container">
+                          <div class="icon sm">
+                            <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-container">
+                        <div class="ss-tags">
+                          <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
+                        </div>
+                        <a class="title p lg fw-400 lh-sm" href="#">
+                          กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
+                          กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
+                        </a>
+                        <div class="card-footer">
+                          <div class="date p sm">7 กุมภาพันธ์ 2565</div>
+                          <div class="view p sm">
+                            <div class="icon"><em class="fa-solid fa-eye"></em></div>
+                            200
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php }?>
+              </div>
+              <div class="btns jc-center mt-6">
+                <a class="btn-more" href="#">
+                  อ่านทั้งหมด
+                  <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+                </a>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+
+      </div>
+    </div>
+  </section>
   
   <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>
