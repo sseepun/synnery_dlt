@@ -327,35 +327,59 @@ $(function(){ 'use strict';
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
-                    prevArrow: self.find('.arrow-prev'),
-                    nextArrow: self.find('.arrow-next')
-                    
+                    arrows: true, appendArrows: self.find('.arrows'),
+                    dots: true, appendDots: self.find('.dots')
                 };
             if(self.hasClass('img-only')){
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
-                    prevArrow: self.find('.arrow-prev'),
-                    nextArrow: self.find('.arrow-next'),
+                    arrows: true, appendArrows: self.find('.arrows'),
+                    dots: true, appendDots: self.find('.dots'),
                     adaptiveHeight: false
                 };
             }
             self.find('.slides').slick(options);
         });
     }
+
+    // Banner 02
+    // var banner02 = $('.banner-02');
+    // if(banner02.length){
+    //     banner02.each(function(){
+    //         var self = $(this),
+    //             options = {
+    //                 centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+    //                 focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
+    //                 prevArrow: self.find('.arrow-prev'),
+    //                 nextArrow: self.find('.arrow-next')
+                    
+    //             };
+    //         if(self.hasClass('img-only')){
+    //             options = {
+    //                 centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+    //                 focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
+    //                 prevArrow: self.find('.arrow-prev'),
+    //                 nextArrow: self.find('.arrow-next'),
+    //                 adaptiveHeight: false
+    //             };
+    //         }
+    //         self.find('.slides').slick(options);
+    //     });
+    // }
     
     // Banner 03
-    var banner03 = $('.banner-03');
-    if(banner03.length){
-        banner03.each(function(){
-            var self = $(this);
-            self.find('.slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
-                arrows: true, appendArrows: self.find('.arrows'), dots: false,
-            });
-        });
-    }
+    // var banner03 = $('.banner-03');
+    // if(banner03.length){
+    //     banner03.each(function(){
+    //         var self = $(this);
+    //         self.find('.slides').slick({
+    //             centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+    //             focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 800,
+    //             arrows: true, appendArrows: self.find('.arrows'), dots: false,
+    //         });
+    //     });
+    // }
     
 
     // Client 01
