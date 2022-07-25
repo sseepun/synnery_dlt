@@ -165,7 +165,7 @@
                             <div class="img-bg" style="background-image:url('public/assets/app/images/bg/07.jpg');"></div>
                           </a>
                           <div class="text-container">
-                            <a class="h4 title fw-600 h-color-p lh-xs d-block">
+                            <a href="#" class="h4 title fw-600 h-color-p lh-xs d-block">
                               กรมการขนส่งทางบก แนะ!!! เลือกใช้บริการรถจักรยานยนต์สาธารณะถูกกฎหมายสังเกตแผ่นป้ายทะเบียนสีเหลือง ผู้ขับขี่สวมเสื้อวิน 
                             </a>
                             <div class="card-line"></div>
@@ -195,7 +195,7 @@
                           <div class="img-bg" style="background-image:url('public/assets/app/images/bg/06.jpg');"></div>
                           </a>
                           <div class="text-container">
-                            <a class="h4 title fw-600 h-color-p lh-xs d-block">มอบโล่รางวัลและประกาศเกียรติคุณ “คนต้นแบบคมนาคม ประจำปี 2564"</a>
+                            <a href="#" class="h4 title fw-600 h-color-p lh-xs d-block">มอบโล่รางวัลและประกาศเกียรติคุณ “คนต้นแบบคมนาคม ประจำปี 2564"</a>
                             <div class="card-line"></div>
                             <div class="d-flex jc-space-between ai-center">
                               <div class="d-flex">
@@ -223,7 +223,7 @@
                           <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+3)%3+3 ?>.jpg');"></div>
                         </a>
                         <div class="text-container">
-                          <a class="h4 title fw-600 h-color-p lh-xs d-block">แถลงข่าวโครงการ “ฮอนด้าจัดให้ ชาวมอเตอร์ไซค์ต้องมีใบขับขี่"</a>
+                          <a href="#" class="h4 title fw-600 h-color-p lh-xs d-block">แถลงข่าวโครงการ “ฮอนด้าจัดให้ ชาวมอเตอร์ไซค์ต้องมีใบขับขี่"</a>
                           <div class="card-line"></div>
                           <div class="d-flex jc-space-between ai-center">
                             <div class="d-flex mt-4">
@@ -256,11 +256,11 @@
           </div>
         </div>
       </div>
+      <h3 class="text-center letter-spacing sm fw-600 mt-6 pt-6">ป้ายแบรนเนอร์</h3>
   </section>
 
   
   <section class="banner-02" style="background-image:url('public/assets/app/images/bg/01.png');">
-  <h3 class="text-center letter-spacing sm fw-600 pos-absolute" style="top:-13rem; left:50%; transform:translate(-50%, 50%)">ป้ายแบรนเนอร์</h3>
       <div class="slide-container">
         <div class="slides">
           <?php for($i=0; $i<4; $i++){?>
@@ -268,7 +268,7 @@
               <div class="container">
                 <div class="elementor-container">
                   <div class="grids">
-                    <div class="grid mt-0 lg-25 md-50">
+                    <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
                       <div class="elementor-item">
                         <div class="elementor-text">
                             <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
@@ -285,7 +285,7 @@
                         </div>
                       </div> 
                     </div>
-                    <div class="grid mt-0 lg-25 md-50">
+                    <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
                     <div class="elementor-item">
                         <div class="elementor-text">
                             <a href="#" class="h4 title d-block fw-600 h-color-s ">
@@ -302,7 +302,7 @@
                         </div>
                       </div>
                       </div>
-                      <div class="grid mt-0 lg-25 md-50">
+                      <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
                       <div class="elementor-item">
                         <div class="elementor-text">
                             <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
@@ -319,7 +319,7 @@
                         </div>
                       </div> 
                       </div>
-                      <div class="grid mt-0 lg-25 md-50">
+                      <div class="grid mt-0 lg-25 md-50 sm-50 xs-50">
                       <div class="elementor-item">
                         <div class="elementor-text">
                             <a href="#" class="h4 title d-block fw-600 h-color-s lh-xs">
@@ -356,7 +356,7 @@
         </div>
     </section>
 
-    <div class="client-01 ">
+    <!-- <div class="client-01 ">
       <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
         <div class="slides">
           <?php for($i=0; $i<4; $i++){?>
@@ -370,7 +370,7 @@
           <?php }?>
         </div>
       </div>      
-  </div>
+  </div> -->
     
    
     <?php include_once('include/footer.php'); ?>
