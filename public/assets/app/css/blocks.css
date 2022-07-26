@@ -457,7 +457,7 @@
 .section-10 .section-card > .title{min-height:7rem;}
 .section-10 .slide{
     position:relative; padding:3rem 0; overflow:hidden !important;
-    display:flex; align-items:center; 
+   
 }
 .section-10 .more{
     display:flex; align-items:center; justify-content:center;  border-radius:4rem; padding:0rem 0 0 0; width:2.5rem; height:1.5rem;
