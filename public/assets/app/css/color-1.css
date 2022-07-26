@@ -176,7 +176,11 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-05 .card-footer .more{background:#000000; color:#ffffff;}
 
 /* Special Card 06 */
-.ss-card-06 .text-container{background:#ffffff; color:#000000;}
+.ss-card-06 .text-container{
+  background:#ffffff; color:#000000; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);
+}
+.ss-card-06 .card-footer .block::after{background:rgba(0,0,0,.3);}
+.ss-card-06 .more{background:#000000; color:#ffffff;}
 
 
 /* Special Image */

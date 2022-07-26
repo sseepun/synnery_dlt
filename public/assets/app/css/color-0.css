@@ -284,14 +284,15 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-05 .card-footer .icon{color:#663399;}
 .ss-card-05 .card-footer .block::after{background:#dcdce0;}
 .ss-card-05 .card-footer .more{background:#663399; color:#ffffff;}
-.ss-card-05 .card-footer .more:hover{background:#271148;}
+.ss-card-05 .card-footer .more:hover{background:#d6bf64;}
 
 /* Special Card 06 */
+.ss-card-06 .ss-tags > .tag{background:#e6e1ec; color:#271148;}
 .ss-card-06 .text-container{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
 .ss-card-06 .card-footer .icon{color:#663399;}
 .ss-card-06 .card-footer .block::after{background:#dcdce0;}
 .ss-card-06 .more{background:#663399; color:#ffffff;}
-.ss-card-06 .more:hover{background:#271148;}
+.ss-card-06 .more:hover{background:#d6bf64;}
 
 
 /* Special Image */
