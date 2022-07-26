@@ -130,7 +130,8 @@
 .banner-03 .slick-dots li{display:block; margin:0 .3125rem;}
 .banner-03 .slick-dots button{
     display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem;
-    padding:0; box-shadow:none; border:0; margin:0; outline:none; transition:width .25s;
+    padding:0; box-shadow:none; border:0; margin:0; outline:none; cursor:pointer;
+    transition:width .25s;
 }
 .banner-03 .slick-dots li.slick-active button{width:1.5rem;}
 @media screen and (max-width:767.98px){
@@ -148,6 +149,57 @@
     transform:scale(1); transition-duration:14s; transition-delay:.6s;
 }
 .loading .banner-03 .slide.slick-current .img-bg{transform:scale(1.2);}
+
+
+/* Info 01 */
+.info-01{position:relative; padding-bottom:12rem;}
+.info-01 > .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-repeat:no-repeat;
+    background-size:100% auto; background-position:bottom center;
+}
+.info-01 .slide-container{position:relative; padding:0 0 .375rem 0;}
+.info-01 .slides{width:calc(100% + 2px); margin:0 -1px;}
+.info-01 .slide{padding:0 1px;}
+.info-01 .dot-container{display:flex; justify-content:center; width:100%; margin:.5rem 0 0 0;}
+.info-01 .slick-dots{
+    display:flex; align-items:center; justify-content:center; flex-wrap:wrap;
+    list-style:none; padding:0; margin:0;
+}
+.info-01 .slick-dots li{display:block; margin:.125rem;}
+.info-01 .slick-dots button{
+    position:relative; display:block; font-size:0; width:3rem; height:.5rem; cursor:pointer;
+    border-radius:0; padding:0; box-shadow:none; border:0; margin:0; outline:none;
+    background:transparent; border:1.6px solid transparent; transition:background .25s;
+}
+.info-01 .slide-container .btns{position:absolute; bottom:0; right:0; width:auto;}
+.info-01 .quote-container{
+    width:100%; display:flex; justify-content:center; margin:4rem 0 0 0;
+}
+.info-01 .quote-container > .wrapper{position:relative;}
+.info-01 .quote-container .quote{display:block; height:1.5rem; width:auto; position:absolute;}
+.info-01 .quote-container .quote.quote-left{top:0; right:calc(100% + .75rem);}
+.info-01 .quote-container .quote.quote-right{bottom:1.75rem; left:calc(100% + .5rem);}
+@media screen and (max-width:1199.98px){
+    .info-01 .quote-container .quote{height:1.375rem;}
+}
+@media screen and (max-width:991.98px){
+    .info-01{background-size:1200px auto; padding-bottom:10rem;}
+    .info-01 .slide-container .btns{
+        position:relative; bottom:unset; right:unset; width:100%; justify-content:center;
+        margin:1.25rem 0 0 0;
+    }
+    .info-01 .quote-container{margin:3rem 0 0 0;}
+    .info-01 .quote-container .quote{height:1.25rem;}
+    .info-01 .quote-container .quote.quote-left{top:0;}
+    .info-01 .quote-container .quote.quote-right{bottom:1.625rem;}
+}
+@media screen and (max-width:767.98px){
+    .info-01{background-size:900px auto; padding-bottom:9rem;}
+    .info-01 .quote-container{margin:2.5rem 0 0 0;}
+    .info-01 .quote-container .quote{height:1.125rem;}
+    .info-01 .quote-container .quote.quote-left{top:0; right:calc(100% + .5rem);}
+    .info-01 .quote-container .quote.quote-right{bottom:1.5rem; left:calc(100% + .125rem);}
+}
 
 
 /* Paginate */
@@ -408,6 +460,7 @@
 
 
 /* Section 08 */
+.section-08{position:relative; z-index:1;}
 .section-08 .grids{--gs:2px;}
 
 
@@ -448,41 +501,53 @@
 
 
 /* Section 10 */
-.section-10{position:relative; height:100%; min-height:400px; z-index:99;}
-.section-10 .slide-container{position:relative;}
+.section-10{position:relative; height:100%; min-height:400px; z-index:1;}
+.section-10 .slide-container{position:relative; margin:2.5rem 0 0 0;}
+.section-10 .slides{overflow:hidden; border-radius:.5rem;}
 .section-10 .section-card{
     display:flex; flex-direction:column; justify-content:center;  height:100%; padding:1.5rem; 
     transition:background .25s, color .25s;
 }
-.section-10 .section-card > .title{min-height:7rem;}
-.section-10 .slide{
-    position:relative; padding:3rem 0; overflow:hidden !important;
-   
+.section-10 .section-card .title{min-height:7rem;}
+.section-10 .section-card .more{
+    display:flex; align-items:center; justify-content:center; border-radius:1000em;
+    padding:0rem 0 0 0; width:2.5rem; height:1.5rem;
 }
-.section-10 .more{
-    display:flex; align-items:center; justify-content:center; border-radius:1000em; padding:0rem 0 0 0; width:2.5rem; height:1.5rem;
-}
-.section-10 .dot-container{position:absolute; bottom:-1rem; left:0; right:0;}
+.section-10 .dot-container{display:block; margin:2.5rem 0 0 0;}
 .section-10 .slick-dots{
     display:flex; width:100%; align-items:center; justify-content:center;
     list-style:none; padding:0; margin:0;
 }
 .section-10 .slick-dots li{display:block; margin:0 .3125rem;}
 .section-10 .slick-dots button{
-    display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem; cursor:pointer;
-    padding:0; box-shadow:none; border:0; margin:0; outline:none; transition:width .25s;
+    display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem;
+    cursor:pointer; padding:0; box-shadow:none; border:0; margin:0; outline:none;
+    transition:width .25s;
 }
 .section-10 .slick-dots li.slick-active button{width:1.5rem;}
+.section-10 .btns{position:absolute; bottom:-1rem; right:0; width:auto;}
+@media screen and (max-width:767.98px){
+    .section-10 .btns{
+        position:relative; bottom:unset; right:unset; width:100%; justify-content:center;
+        margin:1.5rem 0 0 0;
+    }
+}
 
 
 /* Section 11 */
 .section-11{
-    position:relative; height:100%; min-height:500px; margin:-12rem 0 0 0; padding-top:15rem;
+    position:relative; height:100%; min-height:500px; margin:-10rem 0 0 0; padding-top:15rem;
 }
 .section-11 > .pattern{
     display:block; height:37rem; width:auto; position:absolute; bottom:2rem; left:-5.5rem;
-   
-  }
+}
+
+
+/* Section 12 */
+.section-12 .btns{margin:1.5rem 0 0 0; justify-content:flex-end;}
+@media screen and (max-width:991.98px){
+    .section-12 .btns{justify-content:center;}
+}
 
 
 /* Tab Container */

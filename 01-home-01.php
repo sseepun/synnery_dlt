@@ -6,7 +6,7 @@
 </head>
 <body class="loading bg-sgray">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-01.php'); ?>
 
   <section class="banner-03">
     <div class="slide-container">
@@ -38,7 +38,7 @@
           </div>
         <?php }?>
       </div>
-      <div class="dot-container"></div>
+      <div class="dot-container" data-aos="fade-up" data-aos-delay="0"></div>
     </div>
   </section>
 
@@ -96,7 +96,7 @@
       ],
     ];
   ?>
-  <section class="section-padding ovf-hidden">
+  <section class="section-12 section-padding">
     <div class="container">
       <div class="tab-container">
         <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
@@ -121,24 +121,19 @@
           <?php foreach($categories as $i=>$d){?>
             <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
               
-              <div class="grids jc-center ai-center">
-                <div class="grid lg-80 sm-100">
+              <div class="grids jc-center">
+                <div class="grid xl-75 lg-90 md-100 sm-75">
                   <div class="ss-card ss-card-06">
-                    <div class="img-container">
-                      <div class="wrapper">
-                        <div class="ss-img">
-                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
-                        </div>
-                      </div>
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+1 ?>.jpg');"></div>
                     </div>
                     <div class="text-container">
-                      <div class="wrapper">
-                      <div class="ss-tags mb-4">
-                        <a class="tag fw-600" href="#">ข่าวประชาสัมพันธ์</a>
+                      <div class="ss-tags">
+                        <a class="tag round fw-400" href="#">ข่าวประชาสัมพันธ์</a>
                       </div>
-                      <a href="#" class="h4 title fw-400 h-color-s md-no-br">
-                        กรมการขนส่งทางบก มีความห่วงใยและ <br> เข้าใจถึงผลกระทบจากราคาพลังงานขอ 
-                        <br> ให้ผู้ประกอบการขนส่งสินค้า
+                      <a href="#" class="title h4 lh-sm h-color-05 mt-3">
+                        กรมการขนส่งทางบก มีความห่วงใยและ
+                        เข้าใจถึงผลกระทบจากราคาพลังงานขอให้ผู้ประกอบการขนส่งสินค้า
                       </a>
                       <div class="card-footer">
                         <div class="blocks">
@@ -156,15 +151,15 @@
                           </div>
                         </div>
                       </div>
-                      <p class="mt-4 title fw-400 md-no-br">
-                        กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึงผลกระทบจาก <br> ราคาพลังงาน ขอให้ผู้ประกอบการขนส่งสินค้า 
-                        ผู้ขับรถบรรทุก และ <br> ผู้ขับรถแท็กซี่ แสดงออกอย่างเหมาะสมภายใต้ขอบเขตของ
+                      <p class="desc fw-300 mt-4">
+                        กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึงผลกระทบจากราคาพลังงาน 
+                        ขอให้ผู้ประกอบการขนส่งสินค้า ผู้ขับรถบรรทุก และผู้ขับรถแท็กซี่ 
+                        แสดงออกอย่างเหมาะสมภายใต้ขอบเขตของ
                       </p>
-                        <div class="block text-right mt-4">
-                          <a class="more" href="#">
-                            <em class="fa-solid fa-arrow-right-long"></em>
-                          </a>
-                        </div>
+                      <div class="text-right mt-6">
+                        <a class="more" href="#">
+                          <em class="fa-solid fa-arrow-right-long"></em>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -210,7 +205,7 @@
                 <?php }?>
               </div>
               
-              <div class="btns jc-end pt-6">
+              <div class="btns">
                 <a href="#" class="btn btn-action style-02 btn-02">
                   <span>อ่านทั้งหมด</span> 
                   <div class="icon ml-3">
@@ -225,7 +220,7 @@
     </div>
   </section>
 
-  <section class="section-10 ovf-hidden">
+  <section class="section-10 section-padding pb-0">
     <div class="container">
       <h3 class="fw-300 lh-xs text-center" data-aos="fade-up" data-aos-delay="0">
         ป้ายแบรนเนอร์
@@ -296,14 +291,14 @@
           <?php }?>
         </div>
         <div class="dot-container"></div>
-      </div>
-      <div class="btns jc-end">
-        <a href="#" class="btn btn-action style-02 btn-02">
-          <span>อ่านทั้งหมด</span> 
-          <div class="icon ml-3">
-            <em class="fa-solid fa-arrow-right-long"></em>
-          </div>
-        </a>
+        <div class="btns" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-action style-02 btn-02">
+            <span>อ่านทั้งหมด</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right-long"></em>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>

@@ -38,7 +38,8 @@
 
   <section class="section-06" data-aos="fade-in" data-aos-delay="0">
     <div class="section-tabs">
-      <a class="ss-card" href="#" style="background-image:url('public/assets/app/images/bg/pattern-01.jpg');">
+      <a class="ss-card" href="#">
+        <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-01.jpg');"></div>
         <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-01-hover.jpg');"></div>
         <div class="hero"><img src="public/assets/app/images/hero/04.png" alt="Hero" /></div>
         <div class="text-wrapper">
@@ -47,7 +48,8 @@
         </div>
         <div class="line-1"></div>
       </a>
-      <a class="ss-card" href="#" style="background-image:url('public/assets/app/images/bg/pattern-02.jpg');">
+      <a class="ss-card" href="#">
+        <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-02.jpg');"></div>
         <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-02-hover.jpg');"></div>
         <div class="hero"><img src="public/assets/app/images/hero/05.png" alt="Hero" /></div>
         <div class="text-wrapper">
@@ -350,6 +352,53 @@
           <?php }?>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <section class="info-01 section-padding">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
+    <div class="container pos-relative">
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
+        <div class="slides">
+          <?php for($i=0; $i<6; $i++){?>
+            <div class="slide">
+              <div class="ss-card ss-card-04 type-2">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%4+1 ?>.jpg')"></div>
+                  <div class="hover-container">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <a class="title p fw-400 lh-sm" href="#">
+                    ข้อกำหนดการขนส่ง
+                    การส่งสินค้าอันตรายทางถนน
+                    ของเประเทศไทย
+                  </a>
+                </div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="dot-container"></div>
+        <div class="btns">
+          <a class="btn-more" href="#">
+            อ่านทั้งหมด
+            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+          </a>
+        </div>
+      </div>
+      <div class="quote-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="wrapper">
+          <h5 class="lh-sm">องค์กรแห่งนวัตกรรม</h5>
+          <h5 class="fw-400 lh-sm">ในการควบคุม กำกับ ดูแล ระบบการขนส่งทางถนนให้มี</h5>
+          <h2 class="fw-400 lh-2xs color-06">คุณภาพและปลอดภัย</h2>
+          <img class="quote quote-left" src="public/assets/app/images/icon/26.png" alt="Quote" />
+          <img class="quote quote-right" src="public/assets/app/images/icon/27.png" alt="Quote" />
+        </div>
       </div>
     </div>
   </section>

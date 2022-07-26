@@ -17,6 +17,7 @@ html, body, table.table{color:#000000;}
 .color-03, .h-color-03:hover{color:#68459b!important;}
 .color-04, .h-color-04:hover{color:#f9c816!important;}
 .color-05, .h-color-05:hover{color:#d6bf64!important;}
+.color-06, .h-color-06:hover{color:#76108f!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -31,6 +32,7 @@ html, body, table.table{color:#000000;}
 .bg-03{background:#68459b!important;}
 .bg-04{background:#f9c816!important;}
 .bg-05{background:#d6bf64!important;}
+.bg-06{background:#76108f!important;}
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -45,6 +47,7 @@ html, body, table.table{color:#000000;}
 .bcolor-03{border-color:#68459b!important;}
 .bcolor-04{border-color:#f9c816!important;}
 .bcolor-05{border-color:#d6bf64!important;}
+.bcolor-06{border-color:#76108f!important;}
 
 
 /* Buttons */
@@ -108,7 +111,7 @@ input[type=file].sgray, select.sgray, textarea.sgray{background:#e3e4e6!importan
 /* Super Topnav */
 nav.stopnav.style-03{background:#68459b; color:#ffffff;}
 nav.stopnav.style-03 .option-box,
-nav.stopnav.style-03 .a-full{border-color:rgba(255,255,255,.5);}
+nav.stopnav.style-03 .a-full{border-color:rgba(255,255,255,.3);}
 nav.stopnav.style-03 .a-text:hover, nav.stopnav.style-03 .a-text.active{color:#f9c816;}
 nav.stopnav.style-03 .a-text::after, nav.stopnav.style-03 .a-img::after{background:#f9c816;}
 nav.stopnav.style-03 .a-full:hover{background:#76108f; color:#ffffff;}
@@ -131,6 +134,7 @@ nav.topnav .submenu-dropdown{
 }
 nav.topnav .submenu:hover > *:first-child{color:#f9c816;}
 
+/* Topnav Style-03 */
 nav.topnav.style-03{background:#ffffff; border-color:#c7cbd1;}
 nav.topnav.style-03 .logo{color:#3c3c3c;}
 nav.topnav.style-03 .logo:hover, nav.topnav.style-03 .logo h6{color:#68459b;}
@@ -180,17 +184,17 @@ nav.footer .title-sep .more .icon{background:#9608b4; color:#ffffff;}
 nav.footer.style-01{background:#191b29; color:#ffffff;}
 nav.footer.style-01 .footer-line{background:#323238;}
 nav.footer.style-01 .footer-socials-other .social{
-    background:#663399; color:#ffffff; border-color:#663399;
+  background:#663399; color:#ffffff; border-color:#663399;
 }
 nav.footer.style-01 .footer-socials > .social{
-    background:#663399; color:#ffffff; border-color:#663399;
+  background:#663399; color:#ffffff; border-color:#663399;
 }
 nav.footer.style-01 .footer-socials > .social:hover{background:#d6bf64; border-color:#d6bf64;}
 nav.footer.style-01 .footer-socials-other .social:hover{background:#d6bf64; border-color:#d6bf64;}
 nav.footer.style-01 .footer-contact > .list-item span{color:#a14ff3;}
 
 /* Footer Style-02  */
-nav.footer.style-02{background:#ffffff; color:#000000; border-color:#b5b5b5;}
+nav.footer.style-02{background:#ffffff; color:#000000;}
 nav.footer.style-02 .footer-bottom{border-color:#b5b5b5;}
 nav.footer.style-02 .logo:hover{color:#9608b4;}
 nav.footer.style-02 .footer-card{background:#4d2b68; color:#ffffff;}
@@ -280,14 +284,15 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-05 .card-footer .icon{color:#663399;}
 .ss-card-05 .card-footer .block::after{background:#dcdce0;}
 .ss-card-05 .card-footer .more{background:#663399; color:#ffffff;}
-.ss-card-05 .card-footer .more:hover{background:#271148;}
+.ss-card-05 .card-footer .more:hover{background:#d6bf64;}
 
 /* Special Card 06 */
+.ss-card-06 .ss-tags > .tag{background:#e6e1ec; color:#271148;}
 .ss-card-06 .text-container{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
 .ss-card-06 .card-footer .icon{color:#663399;}
 .ss-card-06 .card-footer .block::after{background:#dcdce0;}
 .ss-card-06 .more{background:#663399; color:#ffffff;}
-.ss-card-06 .more:hover{background:#271148;}
+.ss-card-06 .more:hover{background:#d6bf64;}
 
 
 /* Special Image */
@@ -317,6 +322,13 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .banner-03 .slick-dots li.slick-active button{background:#d6bf64}
 
 
+/* Info 01 */
+.info-01{background:#f0f0f0;}
+.info-01 .slick-dots button{border-color:#68459b;}
+.info-01 .slick-dots li button:hover,
+.info-01 .slick-dots li.slick-active button{background:#68459b;}
+
+
 /* Paginate */
 .paginate .page.page-prev, .paginate .page.page-next,
 .paginate .page:hover{background:#b4b3b5; color:#ffffff;}
@@ -327,12 +339,10 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Section 01 */
 .section-01 .info-cards{background:#ffffff; box-shadow:0px 4px 10px 8px rgba(0,0,0,.08);}
 
-
 /* Section 02 */
 .section-02 .slick-dots button{background:#ffffff;}
 .section-02 .slick-dots li.slick-active button{background:#8d06aa;}
 .section-02 .slick-dots button::before{border-color:#ffffff;}
-
 
 /* Section 04 */
 .section-04 .section-tab:nth-child(1)::before, .section-04 .section-tab:nth-child(1)::after,
@@ -348,7 +358,6 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-04 .section-tab:hover::before, .section-04 .section-tab:hover::after,
 .section-04 .section-tab:hover{background:#f6df76;}
 .section-04 .section-tab.main .icon{border-color:rgba(255,255,255,.3);}
-
 
 /* Section 05 */
 .section-05 .section-card.type-01{background:#320953; color:#ffffff;}
@@ -367,11 +376,9 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 }
 .section-05 .slide-container .arrow{color:#ffffff;}
 
-
 /* Section 06 */
 .section-06 .ss-card .line-1::before, .section-06 .ss-card .line-1::after,
 .section-06 .ss-card .line-2::before, .section-06 .ss-card .line-2::after{background:#dcb365;}
-
 
 /* Section 07 */
 .section-07 .slide > .wrapper{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
@@ -379,6 +386,8 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-07 .slide > .wrapper::after{background:#eebf15;}
 .section-07 .slide .icon{background:#540467; color:#ffffff;}
 
+/* Section 08 */
+.section-08{box-shadow:rgb(0 0 0/9%) 0px 25px 20px -20px;}
 
 /* Section 09 */
 .section-09::before{background:#f0f0f0;}
@@ -389,13 +398,14 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-09 .section-card .icon{background:#663399;}
 
 /* Section 10 */
-.section-10 .section-card{background:#ffffff; border-right:1px solid #dcdce0 !important;}
-.setion-10 .slick-dots button{background:#ffffff;}
+.section-10 .section-card{background:#ffffff; border-right:1px solid #dcdce0!important;}
+.section-10 .section-card .more{background:#e6e1ec; color:#000000;}
+.section-10 .slick-dots button{background:#ffffff;}
 .section-10 .slick-dots li.slick-active button{background:#d6bf64;}
-.section-10 .more{background:#e6e1ec;}
 
 /* Section 11 */
 .section-11{background:#271148;}
+
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,
