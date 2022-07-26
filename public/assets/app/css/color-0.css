@@ -172,6 +172,19 @@ nav.sidenav .options > .option-btn:hover > a{color:#76108f;}
 nav.footer .title-sep::before{background:#d1d1d1;}
 nav.footer .title-sep .more .icon{background:#9608b4; color:#ffffff;}
 
+/* Footer Style-01  */
+nav.footer.style-01{background:#191b29; color:#ffffff;}
+nav.footer.style-01 .footer-line{background:#323238;}
+nav.footer.style-01 .footer-socials-other .social{
+    background:#663399; color:#ffffff; border-color:#663399;
+}
+nav.footer.style-01 .footer-socials > .social{
+    background:#663399; color:#ffffff; border-color:#663399;
+}
+nav.footer.style-01 .footer-socials > .social:hover{background:#d6bf64; border-color:#d6bf64;}
+nav.footer.style-01 .footer-contact > .list-item span{color:#a14ff3;}
+
+/* Footer Style-02  */
 nav.footer.style-02{background:#ffffff; color:#000000; border-color:#b5b5b5;}
 nav.footer.style-02 .footer-bottom{border-color:#b5b5b5;}
 nav.footer.style-02 .logo:hover{color:#9608b4;}
@@ -366,6 +379,14 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-09 .section-card:hover{background:#663399;}
 .section-09 .section-card .icon{background:#663399;}
 
+/* Section 10 */
+.section-10 .section-card{background:#ffffff; border-right:1px solid #dcdce0 !important;}
+.setion-10 .slick-dots button{background:#ffffff;}
+.section-10 .slick-dots li.slick-active button{background:#d6bf64;}
+.section-10 .more{background:#e6e1ec;}
+
+/* Section 11 */
+.section-11{background:#271148;}
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,

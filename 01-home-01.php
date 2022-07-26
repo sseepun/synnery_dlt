@@ -136,7 +136,7 @@
                       <div class="ss-tags mb-4">
                         <a class="tag fw-700" href="#">ข่าวประชาสัมพันธ์</a>
                       </div>
-                      <a href="#" class="h3 mt-6 fw-800 h-color-p lh-2xs ">
+                      <a href="#" class="h4 h-color-p ">
                         กรมการขนส่งทางบก มีความห่วงใยและ <br> เข้าใจถึงผลกระทบจากราคาพลังงานขอ 
                         <br> ให้ผู้ประกอบการขนส่งสินค้า
                       </a>
@@ -210,35 +210,35 @@
     </div>
   </section>
 
-  <section class="section-10 section-padding ovf-hidden">
+  <section class="section-10  ovf-hidden">
     <div class="container">
       <h3 class="fw-300 lh-xs text-center" data-aos="fade-up" data-aos-delay="0">
         ป้ายแบรนเนอร์
       </h3>
-      <div class="slide-container mt-6 pt-2" data-aos="fade-up" data-aos-delay="150">
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
           <?php for($i=0; $i<2; $i++){?>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p lg fw-400 h-color-05 lh-sm" href="#">
+                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
                   คู่มือการใช้ระบบบริหารจัดการอุปกรณ์และเครื่องมือด้าน ICT สำหรับคนพิการ
                 </a>
-                <div class="card-footer">
+                <div class="card-footer d-flex jc-space-between ai-center">
                   <div class="icon">
                     <img src="public/assets/app/images/icon/22.png" alt="Icon" />
                   </div>
                   <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
+                    <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
                   </a>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p lg fw-400 h-color-05 lh-sm" href="#">
+                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
                   โครงการศึกษา M-MAP ระยะที่ 2
                 </a>
-                <div class="card-footer">
+                <div class="card-footer d-flex jc-space-between ai-center">
                   <div class="icon">
                     <img src="public/assets/app/images/icon/23.png" alt="Icon" />
                   </div>
@@ -250,10 +250,10 @@
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p lg fw-400 h-color-05 lh-sm" href="#">
+                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
                   ข้อมูลผลการคำนวณต้นทุนต่อหน่วยผลผลิต ประจำปี
                 </a>
-                <div class="card-footer">
+                <div class="card-footer d-flex jc-space-between ai-center">
                   <div class="icon">
                     <img src="public/assets/app/images/icon/24.png" alt="Icon" />
                   </div>
@@ -265,10 +265,10 @@
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p lg fw-400 h-color-05 lh-sm" href="#">
+                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
                   E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ
                 </a>
-                <div class="card-footer">
+                <div class="card-footer d-flex jc-space-between ai-center">
                   <div class="icon">
                     <img src="public/assets/app/images/icon/25.png" alt="Icon" />
                   </div>
@@ -282,10 +282,23 @@
         </div>
         <div class="dot-container"></div>
       </div>
+      <div class="btns jc-end">
+        <a href="#" class="btn btn-action style-02 btn-02">
+          <span>อ่านทั้งหมด</span> 
+          <div class="icon ml-3">
+            <em class="fa-solid fa-arrow-right-long"></em>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
+
+  <section class="section-11">
+   <img class="pattern" src="public/assets/app/images/bg/01.png" alt="Pattern" />
+
+  </section>
    
-  <?php // include_once('include/footer.php'); ?>
+  <?php  include_once('include/footer-01.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>
