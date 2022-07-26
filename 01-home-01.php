@@ -6,7 +6,7 @@
 </head>
 <body class="loading bg-sgray">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-01.php'); ?>
 
   <section class="banner-03">
     <div class="slide-container">
@@ -210,7 +210,7 @@
     </div>
   </section>
 
-  <section class="section-10  ovf-hidden">
+  <section class="section-10 ovf-hidden">
     <div class="container">
       <h3 class="fw-300 lh-xs text-center" data-aos="fade-up" data-aos-delay="0">
         ป้ายแบรนเนอร์

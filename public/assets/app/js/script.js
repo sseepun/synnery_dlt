@@ -371,6 +371,28 @@ $(function(){ 'use strict';
             self.find('.slides').slick(options);
         });
     }
+
+    
+    // Info 01
+    var info01 = $('.info-01');
+    if(info01.length){
+        info01.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: '0px', slidesToShow: 5,
+                swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
+                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                ]
+            });
+        });
+    }
+
     
     // Section 02
     var section02 = $('.section-02');
