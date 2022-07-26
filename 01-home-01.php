@@ -134,22 +134,37 @@
                     <div class="text-container">
                       <div class="wrapper">
                       <div class="ss-tags mb-4">
-                        <a class="tag fw-700" href="#">ข่าวประชาสัมพันธ์</a>
+                        <a class="tag fw-600" href="#">ข่าวประชาสัมพันธ์</a>
                       </div>
-                      <a href="#" class="h4 h-color-p ">
+                      <a href="#" class="h4 title fw-400 h-color-s md-no-br">
                         กรมการขนส่งทางบก มีความห่วงใยและ <br> เข้าใจถึงผลกระทบจากราคาพลังงานขอ 
                         <br> ให้ผู้ประกอบการขนส่งสินค้า
                       </a>
-                      <div class="d-flex mt-4">
-                        <div class="date">
-                          <em class="fa-solid fa-calendar-days color-p p xs"></em>
-                          <span class="ml-1 color-gray">16 กุมภาพันธ์ 2565</span>
+                      <div class="card-footer">
+                        <div class="blocks">
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                              16 กุมภาพันธ์ 2565
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                              285
+                            </p>
+                          </div>
                         </div>
                       </div>
-                      <p class="mt-4 fw-600">
+                      <p class="mt-4 title fw-400 md-no-br">
                         กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึงผลกระทบจาก <br> ราคาพลังงาน ขอให้ผู้ประกอบการขนส่งสินค้า 
                         ผู้ขับรถบรรทุก และ <br> ผู้ขับรถแท็กซี่ แสดงออกอย่างเหมาะสมภายใต้ขอบเขตของ
                       </p>
+                        <div class="block text-right mt-4">
+                          <a class="more" href="#">
+                            <em class="fa-solid fa-arrow-right-long"></em>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -293,9 +308,32 @@
     </div>
   </section>
 
-  <section class="section-11">
-   <img class="pattern" src="public/assets/app/images/bg/01.png" alt="Pattern" />
-
+  <section class="section-11 section-padding">
+    <img class="pattern" src="public/assets/app/images/bg/pattern-04.png" alt="Pattern" />
+    <div class="container">
+      <div class="grids">
+        <div class="grid lg-40">
+        <div class="ss-img">
+          <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.png');"></div>
+        </div>   
+        </div>   
+        <div class="grid lg-20">
+          <div class="ss-img">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.png');"></div>
+          </div>   
+        </div>   
+        <div class="grid lg-20">
+          <div class="ss-img">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.png');"></div>
+          </div>   
+        </div>
+        <div class="grid lg-20">
+          <div class="ss-img">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.png');"></div>
+          </div> 
+        </div>
+      </div>    
+    </div>
   </section>
    
   <?php  include_once('include/footer-01.php'); ?>

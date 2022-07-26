@@ -167,7 +167,11 @@ nav.sidenav .options > .option-btn:hover > a{color:#76108f;}
 .global-search-container .hamburger > *{background:#ffffff;}
 
 
-/* Back to Top */
+/* Back to Top Style-01 */
+.back-to-top.style-01{background:#d6bf64; color:#ffffff;}
+.back-to-top.style-01:hover{background:#663399;}
+
+/* Back to Top Style-02 */
 .back-to-top.style-02{background:#591768; color:#ffffff;}
 .back-to-top.style-02:hover{background:#f4b510;}
 
@@ -186,6 +190,7 @@ nav.footer.style-01 .footer-socials > .social{
   background:#663399; color:#ffffff; border-color:#663399;
 }
 nav.footer.style-01 .footer-socials > .social:hover{background:#d6bf64; border-color:#d6bf64;}
+nav.footer.style-01 .footer-socials-other .social:hover{background:#d6bf64; border-color:#d6bf64;}
 nav.footer.style-01 .footer-contact > .list-item span{color:#a14ff3;}
 
 /* Footer Style-02  */
@@ -282,7 +287,11 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-05 .card-footer .more:hover{background:#271148;}
 
 /* Special Card 06 */
-.ss-card-06 .text-container{background:#ffffff;}
+.ss-card-06 .text-container{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-06 .card-footer .icon{color:#663399;}
+.ss-card-06 .card-footer .block::after{background:#dcdce0;}
+.ss-card-06 .more{background:#663399; color:#ffffff;}
+.ss-card-06 .more:hover{background:#271148;}
 
 
 /* Special Image */

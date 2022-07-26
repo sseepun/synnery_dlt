@@ -1,7 +1,7 @@
 
 
 <!-- Back to Top -->
-<a class="back-to-top active" href="#">
+<a class="back-to-top style-01 active" href="#">
   <em class="fas fa-chevron-up"></em>
 </a>
 
