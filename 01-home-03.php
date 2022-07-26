@@ -402,6 +402,58 @@
       </div>
     </div>
   </section>
+
+  <section class="info-02" data-aos="fade-up" data-aos-delay="0">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-03.jpg')"></div>
+    <div class="container">
+      <div class="grids">
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab main" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/28.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="fw-300">CALL CENTER</p>
+              <h3 class="lg fw-400 lh-3xs color-04">1584</h3>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/29.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">จัดซื้อจัดจ้าง</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/30.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">ค้นหาสำนักงาน</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/31.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">ติดต่อกรม</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
   
   <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>

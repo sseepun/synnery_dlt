@@ -36,7 +36,7 @@
     </div>
   </section>
 
-  <section class="section-05">
+  <section class="section-05" data-aos="fade-up" data-aos-delay="0">
     <div class="container">
       <div class="slide-container">
         <div class="slides">
@@ -437,7 +437,7 @@
                 <div class="input-icon mt-2">
                   <input 
                     type="text" class="fgray" placeholder="Your e-mail Address" 
-                    style="border-color:transparent!important;"
+                    style="border-color:transparent!important;" required 
                   />
                   <button type="submit" class="icon">
                     <em class="fa-solid fa-chevron-right"></em>
