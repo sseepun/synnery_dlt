@@ -204,7 +204,6 @@
                   </div>
                 <?php }?>
               </div>
-              
               <div class="btns">
                 <a href="#" class="btn btn-action style-02 btn-02">
                   <span>อ่านทั้งหมด</span> 

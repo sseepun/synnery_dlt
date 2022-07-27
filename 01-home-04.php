@@ -8,7 +8,8 @@
   <?php // include_once('include/page-loader.php'); ?>
   <?php // include_once('include/topnav.php'); ?>
 
-  <section class="banner-03">
+  <section class="banner-04">
+    <!-- <img class="pattern" src="public/assets/app/images/bg/pattern-03.png" alt="Pattern" /> -->
     <div class="slide-container">
       <div class="slides">
         <?php for($i=0; $i<4; $i++){?>
@@ -28,7 +29,7 @@
                   และรถรับจ้างอื่นๆ ควรปฏิบัติดังนี้
                 </p>
                 <div class="btns mt-4 animate" style="--delay:.7s;">
-                  <a href="#" class="btn btn-action style-02 btn-02">
+                  <a href="#" class="btn btn-action style-05 btn-03">
                     <span>รายละเอียดเพิ่มเติม</span> 
                   </a>
                 </div>
@@ -41,289 +42,367 @@
     </div>
   </section>
 
-  <section class="section-padding">
+  <section class="section-13 section-padding">
     <div class="container">
-      <h3 class="text-center">ระบบสำนักงานออนไลน์</h3>  
-      <div class="grids">
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
-            </div>
-          </div>
-        </div>  
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="ss-img">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
-            </div>
-          </div> 
-        </div>    
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="ss-img">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
-            </div>
-          </div> 
-        </div>  
-      </div>   
-    </div>
-  </section>
-
-  <!-- <?php
-    $categories = [
-      [ 
-        'title' => 'ข่าวประชาสัมพันธ์', 
-      ], [
-        'title' => 'ข่าวประกาศกรมฯ', 
-      ], [
-        'title' => 'ภาพข่าวกรมการขนส่งทางบก', 
-      ], [
-        'title' => 'คลังวิดีโอ', 
-      ], [
-        'title' => 'ประกาศรับสมัครงาน', 
-      ],
-    ];
-  ?>
-  <section class="section-padding ovf-hidden">
-    <div class="container">
-      <div class="tab-container">
-        <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
-          <?php foreach($categories as $i=>$d){?>
-            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-              <h3 class="fw-300 lh-xs text-center"><?= $d['title'] ?></h3>
-            </div>
-          <?php }?>
-        </div>
-
-        <div class="tabs tabs-03 mt-4" data-aos="fade-up" data-aos-delay="150">
-          <div class="wrapper">
-            <?php foreach($categories as $i=>$d){?>
-              <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                <p class="lg fw-400"><?= $d['title'] ?></p>
-              </div>
-            <?php }?>
-          </div>
-        </div>
-
-        <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
-          <?php foreach($categories as $i=>$d){?>
-            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-              
-              <div class="grids jc-center ai-center">
-                <div class="grid lg-80 sm-100">
-                  <div class="ss-card ss-card-06">
-                    <div class="img-container">
-                      <div class="wrapper">
-                        <div class="ss-img">
-                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/11.jpg');"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text-container">
-                      <div class="wrapper">
-                      <div class="ss-tags mb-4">
-                        <a class="tag fw-600" href="#">ข่าวประชาสัมพันธ์</a>
-                      </div>
-                      <a href="#" class="h4 title fw-400 h-color-s md-no-br">
-                        กรมการขนส่งทางบก มีความห่วงใยและ <br> เข้าใจถึงผลกระทบจากราคาพลังงานขอ 
-                        <br> ให้ผู้ประกอบการขนส่งสินค้า
-                      </a>
-                      <div class="card-footer">
-                        <div class="blocks">
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                              16 กุมภาพันธ์ 2565
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                              285
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <p class="mt-4 title fw-400 md-no-br">
-                        กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึงผลกระทบจาก <br> ราคาพลังงาน ขอให้ผู้ประกอบการขนส่งสินค้า 
-                        ผู้ขับรถบรรทุก และ <br> ผู้ขับรถแท็กซี่ แสดงออกอย่างเหมาะสมภายใต้ขอบเขตของ
-                      </p>
-                        <div class="block text-right mt-4">
-                          <a class="more" href="#">
-                            <em class="fa-solid fa-arrow-right-long"></em>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grids jc-center pt-2">
-                <?php for($j=0; $j<3; $j++){?>
-                  <div class="grid lg-1-3 sm-50">
-                    <div class="ss-card ss-card-05">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= ($i+$j+1)%4+1 ?>.jpg');"></div>
-                      </div>
-                      <div class="text-container">
-                        <a class="title p lg fw-400 h-color-05 lh-sm" href="#">
-                          กรมการขนส่งทางบก แนะ!!! เลือกใช้บริการรถจักรยานยนต์สาธารณะถูกกฎหมายสังเกตแผ่นป้ายทะเบียนสีเหลือง ผู้ขับขี่สวมเสื้อวิน 
-                        </a>
-                        <div class="card-footer">
-                          <div class="blocks">
-                            <div class="block">
-                              <p clas="sm">
-                                <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                                16 กุมภาพันธ์ 2565
-                              </p>
-                            </div>
-                            <div class="block">
-                              <p clas="sm">
-                                <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                                285
-                              </p>
-                            </div>
-                          </div>
-                          <div class="block">
-                            <a class="more" href="#">
-                              <em class="fa-solid fa-arrow-right-long"></em>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="line-1"></div><div class="line-2"></div>
-                    </div>
-                  </div>
-                <?php }?>
-              </div>
-              
-              <div class="btns jc-end pt-6">
-                <a href="#" class="btn btn-action style-02 btn-02">
-                  <span>อ่านทั้งหมด</span> 
-                  <div class="icon ml-3">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </div>
-                </a>
-              </div>
-            </div>
-          <?php }?>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-10 ovf-hidden">
-    <div class="container">
-      <h3 class="fw-300 lh-xs text-center" data-aos="fade-up" data-aos-delay="0">
-        ป้ายแบรนเนอร์
-      </h3>
+      <h3 class="text-center fw-600 color-p">ระบบสำนักงานออนไลน์</h3>  
+      <div class="bottom-line"></div>   
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
           <?php for($i=0; $i<2; $i++){?>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  คู่มือการใช้ระบบบริหารจัดการอุปกรณ์และเครื่องมือด้าน ICT สำหรับคนพิการ
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/22.png" alt="Icon" />
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/15.jpg');"></div>
+                </div>
+                <div class="card-footer d-flex">
+                  <div class="text-container">
+                    <p class="title">การอบรมต่ออายุใบอนุญาตขับรถ ( E-learning )</p>
                   </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
-                  </a>
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon/32.png" alt="Icon" />
+                  </div>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  โครงการศึกษา M-MAP ระยะที่ 2
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/23.png" alt="Icon" />
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/16.jpg');"></div>
+                </div>
+                <div class="card-footer d-flex">
+                  <div class="text-container">
+                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
                   </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon/33.png" alt="Icon" />
+                  </div>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  ข้อมูลผลการคำนวณต้นทุนต่อหน่วยผลผลิต ประจำปี
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/24.png" alt="Icon" />
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/17.jpg');"></div>
+                </div>
+                <div class="card-footer d-flex">
+                  <div class="text-container">
+                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
                   </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon/34.png" alt="Icon" />
+                  </div>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/25.png" alt="Icon" />
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/18.jpg');"></div>
+                </div>
+                <div class="card-footer d-flex">
+                  <div class="text-container">
+                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
                   </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon/35.png" alt="Icon" />
+                  </div>
                 </div>
               </div>
             </div>
           <?php }?>
         </div>
         <div class="dot-container"></div>
+        <div class="btns" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-action style-05 btn-03-02">
+            <span>ดูทั้งหมด</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right-long"></em>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="btns jc-end">
-        <a href="#" class="btn btn-action style-02 btn-02">
-          <span>อ่านทั้งหมด</span> 
-          <div class="icon ml-3">
-            <em class="fa-solid fa-arrow-right-long"></em>
+  </section>
+
+  <section class="section-14 section-padding">
+    <div class="container">
+      <h3 class="text-center fw-600 color-p">ข่าวประชาสัมพันธ์</h3>  
+      <div class="bottom-line mb-3"></div> 
+        <div class="grids jc-center">
+          <div class="grid lg-1-3">
+            <div class="ss-card ss-card-07">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/19.jpg');"></div>
+              </div>
+              <div class="text-container">
+                <div class="border-top"></div>
+                  <div class="card-footer">
+                    <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
+                      <a href="#" class="btn style-05-01 btn-03-03">
+                        <em class="fa-solid fa-arrow-right"></em> 
+                      </a>
+                    </div>
+                    <div class="blocks">
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
+                      </div>
+                    </div>
+                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
+                      ยกเลิกการเรียกภาพภ่ายบัตรประชาชนหรือภาพถ่ายสำเนาทะเบียนบ้าน
+                    </a>
+                  </div>
+                </div>
+              <div class="line-1"></div><div class="line-2"></div>
+            </div>
+          </div>    
+          <div class="grid lg-1-3">
+            <div class="ss-card ss-card-07">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
+              </div>
+              <div class="text-container">
+                <div class="border-top"></div>
+                  <div class="card-footer">
+                    <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
+                      <a href="#" class="btn style-05-01 btn-03-03">
+                        <em class="fa-solid fa-arrow-right"></em> 
+                      </a>
+                    </div>
+                    <div class="blocks">
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
+                      </div>
+                    </div>
+                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
+                    ประกาศเจตนารมณ์ เรื่อง "สุจริต โปร่งใส สำนักงานขนส่งจังหวัดสมุทรปราการใสสะอาด 2565" 
+                    และ "งดรับ งดให้" ของขวัญ ของกำนัลทุกชนิดจากการปฏิบัติหน้าที่ (์No  Gift Policy) 
+                    </a>
+                </div>
+              </div>
+              <div class="line-1"></div><div class="line-2"></div>
+            </div>
           </div>
-        </a>
-      </div>
+          <div class="grid lg-1-3">
+            <div class="ss-card ss-card-07">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/21.jpg');"></div>
+              </div>
+              <div class="text-container">
+                <div class="border-top"></div>
+                  <div class="card-footer">
+                  <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
+                    <a href="#" class="btn style-05-01 btn-03-03">
+                      <em class="fa-solid fa-arrow-right"></em> 
+                    </a>
+                    </div>
+                    <div class="blocks">
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
+                      </div>
+                    </div>
+                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
+                    นวัตกรรมใหม่: ตรวจสอบเอกสารล่วงหน้าผ่านระบบ Internet
+                  </a>
+                </div>
+              </div>
+            <div class="line-1"></div><div class="line-2"></div>
+          </div>
+          </div>
+        </div>  
+        <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-action style-05 btn-03-02">
+            <span>อ่านทั้งหมด</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right-long"></em>
+            </div>
+          </a>
+        </div>
     </div>
   </section>
 
-  <section class="section-11 section-padding">
-    <img class="pattern" src="public/assets/app/images/bg/pattern-04.png" alt="Pattern" />
+  <section class="section-15 ">
+    <div class="grids no-gap">
+      <div class="grid lg-60 mt-0" style="background:#663399; height:100%; min-height:500px;">
+        <p>Hello World 01</p>
+      </div>
+      <div class="grid lg-40 mt-0">
+        <div class="grid lg-100" style="background:red; min-height:250px;">
+          <p>Hello World 02</p>
+        </div>
+        <div class="grid lg-100" style="background:yellow; min-height:250px;">
+          <p>Hello World 03</p>
+        </div>
+      </div>      
+    </div>        
+  </div>
+  </section>
+
+  <section class="section-16 section-padding">
     <div class="container">
-      <div class="grids">
-        <div class="grid lg-40">
-        <div class="ss-img">
-          <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.png');"></div>
-        </div>   
-        </div>   
-        <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.png');"></div>
-          </div>   
-        </div>   
-        <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.png');"></div>
-          </div>   
+      <h3 class="text-center">บุคลากร</h3> 
+        <div class="grids">
+          <div class="grid lg-25">
+            <div class="ss-card ss-card-08">
+              <div class="ss-img square">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
+              </div>
+              <div class="text-container text-center">
+                <a class="p lg fw-400 h-color-05" href="#">
+                  นางสุนิสา อนันตกูล
+                </a>
+                <p class="sm desc fw-200">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
+                <div class="card-footer">
+                  <div class="socials d-flex ai-center jc-end">
+                    <a class="social" href="#">
+                      <em class="fa-brands fa-facebook-f"></em>
+                    </a>
+                    <a class="social" href="#">
+                      <em class="fa-solid fa-envelope"></em>
+                    </a>
+                    <a class="social" href="#">
+                      <em class="fa-solid fa-phone"></em>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="grid lg-25">
+            <div class="ss-card ss-card-08">
+                <div class="ss-img square">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/23.jpg');"></div>
+                </div>
+                <div class="text-container text-center">
+                  <a class="p lg fw-400 h-color-05" href="#">
+                    นายทิวัตถ์  บ่มไล่
+                  </a>
+                  <p class="sm desc fw-200">หัวหน้ากลุ่มวิชาการขนส่งกลุ่มวิชาการขนส่ง</p>
+                  <div class="card-footer">
+                    <div class="socials d-flex ai-center jc-end">
+                      <a class="social" href="#">
+                        <em class="fa-brands fa-facebook-f"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-envelope"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-phone"></em>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+            <div class="grid lg-25">
+              <div class="ss-card ss-card-08">
+                <div class="ss-img square">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/24.jpg');"></div>
+                </div>
+                <div class="text-container text-center">
+                  <a class="p lg fw-400 h-color-05" href="#">
+                    นางทัศนีย์  ธรรมวานิช
+                  </a>
+                  <p class="sm desc fw-200">หัวหน้าฝ่ายทะเบียนรถฝ่ายทะเบียนรถ</p>
+                  <div class="card-footer">
+                    <div class="socials d-flex ai-center jc-end">
+                      <a class="social" href="#">
+                        <em class="fa-brands fa-facebook-f"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-envelope"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-phone"></em>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid lg-25">
+              <div class="ss-card ss-card-08">
+                <div class="ss-img square">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/25.jpg');"></div>
+                </div>
+                <div class="text-container text-center">
+                  <a class="p lg fw-400 h-color-05" href="#">
+                    นายพลวัฒน์  อุดมพิพัฒน์
+                  </a>
+                  <p class="sm desc fw-200">หัวหน้าฝ่ายใบอนุญาตขับรถฝ่ายใบอนุญาตขับรถ</p>
+                  <div class="card-footer">
+                    <div class="socials d-flex ai-center jc-end">
+                      <a class="social" href="#">
+                        <em class="fa-brands fa-facebook-f"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-envelope"></em>
+                      </a>
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-phone"></em>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+         </div>  
+         <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-action style-05 btn-03-02">
+            <span>ข้อมูลเพิ่มเติม</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right-long"></em>
+            </div>
+          </a>
         </div>
-        <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.png');"></div>
-          </div> 
+    </div>      
+  </section>
+
+  <section class="section-17 section-padding">
+    <div class="grids">
+      <div class="grid lg-50">
+
+      </div> 
+      <div class="grid lg-50">
+        <div class="text-container">
+          <h6>แบบสำรวจความคิดเห็น</h6> 
+          <p>ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทาง <br>
+             เว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการ</p>
+          <div class="btns d-flex  mt-6" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="btn btn-action style-05 btn-03-02">
+              <span>ทำแบบสำรวจ</span> 
+            </a>
         </div>
-      </div>    
+        </div>   
+      </div>     
     </div>
-  </section> -->
+  </section>
+
    
   <?php //include_once('include/footer-01.php'); ?>
   <?php include_once('include/script.php'); ?>
