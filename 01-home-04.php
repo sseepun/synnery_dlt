@@ -44,7 +44,7 @@
 
   <section class="section-13 section-padding">
     <div class="container">
-      <h3 class="text-center fw-600 color-p">ระบบสำนักงานออนไลน์</h3>  
+      <h3 class="text-center fw-600 color-p animate">ระบบสำนักงานออนไลน์</h3>  
       <div class="bottom-line"></div>   
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
@@ -113,7 +113,7 @@
         </div>
         <div class="dot-container"></div>
         <div class="btns" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-03-02">
+          <a href="#" class="btn btn-action style-05 btn-03">
             <span>ดูทั้งหมด</span> 
             <div class="icon ml-3">
               <em class="fa-solid fa-arrow-right-long"></em>
@@ -129,7 +129,7 @@
       <div class="bottom-line mb-3"></div> 
         <div class="grids jc-center">
           <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07">
+            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
               <div class="ss-img">
                 <div class="img-bg" style="background-image:url('public/assets/app/images/content/19.jpg');"></div>
               </div>
@@ -137,7 +137,7 @@
                 <div class="border-top"></div>
                   <div class="card-footer">
                     <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                      <a href="#" class="btn style-05-01 btn-03-03">
+                      <a href="#" class="btn style-06 btn-04">
                         <em class="fa-solid fa-arrow-right"></em> 
                       </a>
                     </div>
@@ -164,7 +164,7 @@
             </div>
           </div>    
           <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07">
+            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
               <div class="ss-img">
                 <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
               </div>
@@ -172,7 +172,7 @@
                 <div class="border-top"></div>
                   <div class="card-footer">
                     <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                      <a href="#" class="btn style-05-01 btn-03-03">
+                      <a href="#" class="btn style-06 btn-04">
                         <em class="fa-solid fa-arrow-right"></em> 
                       </a>
                     </div>
@@ -200,7 +200,7 @@
             </div>
           </div>
           <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07">
+            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
               <div class="ss-img">
                 <div class="img-bg" style="background-image:url('public/assets/app/images/content/21.jpg');"></div>
               </div>
@@ -208,7 +208,7 @@
                 <div class="border-top"></div>
                   <div class="card-footer">
                   <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                    <a href="#" class="btn style-05-01 btn-03-03">
+                    <a href="#" class="btn style-06 btn-04">
                       <em class="fa-solid fa-arrow-right"></em> 
                     </a>
                     </div>
@@ -236,7 +236,7 @@
           </div>
         </div>  
         <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-03-02">
+          <a href="#" class="btn btn-action style-05 btn-03">
             <span>อ่านทั้งหมด</span> 
             <div class="icon ml-3">
               <em class="fa-solid fa-arrow-right-long"></em>
@@ -268,7 +268,7 @@
       <h3 class="text-center">บุคลากร</h3> 
         <div class="grids">
           <div class="grid lg-25">
-            <div class="ss-card ss-card-08">
+            <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
               <div class="ss-img square">
                 <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
               </div>
@@ -294,7 +294,7 @@
             </div>
           </div>    
           <div class="grid lg-25">
-            <div class="ss-card ss-card-08">
+            <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/23.jpg');"></div>
                 </div>
@@ -320,7 +320,7 @@
               </div>
            </div>
             <div class="grid lg-25">
-              <div class="ss-card ss-card-08">
+              <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/24.jpg');"></div>
                 </div>
@@ -346,7 +346,7 @@
               </div>
             </div>
             <div class="grid lg-25">
-              <div class="ss-card ss-card-08">
+              <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/25.jpg');"></div>
                 </div>
@@ -373,7 +373,7 @@
             </div>
          </div>  
          <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-03-02">
+          <a href="#" class="btn btn-action style-05 btn-03">
             <span>ข้อมูลเพิ่มเติม</span> 
             <div class="icon ml-3">
               <em class="fa-solid fa-arrow-right-long"></em>
