@@ -170,13 +170,9 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 select{padding:.59375rem .875rem;}
 input[type=file]{padding:.25rem .875rem .25rem .25rem;}
 
-/* input[type=text].md, input[type=email].md, input[type=password].md, input[type=date].md, 
-input[type=tel].md, input[type=number].md, input[type=phone].md, input[type=submit].md, 
-input[type=file].md, select.md, textarea.md{font-size:1rem; padding:.625rem 1rem; height:auto;}
-
 input[type=text].sm, input[type=email].sm, input[type=password].sm, input[type=date].sm, 
 input[type=tel].sm, input[type=number].sm, input[type=phone].sm, input[type=submit].sm, 
-input[type=file].sm, select.sm, textarea.sm{font-size:.875rem; padding:.25rem .875rem; height:auto;} */
+input[type=file].sm, select.sm, textarea.sm{font-size:1.125rem; padding:.4375rem .75rem;}
 
 /* Input Icon */
 .input-icon{position:relative; display:flex; border-radius:.25rem; padding:1.6px;}
@@ -191,6 +187,7 @@ input[type=file].sm, select.sm, textarea.sm{font-size:.875rem; padding:.25rem .8
     background:transparent; border:0; box-shadow:none; padding:0; margin:0; cursor:pointer;
     font-size:.9375rem;
 }
+.input-icon > input.sm + .icon{height:auto;}
 
 
 /* Radio & Checkbox Container */
