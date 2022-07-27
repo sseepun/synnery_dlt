@@ -393,7 +393,7 @@
           <div class="grid lg-50 mt-0">
             <div class="text-container">
               <h6 class="color-05">แบบสำรวจความคิดเห็น</h6> 
-              <p>ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทาง <br>
+              <p class="mt-2">ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทาง <br>
                   เว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร</p>
                   <fieldset class="d-flex mt-3">
                     <?php foreach(['พอใช้', 'ปานกลาง', 'มาก', 'มากที่สุด'] as $i=>$d){?>
@@ -403,7 +403,7 @@
                       </div>
                     <?php }?>
                 </fieldset>  
-              <div class="btns d-flex  mt-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="btns d-flex mt-5" data-aos="fade-up" data-aos-delay="300">
                 <a href="#" class="btn btn-action style-05 btn-05">
                   <span>ทำแบบสำรวจ</span> 
                 </a>
