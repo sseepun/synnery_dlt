@@ -706,7 +706,7 @@
 .section-18{position:relative;}
 .section-18 .slide-container{position:relative; margin:2.5rem 0 0 0;}
 .section-18 .section-card{
-    display:flex; flex-direction:column; justify-content:center; height:100%; padding:.5rem; 
+    display:flex; flex-direction:column; justify-content:center; height:100%; padding:2rem .5rem 0 .5rem; 
     transition:background .25s, color .25s;
 }
 .section-18 .section-card > .card-footer .text-container .title{

@@ -857,7 +857,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 /* Special Card 09 */
-.ss-card-09{z-index:1;}
+.ss-card-09{position:relative;}
 .ss-card-09 .text-container{border-radius:0 0 .5rem .5rem; padding:.5rem 1rem;}
 .ss-card-09 .image-container{position: relative; margin-top:-2rem; z-index:2;}
 .ss-card-09 .text-container > .image-container img{width:3.125rem; height:3.125rem;}

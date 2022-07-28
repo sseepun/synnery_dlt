@@ -426,7 +426,7 @@
                 <div class="ss-card ss-card-09">
                   <div class="text-container">
                     <div class="image-container">
-                      <img src="public/assets/app/images/content/01.png" />
+                      <img src="public/assets/app/images/content/01.png" class="img"/>
                     </div>
                     <a href="#" class="title p sm fw-400 mt-4">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
                     <div class="card-footer">
