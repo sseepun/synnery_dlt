@@ -687,6 +687,7 @@
 
 
 /* Section 16 */
+.section-16{position:relative;}
 .section-16.section-padding{padding:4rem 0 12rem 0 !important;}
 .section-16 .ss-card .desc{min-height:3rem;}
 .section-16 .socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
@@ -698,16 +699,17 @@
 
 
 /* Section 17 */
+.section-17.section-padding{padding:0 0 20rem 0 !important;}
 .section-17 .text-container{padding:2rem;}
-.section-17 .opinion-poll{border-radius:.5rem; overflow:hidden; margin-top:-12rem;}
+.section-17 .opinion-poll{border-radius:.5rem; overflow:hidden; margin-top:-7rem;}
 
 
 /* Section 18 */
-.section-18{position:relative;}
+.section-18{position:relative; margin-top:-17rem; z-index:2;}
 .section-18 .slide-container{position:relative; margin:2.5rem 0 0 0;}
 .section-18 .section-card{
     display:flex; flex-direction:column; justify-content:center; height:100%; padding:2rem .5rem 2rem .5rem; 
-    transition:background .25s, color .25s;
+    transition:background .25s, color .25s; z-index:2;
 }
 .section-18 .section-card > .card-footer .text-container .title{
     display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp:2;
@@ -733,6 +735,16 @@
     }
 }
 
+
+/* Section 20 */
+.section-20{position:relative;}
+.section-20 .card-contact{position:relative; z-index:3;}
+.section-20 .socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
+.section-20 .socials > .social{
+  position:relative; display:flex; align-items:center; justify-content:center;
+  overflow:hidden; width:2.25rem; height:2.25rem; border-radius:50%; font-size:1.125rem; margin:.375rem .375rem 0 0;
+  transition:background .5s, color .5s, border-color .5s, background-image .25s;
+}
 
 /* Tab Container */
 .tab-container{position:relative; display:block; width:100%;}

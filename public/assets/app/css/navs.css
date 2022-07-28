@@ -360,6 +360,7 @@ nav.footer .footer-socials > .social::after{
   nav.footer .title-sep::before{top:1.125rem; left:6.875rem; right:6.125rem;}
 }
 
+
 /* Footer Style 01 */
 nav.footer.style-01{position:relative; width:100%; padding:2.5rem 0; overflow:hidden;}
 nav.footer.style-01 > .container{position:relative;}
@@ -492,6 +493,39 @@ nav.footer.style-03 .count-web > *:last-child{border-right:1px solid transparent
 @media screen and (max-width:575.98px){
   nav.footer.style-03 .footer-bottom .wrapper{justify-content:center; flex-wrap:wrap;}
   nav.footer.style-03 .copyright{width:100%; text-align:center;}
+}
+
+
+/* Footer Style 05 */
+nav.footer.style-05{
+  position:relative; width:100%; padding:2.5rem 0 .5rem 0; overflow:hidden; 
+  margin-top:-7rem; z-index:1;
+}
+nav.footer.style-05 > .container{position:relative;}
+nav.footer.style-05 > .pattern{
+  display:block; height:37rem; width:auto; position:absolute; 
+  bottom:-1.5rem; left:-5.5rem;
+}
+nav.footer.style-05 .footer-line{position:absolute; bottom:2.5rem; width:100%; height:1px;}
+nav.footer.style-05 .footer-copyright{margin-top:3rem;}
+@media screen and (max-width:1299.98px){
+  nav.footer.style-05 > .pattern{height:35rem; bottom:-14rem; right:-11rem;}
+}
+@media screen and (max-width:1199.98px){
+  nav.footer.style-05{padding:2rem 0;}
+  nav.footer.style-05 > .pattern{height:32rem; bottom:-12rem; right:-10rem;}
+}
+@media screen and (max-width:991.98px){
+  nav.footer.style-05{padding:1.5rem 0 2rem 0;}
+  nav.footer.style-05 > .pattern{display:none;}
+  nav.footer.style-05 .footer-copyright{display:flex; justify-content:center;}
+}
+@media screen and (max-width:767.98px){
+  nav.footer.style-05{padding:1.25rem 0 2rem 0;}
+  nav.footer.style-05 > .pattern{height:28rem; bottom:-11rem; right:-9rem;}
+}
+@media screen and (max-width:575.98px){
+  nav.footer.style-05 > .pattern{height:25rem; bottom:-10rem; right:-10rem;}
 }
 
 

@@ -4,6 +4,20 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
+<!-- Swiper Style -->
+<style>
+.swiper-container {
+	width: 100%;height: 28vw; transition: opacity .6s ease;
+}
+.swiper-slide {
+	background-position: center; background-size: cover; background-repeat:no-repeat;
+}
+.swiper-slide .text-container {
+	position: absolute; bottom:2rem; left: 0; width: 100%; 
+  text-align:center;
+}
+.btn-swiper .btn{cursor:pointer;}
+</style>
 <body class="loading bg-sgray">
   <?php // include_once('include/page-loader.php'); ?>
   <?php // include_once('include/topnav.php'); ?>
@@ -580,50 +594,153 @@
 </section>
 
 <section class="section-19">
-  
+  <div class="swiper-container"> 
+   <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)">
+      <div class="text-container">
+        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+      </div>
+    </div>
+    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1477948879622-5f16e220fa42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
+      <div class="text-container">
+        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+      </div>
+    </div>
+    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
+      <div class="text-container">
+        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="btn-swiper mt-6 pt-6">
+    <div class="d-flex jc-center ai-center mt-4">
+      <a class="btn style-06 btn-04 bg-08 btn-prev">
+        <div class="icon">
+          <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
+        </div>     
+      </a> 
+      <a class="btn style-06 btn-04 bg-08 btn-next">
+        <div class="icon">
+          <em class="fa-solid fa-arrow-right color-white btn-next"></em>
+        </div>     
+      </a>      
+    </div>  
+  </div>
 </section>
 
 <section class="section-20 section-padding">
   <div class="container">
-    <div class="grids">
-      <div class="grid lg-80">
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="icon">
-
+    <div class="card-contact">
+      <div class="grids jc-center">
+        <div class="grid lg-60">
+          <div class="grids no-gap">
+            <div class="grid lg-1-3 mt-0 p-1">
+              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-01">
+                <div class="icon d-flex ai-center">
+                  <div class="socials d-flex ai-center jc-end">
+                    <a class="social" href="#">
+                      <em class="fa-solid fa-phone"></em>
+                    </a>
+                  </div>
+                </div>
+                <div class="text-container d-flex flex-column  jc-center">
+                  <p>โทรศัพท์</p>
+                  <p>0-2323-4060</p>
+                </div>
+              </div>
             </div>
-            <div class="text-container">
-
+            <div class="grid lg-1-3 mt-0 p-1">
+            <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-02">
+              <div class="icon d-flex ai-center">
+              <div class="socials d-flex ai-center jc-end">
+                <a class="social" href="#">
+                  <em class="fa-solid fa-fax"></em>
+                </a>
+              </div>
+              </div>
+              <div class="text-container">
+                <p>โทรศัพท์</p>
+                <p>0-2323-4060</p>
+                <p>0-2323-3619</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="icon">
-
-            </div>
-            <div class="text-container">
-
-            </div>
-          </div>
-        </div>
-        <div class="grid lg-1-3">
-          <div class="ss-card">
-            <div class="icon">
-
-            </div>
-            <div class="text-container">
-
+          <div class="grid lg-1-3 mt-0 p-1">
+            <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-03">
+              <div class="icon">
+              <div class="socials d-flex ai-center jc-end">
+                <a class="social" href="#">
+                  <em class="fa-solid fa-envelope"></em>
+                </a>
+              </div>
+              </div>
+              <div class="text-container">
+                <p>อีเมล</p>
+                <p>dltspk@gmail.com</p>
+                <p>dlt_spk@hotmail.co.th</p>
+              </div>
             </div>
           </div>
+          </div>
         </div>
-      </div>
-    </div>        
+      </div> 
+    </div>       
   </div>
 </section>
 
    
-  <?php //include_once('include/footer-01.php'); ?>
+  <?php include_once('include/footer-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+  <script>
+    // Params
+    var sliderSelector = '.swiper-container',
+    options = {
+      init: false,
+      loop: true,
+      speed:800,
+      slidesPerView: 2, // or 'auto'
+      // spaceBetween: 10,
+      centeredSlides : true,
+      effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+      coverflowEffect: {
+        rotate: 0, // Slide rotate in degrees
+        stretch: 0, // Stretch space between slides (in px)
+        depth: 100, // Depth offset in px (slides translate in Z axis)
+        modifier: 1, // Effect multipler
+        slideShadows : true, // Enables slides shadows
+      },
+      grabCursor: true,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.btn-prev',
+        prevEl: '.btn-next',
+      },
+      breakpoints: {
+        1023: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        }
+      },
+      // Events
+      on: {
+        imagesReady: function(){
+          this.el.classList.remove('loading');
+        }
+      }
+    };
+var mySwiper = new Swiper(sliderSelector, options);
+
+// Initialize slider
+mySwiper.init();
+    </script>
 </body>
 </html>
