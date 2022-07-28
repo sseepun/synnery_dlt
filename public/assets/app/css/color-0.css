@@ -345,7 +345,11 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Special Card 08 */
 .ss-card-08 .text-container{background:#663399; color:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
 
-
+/* Special Card 09 */
+.ss-card-09 .text-container{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-09 .card-footer{border-color:#dcdce0;}
+.ss-card-09 .card-footer .icon{color:#663399;}
+.ss-card-09 .card-footer .block::after{background:#dcdce0;}
 
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
@@ -497,6 +501,11 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Section 17 */
 .section-17{background:#ebedf0;}
 .section-17 .text-container{background:#663399; color:#ffffff;}
+
+
+/* Section 18 */
+.section-18 .slick-dots button{background:#e1e1e1;}
+.section-18 .slick-dots li.slick-active button{background:#663399;}
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,

@@ -116,7 +116,7 @@
           <a href="#" class="btn btn-action style-05 btn-05">
             <span>ดูทั้งหมด</span> 
             <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right-long"></em>
+              <em class="fa-solid fa-arrow-right"></em>
             </div>
           </a>
         </div>
@@ -239,7 +239,7 @@
           <a href="#" class="btn btn-action style-05 btn-05">
             <span>อ่านทั้งหมด</span> 
             <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right-long"></em>
+              <em class="fa-solid fa-arrow-right"></em>
             </div>
           </a>
         </div>
@@ -376,7 +376,7 @@
           <a href="#" class="btn btn-action style-05 btn-05">
             <span>ข้อมูลเพิ่มเติม</span> 
             <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right-long"></em>
+              <em class="fa-solid fa-arrow-right"></em>
             </div>
           </a>
         </div>
@@ -390,30 +390,237 @@
           <div class="grid lg-50 mt-0" style="background-image:url('public/assets/app/images/content/26.jpg');
           background-size:cover; background-repeat:no-repeat; background-position:center;"> 
           </div> 
-          <div class="grid lg-50 mt-0">
-            <div class="text-container">
-              <h6 class="color-05">แบบสำรวจความคิดเห็น</h6> 
+            <div class="grid lg-50 mt-0">
+              <div class="text-container">
+                <h6 class="color-05">แบบสำรวจความคิดเห็น</h6> 
                 <p class="mt-2">ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทาง <br>
-                  เว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร</p>
-                <fieldset class="d-flex mt-3">
-                  <?php foreach(['พอใช้', 'ปานกลาง', 'มาก', 'มากที่สุด'] as $i=>$d){?>
-                    <div class="rc-container">
-                      <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
-                      <label for="poll_<?= $i ?>"><?= $d ?></label>
-                    </div>
-                  <?php }?>
-              </fieldset>  
-              <div class="btns d-flex mt-5" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btn btn-action style-05 btn-05">
-                  <span>ทำแบบสำรวจ</span> 
-                </a>
-              </div>
-            </div>   
+                    เว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร</p>
+                    <fieldset class="d-flex mt-3">
+                      <?php foreach(['พอใช้', 'ปานกลาง', 'มาก', 'มากที่สุด'] as $i=>$d){?>
+                        <div class="rc-container">
+                          <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
+                          <label for="poll_<?= $i ?>"><?= $d ?></label>
+                        </div>
+                      <?php }?>
+                  </fieldset>  
+                  <div class="btns d-flex mt-5" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#" class="btn btn-action style-05 btn-05">
+                      <span>ทำแบบสำรวจ</span> 
+                    </a>
+                </div>
+              </div>   
           </div>     
         </div>    
       </div>    
     </div>
   </section>
+
+  <section class="section-18 section-padding">
+    <div class="container">
+      <h3 class="text-center fw-600 animate">กระดานถามตอบ</h3>     
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="slides">
+          <?php for($i=0; $i<2; $i++){?>
+            <div class="slide">
+              <div class="section-card" href="#">
+                <div class="ss-card ss-card-09">
+                  <div class="text-container">
+                    <div class="image-container">
+                      <img src="public/assets/app/images/content/01.png" />
+                    </div>
+                    <a href="#" class="title p sm fw-400 mt-4">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
+                    <div class="card-footer">
+                      <p class="xs fw-500 lh-3xs mt-4">ภานุมาศ รักเกียรติเผ่า</p>
+                      <div class="blocks">
+                        <div class="block">
+                          <p clas="sm">
+                            <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                            16 กุมภาพันธ์ 2565
+                          </p>
+                        </div>
+                        <div class="block">
+                          <p clas="sm">
+                            <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                             12
+                          </p>
+                        </div>
+                        <div class="block">
+                          <p clas="sm">
+                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                            285
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line-1"></div><div class="line-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+             <div class="section-card" href="#">
+              <div class="ss-card ss-card-09">
+                <div class="text-container">
+                  <div class="image-container">
+                    <img src="public/assets/app/images/content/02.png" />
+                  </div>
+                  <a href="#" class="title p sm fw-400 mt-4">เป็นโรคหลอดเลือดสมองไปต่อใบขับขี่ได้หรือไม่</a>
+                  <div class="card-footer">
+                    <p class="xs fw-500 lh-3xs mt-4">ณัฐชนน สุทธิพิบูลย์</p>
+                    <div class="blocks">
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                            12
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="line-1"></div><div class="line-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="section-card" href="#">
+            <div class="ss-card ss-card-09">
+              <div class="text-container">
+                <div class="image-container">
+                  <img src="public/assets/app/images/content/03.png" />
+                </div>
+                <a href="#" class="title p sm fw-400 mt-4">เลื่อนวันรับใบขับขี่ที่เคยจองไว้</a>
+                <div class="card-footer">
+                  <p class="xs fw-500 lh-3xs mt-4">สุภาวดี ดีพุ่ม</p>
+                  <div class="blocks">
+                    <div class="block">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                        16 กุมภาพันธ์ 2565
+                      </p>
+                    </div>
+                    <div class="block">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                          12
+                      </p>
+                    </div>
+                    <div class="block">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                        285
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="line-1"></div><div class="line-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="section-card" href="#">
+          <div class="ss-card ss-card-09">
+            <div class="text-container">
+              <div class="image-container">
+                <img src="public/assets/app/images/content/04.png" />
+              </div>
+              <a href="#" class="title p sm fw-400 mt-4">เห็นประกาศปิดตึกที่ต่อใบขับขี่ 1 เมษายน แล้ว เดือนพฤษภาคม จะเปิดรึยังคะ</a>
+              <div class="card-footer">
+                <p class="xs fw-500 lh-3xs mt-4">ณัฐธิดา รัตนพฤกษ์</p>
+                <div class="blocks">
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                      16 กุมภาพันธ์ 2565
+                    </p>
+                  </div>
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                        12
+                    </p>
+                  </div>
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                      285
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="line-1"></div><div class="line-2"></div>
+        </div>
+      </div>
+    </div>
+      <?php }?>
+    </div>
+    <div class="dot-container"></div>
+    <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
+      <a href="#" class="btn btn-action style-05 btn-05">
+        <span>อ่านทั้งหมด</span> 
+        <div class="icon ml-3">
+          <em class="fa-solid fa-arrow-right"></em>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section-19">
+  
+</section>
+
+<section class="section-20 section-padding">
+  <div class="container">
+    <div class="grids">
+      <div class="grid lg-80">
+        <div class="grid lg-1-3">
+          <div class="ss-card">
+            <div class="icon">
+
+            </div>
+            <div class="text-container">
+
+            </div>
+          </div>
+        </div>
+        <div class="grid lg-1-3">
+          <div class="ss-card">
+            <div class="icon">
+
+            </div>
+            <div class="text-container">
+
+            </div>
+          </div>
+        </div>
+        <div class="grid lg-1-3">
+          <div class="ss-card">
+            <div class="icon">
+
+            </div>
+            <div class="text-container">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </div>
+</section>
 
    
   <?php //include_once('include/footer-01.php'); ?>

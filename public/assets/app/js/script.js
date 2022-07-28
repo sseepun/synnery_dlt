@@ -495,7 +495,7 @@ $(function(){ 'use strict';
         });
     }
 
-    // Section 10
+    // Section 13
     var section13 = $('.section-13');
     if(section13.length){
         section13.find('.slide-container').each(function(){
@@ -514,6 +514,24 @@ $(function(){ 'use strict';
         });
     }
 
+     // Section 18
+     var section18 = $('.section-18');
+     if(section18.length){
+         section18.find('.slide-container').each(function(){
+             var self = $(this);
+             self.find('> .slides').slick({
+                 centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                 swipeToSlide: true, infinite: true,
+                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                 responsive: [
+                     { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                     { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                     { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                 ]
+             });
+         });
+     }
 
     // Footer Style 02
     var footerStyle02 = $('nav.footer.style-02');
