@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="grid lg-50 sm-100 mt-2">
-          <div class="d-flex ai-center h-full">
+          <div class="d-flex ai-center jc-center h-full">
             <p class="xs fw-100">ผู้เยี่ยมชมวันนี้ <span class="h4 ml-1">831</span></p>
             <p class="xs fw-100 ml-3">ผู้เยี่ยมชมทั้งหมด <span class="h4 ml-1">942,675</span></p>
           </div>

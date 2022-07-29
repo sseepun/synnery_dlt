@@ -4,7 +4,7 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading bg-sgray">
+<body class="loading">
   <?php // include_once('include/page-loader.php'); ?>
   <?php // include_once('include/topnav.php'); ?>
 
@@ -250,50 +250,172 @@
     <div class="container">
       <div class="blocks">
         <div class="block">
-          <div class="img-bg" style="background:red;"></div>
-          <div class="text-wrapper">
-            <h5 class="color-white">ข่าวประกาศ</h5>
-            <div class="bottom-line ml-0"></div>
-            <div class="mt-3">
-              <div class="icon">
-
+          <div class="img-bg" style="background-image:url('public/assets/app/images/content/32.jpg');"></div>
+            <div class="text-wrapper">
+              <h5 class="color-white">ข่าวประกาศ</h5>
+              <div class="bottom-line ml-0"></div>
+              <div class="d-flex mt-6 bottom-line-style-02">
+                <div class="icon-main">
+                  <img src="public/assets/app/images/icon/36.png" alt="Icon" />
+                </div>
+                <div class="text-container d-flex flex-column jc-center ml-3">
+                  <p class="color-white">
+                    รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                    การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
+                  </p>
+                  <div class="card-footer">
+                    <div class="blocks-icon">
+                      <div class="block-icon">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block-icon">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          248
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="text-container">
+              <div class="d-flex mt-6 bottom-line-style-02">
+              <div class="icon-main">
+                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
+              </div>
+              <div class="text-container d-flex flex-column jc-center ml-3">
                 <p class="color-white">
                   รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
                   การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
                 </p>
                 <div class="card-footer">
-                  <div class="blocks">
-                    <div class="block">
+                  <div class="blocks-icon">
+                    <div class="block-icon">
                       <p clas="sm">
                         <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                         16 กุมภาพันธ์ 2565
                       </p>
                     </div>
-                    <div class="block">
+                    <div class="block-icon">
                       <p clas="sm">
                         <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                        285
+                        248
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="d-flex mt-6 bottom-line-style-02">
+              <div class="icon-main">
+                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
+              </div>
+              <div class="text-container d-flex flex-column jc-center ml-3">
+                <p class="color-white">
+                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
+                </p>
+                <div class="card-footer">
+                  <div class="blocks-icon">
+                    <div class="block-icon">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                        16 กุมภาพันธ์ 2565
+                      </p>
+                    </div>
+                    <div class="block-icon">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                        248
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mt-6 bottom-line-style-02">
+              <div class="icon-main">
+                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
+              </div>
+              <div class="text-container d-flex flex-column jc-center ml-3">
+                <p class="color-white">
+                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
+                </p>
+                <div class="card-footer">
+                  <div class="blocks-icon">
+                    <div class="block-icon">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                        16 กุมภาพันธ์ 2565
+                      </p>
+                    </div>
+                    <div class="block-icon">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                        248
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            </div>
+            <div class="btns d-flex jc-end pt-6" data-aos="fade-up" data-aos-delay="300">
+                <a href="#" class="btn btn-action style-05 btn-05">
+                  <span>อ่านทั้งหมด</span> 
+                  <div class="icon ml-3">
+                    <em class="fa-solid fa-arrow-right"></em>
+                  </div>
+                </a>
+              </div>
         </div>
         <div class="subblocks">
           <div class="subblock">
-            <div class="img-bg" style="background:blue;"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/content/33.jpg');"></div>
             <div class="text-wrapper">
-              <p>Hello World 02</p>
+              <h5 class="color-white">งานด้านทะเบียนรถ</h5>
+              <div class="bottom-line ml-0"></div>
+              <p class="lg mt-6">กระบวนงานที่เปิดให้บริการ</p>
+              <ol class="pl-5">
+                <li>งานรับชำระภาษีประจำปี รถยนต์ รถจักรยานยนต์</li>
+                <li>การแจ้งย้ายรถออก</li>
+                <li>การแจ้งไม่ใช้รถชั่วคราว แจ้งไม่ใช้รถตลอดไป</li>
+                <li>การแก้ไขรายการ ชื่อ - สกุล ที่อยู่</li>
+                <li>การขอตรวจสอบข้อมูลทะเบียนรถ</li>
+                <li>การออกใบแทน กรณีชำรุด/สูญหาย</li>
+              </ol>
+              <div class="btns mt-4 animate" style="--delay:.7s;">
+                <a href="#" class="btn btn-action style-05 btn-03">
+                  <span>ข้อมูลเพิ่มเติม</span> 
+                  <div class="icon ml-3">
+                    <em class="fa-solid fa-arrow-right"></em>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           <div class="subblock">
-            <div class="img-bg" style="background:yellow;"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/content/34.jpg');"></div>
             <div class="text-wrapper">
-              <p>Hello World 02</p>
+              <h5 class="color-white">งานด้านทะเบียนรถ</h5>
+              <div class="bottom-line ml-0"></div>
+              <p class="lg mt-6">กระบวนงานที่จองคิวผ่านแอป</p>
+              <ol class="pl-5">
+                <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
+                <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
+              </ol>
+              <div class="btns mt-4 animate" style="--delay:.7s;">
+                <a href="#" class="btn btn-action style-05 btn-03">
+                  <span>ข้อมูลเพิ่มเติม</span> 
+                  <div class="icon ml-3">
+                    <em class="fa-solid fa-arrow-right"></em>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>    
@@ -672,7 +794,7 @@
     <div class="container">
       <div class="card-contact">
         <div class="grids jc-center">
-          <div class="grid lg-60">
+          <div class="grid lg-90 ">
             <div class="grids no-gap">
               <div class="grid lg-1-3 mt-0 p-1">
                 <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-01">

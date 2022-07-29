@@ -397,6 +397,31 @@ $(function(){ 'use strict';
          });
      }
 
+      // Banner 05
+      var banner05 = $('.banner-05');
+      if(banner05.length){
+          banner05.each(function(){
+              var self = $(this),
+                  options = {
+                      centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                      focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                      dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                      prevArrow: self.find('.arrow.arrow-prev'),
+                      nextArrow: self.find('.arrow.arrow-next'),
+                  };
+              if(self.hasClass('img-only')){
+                  options = {
+                      centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                      focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                      dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                      prevArrow: self.find('.arrow.arrow-prev'),
+                      nextArrow: self.find('.arrow.arrow-next'),
+                  };
+              }
+              self.find('.slides').slick(options);
+          });
+      }
+
     
     // Info 01
     var info01 = $('.info-01');
@@ -514,6 +539,7 @@ $(function(){ 'use strict';
         });
     }
 
+
      // Section 18
      var section18 = $('.section-18');
      if(section18.length){
@@ -532,6 +558,27 @@ $(function(){ 'use strict';
              });
          });
      }
+
+
+     
+    // Section 22
+    var section22 = $('.section-22');
+    if(section22.length){
+        section22.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: '0px', slidesToShow: 6,
+                swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                ]
+            });
+        });
+    }
 
     // Footer Style 02
     var footerStyle02 = $('nav.footer.style-02');
