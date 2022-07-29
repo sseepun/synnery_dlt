@@ -260,20 +260,52 @@
     </div>
   </section>
 
-  <section class="section-15 ">
-    <div class="grids no-gap">
-      <div class="grid lg-60 mt-0" style="background:#663399; height:100%; min-height:500px;">
-        <p>Hello World 01</p>
-      </div>
-      <div class="grid lg-40 mt-0">
-        <div class="grid lg-100" style="background:red; min-height:250px;">
-          <p>Hello World 02</p>
+  <section class="section-15">
+    <div class="container">
+      <div class="grids no-gap">
+        <div class="grid lg-60 mt-0" style="background:#663399; height:100%; min-height:500px;">
+          <div class="block main">
+            <h5 class="color-white">ข่าวประกาศ</h5>
+            <div class="bottom-line ml-0"></div>
+            <div class="mt-3">
+              <div class="icon">
+
+              </div>
+              <div class="text-container">
+                <p class="color-white">
+                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
+                </p>
+                <div class="card-footer">
+                  <div class="blocks">
+                    <div class="block">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                        16 กุมภาพันธ์ 2565
+                      </p>
+                    </div>
+                    <div class="block">
+                      <p clas="sm">
+                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                        285
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="grid lg-100" style="background:yellow; min-height:250px;">
-          <p>Hello World 03</p>
-        </div>
-      </div>      
-    </div>        
+        <div class="grid lg-40 mt-0">
+          <div class="grid lg-100" style="background:red; min-height:250px;">
+            <p>Hello World 02</p>
+          </div>
+          <div class="grid lg-100" style="background:yellow; min-height:250px;">
+            <p>Hello World 03</p>
+          </div>
+        </div>      
+      </div> 
+    </div>       
   </div>
   </section>
 

@@ -504,6 +504,13 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-14{background:#ffffff;}
 
 
+/* Section 15 */
+.section-15 .block{border-bottom:1px solid #8a66ae;}
+.section-15 .block.main::before{background:#663399;}
+.section-15 .text-container{color:#ffffff;}
+.section-15 .card-footer .icon{color:#ffffff;}
+.section-15 .card-footer .block::after{background:#b399cc;}
+
 /* Section 16 */
 .section-16{background:#ffffff;}
 .section-16 .socials > .social{
