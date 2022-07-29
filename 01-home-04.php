@@ -4,20 +4,6 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<!-- Swiper Style -->
-<style>
-.swiper-container {
-	width: 100%;height: 28vw; transition: opacity .6s ease;
-}
-.swiper-slide {
-	background-position: center; background-size: cover; background-repeat:no-repeat;
-}
-.swiper-slide .text-container {
-	position: absolute; bottom:2rem; left: 0; width: 100%; 
-  text-align:center;
-}
-.btn-swiper .btn{cursor:pointer;}
-</style>
 <body class="loading bg-sgray">
   <?php // include_once('include/page-loader.php'); ?>
   <?php // include_once('include/topnav.php'); ?>
@@ -262,9 +248,10 @@
 
   <section class="section-15">
     <div class="container">
-      <div class="grids no-gap">
-        <div class="grid lg-60 mt-0" style="background:#663399; height:100%; min-height:500px;">
-          <div class="block main">
+      <div class="blocks">
+        <div class="block">
+          <div class="img-bg" style="background:red;"></div>
+          <div class="text-wrapper">
             <h5 class="color-white">ข่าวประกาศ</h5>
             <div class="bottom-line ml-0"></div>
             <div class="mt-3">
@@ -296,14 +283,20 @@
             </div>
           </div>
         </div>
-        <div class="grid lg-40 mt-0">
-          <div class="grid lg-100" style="background:red; min-height:250px;">
-            <p>Hello World 02</p>
+        <div class="subblocks">
+          <div class="subblock">
+            <div class="img-bg" style="background:blue;"></div>
+            <div class="text-wrapper">
+              <p>Hello World 02</p>
+            </div>
           </div>
-          <div class="grid lg-100" style="background:yellow; min-height:250px;">
-            <p>Hello World 03</p>
+          <div class="subblock">
+            <div class="img-bg" style="background:yellow;"></div>
+            <div class="text-wrapper">
+              <p>Hello World 02</p>
+            </div>
           </div>
-        </div>      
+        </div>    
       </div> 
     </div>       
   </div>
@@ -504,222 +497,236 @@
               </div>
             </div>
             <div class="slide">
-             <div class="section-card" href="#">
-              <div class="ss-card ss-card-09">
-                <div class="text-container">
-                  <div class="image-container">
-                    <img src="public/assets/app/images/content/02.png" />
-                  </div>
-                  <a href="#" class="title p sm fw-400 mt-4">เป็นโรคหลอดเลือดสมองไปต่อใบขับขี่ได้หรือไม่</a>
-                  <div class="card-footer">
-                    <p class="xs fw-500 lh-3xs mt-4">ณัฐชนน สุทธิพิบูลย์</p>
-                    <div class="blocks">
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
+                <div class="section-card" href="#">
+                  <div class="ss-card ss-card-09">
+                    <div class="text-container">
+                      <div class="image-container">
+                        <img src="public/assets/app/images/content/02.png" />
                       </div>
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                            12
-                        </p>
+                      <a href="#" class="title p sm fw-400 mt-4">เป็นโรคหลอดเลือดสมองไปต่อใบขับขี่ได้หรือไม่</a>
+                      <div class="card-footer">
+                        <p class="xs fw-500 lh-3xs mt-4">ณัฐชนน สุทธิพิบูลย์</p>
+                        <div class="blocks">
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                              16 กุมภาพันธ์ 2565
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                                12
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                              285
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          285
-                        </p>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              <div class="line-1"></div><div class="line-2"></div>
-            </div>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="section-card" href="#">
-            <div class="ss-card ss-card-09">
-              <div class="text-container">
-                <div class="image-container">
-                  <img src="public/assets/app/images/content/03.png" />
-                </div>
-                <a href="#" class="title p sm fw-400 mt-4">เลื่อนวันรับใบขับขี่ที่เคยจองไว้</a>
-                <div class="card-footer">
-                  <p class="xs fw-500 lh-3xs mt-4">สุภาวดี ดีพุ่ม</p>
-                  <div class="blocks">
-                    <div class="block">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                        16 กุมภาพันธ์ 2565
-                      </p>
-                    </div>
-                    <div class="block">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                          12
-                      </p>
-                    </div>
-                    <div class="block">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                        285
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <div class="line-1"></div><div class="line-2"></div>
-          </div>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="section-card" href="#">
-          <div class="ss-card ss-card-09">
-            <div class="text-container">
-              <div class="image-container">
-                <img src="public/assets/app/images/content/04.png" />
-              </div>
-              <a href="#" class="title p sm fw-400 mt-4">เห็นประกาศปิดตึกที่ต่อใบขับขี่ 1 เมษายน แล้ว เดือนพฤษภาคม จะเปิดรึยังคะ</a>
-              <div class="card-footer">
-                <p class="xs fw-500 lh-3xs mt-4">ณัฐธิดา รัตนพฤกษ์</p>
-                <div class="blocks">
-                  <div class="block">
-                    <p clas="sm">
-                      <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                      16 กุมภาพันธ์ 2565
-                    </p>
-                  </div>
-                  <div class="block">
-                    <p clas="sm">
-                      <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                        12
-                    </p>
-                  </div>
-                  <div class="block">
-                    <p clas="sm">
-                      <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                      285
-                    </p>
-                  </div>
+                  <div class="line-1"></div><div class="line-2"></div>
                 </div>
               </div>
             </div>
-          <div class="line-1"></div><div class="line-2"></div>
+            <div class="slide">
+                <div class="section-card" href="#">
+                  <div class="ss-card ss-card-09">
+                    <div class="text-container">
+                      <div class="image-container">
+                        <img src="public/assets/app/images/content/03.png" />
+                      </div>
+                      <a href="#" class="title p sm fw-400 mt-4">เลื่อนวันรับใบขับขี่ที่เคยจองไว้</a>
+                      <div class="card-footer">
+                        <p class="xs fw-500 lh-3xs mt-4">สุภาวดี ดีพุ่ม</p>
+                        <div class="blocks">
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                              16 กุมภาพันธ์ 2565
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                                12
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                              285
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="line-1"></div><div class="line-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+                <div class="section-card" href="#">
+                  <div class="ss-card ss-card-09">
+                    <div class="text-container">
+                      <div class="image-container">
+                        <img src="public/assets/app/images/content/04.png" />
+                      </div>
+                      <a href="#" class="title p sm fw-400 mt-4">เห็นประกาศปิดตึกที่ต่อใบขับขี่ 1 เมษายน แล้ว เดือนพฤษภาคม จะเปิดรึยังคะ</a>
+                      <div class="card-footer">
+                        <p class="xs fw-500 lh-3xs mt-4">ณัฐธิดา รัตนพฤกษ์</p>
+                        <div class="blocks">
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                              16 กุมภาพันธ์ 2565
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                                12
+                            </p>
+                          </div>
+                          <div class="block">
+                            <p clas="sm">
+                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                              285
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="line-1"></div><div class="line-2"></div>
+                </div>
+              </div>
+            </div>
+          <?php }?>
+      </div>
+      <div class="dot-container"></div>
+      <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
+        <a href="#" class="btn btn-action style-05 btn-05">
+          <span>อ่านทั้งหมด</span> 
+          <div class="icon ml-3">
+            <em class="fa-solid fa-arrow-right"></em>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Swiper Style -->
+  <style>
+    .swiper-container {
+      width: 100%;height: 28vw; transition: opacity .6s ease;
+    }
+    .swiper-slide {
+      background-position: center; background-size: cover; background-repeat:no-repeat;
+    }
+    .swiper-slide .text-container {
+      position: absolute; bottom:2rem; left: 0; width: 100%; 
+      text-align:center;
+    }
+    .btn-swiper .btn{cursor:pointer;}
+  </style>
+  <section class="section-19">
+    <div class="swiper-container"> 
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)">
+          <div class="text-container">
+            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1477948879622-5f16e220fa42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
+          <div class="text-container">
+            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
+          <div class="text-container">
+            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+          </div>
         </div>
       </div>
     </div>
-      <?php }?>
+    <div class="btn-swiper mt-6 pt-6">
+      <div class="d-flex jc-center ai-center mt-4">
+        <a class="btn style-06 btn-04 bg-08 btn-prev">
+          <div class="icon">
+            <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
+          </div>     
+        </a> 
+        <a class="btn style-06 btn-04 bg-08 btn-next">
+          <div class="icon">
+            <em class="fa-solid fa-arrow-right color-white btn-next"></em>
+          </div>     
+        </a>      
+      </div>  
     </div>
-    <div class="dot-container"></div>
-    <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
-      <a href="#" class="btn btn-action style-05 btn-05">
-        <span>อ่านทั้งหมด</span> 
-        <div class="icon ml-3">
-          <em class="fa-solid fa-arrow-right"></em>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="section-19">
-  <div class="swiper-container"> 
-   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)">
-      <div class="text-container">
-        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
-      </div>
-    </div>
-    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1477948879622-5f16e220fa42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
-      <div class="text-container">
-        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
-      </div>
-    </div>
-    <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
-      <div class="text-container">
-        <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="btn-swiper mt-6 pt-6">
-    <div class="d-flex jc-center ai-center mt-4">
-      <a class="btn style-06 btn-04 bg-08 btn-prev">
-        <div class="icon">
-          <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
-        </div>     
-      </a> 
-      <a class="btn style-06 btn-04 bg-08 btn-next">
-        <div class="icon">
-          <em class="fa-solid fa-arrow-right color-white btn-next"></em>
-        </div>     
-      </a>      
-    </div>  
-  </div>
-</section>
-
-<section class="section-20 section-padding">
-  <div class="container">
-    <div class="card-contact">
-      <div class="grids jc-center">
-        <div class="grid lg-60">
-          <div class="grids no-gap">
-            <div class="grid lg-1-3 mt-0 p-1">
-              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-01">
+  <section class="section-20 section-padding">
+    <div class="container">
+      <div class="card-contact">
+        <div class="grids jc-center">
+          <div class="grid lg-60">
+            <div class="grids no-gap">
+              <div class="grid lg-1-3 mt-0 p-1">
+                <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-01">
+                  <div class="icon d-flex ai-center">
+                    <div class="socials d-flex ai-center jc-end">
+                      <a class="social" href="#">
+                        <em class="fa-solid fa-phone"></em>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="text-container d-flex flex-column  jc-center">
+                    <p>โทรศัพท์</p>
+                    <p>0-2323-4060</p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid lg-1-3 mt-0 p-1">
+              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-02">
                 <div class="icon d-flex ai-center">
-                  <div class="socials d-flex ai-center jc-end">
-                    <a class="social" href="#">
-                      <em class="fa-solid fa-phone"></em>
-                    </a>
-                  </div>
+                <div class="socials d-flex ai-center jc-end">
+                  <a class="social" href="#">
+                    <em class="fa-solid fa-fax"></em>
+                  </a>
                 </div>
-                <div class="text-container d-flex flex-column  jc-center">
+                </div>
+                <div class="text-container">
                   <p>โทรศัพท์</p>
                   <p>0-2323-4060</p>
+                  <p>0-2323-3619</p>
                 </div>
               </div>
             </div>
             <div class="grid lg-1-3 mt-0 p-1">
-            <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-02">
-              <div class="icon d-flex ai-center">
-              <div class="socials d-flex ai-center jc-end">
-                <a class="social" href="#">
-                  <em class="fa-solid fa-fax"></em>
-                </a>
-              </div>
-              </div>
-              <div class="text-container">
-                <p>โทรศัพท์</p>
-                <p>0-2323-4060</p>
-                <p>0-2323-3619</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid lg-1-3 mt-0 p-1">
-            <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-03">
-              <div class="icon">
-              <div class="socials d-flex ai-center jc-end">
-                <a class="social" href="#">
-                  <em class="fa-solid fa-envelope"></em>
-                </a>
-              </div>
-              </div>
-              <div class="text-container">
-                <p>อีเมล</p>
-                <p>dltspk@gmail.com</p>
-                <p>dlt_spk@hotmail.co.th</p>
+              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-03">
+                <div class="icon">
+                <div class="socials d-flex ai-center jc-end">
+                  <a class="social" href="#">
+                    <em class="fa-solid fa-envelope"></em>
+                  </a>
+                </div>
+                </div>
+                <div class="text-container">
+                  <p>อีเมล</p>
+                  <p>dltspk@gmail.com</p>
+                  <p>dlt_spk@hotmail.co.th</p>
+                </div>
               </div>
             </div>
+            </div>
           </div>
-          </div>
-        </div>
-      </div> 
-    </div>       
-  </div>
-</section>
+        </div> 
+      </div>       
+    </div>
+  </section>
 
    
   <?php include_once('include/footer-05.php'); ?>
@@ -769,10 +776,10 @@
         }
       }
     };
-var mySwiper = new Swiper(sliderSelector, options);
+    var mySwiper = new Swiper(sliderSelector, options);
 
-// Initialize slider
-mySwiper.init();
-    </script>
+    // Initialize slider
+    mySwiper.init();
+  </script>
 </body>
 </html>
