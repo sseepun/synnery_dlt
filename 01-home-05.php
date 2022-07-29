@@ -49,7 +49,7 @@
   <section class="section-22 section-padding">
     <div class="container">
       <h3 class="text-center fw-600 color-p animate">ระบบสำนักงานออนไลน์</h3>  
-      <div class="bottom-line"></div>   
+      <div class="ss-sep-01"></div>   
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
           <?php for($i=0; $i<2; $i++){?>

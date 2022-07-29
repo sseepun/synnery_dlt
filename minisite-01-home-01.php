@@ -6,10 +6,9 @@
 </head>
 <body class="loading">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-04.php'); ?>
 
   <section class="banner-04">
-    <!-- <img class="pattern" src="public/assets/app/images/bg/pattern-03.png" alt="Pattern" /> -->
     <div class="slide-container">
       <div class="slides">
         <?php for($i=0; $i<4; $i++){?>
@@ -18,10 +17,10 @@
             <div class="container">
               <div class="text-wrapper color-white">
                 <div class="animate" style="--delay:.4s;">
-                  <h2 class="fw-100 lh-3xs xs-no-br">
+                  <h3 class="lg fw-100 lh-3xs">
                     การเดินทางด้วย <br />
                     <span class="text-xl fw-400">รถสาธาณะแบบวิถีใหม่</span>
-                  </h2>
+                  </h3>
                 </div>
                 <p class="lg fw-200 mt-3 animate" style="--delay:.55s;">
                   ไม่ว่าจะเป็นรถเมล์ รถโดยสารประจำทาง <br> และรถโดยสารไม่ประจำทาง
@@ -29,7 +28,7 @@
                   และรถรับจ้างอื่นๆ ควรปฏิบัติดังนี้
                 </p>
                 <div class="btns mt-4 animate" style="--delay:.7s;">
-                  <a href="#" class="btn btn-action style-05 btn-03">
+                  <a href="#" class="btn btn-action style-02 btn-03">
                     <span>รายละเอียดเพิ่มเติม</span> 
                   </a>
                 </div>
@@ -38,82 +37,41 @@
           </div>
         <?php }?>
       </div>
-      <div class="dot-container"></div>
+      <div class="dot-container" data-aos="fade-up" data-aos-delay="0"></div>
     </div>
   </section>
 
   <section class="section-13 section-padding">
     <div class="container">
-      <h3 class="text-center fw-600 color-p animate">ระบบสำนักงานออนไลน์</h3>  
-      <div class="bottom-line"></div>   
+      <div data-aos="fade-up" data-aos-delay="0">
+        <h3 class="text-center fw-600 color-10">
+          ระบบสำนักงานออนไลน์
+        </h3>  
+        <div class="ss-sep-01 mt-1"></div>  
+      </div> 
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
-          <?php for($i=0; $i<2; $i++){?>
+          <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
               <div class="section-card" href="#">
                 <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/15.jpg');"></div>
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+5 ?>.jpg');"></div>
                 </div>
                 <div class="card-footer d-flex">
                   <div class="text-container">
                     <p class="title">การอบรมต่ออายุใบอนุญาตขับรถ ( E-learning )</p>
                   </div>
                   <div class="icon">
-                    <img src="public/assets/app/images/icon/32.png" alt="Icon" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/16.jpg');"></div>
-                </div>
-                <div class="card-footer d-flex">
-                  <div class="text-container">
-                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
-                  </div>
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/33.png" alt="Icon" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/17.jpg');"></div>
-                </div>
-                <div class="card-footer d-flex">
-                  <div class="text-container">
-                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
-                  </div>
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/34.png" alt="Icon" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/18.jpg');"></div>
-                </div>
-                <div class="card-footer d-flex">
-                  <div class="text-container">
-                    <p class="title">การจองคิวผ่านแอปพลิเคชัน DLT Smart Queue</p>
-                  </div>
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/35.png" alt="Icon" />
+                    <img src="public/assets/app/images/icon/3<?= $i%4+2 ?>.png" alt="Icon" />
                   </div>
                 </div>
               </div>
             </div>
           <?php }?>
         </div>
-        <div class="dot-container"></div>
+        <div class="dot-container" data-aos="fade-up" data-aos-delay="300"></div>
         <div class="btns" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-05">
+          <a href="#" class="btn btn-action style-02 btn-05">
             <span>ดูทั้งหมด</span> 
             <div class="icon ml-3">
               <em class="fa-solid fa-arrow-right"></em>
@@ -125,124 +83,119 @@
 
   <section class="section-14 section-padding">
     <div class="container">
-      <h3 class="text-center fw-600 color-p">ข่าวประชาสัมพันธ์</h3>  
-      <div class="bottom-line mb-3"></div> 
-        <div class="grids jc-center">
-          <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
-              <div class="ss-img">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/19.jpg');"></div>
-              </div>
-              <div class="text-container">
-                <div class="border-top"></div>
-                  <div class="card-footer">
-                    <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                      <a href="#" class="btn style-06 btn-04">
-                        <em class="fa-solid fa-arrow-right"></em> 
-                      </a>
-                    </div>
-                    <div class="blocks">
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
-                      </div>
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          285
-                        </p>
-                      </div>
-                    </div>
-                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
-                      ยกเลิกการเรียกภาพภ่ายบัตรประชาชนหรือภาพถ่ายสำเนาทะเบียนบ้าน
-                    </a>
+      <div data-aos="fade-up" data-aos-delay="0">
+        <h3 class="text-center fw-600 color-10">
+          ข่าวประชาสัมพันธ์
+        </h3>  
+        <div class="ss-sep-01 mt-1"></div>  
+      </div> 
+      <div class="grids jc-center pt-4">
+        <div class="grid lg-1-3">
+          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/19.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <a class="btn-more" href="#">
+                <em class="fa-solid fa-arrow-right"></em> 
+              </a>
+              <div class="card-footer">
+                <div class="blocks">
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                      16 กุมภาพันธ์ 2565
+                    </p>
+                  </div>
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                      285
+                    </p>
                   </div>
                 </div>
-              <div class="line-1"></div><div class="line-2"></div>
+              </div>
+              <a class="title p lg fw-400 h-color-09 lh-sm mt-4" href="#">
+                ยกเลิกการเรียกภาพภ่ายบัตรประชาชนหรือภาพถ่ายสำเนาทะเบียนบ้าน
+              </a>
             </div>
-          </div>    
-          <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
-              <div class="ss-img">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
-              </div>
-              <div class="text-container">
-                <div class="border-top"></div>
-                  <div class="card-footer">
-                    <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                      <a href="#" class="btn style-06 btn-04">
-                        <em class="fa-solid fa-arrow-right"></em> 
-                      </a>
-                    </div>
-                    <div class="blocks">
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
-                      </div>
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          285
-                        </p>
-                      </div>
-                    </div>
-                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
-                    ประกาศเจตนารมณ์ เรื่อง "สุจริต โปร่งใส สำนักงานขนส่งจังหวัดสมุทรปราการใสสะอาด 2565" 
-                    และ "งดรับ งดให้" ของขวัญ ของกำนัลทุกชนิดจากการปฏิบัติหน้าที่ (์No  Gift Policy) 
-                    </a>
-                </div>
-              </div>
-              <div class="line-1"></div><div class="line-2"></div>
-            </div>
-          </div>
-          <div class="grid lg-1-3">
-            <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
-              <div class="ss-img">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/21.jpg');"></div>
-              </div>
-              <div class="text-container">
-                <div class="border-top"></div>
-                  <div class="card-footer">
-                  <div class="btns d-flex jc-end mt-4 animate" style="--delay:.7s;">
-                    <a href="#" class="btn style-06 btn-04">
-                      <em class="fa-solid fa-arrow-right"></em> 
-                    </a>
-                    </div>
-                    <div class="blocks">
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
-                      </div>
-                      <div class="block">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          285
-                        </p>
-                      </div>
-                    </div>
-                    <a class="title p lg fw-400 h-color-05 lh-sm mt-3" href="#">
-                    นวัตกรรมใหม่: ตรวจสอบเอกสารล่วงหน้าผ่านระบบ Internet
-                  </a>
-                </div>
-              </div>
             <div class="line-1"></div><div class="line-2"></div>
           </div>
-          </div>
-        </div>  
-        <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-05">
-            <span>อ่านทั้งหมด</span> 
-            <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right"></em>
+        </div>    
+        <div class="grid lg-1-3">
+          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
             </div>
-          </a>
+            <div class="text-container">
+              <a class="btn-more" href="#">
+                <em class="fa-solid fa-arrow-right"></em> 
+              </a>
+              <div class="card-footer">
+                <div class="blocks">
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                      16 กุมภาพันธ์ 2565
+                    </p>
+                  </div>
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                      285
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a class="title p lg fw-400 h-color-09 lh-sm mt-4" href="#">
+                ประกาศเจตนารมณ์ เรื่อง "สุจริต โปร่งใส สำนักงานขนส่งจังหวัดสมุทรปราการใสสะอาด 2565" 
+                และ "งดรับ งดให้" ของขวัญ ของกำนัลทุกชนิดจากการปฏิบัติหน้าที่ (์No  Gift Policy) 
+              </a>
+            </div>
+            <div class="line-1"></div><div class="line-2"></div>
+          </div>
         </div>
+        <div class="grid lg-1-3">
+          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/21.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <a class="btn-more" href="#">
+                <em class="fa-solid fa-arrow-right"></em> 
+              </a>
+              <div class="card-footer">
+                <div class="blocks">
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                      16 กุมภาพันธ์ 2565
+                    </p>
+                  </div>
+                  <div class="block">
+                    <p clas="sm">
+                      <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                      285
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a class="title p lg fw-400 h-color-09 lh-sm mt-4" href="#">
+                นวัตกรรมใหม่: ตรวจสอบเอกสารล่วงหน้าผ่านระบบ Internet
+              </a>
+            </div>
+            <div class="line-1"></div><div class="line-2"></div>
+          </div>
+        </div>
+      </div>  
+      <div class="btns mt-6" data-aos="fade-up" data-aos-delay="300">
+        <a href="#" class="btn btn-action style-02 btn-05">
+          <span>อ่านทั้งหมด</span> 
+          <div class="icon ml-3">
+            <em class="fa-solid fa-arrow-right"></em>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -253,175 +206,95 @@
           <div class="img-bg" style="background-image:url('public/assets/app/images/content/32.jpg');"></div>
             <div class="text-wrapper">
               <h5 class="color-white">ข่าวประกาศ</h5>
-              <div class="bottom-line ml-0"></div>
-              <div class="d-flex mt-6 bottom-line-style-02">
-                <div class="icon-main">
-                  <img src="public/assets/app/images/icon/36.png" alt="Icon" />
-                </div>
-                <div class="text-container d-flex flex-column jc-center ml-3">
-                  <p class="color-white">
-                    รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
-                    การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
-                  </p>
-                  <div class="card-footer">
-                    <div class="blocks-icon">
-                      <div class="block-icon">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
+              <div class="ss-sep-01 ml-0"></div>
+              <?php for($i=0; $i<4; $i++){?>
+                <div class="d-flex mt-6 ss-sep-01-style-02">
+                  <div class="icon-main">
+                    <img src="public/assets/app/images/icon/36.png" alt="Icon" />
+                  </div>
+                  <div class="text-container d-flex flex-column jc-center ml-3">
+                    <p class="color-white">
+                      รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                      การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
+                    </p>
+                    <div class="card-footer">
+                      <div class="blocks-icon">
+                        <div class="block-icon">
+                          <p clas="sm">
+                            <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
+                            16 กุมภาพันธ์ 2565
+                          </p>
+                        </div>
+                        <div class="block-icon">
+                          <p clas="sm">
+                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                            248
+                          </p>
+                        </div>
                       </div>
-                      <div class="block-icon">
-                        <p clas="sm">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          248
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="d-flex mt-6 bottom-line-style-02">
-              <div class="icon-main">
-                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
-              </div>
-              <div class="text-container d-flex flex-column jc-center ml-3">
-                <p class="color-white">
-                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
-                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
-                </p>
-                <div class="card-footer">
-                  <div class="blocks-icon">
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                        16 กุมภาพันธ์ 2565
-                      </p>
-                    </div>
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                        248
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex mt-6 bottom-line-style-02">
-              <div class="icon-main">
-                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
-              </div>
-              <div class="text-container d-flex flex-column jc-center ml-3">
-                <p class="color-white">
-                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
-                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
-                </p>
-                <div class="card-footer">
-                  <div class="blocks-icon">
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                        16 กุมภาพันธ์ 2565
-                      </p>
-                    </div>
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                        248
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex mt-6 bottom-line-style-02">
-              <div class="icon-main">
-                <img src="public/assets/app/images/icon/36.png" alt="Icon" />
-              </div>
-              <div class="text-container d-flex flex-column jc-center ml-3">
-                <p class="color-white">
-                  รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
-                  การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
-                </p>
-                <div class="card-footer">
-                  <div class="blocks-icon">
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
-                        16 กุมภาพันธ์ 2565
-                      </p>
-                    </div>
-                    <div class="block-icon">
-                      <p clas="sm">
-                        <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                        248
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              
+              <?php }?>
             </div>
             <div class="btns d-flex jc-end pt-6" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btn btn-action style-05 btn-05">
-                  <span>อ่านทั้งหมด</span> 
-                  <div class="icon ml-3">
-                    <em class="fa-solid fa-arrow-right"></em>
-                  </div>
-                </a>
-              </div>
-        </div>
-        <div class="subblocks">
-          <div class="subblock">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/content/33.jpg');"></div>
-            <div class="text-wrapper">
-              <h5 class="color-white">งานด้านทะเบียนรถ</h5>
-              <div class="bottom-line ml-0"></div>
-              <p class="lg mt-6">กระบวนงานที่เปิดให้บริการ</p>
-              <ol class="pl-5">
-                <li>งานรับชำระภาษีประจำปี รถยนต์ รถจักรยานยนต์</li>
-                <li>การแจ้งย้ายรถออก</li>
-                <li>การแจ้งไม่ใช้รถชั่วคราว แจ้งไม่ใช้รถตลอดไป</li>
-                <li>การแก้ไขรายการ ชื่อ - สกุล ที่อยู่</li>
-                <li>การขอตรวจสอบข้อมูลทะเบียนรถ</li>
-                <li>การออกใบแทน กรณีชำรุด/สูญหาย</li>
-              </ol>
-              <div class="btns mt-4 animate" style="--delay:.7s;">
-                <a href="#" class="btn btn-action style-05 btn-03">
-                  <span>ข้อมูลเพิ่มเติม</span> 
-                  <div class="icon ml-3">
-                    <em class="fa-solid fa-arrow-right"></em>
-                  </div>
-                </a>
-              </div>
+              <a href="#" class="btn btn-action style-02 btn-05">
+                <span>อ่านทั้งหมด</span> 
+                <div class="icon ml-3">
+                  <em class="fa-solid fa-arrow-right"></em>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="subblock">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/content/34.jpg');"></div>
-            <div class="text-wrapper">
-              <h5 class="color-white">งานด้านทะเบียนรถ</h5>
-              <div class="bottom-line ml-0"></div>
-              <p class="lg mt-6">กระบวนงานที่จองคิวผ่านแอป</p>
-              <ol class="pl-5">
-                <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
-                <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
-              </ol>
-              <div class="btns mt-4 animate" style="--delay:.7s;">
-                <a href="#" class="btn btn-action style-05 btn-03">
-                  <span>ข้อมูลเพิ่มเติม</span> 
-                  <div class="icon ml-3">
-                    <em class="fa-solid fa-arrow-right"></em>
-                  </div>
-                </a>
+          <div class="subblocks">
+            <div class="subblock">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/33.jpg');"></div>
+              <div class="text-wrapper">
+                <h5 class="color-white">งานด้านทะเบียนรถ</h5>
+                <div class="ss-sep-01 ml-0"></div>
+                <p class="lg mt-6">กระบวนงานที่เปิดให้บริการ</p>
+                <ol class="pl-5">
+                  <li>งานรับชำระภาษีประจำปี รถยนต์ รถจักรยานยนต์</li>
+                  <li>การแจ้งย้ายรถออก</li>
+                  <li>การแจ้งไม่ใช้รถชั่วคราว แจ้งไม่ใช้รถตลอดไป</li>
+                  <li>การแก้ไขรายการ ชื่อ - สกุล ที่อยู่</li>
+                  <li>การขอตรวจสอบข้อมูลทะเบียนรถ</li>
+                  <li>การออกใบแทน กรณีชำรุด/สูญหาย</li>
+                </ol>
+                <div class="btns mt-4 animate" style="--delay:.7s;">
+                  <a href="#" class="btn btn-action style-02 btn-03">
+                    <span>ข้อมูลเพิ่มเติม</span> 
+                    <div class="icon ml-3">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>    
-      </div> 
-    </div>       
-  </div>
+            <div class="subblock">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/34.jpg');"></div>
+              <div class="text-wrapper">
+                <h5 class="color-white">งานด้านทะเบียนรถ</h5>
+                <div class="ss-sep-01 ml-0"></div>
+                <p class="lg mt-6">กระบวนงานที่จองคิวผ่านแอป</p>
+                <ol class="pl-5">
+                  <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
+                  <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
+                </ol>
+                <div class="btns mt-4 animate" style="--delay:.7s;">
+                  <a href="#" class="btn btn-action style-02 btn-03">
+                    <span>ข้อมูลเพิ่มเติม</span> 
+                    <div class="icon ml-3">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div> 
+      </div>       
+    </div>
   </section>
 
   <section class="section-16 section-padding">
@@ -534,7 +407,7 @@
             </div>
          </div>  
          <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-05 btn-05">
+          <a href="#" class="btn btn-action style-02 btn-05">
             <span>ข้อมูลเพิ่มเติม</span> 
             <div class="icon ml-3">
               <em class="fa-solid fa-arrow-right"></em>
@@ -565,7 +438,7 @@
                       <?php }?>
                   </fieldset>  
                   <div class="btns d-flex mt-5" data-aos="fade-up" data-aos-delay="300">
-                    <a href="#" class="btn btn-action style-05 btn-05">
+                    <a href="#" class="btn btn-action style-02 btn-05">
                       <span>ทำแบบสำรวจ</span> 
                     </a>
                 </div>
@@ -730,7 +603,7 @@
       </div>
       <div class="dot-container"></div>
       <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
-        <a href="#" class="btn btn-action style-05 btn-05">
+        <a href="#" class="btn btn-action style-02 btn-05">
           <span>อ่านทั้งหมด</span> 
           <div class="icon ml-3">
             <em class="fa-solid fa-arrow-right"></em>
