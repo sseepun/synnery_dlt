@@ -210,6 +210,20 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-07 .card-footer .block::after{background:rgba(0,0,0,.3);}
 .ss-card-07 .btn-more{background:#000000; color:#ffffff; border-color:#ffffff;}
 
+/* Special Card 12 */
+.ss-card-12 .card-footer{
+  border-color:#000 ;
+}
+.ss-card-12 .more{
+  background:#000000; color:#ffffff; border-color:#ffffff;
+}
+.ss-card-07 .text-container::after{
+  background-image:linear-gradient(to bottom right,#000000,#000000);
+}
+.ss-card-07 .card-footer .icon{color:#000000;}
+.ss-card-07 .card-footer .block::after{background:rgba(0,0,0,.3);}
+.ss-card-07 .btn-more{background:#000000; color:#ffffff; border-color:#ffffff;}
+
 
 /* Special Image */
 .ss-img .hover-container{background:rgba(0,0,0,.5);}
@@ -340,6 +354,16 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .section-13 .section-card .text-container{background:#ffffff; color:#000000;}
 .section-13 .section-card .icon{background:#000000;}
 .section-13 .slick-dots button{background:#ffffff;}
+
+/* Section 22 */
+.section-22 .section-card > .card-footer{border:1px solid #ffffff;}
+.section-22 .section-card .text-container{background:#ffffff; color:#000000;}
+.section-22 .slick-dots button{background:#ffffff;}
+
+/* Section 23 */
+.section-23 .card-footer{border:1px solid #ffffff;}
+.section-23 .text-container{background:#ffffff; color:#000000;}
+.section-23 .slick-dots button{background:#ffffff;}
 
 
 /* Tabs 01 */

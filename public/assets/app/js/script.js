@@ -557,7 +557,7 @@ $(function(){ 'use strict';
                  ]
              });
          });
-     }
+    }
 
 
     // Section 22
@@ -572,6 +572,48 @@ $(function(){ 'use strict';
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                ]
+            });
+        });
+    }
+
+
+    // Section 25
+    var section25 = $('.section-25');
+    if(section25.length){
+        section25.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: '0px', slidesToShow: 5,
+                swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
+                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                ]
+            });
+        });
+    }
+
+
+    // Section 26
+    var section26 = $('.section-26');
+    if(section26.length){
+        section26.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                swipeToSlide: true, infinite: true,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
                     { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 991.98, settings: { slidesToShow: 3, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 2, } },

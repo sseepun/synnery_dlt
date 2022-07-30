@@ -6,7 +6,7 @@
 </head>
 <body class="loading">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav.php'); ?>
+  <?php  include_once('include/topnav-04.php'); ?>
 
   <section class="banner-05">
     <div class="slide-container">
@@ -309,12 +309,140 @@
   </section>
 
   <section class="section-25 section-padding" style="background-image:url('public/assets/app/images/bg/pattern-05.jpg');">
+    <div class="container">
+      <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
+        กระดานถามตอบ
+      </h3> 
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="slides">
+          <?php for($i=0; $i<8; $i++){?>
+            <div class="slide">
+              <div class="section-card">
+                <div class="ss-card ss-card-16 bg-white">
+                  <div class="text-container">
+                    <div class="image-container d-flex">
+                      <img src="public/assets/app/images/content/0<?= $i%5+5 ?>.png" class="img"/>
+                      <div class="d-flex flex-column jc-center ml-2">
+                        <p class="xs fw-500 lh-3xs">ภานุมาศ รักเกียรติเผ่า</p>
+                        <div class="d-flex ai-center">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                            16 กุมภาพันธ์ 2565
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="title p sm fw-400 h-color-05 mt-4" href="#">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
+                    <div class="card-footer">
+                      <div class="blocks">
+                        <div class="block">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                              12
+                          </p>
+                        </div>
+                        <div class="block">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                            285
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line-1"></div><div class="line-2"></div>
+                </div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="dot-container"></div>
+        <div class="btns d-flex mt-6" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="btn btn-action style-02 btn-02">
+            <span>อ่านทั้งหมด</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="section-padding">
+    <div class="container">
+      <h3 class="text-center fw-300" data-aos="fade-up" data-aos-delay="0">
+        บุคลากร
+      </h3>   
+      <div class="grids">
+        <?php for($i=0; $i<4; $i++){?>
+          <div class="grid lg-25">
+            <div class="ss-card ss-card-17" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-img square">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= $i%4+1 ?>.jpg');"></div>
+                <div class="icon d-flex ai-center jc-center">
+                  <em class="fa-solid fa-share-nodes fa-xl color-white"></em>
+                </div>
+              </div>
+              <div class="text-container text-center">
+                <p class="lg fw-500">นางสุนิสา อนันตกูล</p>
+                <p class="sm color-13">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
+              </div>
+            </div>
+          </div>  
+        <?php }?>
+      </div> 
+      <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
+        <a href="#" class="btn btn-action style-02 btn-02">
+          <span>อ่านข้อมูลเพิ่มเติม</span> 
+          <div class="icon ml-3">
+            <em class="fa-solid fa-arrow-right"></em>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-26">
+    <div class="container">
+      <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
+        กระดานถามตอบ
+      </h3> 
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="slides">
+          <?php for($i=0; $i<8; $i++){?>
+            <div class="slide">
+              <div class="ss-card ss-card-18 bg-white">
+                <div class="text-container">
+                  <a class="title p lg fw-400 h-color-05 mt-4" href="#">รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร</a>
+                  <div class="card-footer">
+                    <div class="blocks ">
+                      <div class="block">
+                        <div class="icon">
+                          <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img"/>
+                        </div> 
+                      </div>
+                      <div class="block">
+                        <a class="more" href="#">
+                          <em class="fa-solid fa-arrow-right-long"></em>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="line-1"></div><div class="line-2"></div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="dot-container"></div>
+      </div>
+    </div>
   </section>
 
 
    
-  <?php //include_once(' include/footer-05.php'); ?>
+  <?php include_once('include/footer-04.php'); ?>
   <?php include_once('include/script.php'); ?>
 
 </body>
