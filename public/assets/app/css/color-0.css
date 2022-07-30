@@ -22,6 +22,8 @@ html, body, table.table{color:#000000;}
 .color-08, .h-color-08:hover{color:#663399!important;}
 .color-09, .h-color-09:hover{color:#a14ff3!important;}
 .color-10, .h-color-10:hover{color:#271148!important;}
+.color-11, .h-color-11:hover{color:#81808c!important;}
+.color-12, .h-color-11:hover{color:#f2f2f2!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -41,6 +43,8 @@ html, body, table.table{color:#000000;}
 .bg-08{background:#663399!important;}
 .bg-09{background:#a14ff3!important;}
 .bg-10{background:#271148!important;}
+.bg-11{background:#81808c!important;}
+.bg-12{background:#f2f2f2!important;}
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -60,6 +64,8 @@ html, body, table.table{color:#000000;}
 .bcolor-08{border-color:#663399!important;}
 .bcolor-09{border-color:#a14ff3!important;}
 .bcolor-10{border-color:#271148!important;}
+.bcolor-11{border-color:#81808c!important;}
+.bcolor-12{border-color:#f2f2f2!important;}
 
 
 /* Buttons */
@@ -375,6 +381,25 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-10.ss-card-10-03{background:#271148; color:#ffffff;}
 
 
+/* Special Card 12 */
+.ss-card-12{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-12 .card-footer{border-color:#dcdce0;}
+.ss-card-12 .card-footer .icon{color:#663399;}
+.ss-card-12 .card-footer .block::after{background:#dcdce0;}
+.ss-card-12 .card-footer .more{background:#663399; color:#ffffff;}
+.ss-card-12 .card-footer .more:hover{background:#d6bf64;}
+
+/* Special Card 13 */
+.ss-card-13{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-13 .card-footer{border-color:#dcdce0;}
+.ss-card-13 .card-footer .icon{color:#6d2587;}
+.ss-card-13 .card-footer .block::after{background:#b9b9bf;}
+
+/* Special Card 14 */
+.ss-card-14{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-14 .more{background:#663399; color:#ffffff;}
+.ss-card-14 .more:hover{background:#d6bf64;}
+
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
 
@@ -411,7 +436,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 /* Banner 05 */
 .banner-05 .slick-dots button{background:#ffffff;}
-.banner-05 .slick-dots li.slick-active button{background:#663399}
+.banner-05 .slick-dots li.slick-active button{background:#d6bf64}
 
 
 /* Info 01 */
@@ -563,16 +588,16 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 
 /* Section 22 */
-.section-22{background:#ffffff;}
-.section-22 .section-card > .card-footer .text-container{ 
+.section-22 .section-card .text-container{ 
   background:#663399; color:#f1dace;
 }
-.section-22 .section-card > .card-footer .icon{
-  background-image: linear-gradient(to bottom right, #fe8a12, #ffbe08);
-}
 .section-22 .slick-dots button{background:#e1e1e1;}
-.section-22 .slick-dots li.slick-active button{background:#663399;}
+.section-22 .slick-dots li.slick-active button{background:#d6bf64;}
 
+
+/* Section 24 */
+.section-24 .rc-container > label::before{border-color:#ffffff;}
+.section-24 .rc-container > label::after{background:#d6bf64;}
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,

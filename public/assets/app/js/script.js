@@ -560,7 +560,6 @@ $(function(){ 'use strict';
      }
 
 
-     
     // Section 22
     var section22 = $('.section-22');
     if(section22.length){
@@ -572,6 +571,8 @@ $(function(){ 'use strict';
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 991.98, settings: { slidesToShow: 3, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 2, } },
                     { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },

@@ -1,0 +1,51 @@
+/* Section 13 */
+.section-13{position:relative; height:100%; min-height:400px; z-index:1;}
+.section-13 .slide-container{position:relative; margin:2.5rem 0 0 0;}
+.section-13 .slides{overflow:hidden; width:calc(100% + 1rem); margin:0 -.5rem;}
+.section-13 .section-card{
+    display:flex; flex-direction:column; justify-content:center; height:100%;
+    padding:0 .5rem; transition:background .25s, color .25s;
+}
+.section-13 .section-card .ss-img{border-radius:.5rem; overflow:hidden;}
+.section-13 .section-card > .card-footer{
+    position:relative; margin:-2rem auto 0 0; border-radius:.5rem;
+    width:100%; max-width:calc(100% - 1rem);
+}
+.section-13 .section-card .text-container{
+    padding:.5rem 1rem; width:calc(100% - 3.5rem); min-height:3.9375rem;
+    border-radius:.5rem 0 0 .5rem; 
+}
+.section-13 .section-card .text-container .title{
+    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden;
+}
+.section-13 .section-card .icon{
+    display:flex; align-items:center; justify-content:center;
+    width:3.5rem; height:3.9375rem; border-radius:0 .5rem .5rem 0;
+}
+.section-13 .section-card .icon img{
+    display:block; width:auto; max-width:60%; height:auto; max-height:60%;
+}
+.section-13 .section-card .more{
+    display:flex; align-items:center; justify-content:center; border-radius:1000em;
+    padding:0; width:2.5rem; height:1.5rem;
+}
+.section-13 .dot-container{display:block; margin:3rem 0 0 0;}
+.section-13 .slick-dots{
+    display:flex; width:100%; align-items:center; justify-content:center;
+    list-style:none; padding:0; margin:0;
+}
+.section-13 .slick-dots li{display:block; margin:0 .3125rem;}
+.section-13 .slick-dots button{
+    display:block; font-size:0; width:1.5rem; height:.5rem; border-radius:1000rem;
+    cursor:pointer; padding:0; box-shadow:none; border:0; margin:0; outline:none;
+    transition:width .25s;
+}
+.section-13 .slick-dots li.slick-active button{width:3rem;}
+.section-13 .btns{position:absolute; bottom:-1rem; right:0; width:auto;}
+@media screen and (max-width:767.98px){
+    .section-13 .dot-container{margin:2.5rem 0 0 0;}
+    .section-13 .btns{
+        position:relative; bottom:unset; right:unset; width:100%; 
+        justify-content:center; margin:1.5rem 0 0 0;
+    }
+}
