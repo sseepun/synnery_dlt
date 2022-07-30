@@ -139,7 +139,7 @@
         <div class="grid lg-50 md-100 sm-100">
           <div class="grids">
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12">
+              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
                 <div class="text-container">
                   <a class="title p lg fw-400">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -164,7 +164,7 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12">
+              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
                 <div class="text-container">
                   <a class="title p lg fw-400">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -189,7 +189,7 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12">
+              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-container">
                   <a class="title p lg fw-400">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -214,7 +214,7 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12">
+              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-container">
                   <a class="title p lg fw-400">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -243,7 +243,7 @@
         <div class="grid lg-50 md-100 sm-100">
           <div class="grids">
             <div class="grid lg-50 md-50 sm-100">
-              <div class="ss-card ss-card-14">
+              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/49.jpg');"></div>
                   <div class="text-wrapper">
@@ -256,7 +256,7 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-100">
-              <div class="ss-card ss-card-14">
+              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/50.jpg');"></div>
                   <div class="text-wrapper">
@@ -269,7 +269,7 @@
               </div>
             </div>
             <div class="grid lg-100 md-100 sm-100">
-              <div class="ss-card ss-card-15 bg-08">
+              <div class="ss-card ss-card-15 bg-08" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-container">
                   <form action="">
                     <p class="lg color-05">แบบสำรวจความคิดเห็น</p>
