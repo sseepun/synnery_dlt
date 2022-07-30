@@ -141,7 +141,7 @@
             <div class="grid lg-50 md-50 sm-50">
               <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
                 <div class="text-container">
-                  <a class="title p lg fw-400">
+                  <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
                   </a>
                   <div class="card-footer">
@@ -166,7 +166,7 @@
             <div class="grid lg-50 md-50 sm-50">
               <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
                 <div class="text-container">
-                  <a class="title p lg fw-400">
+                  <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
                   </a>
                   <div class="card-footer">
@@ -191,7 +191,7 @@
             <div class="grid lg-50 md-50 sm-50">
               <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-container">
-                  <a class="title p lg fw-400">
+                  <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
                   </a>
                   <div class="card-footer">
@@ -216,7 +216,7 @@
             <div class="grid lg-50 md-50 sm-50">
               <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-container">
-                  <a class="title p lg fw-400">
+                  <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
                   </a>
                   <div class="card-footer">
