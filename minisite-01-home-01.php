@@ -443,7 +443,17 @@
       position: absolute; bottom:2rem; left: 0; width: 100%; 
       text-align:center;
     }
+    .btn-swiper{
+      display:flex; justify-content:space-between;   background:#ffffff; width:100%; max-width:150px; margin:0 auto; 
+      box-shadow:0px 3px 6px 4px rgba(0,0,0,.04); height:auto; border-radius:1000em; padding:.5rem;
+    }
     .btn-swiper .btn{cursor:pointer;}
+    .section-19 .btn-more{
+       border-radius:50%;
+    }
+    .section-19 .icon{
+      display:flex; align-items:center; justify-content:center; width:3rem; height:3rem;
+    }
   </style>
   <section class="section-19 section-padding">
     <div class="swiper-container"> 
@@ -465,19 +475,17 @@
         </div>
       </div>
     </div>
-    <div class="btn-swiper mt-6 pt-6">
-      <div class="d-flex jc-center ai-center mt-4">
-        <a class="btn style-06 btn-04 bg-08 btn-prev">
-          <div class="icon">
-            <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
-          </div>     
-        </a> 
-        <a class="btn style-06 btn-04 bg-08 btn-next">
-          <div class="icon">
-            <em class="fa-solid fa-arrow-right color-white btn-next"></em>
-          </div>     
-        </a>      
-      </div>  
+    <div class="btn-swiper mt-6">
+      <a class="btn style-06 btn-more bg-08 btn-prev">
+        <div class="icon">
+          <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
+        </div>     
+      </a> 
+      <a class="btn style-06 btn-more bg-08 btn-next">
+        <div class="icon">
+          <em class="fa-solid fa-arrow-right color-white btn-next"></em>
+        </div>     
+      </a>        
     </div>
   </section>
 
