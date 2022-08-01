@@ -41,23 +41,22 @@
     </div>
   </section>
 
-  <section class="section-21" style="background-image:url('public/assets/app/images/bg/pattern-04.jpg');"></section>
-
   <section class="section-22 section-padding">
-   <div class="container">
-      <h3 class="text-center color-white fw-100">ระบบสำนักงานออนไลน์</h3>    
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-04.jpg');"></div>
+    <div class="container">
+      <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
+        ระบบสำนักงานออนไลน์
+      </h3>    
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="section-card" href="#">
+              <div class="ss-card ss-card-19" href="#">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/4<?= $i%6+0 ?>.jpg');"></div>
                 </div>
-                <div class="card-footer ">
-                  <div class="text-container d-flex ai-center jc-center">
-                    <p class="xs text-center title">ศูนย์ข้อมูลข่าวสารราชการ กรมการขนส่งทางบก</p>
-                  </div>
+                <div class="text-container">
+                  <p class="title sm">ศูนย์ข้อมูลข่าวสารราชการ กรมการขนส่งทางบก</p>
                 </div>
               </div>
             </div>
@@ -73,7 +72,7 @@
           </a>
         </div>
       </div>
-   </div>
+    </div>
   </section>
 
   <section class="section-23 section-padding">
@@ -81,7 +80,7 @@
       <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
         ข่าวประชาสัมพันธ์
       </h3>     
-      <div class="grids jc-center">
+      <div class="grids jc-center pt-2">
         <?php for($i=0; $i<3; $i++){?>
           <div class="grid lg-1-3">
             <div class="ss-card ss-card-12" data-aos="fade-up" data-aos-delay="150">
@@ -130,16 +129,17 @@
     </div>       
   </section> 
 
-  <section class="section-24 section-padding">
+  <section class="section-padding">
     <div class="container">
       <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
         ข่าวประกาศ
       </h3> 
       <div class="grids">
-        <div class="grid lg-50 md-100 sm-100">
+        <div class="grid lg-50 md-100 sm-100 mt-0">
           <div class="grids">
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-card ss-card-13" data-aos="fade-up" data-aos-delay="150">
+                <div class="ss-img vertical-2"></div>
                 <div class="text-container">
                   <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -164,7 +164,8 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-card ss-card-13" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-img vertical-2"></div>
                 <div class="text-container">
                   <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -189,7 +190,8 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="ss-card ss-card-13" data-aos="fade-up" data-aos-delay="150">
+                <div class="ss-img vertical-2"></div>
                 <div class="text-container">
                   <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -214,7 +216,8 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
-              <div class="ss-card ss-card-13 bg-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="ss-card ss-card-13" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-img vertical-2"></div>
                 <div class="text-container">
                   <a class="title p lg fw-400 h-color-05" href="#">
                     รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานราชการทั่วไป ในตำแหน่งเจ้าหน้าที่บันทึกข้อมูล
@@ -240,15 +243,15 @@
             </div>
           </div>
         </div> 
-        <div class="grid lg-50 md-100 sm-100">
+        <div class="grid lg-50 md-100 sm-100 mt-0">
           <div class="grids">
             <div class="grid lg-50 md-50 sm-100">
-              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="150">
-                <div class="ss-img square">
+              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="450">
+                <div class="ss-img vertical-2">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/49.jpg');"></div>
-                  <div class="text-wrapper">
-                    <p class="color-white lg fw-100">งานด้าน<span class="fw-300">ทะเบียนรถ</span></p>
-                  </div>
+                </div>
+                <div class="text-container">
+                  <p class="lg fw-300">งานด้าน<span class="fw-400">ทะเบียนรถ</span></p>
                 </div>
                 <a class="more" href="#">
                   <em class="fa-solid fa-arrow-right-long"></em>
@@ -256,12 +259,12 @@
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-100">
-              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="150">
-                <div class="ss-img square">
+              <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="600">
+                <div class="ss-img vertical-2">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/50.jpg');"></div>
-                  <div class="text-wrapper">
-                    <p class="color-white lg fw-100">งานด้าน<span class="fw-300">ใบอนุญาตขับรถ</span></p>
-                  </div>
+                </div>
+                <div class="text-container">
+                  <p class="lg fw-300">งานด้าน<span class="fw-400">ใบอนุญาตขับรถ</span></p>
                 </div>
                 <a class="more" href="#">
                   <em class="fa-solid fa-arrow-right-long"></em>
@@ -269,11 +272,12 @@
               </div>
             </div>
             <div class="grid lg-100 md-100 sm-100">
-              <div class="ss-card ss-card-15 bg-08" data-aos="fade-up" data-aos-delay="300">
+              <div class="ss-card ss-card-15" data-aos="fade-up" data-aos-delay="450">
+                <div class="ss-img"></div>
                 <div class="text-container">
                   <form action="">
-                    <p class="lg color-05">แบบสำรวจความคิดเห็น</p>
-                    <p class="color-white fw-100 mt-2">
+                    <p class="title lg lh-sm">แบบสำรวจความคิดเห็น</p>
+                    <p class="desc sm mt-2">
                       ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่
                       ทางเว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร
                     </p>
@@ -285,8 +289,8 @@
                         </div>
                       <?php }?>
                     </fieldset>
-                    <div class="btns mt-5" data-aos="fade-up" data-aos-delay="300">
-                      <a href="#" class="btn btn-action style-02 btn-05">
+                    <div class="btns mt-2">
+                      <a href="#" class="btn btn-action style-02 btn-06">
                         <span>ทำแบบสำรวจ</span> 
                       </a>
                     </div>
@@ -297,7 +301,7 @@
           </div>
         </div>
       </div>
-      <div class="btns jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="btns jc-center mt-6" data-aos="fade-up" data-aos-delay="600">
         <a href="#" class="btn btn-action style-02 btn-02">
           <span>อ่านทั้งหมด</span> 
           <div class="icon ml-3">

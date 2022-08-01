@@ -218,11 +218,10 @@
 }
 .banner-05 .slick-dots li{display:block; margin:0 .3125rem;}
 .banner-05 .slick-dots button{
-    display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem;
+    display:block; font-size:0; width:.6875rem; height:.6875rem; border-radius:50%;
     padding:0; box-shadow:none; border:0; margin:0; outline:none; cursor:pointer;
     transition:width .25s;
 }
-.banner-05 .slick-dots li.slick-active button{width:1.5rem;}
 @media screen and (max-width:767.98px){
     .banner-05 .slide{min-height:580px;}
 }
@@ -237,10 +236,6 @@
     transform:scale(1); transition-duration:14s; transition-delay:.6s;
 }
 .loading .banner-05 .slide.slick-current .img-bg{transform:scale(1.2);}
-
-
-
-
 
 
 /* Info 01 */
@@ -869,28 +864,16 @@
 }
 
 
-/* Section 21 */
-.section-21{position:relative; height:100%; min-height:300px; overflow:hidden;}
-.section-21 .pattern{
-    display:block; height:37rem; width:auto; position:absolute; 
-    bottom:-6rem; left:0;
-}
-
-
 /* Section 22 */
-.section-22{position:relative; height:100%; min-height:300px; margin-top:-15rem; z-index:2;}
+.section-22{position:relative; height:100%;}
+.section-22 > .img-bg{
+    position:absolute; top:0; left:0; right:0; height:300px; background-size:cover;
+    background-position:center;
+}
+.section-22 > .container{position:relative;}
 .section-22 .slide-container{position:relative; margin:2.5rem 0 0 0;}
 .section-22 .slides{overflow:hidden; width:calc(100% + 1rem); margin:0 -.5rem;}
-.section-22 .section-card .ss-img{border-radius:.5rem; overflow:hidden;}
-.section-22 .section-card{
-    display:flex; flex-direction:column; justify-content:center;  height:100%; padding:.5rem; 
-    transition:background .25s, color .25s; z-index: 3;
-}
-.section-22 .section-card > .card-footer{position:relative; margin:-2rem 1rem 0;}
-.section-22 .section-card > .card-footer .text-container{
-    padding:.5rem 1rem; border-radius:.5rem; min-height:2rem;
-}
-
+.section-22 .slide{padding:0 .5rem;}
 .section-22 .dot-container{display:block; margin:2.5rem 0 0 0;}
 .section-22 .slick-dots{
     display:flex; width:100%; align-items:center; justify-content:center;
@@ -898,17 +881,11 @@
 }
 .section-22 .slick-dots li{display:block; margin:0 .3125rem;}
 .section-22 .slick-dots button{
-    display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem;
+    display:block; font-size:0; width:.6875rem; height:.6875rem; border-radius:50%;
     padding:0; box-shadow:none; border:0; margin:0; outline:none; cursor:pointer;
     transition:width .25s;
 }
-.section-22 .slick-dots li.slick-active button{width:1.5rem;}
 .section-22 .btns{position:absolute; bottom:-1rem; right:0; width:auto;}
-@media screen and (max-width:575.98px){
-    .section-22 .text-container{
-        min-height:3.9375rem !important;
-    }    
-}
 @media screen and (max-width:767.98px){
     .section-22 .btns{
         position:relative; bottom:unset; right:unset; width:100%; 
@@ -921,15 +898,6 @@
 .section-23 .btns{margin:1.5rem 0 0 0; justify-content:flex-end;}
 @media screen and (max-width:991.98px){
     .section-23 .btns{justify-content:center;}
-}
-
-
-/* Section 24 */
-.section-24 .ss-img{border-radius:.5rem; overflow:hidden;}
-.section-24 .ss-img.square{padding:62% 0 0 0;}
-.section-24 .text-wrapper{position:relative; padding-bottom:1rem; text-align:center;}
-@media screen and (max-width:1199.98px){
-    .section-24 .ss-img.square{padding:67% 0 0 0 !important;}
 }
 
 
