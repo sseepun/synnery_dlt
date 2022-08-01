@@ -612,22 +612,6 @@
 .section-09 .section-card .text-wrapper{
     display:flex; align-items:center; padding-left:1rem;
 }
-@media screen and (max-width:1199.98px){
-    .section-09 .section-card{padding:1.25rem;}
-}
-@media screen and (max-width:991.98px){
-    .section-09 .section-cards{flex-wrap:wrap;}
-    .section-09 .section-card{width:50%; border-bottom:1px solid transparent;}
-    .section-09 .section-card .icon{min-width:4.375rem; min-height:4.375rem;}
-}
-@media screen and (max-width:767.98px){
-    .section-09 .section-card{padding:1rem;}
-    .section-09 .section-card .icon{min-width:4rem; min-height:4rem;}
-}
-@media screen and (max-width:575.98px){
-    .section-09 .section-card{width:100%;}
-    .section-09 .section-card .icon{min-width:3.75rem; min-height:3.75rem;}
-}
 
 
 /* Section 10 */
@@ -766,7 +750,7 @@
     content:''; position:absolute; top:.2.5rem; bottom:.2.5rem; right:0; width:1px; height:8px;
 }
 .section-15 .card-footer .block-icon:last-child::after{display:none;}
-.section-15 .icon-main img{padding:1rem; border-radius:.5rem;}
+.section-15 .image-container img{padding: .5rem ; border-radius:.5rem; width:45px; height:50px;}
 .section-15 .card-footer .icon{font-size:.8125rem; margin:0 .375rem 0 0;}
 @media screen and (max-width:767.98px){
     .section-15 .container{max-width: calc(100vw - 1rem);}
@@ -789,7 +773,7 @@
 /* Section 16 */
 .section-16{position:relative;}
 .section-16.section-padding{padding:4rem 0 12rem 0 !important;}
-.section-16 .ss-card .desc{min-height:3rem;}
+.section-16 .ss-card .desc{min-height:2rem;}
 .section-16 .socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
 .section-16 .socials > .social{
   position:relative; display:flex; align-items:center; justify-content:center;
@@ -837,14 +821,41 @@
 }
 
 
+/* Section 19 */
+
+
+
 /* Section 20 */
-.section-20{position:relative;}
-.section-20 .card-contact{position:relative; z-index:3;}
-.section-20 .socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
-.section-20 .socials > .social{
-  position:relative; display:flex; align-items:center; justify-content:center;
-  overflow:hidden; width:2.25rem; height:2.25rem; border-radius:50%; font-size:1.125rem; margin:.375rem .375rem 0 0;
-  transition:background .5s, color .5s, border-color .5s, background-image .25s;
+.section-20{position:relative; margin:-4rem 0 0 0;}
+.section-20 .section-cards{position:relative; display:flex; border-radius:.5rem; overflow:hidden; z-index:4}
+.section-20 .section-card{
+    display:flex; align-items:center; width:25%; height:100%; padding:1.5rem 2rem; margin:.2666rem;
+    border-radius:.5rem; min-height:8rem; overflow:hidden;
+}
+.section-20 .section-card .icon{
+    display:flex; justify-content:center; align-items:center; 
+    min-width:3rem; min-height:3rem; border-radius:50%; 
+}
+@media screen and (max-width:1199.98px){
+    .section-20 .section-card{
+        width:33.33%;
+    }
+}
+@media screen and (max-width:991.98px){
+    .section-20 .section-card{
+        width:33.33%; padding:1.5rem 1rem;
+    }
+    .section-20 .text-container{
+        padding-left:1rem !important;
+    }
+}
+@media screen and (max-width:767.98px){
+    .section-20 .section-cards{
+        flex-direction:column; 
+    }
+    .section-20 .section-card{
+        width:100%; margin:.5rem 0 0 0; 
+    }
 }
 
 

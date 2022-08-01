@@ -843,8 +843,8 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 /* Special Card 09 */
-.ss-card-09{position:relative;}
-.ss-card-09 .text-container{border-radius:.5rem; padding:.5rem 1rem;} 
+.ss-card-09{position:relative; border-radius:.5rem;}
+.ss-card-09 .text-container{padding:.5rem 1rem;} 
 .ss-card-09 .image-container{position: relative; margin-top:-2rem; z-index:3;}
 .ss-card-09 .text-container > .image-container img{width:3.125rem; height:3.125rem;}
 .ss-card-09 .text-container .title{min-height:3.5rem; -webkit-line-clamp:3;}
@@ -1060,6 +1060,7 @@ fieldset{padding:0; margin:0; border:0;}
 
 /* Special Separation */
 .ss-sep-01{width:3.5rem; height:.3125rem; margin:0 auto; border-radius:1000em;}
+.ss-sep-02{width:100%; height:1px; margin-top:1rem;}
 
 
 /* Special Tags */

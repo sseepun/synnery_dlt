@@ -208,15 +208,15 @@
               <h5 class="color-white">ข่าวประกาศ</h5>
               <div class="ss-sep-01 ml-0"></div>
               <?php for($i=0; $i<4; $i++){?>
-                <div class="d-flex mt-6 ss-sep-01-style-02">
-                  <div class="icon-main">
+                <div class="d-flex mt-6">
+                  <div class="image-container">
                     <img src="public/assets/app/images/icon/36.png" alt="Icon" />
                   </div>
                   <div class="text-container d-flex flex-column jc-center ml-3">
-                    <p class="color-white">
-                      รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน <br>
+                    <a class="color-white p md fw-300 h-color-05" href="#">
+                      รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน
                       การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
-                    </p>
+                    </a>
                     <div class="card-footer">
                       <div class="blocks-icon">
                         <div class="block-icon">
@@ -235,6 +235,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="ss-sep-02"></div>
               <?php }?>
             </div>
             <div class="btns d-flex jc-end pt-6" data-aos="fade-up" data-aos-delay="300">
@@ -280,6 +281,8 @@
                 <ol class="pl-5">
                   <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
                   <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
+                  <li>ต่ออายุใบอนุญาตขับรถ (5 ปี เป็น 5ปี)</li>
+                  <li>ต่ออายุใบอนุญาตขับรถจักรยายนต์ชั่วคราว (2ปี)</li>
                 </ol>
                 <div class="btns mt-4 animate" style="--delay:.7s;">
                   <a href="#" class="btn btn-action style-02 btn-03">
@@ -302,7 +305,7 @@
       <h3 class="text-center">บุคลากร</h3> 
         <div class="grids">
           <?php for($i=0; $i<4; $i++){?>
-            <div class="grid lg-25">
+            <div class="grid lg-25 md-50 sm-50">
               <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= $i%4+2?>.jpg');"></div>
@@ -442,7 +445,7 @@
     }
     .btn-swiper .btn{cursor:pointer;}
   </style>
-  <section class="section-19">
+  <section class="section-19 section-padding">
     <div class="swiper-container"> 
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)">
@@ -478,68 +481,44 @@
     </div>
   </section>
 
-  <!-- <section class="section-20 section-padding">
+  <section class="section-20 section-padding">
     <div class="container">
-      <div class="card-contact">
-        <div class="grids jc-center">
-          <div class="grid lg-90 ">
-            <div class="grids no-gap">
-              <div class="grid lg-1-3 mt-0 p-1">
-                <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-01">
-                  <div class="icon d-flex ai-center">
-                    <div class="socials d-flex ai-center jc-end">
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-phone"></em>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="text-container d-flex flex-column  jc-center">
-                    <p>โทรศัพท์</p>
-                    <p>0-2323-4060</p>
-                  </div>
-                </div>
-              </div>
-              <div class="grid lg-1-3 mt-0 p-1">
-              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-02">
-                <div class="icon d-flex ai-center">
-                <div class="socials d-flex ai-center jc-end">
-                  <a class="social" href="#">
-                    <em class="fa-solid fa-fax"></em>
-                  </a>
-                </div>
-                </div>
-                <div class="text-container">
-                  <p>โทรศัพท์</p>
-                  <p>0-2323-4060</p>
-                  <p>0-2323-3619</p>
-                </div>
-              </div>
-            </div>
-            <div class="grid lg-1-3 mt-0 p-1">
-              <div class="d-flex ai-center jc-center ss-card ss-card-10 ss-card-10-03">
-                <div class="icon">
-                <div class="socials d-flex ai-center jc-end">
-                  <a class="social" href="#">
-                    <em class="fa-solid fa-envelope"></em>
-                  </a>
-                </div>
-                </div>
-                <div class="text-container">
-                  <p>อีเมล</p>
-                  <p>dltspk@gmail.com</p>
-                  <p>dlt_spk@hotmail.co.th</p>
-                </div>
-              </div>
-            </div>
-            </div>
+      <div class="section-cards d-flex jc-center" data-aos="fade-up" data-aos-delay="0">
+        <a class="section-card" href="#">
+          <div class="icon">
+            <em class="fa-solid fa-phone"></em>
           </div>
-        </div> 
-      </div>       
+          <div class="text-container pl-6">
+            <h6 class="fw-300 lh-xs">โทรศัพท์ :</h6>
+            <p>0-2323-4060</p>
+          </div>
+        </a>
+        <a class="section-card" href="#">
+          <div class="icon">
+            <em class="fa-solid fa-fax"></em>
+          </div>
+          <div class="text-container pl-6">
+            <h6 class="fw-300 lh-xs">โทรสาร :</h6>
+            <p>0-2323-4060,</p>
+            <p>0-2323-3619</p>
+          </div>
+        </a>
+        <a class="section-card" href="#">
+          <div class="icon">
+            <em class="fa-solid fa-envelope"></em>
+          </div>
+          <div class="text-container pl-6">
+            <h6 class="fw-300 lh-xs">อีเมล :</h6>
+            <p>dltspk@gmail.com,</p>
+            <p>dlt_spk@hotmail.co.th</p>
+          </div>
+        </a>
+      </div>    
     </div>
-  </section> -->
+  </section>
 
    
-  <?php include_once('include/footer-05.php'); ?>
+  <?php // include_once('include/footer-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <!-- Swiper -->
