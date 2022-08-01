@@ -420,7 +420,7 @@
           <?php }?>
       </div>
       <div class="dot-container"></div>
-      <div class="btns d-flex jc-end mt-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="btns d-flex mt-6" data-aos="fade-up" data-aos-delay="300">
         <a href="#" class="btn btn-action style-02 btn-05">
           <span>อ่านทั้งหมด</span> 
           <div class="icon ml-3">
