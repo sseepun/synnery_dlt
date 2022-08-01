@@ -103,6 +103,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-05::before{background:#fd7e14; border-color:#fd7e14;}
 .btn.btn-05:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-06, .btn.btn-06:focus{color:#ffffff; background:#271148; border-color:#271148;}
+.btn.btn-06::before{background:#d6bf64; border-color:#d6bf64;}
+.btn.btn-06:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 .btns > .btn-more:hover{color:#550469;}
 .btns > .btn-more .icon{background:#550469; color:#ffffff;}
 .btns > .btn-more:hover .icon{background:#f9c816;}
@@ -450,7 +454,8 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-10.ss-card-10-03{background:#271148; color:#ffffff;}
 
 /* Special Card 12 */
-.ss-card-12{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-12{box-shadow:0px 4px 10px 6px rgba(0,0,0,.03);}
+.ss-card-12 .text-container{background:#ffffff;}
 .ss-card-12 .card-footer{border-color:#dcdce0;}
 .ss-card-12 .card-footer .icon{color:#663399;}
 .ss-card-12 .card-footer .block::after{background:#dcdce0;}
@@ -458,15 +463,21 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-12 .card-footer .more:hover{background:#d6bf64;}
 
 /* Special Card 13 */
-.ss-card-13{background:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
-.ss-card-13 .card-footer{border-color:#dcdce0;}
+.ss-card-13 .text-container{background:#f2f2f2;}
+.ss-card-13 .card-footer{border-color:rgba(0,0,0,.15);}
 .ss-card-13 .card-footer .icon{color:#6d2587;}
-.ss-card-13 .card-footer .block::after{background:#b9b9bf;}
+.ss-card-13 .card-footer .block::after{background:rgba(0,0,0,.15);}
 
 /* Special Card 14 */
-.ss-card-14{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
+.ss-card-14{color:#ffffff;}
 .ss-card-14 .more{background:#663399; color:#ffffff;}
 .ss-card-14 .more:hover{background:#d6bf64;}
+
+/* Special Card 15 */
+.ss-card-15{background:#663399; color:#ffffff;}
+.ss-card-15 .title{color:#d6bf64;}
+.ss-card-15 .rc-container > label::before{border-color:#ffffff;}
+.ss-card-15 .rc-container > label::after{background:#ffffff;}
 
 /* Special Card 16 */
 .ss-card-16 {box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
@@ -481,6 +492,10 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-18{border-color:#dcdce0 !important;}
 .ss-card-18 .more{background:#e6e1ec; color:#663399;}
 .ss-card-18 .more:hover{background:#663399; color:#e6e1ec;}
+
+/* Special Card 19 */
+.ss-card-19 .text-container{background:#663399; color:#ffffff;}
+
 
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
@@ -658,17 +673,10 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-20 .section-card:nth-child(3){background:#271148; color:#ffffff;}
 .section-20 .section-card .icon{border:1px solid #ffffff;}
 
-/* Section 21 */
-.section-21{background:#271148;}
-
 /* Section 22 */
-.section-22 .section-card .text-container{background:#663399; color:#f1dace;}
+.section-22 > .img-bg{background:#271148;}
 .section-22 .slick-dots button{background:#e6e1ec;}
 .section-22 .slick-dots li.slick-active button{background:#d6bf64;}
-
-/* Section 24 */
-.section-24 .rc-container > label::before{border-color:#ffffff;}
-.section-24 .rc-container > label::after{background:#d6bf64;}
 
 /* Section 25 */
 .section-25 .slick-dots button{background:#e6e1ec;}

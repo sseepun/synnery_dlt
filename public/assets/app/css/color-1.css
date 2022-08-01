@@ -242,18 +242,31 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 
 
 /* Special Card 12 */
-.ss-card-12 .card-footer{
-  border-color:#000 ;
-}
-.ss-card-12 .more{
-  background:#000000; color:#ffffff; border-color:#ffffff;
-}
-.ss-card-07 .text-container::after{
-  background-image:linear-gradient(to bottom right,#000000,#000000);
-}
-.ss-card-07 .card-footer .icon{color:#000000;}
-.ss-card-07 .card-footer .block::after{background:rgba(0,0,0,.3);}
-.ss-card-07 .btn-more{background:#000000; color:#ffffff; border-color:#ffffff;}
+.ss-card-12{box-shadow:0px 4px 10px 6px rgba(255,255,255,.03);}
+.ss-card-12 .text-container{background:#ffffff; color:#000000;}
+.ss-card-12 .card-footer{border-color:rgba(0,0,0,.3);}
+.ss-card-12 .card-footer .icon{color:#000000;}
+.ss-card-12 .card-footer .block::after{background:rgba(0,0,0,.3);}
+.ss-card-12 .card-footer .more{background:#000000; color:#ffffff;}
+
+/* Special Card 13 */
+.ss-card-13 .text-container{background:#ffffff; color:#000000;}
+.ss-card-13 .card-footer{border-color:rgba(0,0,0,.15);}
+.ss-card-13 .card-footer .icon{color:#000000;}
+.ss-card-13 .card-footer .block::after{background:rgba(0,0,0,.15);}
+
+/* Special Card 14 */
+.ss-card-14{color:#ffffff;}
+.ss-card-14 .more{background:#000000; color:#ffffff;}
+.ss-card-14 .more:hover{background:#ffffff; color:#000000;}
+
+/* Special Card 15 */
+.ss-card-15{background:#000000; color:#ffffff; border:1px solid #ffffff;}
+.ss-card-15 .rc-container > label::before{border-color:#ffffff;}
+.ss-card-15 .rc-container > label::after{background:#ffffff;}
+
+/* Special Card 19 */
+.ss-card-19 .text-container{background:#ffffff; color:#000000;}
 
 
 /* Special Image */
@@ -388,14 +401,9 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .section-13 .slick-dots button{background:#ffffff;}
 
 /* Section 22 */
-.section-22 .section-card > .card-footer{border:1px solid #ffffff;}
-.section-22 .section-card .text-container{background:#ffffff; color:#000000;}
-.section-22 .slick-dots button{background:#ffffff;}
-
-/* Section 23 */
-.section-23 .card-footer{border:1px solid #ffffff;}
-.section-23 .text-container{background:#ffffff; color:#000000;}
-.section-23 .slick-dots button{background:#ffffff;}
+.section-22 > .img-bg{background:#000000;}
+.section-22 .slick-dots button{background:rgba(255,255,255,.3);}
+.section-22 .slick-dots li.slick-active button{background:#ffffff;}
 
 
 /* Tabs 01 */
