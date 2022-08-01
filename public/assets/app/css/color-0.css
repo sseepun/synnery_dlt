@@ -167,6 +167,27 @@ nav.topnav .submenu-dropdown{
 }
 nav.topnav .submenu:hover > *:first-child{color:#f9c816;}
 
+/* Topnav Style 01 */
+nav.topnav.style-01{border-color:rgba(255,255,255,.3); color:#ffffff;}
+nav.topnav.style-01.sticky{border-color:rgba(0,0,0,.15); background:#ffffff; color:#000000;}
+nav.topnav.style-01 .menu:hover > *:first-child{color:#d6bf64;}
+nav.topnav.style-01 .menu > *:first-child::after{background:#d6bf64;}
+nav.topnav.style-01 .option-detail{border-color:rgba(255,255,255,.3);}
+nav.topnav.style-01.sticky .option-detail{border-color:rgba(0,0,0,.15);}
+nav.topnav.style-01 .option-detail .set.main{background:#d6bf64; color:#ffffff;}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown{
+  border-color:#d6bf64; background:rgba(104,96,155,.96); color:#ffffff;
+}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown .set-option:hover{background:#d6bf64;}
+nav.topnav.style-01 .option{border-color:rgba(255,255,255,.3); color:#ffffff;}
+nav.topnav.style-01.sticky .option{border-color:rgba(0,0,0,.15); color:#000000;}
+nav.topnav.style-01 .option:hover{color:#d6bf64;}
+nav.topnav.style-01 .hamburger > *{background:#ffffff;}
+nav.topnav.style-01.sticky .hamburger > *{background:#000000;}
+nav.topnav.style-01 .hamburger:hover > *{background:#d6bf64;}
+nav.topnav.style-01 .option.sidenav-toggle::before,
+nav.topnav.style-01 .option.sidenav-toggle{background:none;}
+
 /* Topnav Style-03 */
 nav.topnav.style-03{background:#ffffff; border-color:#c7cbd1;}
 nav.topnav.style-03 .logo{color:#3c3c3c;}

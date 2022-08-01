@@ -169,6 +169,69 @@ nav.topnav .sidenav-toggle::before{
 nav.topnav .sidenav-toggle > .hamburger{position:relative;}
 nav.topnav + .topnav-spacer{display:block; width:100%;}
 
+/* Topnav Style 01 */
+nav.topnav.style-01{position:fixed; top:0;}
+nav.topnav.style-01 .topnav-wrapper{display:flex; padding:0 1.5rem;}
+nav.topnav.style-01 .logo{
+  display:flex; align-items:center; white-space:nowrap;
+  padding:.5rem 0; transition:color .25s;
+}
+nav.topnav.style-01 .logo .img-container{margin:0 .625rem 0 0;}
+nav.topnav.style-01 .logo img{display:block; height:2.875rem; width:auto; transition:opacity .25s;}
+nav.topnav.style-01 .menu-container{margin:0 auto;}
+nav.topnav.style-01 .menu > *:first-child{padding:0;}
+nav.topnav.style-01 .menu > *:first-child .chev{font-size:.5rem; margin:.125rem 0 0 .5rem;}
+nav.topnav.style-01 .menu.active > *:first-child::after{left:0; right:unset; width:100%;}
+nav.topnav.style-01 .options{display:flex; padding:.5rem 0;}
+nav.topnav.style-01 .option-detail{
+  text-align:center; padding:.125rem .75rem; border-left:1px solid transparent;
+  transition:border-color .25s;
+}
+nav.topnav.style-01 .option-detail .sets{
+  position:relative; display:flex; align-items:center; justify-content:center;
+  margin:.25rem -.5rem 0 -.5rem;
+}
+nav.topnav.style-01 .option-detail .set{
+  display:flex; align-items:center; justify-content:center; width:1.25rem; height:1.25rem;
+  font-size:1.25rem; border-radius:50%; cursor:pointer;
+}
+nav.topnav.style-01 .option-detail .set.main{margin:0 .125rem;}
+nav.topnav.style-01 .option-detail .set-option{
+  display:flex; align-items:center; padding:0 .5rem; cursor:pointer;
+  transition:background .25s, color .25s;
+}
+nav.topnav.style-01 .option-detail .set-option .flag{
+  display:block; width:1.25rem; height:1.25rem; border-radius:50%; margin:0 .5rem 0 0;
+  background-size:cover; background-position:center;
+}
+nav.topnav.style-01 .option-detail .set-option .chev{font-size:.5rem; margin:.125rem 0 0 .5rem;}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown{
+  position:absolute; top:calc(100% + .5rem); left:.25rem; border-top:.1875rem solid transparent;
+  padding:.25rem 0; pointer-events:none; opacity:0; transition:opacity .25s, top .25s;
+}
+nav.topnav.style-01 .option-detail .sets:hover > .set-dropdown{
+  top:100%; pointer-events:auto; opacity:1;
+}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown .set-option{padding:.25rem .25rem;}
+nav.topnav.style-01 .option{
+  display:flex; align-items:center; justify-content:center; border-left:1px solid transparent;
+  font-size:1.5rem; padding:.5rem 1rem;
+}
+nav.topnav.style-01 .show-tablet{display:none!important;}
+@media screen and (max-width:1199.98px){
+  nav.topnav.style-01 .hide-tablet{display:none!important;}
+  nav.topnav.style-01 .show-tablet{display:flex!important;}
+  nav.topnav.style-01 .topnav-wrapper{padding:0 .5rem 0 1.5rem;}
+  nav.topnav.style-01 .options{margin:0 0 0 auto;}
+}
+@media screen and (max-width:767.98px){
+  nav.topnav.style-01 .option-detail{display:none;}
+}
+@media screen and (max-width:575.98px){
+  nav.topnav.style-01 .logo .text-wrapper{display:none;}
+}
+
+/* Topnav Style 03 */
 nav.topnav.style-03 .logo{
   display:flex; align-items:center; white-space:nowrap;
   padding:.5rem 0; transition:color .25s;

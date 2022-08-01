@@ -173,7 +173,6 @@ $(function(){ 'use strict';
             backToTop.removeClass('active');
         }
         if(topnav.length){
-            // if(st > 2.375*bodySize){
             if(st > 38){
                 topnav.addClass('sticky');
             }else{
