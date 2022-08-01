@@ -541,8 +541,8 @@ nav.footer.style-04 .footer-bottom{padding:1.5rem 0;}
 
 /* Footer Style 05 */
 nav.footer.style-05{
-  position:relative; width:100%; padding:2.5rem 0 .5rem 0; overflow:hidden; 
-  margin-top:-7rem; z-index:1;
+  position:relative; width:100%; padding:3rem 0 .5rem 0; overflow:hidden; 
+  margin-top:-4rem; z-index:1;
 }
 nav.footer.style-05 > .container{position:relative;}
 nav.footer.style-05 > .pattern{

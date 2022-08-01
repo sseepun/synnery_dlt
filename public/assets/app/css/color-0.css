@@ -454,6 +454,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 /* Special Separation */
 .ss-sep-01{background-image: linear-gradient(to bottom right,#fd7e14,#ffc107);}
+.ss-sep-02{background:#8a66ae}
 
 
 /* Special Tags */
@@ -595,7 +596,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-15 .text-container{color:#ffffff;}
 .section-15 .card-footer .icon{color:#ffffff;}
 .section-15 .card-footer .block-icon::after{background:#b399cc;}
-.section-15 .icon-main img{border:2px solid #fea40d;}
+.section-15 .image-container img{border:2px solid #fea40d;}
 .section-15 .card-footer .icon{color:#ffffff;}
 .section-15 .subblocks .text-wrapper{color:#ffffff;}
 
@@ -618,14 +619,19 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-18 .slick-dots li.slick-active button{background:#663399;}
 
 
-/* Section 19 */
-.section-19{background:#ffffff;}
-
-
 /* Section 20 */
-.section-20{background:#ffffff;}
-.section-20 .socials > .social{border:1px solid #ffffff;}
-.section-20 .socials > .social:hover{background:#d6bf64; border-color:#d6bf64;}
+.section-20 .section-card:nth-child(1){
+  background:#a05fe1; color:#ffffff;
+}
+.section-20 .section-card:nth-child(2){
+  background:#663399; color:#ffffff;
+}
+.section-20 .section-card:nth-child(3){
+  background:#271148; color:#ffffff;
+}
+.section-20 .section-card .icon{
+  border:1px solid #ffffff;
+}
 
 
 /* Section 21 */
