@@ -8,45 +8,73 @@
   <?php // include_once('include/page-loader.php'); ?>
   <?php // include_once('include/topnav-04.php'); ?>
 
-  <section class="banner-05">
-    <div class="slide-container">
-      <div class="slides">
-        <?php for($i=0; $i<4; $i++){?>
-          <div class="slide">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/banner/05.jpg');"></div>
-            <div class="container">
-              <!-- <div class="text-wrapper color-white">
-                <div class="animate" style="--delay:.4s;">
-                  <h3 class="lg fw-100 lh-3xs">
-                    การเดินทางด้วย <br />
-                    <span class="text-xl fw-400">รถสาธาณะแบบวิถีใหม่</span>
-                  </h3>
+
+  <?php
+    $categories = [
+      [ 
+        'title' => 'ข่าวสารประชาสัมพันธ์', 
+      ], [
+        'title' => 'ข่าวประกาศกรมขนส่ง', 
+      ], [
+        'title' => 'ภาพรวมการขนส่งทางบก', 
+      ], [
+        'title' => 'สาระน่าดู', 
+      ], 
+    ];
+  ?>
+
+  <section class="section-29 section-padding">
+    <div class="container">
+      <h3 class="text-center color-03">ข่าวสารประชาสัมพันธ์</h3>
+      <div class="grids">
+        <div class="grid lg-30">
+          <div class="tab-container">
+            <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
+                <?php foreach($categories as $i=>$d){?>
+                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                    <h3 class="fw-300 lh-xs">ประเภท</h3>
                 </div>
-                <p class="lg fw-200 mt-3 animate" style="--delay:.55s;">
-                  ไม่ว่าจะเป็นรถเมล์ รถโดยสารประจำทาง <br> และรถโดยสารไม่ประจำทาง
-                  รถยนต์รับจ้าง (แท็กซี่) และรถบริการ รถจักรยานยนต์สาธารณะ <br>
-                  และรถรับจ้างอื่นๆ ควรปฏิบัติดังนี้
-                </p>
-                <div class="btns mt-4 animate" style="--delay:.7s;">
-                  <a href="#" class="btn btn-action style-02 btn-03">
-                    <span>รายละเอียดเพิ่มเติม</span> 
-                  </a>
+                <?php }?>
+            </div>
+            <div class="tabs tabs-04 mt-4" data-aos="fade-up" data-aos-delay="150">
+              <div class="wrapper">
+                <?php foreach($categories as $i=>$d){?>
+                  <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                    <p class="lg fw-400"><?= $d['title'] ?></p>
+                  </div>
+                <?php }?>
+              </div>
+            </div>
+            <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
+              <?php foreach($categories as $i=>$d){?>
+                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                  <?php for($j=0; $j<3; $j++){?>
+                    <div class="grid lg-1-3 sm-50">
+                       <div class="ss-card ss-card-05">
+                         <div class="ss-img">
+                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= ($i+$j+1)%4+1 ?>.jpg');"></div>
+                        </div>
+                          <div class="line-1"></div><div class="line-2"></div>
+                        </div>
+                    </div>
+                   <?php }?>
                 </div>
-              </div> -->
+              <?php }?>
             </div>
           </div>
-        <?php }?>
-      </div>
-      <div class="dot-container" data-aos="fade-up" data-aos-delay="0"></div>
-    </div>
-  </section>
+        </div>
+        <div class="grid lg-70">
+          <div class="grids">
+            <div class="grid lg-50">
 
-  <section class="section-27 section-padding">
-    <div class="container">
-      <div class="grids">
-        <    
-      </div>      
-    </div>        
+            </div>   
+            <div class="grid lg-50">
+
+            </div>     
+          </div>
+        </div>        
+      </div>  
+    </div>
   </section>
    
   <?php // include_once('include/footer-04.php'); ?>
