@@ -44,7 +44,7 @@
   <section class="section-13 section-padding">
     <div class="container">
       <div data-aos="fade-up" data-aos-delay="0">
-        <h3 class="text-center fw-600 color-10">
+        <h3 class="text-center fw-500 color-10">
           ระบบสำนักงานออนไลน์
         </h3>  
         <div class="ss-sep-01 mt-1"></div>  
@@ -85,9 +85,9 @@
   <section class="section-14 section-padding">
     <div class="container">
       <div data-aos="fade-up" data-aos-delay="0">
-        <h3 class="text-center fw-600 color-10">
+        <h3 class="text-center fw-500 color-10">
           ข่าวประชาสัมพันธ์
-        </h3>  
+        </h3>
         <div class="ss-sep-01 mt-1"></div>  
       </div> 
       <div class="grids jc-center pt-4">
@@ -295,39 +295,44 @@
     </div>   
   </section>
 
-  <section class="section-16 section-padding">
+  <section class="section-padding">
     <div class="container">
-      <h3 class="text-center">บุคลากร</h3> 
-        <div class="grids">
-          <?php for($i=0; $i<4; $i++){?>
-            <div class="grid lg-25 md-50 sm-50">
-              <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
-                <div class="ss-img square">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= $i%4+2?>.jpg');"></div>
-                </div>
-                <div class="text-container text-center">
-                  <a class="p lg fw-400 h-color-05" href="#">
-                    นางสุนิสา อนันตกูล
-                  </a>
-                  <p class="sm desc fw-200">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
-                  <div class="card-footer">
-                    <div class="socials d-flex ai-center jc-end">
-                      <a class="social" href="#">
-                        <em class="fa-brands fa-facebook-f"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-envelope"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-phone"></em>
-                      </a>
-                    </div>
+      <div data-aos="fade-up" data-aos-delay="0">
+        <h3 class="text-center fw-500 color-10">
+          บุคลากร
+        </h3>
+      </div> 
+      <div class="grids pt-2">
+        <?php for($i=0; $i<4; $i++){?>
+          <div class="grid lg-25 md-50 sm-50">
+            <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-img square">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= $i%4+2?>.jpg');"></div>
+              </div>
+              <div class="text-container text-center">
+                <a class="h6 fw-400 h-color-05" href="#">
+                  นางสุนิสา อนันตกูล
+                </a>
+                <p class="sm desc fw-200">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
+                <div class="card-footer">
+                  <div class="socials d-flex ai-center jc-end">
+                    <a class="social" href="#">
+                      <em class="fa-brands fa-facebook-f"></em>
+                    </a>
+                    <a class="social" href="#">
+                      <em class="fa-solid fa-envelope"></em>
+                    </a>
+                    <a class="social" href="#">
+                      <em class="fa-solid fa-phone"></em>
+                    </a>
                   </div>
                 </div>
               </div>
-            </div> 
-          <?php }?> 
-         <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="line-1"></div><div class="line-2"></div>
+            </div>
+          </div> 
+        <?php }?> 
+        <div class="btns jc-center pt-6 mt-2" data-aos="fade-up" data-aos-delay="300">
           <a href="#" class="btn btn-action style-02 btn-05">
             <span>ข้อมูลเพิ่มเติม</span> 
             <div class="icon ml-3">
@@ -335,148 +340,132 @@
             </div>
           </a>
         </div>
-    </div>      
+      </div>
+    </div>
   </section>
 
-  <section class="section-17 section-padding">
+  <section class="section-17">
     <div class="container">
-      <div class="opinion-poll">
-        <div class="grids no-gap">
-          <div class="grid lg-50 mt-0" style="background-image:url('public/assets/app/images/content/26.jpg');
-          background-size:cover; background-repeat:no-repeat; background-position:center;"> 
-          </div> 
-            <div class="grid lg-50 mt-0">
-              <div class="text-container">
-                <h6 class="color-05">แบบสำรวจความคิดเห็น</h6> 
-                <p class="mt-2">ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทาง <br>
-                    เว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร</p>
-                    <fieldset class="d-flex mt-3">
-                      <?php foreach(['พอใช้', 'ปานกลาง', 'มาก', 'มากที่สุด'] as $i=>$d){?>
-                        <div class="rc-container">
-                          <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
-                          <label for="poll_<?= $i ?>"><?= $d ?></label>
-                        </div>
-                      <?php }?>
+      <div class="grids jc-center">
+        <div class="grid xl-80 lg-90 sm-100 mt-0">
+          <div class="opinion-poll" data-aos="fade-up" data-aos-delay="0">
+            <div class="grids no-gap">
+              <div class="grid lg-50 md-40 sm-100 mt-0">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/26.jpg');"></div>
+                </div>
+              </div>
+              <div class="grid lg-50 md-60 sm-100 mt-0">
+                <div class="text-container">
+                  <h5 class="color-05">แบบสำรวจความคิดเห็น</h5> 
+                  <p class="mt-1">
+                    ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่ทางเว็บไซต์ของสำนักงานขนส่งจังหวัดสมุทรปราการอย่างไร
+                  </p>
+                  <fieldset class="d-flex mt-3">
+                    <?php foreach(['พอใช้', 'ปานกลาง', 'มาก', 'มากที่สุด'] as $i=>$d){?>
+                      <div class="rc-container">
+                        <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
+                        <label for="poll_<?= $i ?>"><?= $d ?></label>
+                      </div>
+                    <?php }?>
                   </fieldset>  
-                  <div class="btns d-flex mt-5" data-aos="fade-up" data-aos-delay="300">
+                  <div class="btns pt-6">
                     <a href="#" class="btn btn-action style-02 btn-05">
                       <span>ทำแบบสำรวจ</span> 
                     </a>
+                  </div>
                 </div>
-              </div>   
-          </div>     
-        </div>    
-      </div>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section-18 section-padding">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-06.jpg');"></div>
     <div class="container">
-      <h3 class="text-center fw-600 animate">กระดานถามตอบ</h3>     
+      <div data-aos="fade-up" data-aos-delay="0">
+        <h3 class="title-black text-center fw-500 color-10">
+          กระดานถามตอบ
+        </h3>
+      </div> 
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="section-card" href="#">
-                <div class="ss-card ss-card-09">
-                  <div class="text-container">
-                    <div class="image-container">
-                      <img src="public/assets/app/images/content/0<?= $i%4+1?>.png" class="img"/>
-                    </div>
-                    <a href="#" class="title p sm fw-400 mt-4">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
-                    <div class="card-footer">
-                      <p class="xs fw-500 lh-3xs mt-4">ภานุมาศ รักเกียรติเผ่า</p>
-                      <div class="blocks">
-                        <div class="block">
-                          <p clas="sm">
-                            <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                            16 กุมภาพันธ์ 2565
-                          </p>
-                        </div>
-                        <div class="block">
-                          <p clas="sm">
-                            <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                             12
-                          </p>
-                        </div>
-                        <div class="block">
-                          <p clas="sm">
-                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                            285
-                          </p>
-                        </div>
+              <div class="ss-card ss-card-09">
+                <div class="text-container">
+                  <div class="avatar">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%4+1?>.png');"></div>
+                  </div>
+                  <a href="#" class="title p sm fw-400 h-color-07 mt-4">
+                    ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี
+                  </a>
+                  <div class="card-footer p-0 mt-3">
+                    <p class="sm fw-500 lh-3xs mt-4">ภานุมาศ รักเกียรติเผ่า</p>
+                    <div class="blocks">
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                            12
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p clas="sm">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div class="line-1"></div><div class="line-2"></div>
                 </div>
               </div>
             </div>
           <?php }?>
-      </div>
-      <div class="dot-container"></div>
-      <div class="btns d-flex mt-6" data-aos="fade-up" data-aos-delay="300">
-        <a href="#" class="btn btn-action style-02 btn-05">
-          <span>อ่านทั้งหมด</span> 
-          <div class="icon ml-3">
-            <em class="fa-solid fa-arrow-right"></em>
-          </div>
-        </a>
+        </div>
+        <div class="dot-container"></div>
+        <div class="btns d-flex mt-6">
+          <a href="#" class="btn btn-action style-02 btn-05">
+            <span>อ่านทั้งหมด</span> 
+            <div class="icon ml-3">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
   
-  <!-- Swiper Style -->
-  <style>
-    .swiper-container {
-      width: 100%;height: 28vw; transition: opacity .6s ease;
-    }
-    .swiper-slide {
-      background-position: center; background-size: cover; background-repeat:no-repeat;
-    }
-    .swiper-slide .text-container {
-      position: absolute; bottom:2rem; left: 0; width: 100%; 
-      text-align:center;
-    }
-    .btn-swiper{
-      display:flex; justify-content:space-between;   background:#ffffff; width:100%; max-width:150px; margin:0 auto; 
-      box-shadow:0px 3px 6px 4px rgba(0,0,0,.04); height:auto; border-radius:1000em; padding:.5rem;
-    }
-    .btn-swiper .btn{cursor:pointer;}
-    .section-19 .btn-more{
-       border-radius:50%;
-    }
-    .section-19 .icon{
-      display:flex; align-items:center; justify-content:center; width:3rem; height:3rem;
-    }
-  </style>
   <section class="section-19 section-padding">
-    <div class="swiper-container"> 
+    <div class="swiper-container" data-aos="fade-up" data-aos-delay="0"> 
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)">
-          <div class="text-container">
-            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
+        <?php for($i=0; $i<6; $i++){?>
+          <div class="swiper-slide">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/2<?= $i%3 ?>.jpg')"></div>
+            <div class="text-container">
+              <p class="h6" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">
+                85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1477948879622-5f16e220fa42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
-          <div class="text-container">
-            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image:url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
-          <div class="text-container">
-            <p class="color-white" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง</p>
-          </div>
-        </div>
+        <?php }?>
       </div>
     </div>
-    <div class="btn-swiper mt-6">
-      <a class="btn style-06 btn-more bg-08 btn-prev">
+    <div class="btn-swiper mt-6" data-aos="fade-up" data-aos-delay="150">
+      <a class="btn btn-prev">
         <div class="icon">
           <em class="fa-solid fa-arrow-left color-white btn-prev"></em>
         </div>     
       </a> 
-      <a class="btn style-06 btn-more bg-08 btn-next">
+      <a class="btn btn-next">
         <div class="icon">
           <em class="fa-solid fa-arrow-right color-white btn-next"></em>
         </div>     
@@ -519,31 +508,26 @@
       </div>    
     </div>
   </section>
-
    
   <?php include_once('include/footer-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  <!-- Swiper -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
   <script>
-    // Params
-    var sliderSelector = '.swiper-container',
-    options = {
+    var mySwiper = new Swiper('.swiper-container', {
       init: false,
       loop: true,
-      speed:800,
-      slidesPerView: 2, // or 'auto'
-      // spaceBetween: 10,
+      speed: 800,
+      slidesPerView: 2,
+      spaceBetween: 240,
       centeredSlides : true,
       effect: 'coverflow', // 'cube', 'fade', 'coverflow',
       coverflowEffect: {
-        rotate: 0, // Slide rotate in degrees
-        stretch: 0, // Stretch space between slides (in px)
-        depth: 100, // Depth offset in px (slides translate in Z axis)
-        modifier: 1, // Effect multipler
-        slideShadows : true, // Enables slides shadows
+        rotate: 10,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true
       },
       grabCursor: true,
       parallax: true,
@@ -556,21 +540,17 @@
         prevEl: '.btn-next',
       },
       breakpoints: {
-        1023: {
-          slidesPerView: 1,
-          spaceBetween: 0
-        }
+        1199.98: { spaceBetween: 180, slidesPerView: 1.9 },
+        991.98: { spaceBetween: 150, slidesPerView: 1.7 },
+        767.98: { spaceBetween: 160, slidesPerView: 1.4 },
+        575.98: { spaceBetween: 110, slidesPerView: 1.2 }
       },
-      // Events
       on: {
         imagesReady: function(){
           this.el.classList.remove('loading');
         }
       }
-    };
-    var mySwiper = new Swiper(sliderSelector, options);
-
-    // Initialize slider
+    });
     mySwiper.init();
   </script>
 </body>

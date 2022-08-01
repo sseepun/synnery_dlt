@@ -841,13 +841,26 @@ fieldset{padding:0; margin:0; border:0;}
     position:relative; display:flex; align-items:center;
     margin:.5rem .5rem 0 0; padding:0 .5rem 0 0;
 }
+.ss-card-08 .desc{min-height:2rem;}
+.ss-card-08 .socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
+.ss-card-08 .socials > .social{
+  position:relative; display:flex; align-items:center; justify-content:center;
+  overflow:hidden; width:2.25rem; height:2.25rem; border-radius:50%;
+  font-size:1.125rem; margin:.375rem .375rem 0 0; border:1px solid transparent;
+  transition:background .5s, color .5s, border-color .5s, background-image .25s;
+}
 
 /* Special Card 09 */
-.ss-card-09{position:relative; border-radius:.5rem;}
-.ss-card-09 .text-container{padding:.5rem 1rem;} 
-.ss-card-09 .image-container{position: relative; margin-top:-2rem; z-index:3;}
-.ss-card-09 .text-container > .image-container img{width:3.125rem; height:3.125rem;}
-.ss-card-09 .text-container .title{min-height:3.5rem; -webkit-line-clamp:3;}
+.ss-card-09{position:relative; padding:1.5625rem 0 0 0;}
+.ss-card-09 .avatar{
+    position:absolute; top:0; left:1rem; width:3.125rem; height:3.125rem;
+    border-radius:50%; overflow:hidden; z-index:1;
+}
+.ss-card-09 .avatar .img-bg{
+    display:block; width:100%; height:100%; background-size:cover; background-position:center;
+}
+.ss-card-09 .text-container{padding:1.375rem 1rem 1rem 1rem; border-radius:.5rem;}
+.ss-card-09 .text-container .title{min-height:2.6875rem; -webkit-line-clamp:2;}
 .ss-card-09 .card-footer{
     display:flex; align-items:center; flex-wrap:wrap; padding:0 0 1rem 0; 
     border-top:1px solid transparent;
