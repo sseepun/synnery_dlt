@@ -196,6 +196,21 @@ nav.topnav.style-03 .sidenav-toggle::before{background:#76108f;}
 nav.topnav.style-03 .sidenav-toggle:hover::before{background:#68459b;}
 nav.topnav.style-03 .hamburger > *{background:#ffffff;}
 
+/* Topnav Style 04 */
+nav.topnav.style-04{border-color:rgba(255,255,255,.3); color:#ffffff;}
+nav.topnav.style-04.sticky{border-color:rgba(0,0,0,.15); background:#ffffff; color:#000000;}
+nav.topnav.style-04 .menu:hover > *:first-child{color:#d6bf64;}
+nav.topnav.style-04 .menu > *:first-child::after{background:#d6bf64;}
+nav.topnav.style-04 .option-detail .set.main{background:#d6bf64; color:#ffffff;}
+nav.topnav.style-04 .option{color:#ffffff;}
+nav.topnav.style-04.sticky .option{color:#000000;}
+nav.topnav.style-04 .option:hover{color:#d6bf64;}
+nav.topnav.style-04 .hamburger > *{background:#ffffff;}
+nav.topnav.style-04.sticky .hamburger > *{background:#000000;}
+nav.topnav.style-04 .hamburger:hover > *{background:#d6bf64;}
+nav.topnav.style-04 .option.sidenav-toggle::before,
+nav.topnav.style-04 .option.sidenav-toggle{background:none;}
+
 
 /* Sidenav */
 nav.sidenav{background:#ffffff;}

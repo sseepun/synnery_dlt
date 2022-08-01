@@ -97,6 +97,14 @@ nav.topnav.style-01 .hamburger > *{background:#ffff00;}
 nav.topnav.style-01 .option.sidenav-toggle::before,
 nav.topnav.style-01 .option.sidenav-toggle{background:none;}
 
+/* Topnav Style 04 */
+nav.topnav.style-04{border-color:rgba(255,255,0,.3); background:transparent; color:#ffff00;}
+nav.topnav.style-04.sticky{background:#000000; color:#ffff00;}
+nav.topnav.style-04 .option-detail .set.main{background:#ffff00; color:#000000;}
+nav.topnav.style-04 .hamburger > *{background:#ffff00;}
+nav.topnav.style-04 .option.sidenav-toggle::before,
+nav.topnav.style-04 .option.sidenav-toggle{background:none;}
+
 
 /* Sidenav */
 nav.sidenav{background:#000000; border-left:1px solid rgba(255,255,0,.3);}
