@@ -69,8 +69,8 @@
             </div>
           <?php }?>
         </div>
-        <div class="dot-container" data-aos="fade-up" data-aos-delay="300"></div>
-        <div class="btns" data-aos="fade-up" data-aos-delay="300">
+        <div class="dot-container"></div>
+        <div class="btns">
           <a href="#" class="btn btn-action style-02 btn-05">
             <span>ดูทั้งหมด</span> 
             <div class="icon ml-3">
@@ -79,6 +79,7 @@
           </a>
         </div>
       </div>
+    </div>
   </section>
 
   <section class="section-14 section-padding">
@@ -123,7 +124,7 @@
           </div>
         </div>    
         <div class="grid lg-1-3">
-          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
+          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="300">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
             </div>
@@ -156,7 +157,7 @@
           </div>
         </div>
         <div class="grid lg-1-3">
-          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="150">
+          <div class="ss-card ss-card-07" data-aos="fade-up" data-aos-delay="450">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/21.jpg');"></div>
             </div>
@@ -188,7 +189,7 @@
           </div>
         </div>
       </div>  
-      <div class="btns mt-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="btns mt-6" data-aos="fade-up" data-aos-delay="450">
         <a href="#" class="btn btn-action style-02 btn-05">
           <span>อ่านทั้งหมด</span> 
           <div class="icon ml-3">
@@ -204,15 +205,16 @@
       <div class="blocks">
         <div class="block">
           <div class="img-bg" style="background-image:url('public/assets/app/images/content/32.jpg');"></div>
-            <div class="text-wrapper">
-              <h5 class="color-white">ข่าวประกาศ</h5>
-              <div class="ss-sep-01 ml-0"></div>
+          <div class="text-wrapper" data-aos="fade-up" data-aos-delay="0">
+            <h4 class="color-white">ข่าวประกาศ</h4>
+            <div class="ss-sep-01 ml-0 mt-1"></div>
+            <div class="mt-4">
               <?php for($i=0; $i<4; $i++){?>
-                <div class="d-flex mt-6">
+                <div class="item">
                   <div class="image-container">
                     <img src="public/assets/app/images/icon/36.png" alt="Icon" />
                   </div>
-                  <div class="text-container d-flex flex-column jc-center ml-3">
+                  <div class="text-container">
                     <a class="color-white p md fw-300 h-color-05" href="#">
                       รับสมัครบุคคลเพื่อเลือกสรรเป็นพนักงานทุนของกองทุนเพื่อความปลอดภัยใน
                       การใช้รถใช้ถนนในตำแหน่งเจ้าพนักงานการเงินและบัญชี
@@ -235,69 +237,62 @@
                     </div>
                   </div>
                 </div>
-                <div class="ss-sep-02"></div>
               <?php }?>
             </div>
-            <div class="btns d-flex jc-end pt-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="btns jc-end pt-6 mt-4">
               <a href="#" class="btn btn-action style-02 btn-05">
                 <span>อ่านทั้งหมด</span> 
-                <div class="icon ml-3">
-                  <em class="fa-solid fa-arrow-right"></em>
-                </div>
+                <div class="icon ml-3"><em class="fa-solid fa-arrow-right"></em></div>
               </a>
             </div>
           </div>
-          <div class="subblocks">
-            <div class="subblock">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/33.jpg');"></div>
-              <div class="text-wrapper">
-                <h5 class="color-white">งานด้านทะเบียนรถ</h5>
-                <div class="ss-sep-01 ml-0"></div>
-                <p class="lg mt-6">กระบวนงานที่เปิดให้บริการ</p>
-                <ol class="pl-5">
-                  <li>งานรับชำระภาษีประจำปี รถยนต์ รถจักรยานยนต์</li>
-                  <li>การแจ้งย้ายรถออก</li>
-                  <li>การแจ้งไม่ใช้รถชั่วคราว แจ้งไม่ใช้รถตลอดไป</li>
-                  <li>การแก้ไขรายการ ชื่อ - สกุล ที่อยู่</li>
-                  <li>การขอตรวจสอบข้อมูลทะเบียนรถ</li>
-                  <li>การออกใบแทน กรณีชำรุด/สูญหาย</li>
-                </ol>
-                <div class="btns mt-4 animate" style="--delay:.7s;">
-                  <a href="#" class="btn btn-action style-02 btn-03">
-                    <span>ข้อมูลเพิ่มเติม</span> 
-                    <div class="icon ml-3">
-                      <em class="fa-solid fa-arrow-right"></em>
-                    </div>
-                  </a>
-                </div>
+        </div>
+        <div class="subblocks">
+          <div class="subblock">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/content/33.jpg');"></div>
+            <div class="text-wrapper" data-aos="fade-up" data-aos-delay="150">
+              <h4 class="color-white">งานด้านทะเบียนรถ</h4>
+              <div class="ss-sep-01 ml-0 mt-1"></div>
+              <p class="lg mt-6">กระบวนงานที่เปิดให้บริการ</p>
+              <ol class="pl-5">
+                <li>งานรับชำระภาษีประจำปี รถยนต์ รถจักรยานยนต์</li>
+                <li>การแจ้งย้ายรถออก</li>
+                <li>การแจ้งไม่ใช้รถชั่วคราว แจ้งไม่ใช้รถตลอดไป</li>
+                <li>การแก้ไขรายการ ชื่อ - สกุล ที่อยู่</li>
+                <li>การขอตรวจสอบข้อมูลทะเบียนรถ</li>
+                <li>การออกใบแทน กรณีชำรุด/สูญหาย</li>
+              </ol>
+              <div class="btns mt-6">
+                <a href="#" class="btn btn-action style-02 btn-07">
+                  <span>ข้อมูลเพิ่มเติม</span> 
+                  <div class="icon ml-3"><em class="fa-solid fa-arrow-right"></em></div>
+                </a>
               </div>
             </div>
-            <div class="subblock">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/34.jpg');"></div>
-              <div class="text-wrapper">
-                <h5 class="color-white">งานด้านทะเบียนรถ</h5>
-                <div class="ss-sep-01 ml-0"></div>
-                <p class="lg mt-6">กระบวนงานที่จองคิวผ่านแอป</p>
-                <ol class="pl-5">
-                  <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
-                  <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
-                  <li>ต่ออายุใบอนุญาตขับรถ (5 ปี เป็น 5ปี)</li>
-                  <li>ต่ออายุใบอนุญาตขับรถจักรยายนต์ชั่วคราว (2ปี)</li>
-                </ol>
-                <div class="btns mt-4 animate" style="--delay:.7s;">
-                  <a href="#" class="btn btn-action style-02 btn-03">
-                    <span>ข้อมูลเพิ่มเติม</span> 
-                    <div class="icon ml-3">
-                      <em class="fa-solid fa-arrow-right"></em>
-                    </div>
-                  </a>
-                </div>
+          </div>
+          <div class="subblock">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/content/34.jpg');"></div>
+            <div class="text-wrapper" data-aos="fade-up" data-aos-delay="300">
+              <h4 class="color-white">งานด้านทะเบียนรถ</h4>
+              <div class="ss-sep-01 ml-0 mt-1"></div>
+              <p class="lg mt-6">กระบวนงานที่จองคิวผ่านแอป</p>
+              <ol class="pl-5">
+                <li>ขอรับใบอนุญาตขับรถ (สอบใหม่หรือขาดเกิน 1 ปีขึ้นไป)</li>
+                <li>เปลี่ยนประเภทใบอนุญาตขับรถ (2 ปี เป็น 5 ปี)</li>
+                <li>ต่ออายุใบอนุญาตขับรถ (5 ปี เป็น 5ปี)</li>
+                <li>ต่ออายุใบอนุญาตขับรถจักรยายนต์ชั่วคราว (2ปี)</li>
+              </ol>
+              <div class="btns mt-6">
+                <a href="#" class="btn btn-action style-02 btn-07">
+                  <span>ข้อมูลเพิ่มเติม</span> 
+                  <div class="icon ml-3"><em class="fa-solid fa-arrow-right"></em></div>
+                </a>
               </div>
             </div>
-          </div>    
-        </div> 
-      </div>       
-    </div>
+          </div>
+        </div>    
+      </div> 
+    </div>   
   </section>
 
   <section class="section-16 section-padding">

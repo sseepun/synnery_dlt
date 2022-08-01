@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php // include_once('include/page-loader.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-04.php'); ?>
 
   <section class="banner-05">
@@ -134,7 +134,7 @@
       <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
         ข่าวประกาศ
       </h3> 
-      <div class="grids">
+      <div class="grids pt-2">
         <div class="grid lg-50 md-100 sm-100 mt-0">
           <div class="grids">
             <div class="grid lg-50 md-50 sm-50">
@@ -312,7 +312,8 @@
     </div>      
   </section>
 
-  <section class="section-25 section-padding" style="background-image:url('public/assets/app/images/bg/pattern-05.jpg');">
+  <section class="section-25 section-padding">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-05.jpg');"></div>
     <div class="container">
       <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
         กระดานถามตอบ
@@ -321,41 +322,41 @@
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="section-card">
-                <div class="ss-card ss-card-16 bg-white">
-                  <div class="text-container">
-                    <div class="image-container d-flex">
-                      <img src="public/assets/app/images/content/0<?= $i%5+5 ?>.png" class="img"/>
-                      <div class="d-flex flex-column jc-center ml-2">
-                        <p class="xs fw-500 lh-3xs">ภานุมาศ รักเกียรติเผ่า</p>
-                        <div class="d-flex ai-center">
-                          <p class="sm color-11">
-                            <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                            16 กุมภาพันธ์ 2565
-                          </p>
-                        </div>
-                      </div>
+              <div class="ss-card ss-card-16">
+                <div class="text-container">
+                  <div class="d-flex ai-center">
+                    <div class="avatar">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%5+5 ?>.png');"></div>
                     </div>
-                    <a class="title p sm fw-400 h-color-05 mt-4" href="#">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
-                    <div class="card-footer">
-                      <div class="blocks">
-                        <div class="block">
-                          <p class="sm color-11">
-                            <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                              12
-                          </p>
-                        </div>
-                        <div class="block">
-                          <p class="sm color-11">
-                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                            285
-                          </p>
-                        </div>
+                    <div class="d-flex flex-column jc-center ml-3">
+                      <p class="sm fw-500">ภานุมาศ รักเกียรติเผ่า</p>
+                      <div class="d-flex ai-center">
+                        <p class="sm color-11">
+                          <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                          16 กุมภาพันธ์ 2565
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div class="line-1"></div><div class="line-2"></div>
+                  <a class="title p sm fw-400 h-color-05 mt-4" href="#">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
+                  <div class="card-footer">
+                    <div class="blocks">
+                      <div class="block">
+                        <p class="sm color-11">
+                          <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                            12
+                        </p>
+                      </div>
+                      <div class="block">
+                        <p class="sm color-11">
+                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                          285
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
           <?php }?>
@@ -378,20 +379,21 @@
       <h3 class="text-center fw-300" data-aos="fade-up" data-aos-delay="0">
         บุคลากร
       </h3>   
-      <div class="grids">
+      <div class="grids pt-2">
         <?php for($i=0; $i<4; $i++){?>
           <div class="grid lg-25">
-            <div class="ss-card ss-card-17" data-aos="fade-up" data-aos-delay="150">
-              <div class="ss-img square">
+            <div class="ss-card" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-img square bradius-2 ovf-hidden">
                 <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= $i%4+1 ?>.jpg');"></div>
-                <div class="icon d-flex ai-center jc-center">
-                  <em class="fa-solid fa-share-nodes fa-xl color-white"></em>
+                <div class="icon-float bradius-2">
+                  <em class="fa-solid fa-share-nodes"></em>
                 </div>
               </div>
-              <div class="text-container text-center">
-                <p class="lg fw-500">นางสุนิสา อนันตกูล</p>
-                <p class="sm color-13">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
+              <div class="text-container text-center p-4">
+                <h6 class="fw-500">นางสุนิสา อนันตกูล</h6>
+                <p class="op-80">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
               </div>
+              <div class="line-1"></div><div class="line-2"></div>
             </div>
           </div>  
         <?php }?>
@@ -409,18 +411,17 @@
 
   <section class="section-26">
     <div class="container">
-      <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
-        กระดานถามตอบ
-      </h3> 
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
               <div class="ss-card ss-card-18 bg-white">
                 <div class="text-container">
-                  <a class="title p lg fw-400 h-color-05 mt-4" href="#">รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร</a>
+                  <a class="title p lg lh-sm fw-400 h-color-05" href="#">
+                    รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
+                  </a>
                   <div class="card-footer">
-                    <div class="blocks ">
+                    <div class="blocks">
                       <div class="block">
                         <div class="icon">
                           <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img"/>
