@@ -526,7 +526,7 @@
   </section>
 
    
-  <?php // include_once('include/footer-05.php'); ?>
+  <?php include_once('include/footer-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <!-- Swiper -->

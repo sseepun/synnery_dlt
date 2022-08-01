@@ -794,7 +794,7 @@
 
 
 /* Section 18 */
-.section-18{position:relative; margin-top:-17rem; z-index: 99;}
+.section-18{position:relative; margin-top:-17rem; z-index:2;}
 .section-18 .slide-container{position:relative; margin:2.5rem 0 0 0;}
 .section-18 .slick-list.draggable{z-index:3;}
 .section-18 .section-card{
@@ -824,10 +824,6 @@
         justify-content:center; margin:1.5rem 0 0 0;
     }
 }
-
-
-/* Section 19 */
-
 
 
 /* Section 20 */
