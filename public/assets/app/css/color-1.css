@@ -364,6 +364,7 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 
 /* Section 11 */
 .section-11{background:#000000;}
+.section-11 .section-card{color:#ffffff;}
 
 /* Section 13 */
 .section-13 .section-card > .card-footer{border:1px solid #ffffff;}

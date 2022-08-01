@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading bg-sgray">
-  <?php // include_once('include/page-loader.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-01.php'); ?>
 
   <section class="banner-03">
@@ -307,24 +307,53 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-40">
-        <div class="ss-img">
-          <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.png');"></div>
-        </div>   
+          <a class="section-card main" href="#" data-aos="fade-up" data-aos-delay="0">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.png');"></div>
+            </div>
+            <div class="text-container">
+              <div class="wrapper">
+                <p class="h6 lh-xs">Call Center</p>
+                <h2 class="lh-3xs">1584</h2>
+              </div>
+            </div>
+          </a>
         </div>   
         <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.png');"></div>
-          </div>   
+          <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.png');"></div>
+            </div>
+            <div class="text-container">
+              <div class="wrapper">
+                <p class="h6 lh-xs fw-200">จัดซื้อ จัดจ้าง</p>
+              </div>
+            </div>
+          </a>
         </div>   
         <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.png');"></div>
-          </div>   
+          <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="300">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.png');"></div>
+            </div>
+            <div class="text-container">
+              <div class="wrapper">
+                <p class="h6 lh-xs fw-200">ค้นหาสำนักงาน</p>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="grid lg-20">
-          <div class="ss-img">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.png');"></div>
-          </div> 
+          <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="450">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.png');"></div>
+            </div>
+            <div class="text-container">
+              <div class="wrapper">
+                <p class="h6 lh-xs fw-200">ติดต่อกรมฯ</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>    
     </div>
