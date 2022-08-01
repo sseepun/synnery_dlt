@@ -301,68 +301,17 @@
     <div class="container">
       <h3 class="text-center">บุคลากร</h3> 
         <div class="grids">
-          <div class="grid lg-25">
-            <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
-              <div class="ss-img square">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
-              </div>
-              <div class="text-container text-center">
-                <a class="p lg fw-400 h-color-05" href="#">
-                  นางสุนิสา อนันตกูล
-                </a>
-                <p class="sm desc fw-200">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
-                <div class="card-footer">
-                  <div class="socials d-flex ai-center jc-end">
-                    <a class="social" href="#">
-                      <em class="fa-brands fa-facebook-f"></em>
-                    </a>
-                    <a class="social" href="#">
-                      <em class="fa-solid fa-envelope"></em>
-                    </a>
-                    <a class="social" href="#">
-                      <em class="fa-solid fa-phone"></em>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>    
-          <div class="grid lg-25">
-            <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
-                <div class="ss-img square">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/23.jpg');"></div>
-                </div>
-                <div class="text-container text-center">
-                  <a class="p lg fw-400 h-color-05" href="#">
-                    นายทิวัตถ์  บ่มไล่
-                  </a>
-                  <p class="sm desc fw-200">หัวหน้ากลุ่มวิชาการขนส่งกลุ่มวิชาการขนส่ง</p>
-                  <div class="card-footer">
-                    <div class="socials d-flex ai-center jc-end">
-                      <a class="social" href="#">
-                        <em class="fa-brands fa-facebook-f"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-envelope"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-phone"></em>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-           </div>
+          <?php for($i=0; $i<4; $i++){?>
             <div class="grid lg-25">
               <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
                 <div class="ss-img square">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/24.jpg');"></div>
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= $i%4+2?>.jpg');"></div>
                 </div>
                 <div class="text-container text-center">
                   <a class="p lg fw-400 h-color-05" href="#">
-                    นางทัศนีย์  ธรรมวานิช
+                    นางสุนิสา อนันตกูล
                   </a>
-                  <p class="sm desc fw-200">หัวหน้าฝ่ายทะเบียนรถฝ่ายทะเบียนรถ</p>
+                  <p class="sm desc fw-200">ขนส่งจังหวัดสมุทรปราการผู้บริหาร</p>
                   <div class="card-footer">
                     <div class="socials d-flex ai-center jc-end">
                       <a class="social" href="#">
@@ -378,34 +327,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="grid lg-25">
-              <div class="ss-card ss-card-08" data-aos="fade-up" data-aos-delay="150">
-                <div class="ss-img square">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/25.jpg');"></div>
-                </div>
-                <div class="text-container text-center">
-                  <a class="p lg fw-400 h-color-05" href="#">
-                    นายพลวัฒน์  อุดมพิพัฒน์
-                  </a>
-                  <p class="sm desc fw-200">หัวหน้าฝ่ายใบอนุญาตขับรถฝ่ายใบอนุญาตขับรถ</p>
-                  <div class="card-footer">
-                    <div class="socials d-flex ai-center jc-end">
-                      <a class="social" href="#">
-                        <em class="fa-brands fa-facebook-f"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-envelope"></em>
-                      </a>
-                      <a class="social" href="#">
-                        <em class="fa-solid fa-phone"></em>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div> 
-            </div>
-         </div>  
+            </div> 
+          <?php }?> 
          <div class="btns d-flex jc-center mt-6" data-aos="fade-up" data-aos-delay="300">
           <a href="#" class="btn btn-action style-02 btn-05">
             <span>ข้อมูลเพิ่มเติม</span> 
@@ -454,13 +377,13 @@
       <h3 class="text-center fw-600 animate">กระดานถามตอบ</h3>     
       <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
         <div class="slides">
-          <?php for($i=0; $i<2; $i++){?>
+          <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
               <div class="section-card" href="#">
                 <div class="ss-card ss-card-09">
                   <div class="text-container">
                     <div class="image-container">
-                      <img src="public/assets/app/images/content/01.png" class="img"/>
+                      <img src="public/assets/app/images/content/0<?= $i%4+1?>.png" class="img"/>
                     </div>
                     <a href="#" class="title p sm fw-400 mt-4">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
                     <div class="card-footer">
@@ -487,114 +410,6 @@
                       </div>
                     </div>
                   </div>
-                  <div class="line-1"></div><div class="line-2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-                <div class="section-card" href="#">
-                  <div class="ss-card ss-card-09">
-                    <div class="text-container">
-                      <div class="image-container">
-                        <img src="public/assets/app/images/content/02.png" />
-                      </div>
-                      <a href="#" class="title p sm fw-400 mt-4">เป็นโรคหลอดเลือดสมองไปต่อใบขับขี่ได้หรือไม่</a>
-                      <div class="card-footer">
-                        <p class="xs fw-500 lh-3xs mt-4">ณัฐชนน สุทธิพิบูลย์</p>
-                        <div class="blocks">
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                              16 กุมภาพันธ์ 2565
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                                12
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                              285
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="line-1"></div><div class="line-2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-                <div class="section-card" href="#">
-                  <div class="ss-card ss-card-09">
-                    <div class="text-container">
-                      <div class="image-container">
-                        <img src="public/assets/app/images/content/03.png" />
-                      </div>
-                      <a href="#" class="title p sm fw-400 mt-4">เลื่อนวันรับใบขับขี่ที่เคยจองไว้</a>
-                      <div class="card-footer">
-                        <p class="xs fw-500 lh-3xs mt-4">สุภาวดี ดีพุ่ม</p>
-                        <div class="blocks">
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                              16 กุมภาพันธ์ 2565
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                                12
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                              285
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="line-1"></div><div class="line-2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-                <div class="section-card" href="#">
-                  <div class="ss-card ss-card-09">
-                    <div class="text-container">
-                      <div class="image-container">
-                        <img src="public/assets/app/images/content/04.png" />
-                      </div>
-                      <a href="#" class="title p sm fw-400 mt-4">เห็นประกาศปิดตึกที่ต่อใบขับขี่ 1 เมษายน แล้ว เดือนพฤษภาคม จะเปิดรึยังคะ</a>
-                      <div class="card-footer">
-                        <p class="xs fw-500 lh-3xs mt-4">ณัฐธิดา รัตนพฤกษ์</p>
-                        <div class="blocks">
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                              16 กุมภาพันธ์ 2565
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                                12
-                            </p>
-                          </div>
-                          <div class="block">
-                            <p clas="sm">
-                              <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                              285
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   <div class="line-1"></div><div class="line-2"></div>
                 </div>
               </div>
@@ -663,7 +478,7 @@
     </div>
   </section>
 
-  <section class="section-20 section-padding">
+  <!-- <section class="section-20 section-padding">
     <div class="container">
       <div class="card-contact">
         <div class="grids jc-center">
@@ -721,7 +536,7 @@
         </div> 
       </div>       
     </div>
-  </section>
+  </section> -->
 
    
   <?php include_once('include/footer-05.php'); ?>

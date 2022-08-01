@@ -397,6 +397,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-08 .text-container{background:#663399; color:#ffffff; box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
 
 /* Special Card 09 */
+.ss-card-09{background:#ffffff;}
 .ss-card-09 .text-container{box-shadow:0px 3px 6px 4px rgba(0,0,0,.04);}
 .ss-card-09 .card-footer{border-color:#dcdce0;}
 .ss-card-09 .card-footer .icon{color:#663399;}
