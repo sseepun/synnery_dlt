@@ -234,6 +234,13 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-07 .card-footer .block::after{background:rgba(0,0,0,.3);}
 .ss-card-07 .btn-more{background:#000000; color:#ffffff; border-color:#ffffff;}
 
+
+/* Special Card 08 */
+.ss-card-08 .text-container{
+  background: #ffffff; color:#000000;
+}
+
+
 /* Special Card 12 */
 .ss-card-12 .card-footer{
   border-color:#000 ;
