@@ -247,6 +247,10 @@ nav.sidenav .options > .option-btn:hover > a{color:#76108f;}
 .back-to-top.style-04{background:#d6bf64; color:#ffffff;}
 .back-to-top.style-04:hover{background:#663399;}
 
+/* Back to Top Style-05 */
+.back-to-top.style-05{background:#d6bf64; color:#ffffff;}
+.back-to-top.style-05:hover{background:#663399;}
+
 
 /* Footer */
 nav.footer .title-sep::before{background:#d1d1d1;}
@@ -330,7 +334,7 @@ nav.footer.style-04 .footer-socials .social.social-ig::before{
 
 /* Footer Style-05  */
 nav.footer.style-05{background:#191b29; color:#ffffff;}
-nav.footer.style-05 .footer-line{background:#323238;}
+nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.1);}
 
 
 /* Accessibility & Quick Links */
