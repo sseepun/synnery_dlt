@@ -81,6 +81,22 @@ nav.topnav .submenu:hover > *:first-child{background:#ffff00; color:#000000;}
 nav.topnav .sidenav-toggle::before{background:#ffff00;}
 nav.topnav .hamburger > *{background:#000000;}
 
+/* Topnav Style 01 */
+nav.topnav.style-01{border-color:rgba(255,255,0,.3); background:transparent; color:#ffff00;}
+nav.topnav.style-01.sticky{background:#000000; color:#ffff00;}
+nav.topnav.style-01 .option-detail{border-color:rgba(255,255,0,.3);}
+nav.topnav.style-01 .option-detail .set.main{background:#ffff00; color:#000000;}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown{
+  border-color:#ffff00; background:#000000; color:#ffff00;
+}
+nav.topnav.style-01 .option-detail .sets > .set-dropdown .set-option:hover{
+  background:#ffff00; color:#000000;
+}
+nav.topnav.style-01 .option{border-color:rgba(255,255,0,.3);}
+nav.topnav.style-01 .hamburger > *{background:#ffff00;}
+nav.topnav.style-01 .option.sidenav-toggle::before,
+nav.topnav.style-01 .option.sidenav-toggle{background:none;}
+
 
 /* Sidenav */
 nav.sidenav{background:#000000; border-left:1px solid rgba(255,255,0,.3);}
@@ -272,7 +288,7 @@ nav.side-panel .option-row .icon + *::before{background:#ffff00;}
 .section-02 .slick-dots button::before{border-color:#ffff00;}
 
 /* Section 03 */
-.section-03{background:#ffffff; color:#000000;}
+.section-03{background:#ffff00; color:#000000;}
 .section-03 .input-icon{background:#000000;}
 .section-03 .input-icon > .icon{color:#ffff00;}
 .section-03 input[type=text]{background:#ffff00!important; color:#000000!important;}
