@@ -994,6 +994,7 @@
 
 
 /* Section 27  */
+.section-27{position:relative; z-index:1;}
 .section-27 .icon-bars{
     width:3rem; height:3rem; padding:1rem; display:flex; justify-content:center;
     align-items:center;
@@ -1005,7 +1006,7 @@
     display:flex; justify-content:center; align-items:center; 
     width:1.5rem; height:1.5rem; border-radius:50%;
 }
-.section-27 .ss-tags .tag{font-size:1.5rem; font-weight:200;}
+.section-27 .ss-tags .tag{font-size:1.0625rem; font-weight:300;}
 
 
 
