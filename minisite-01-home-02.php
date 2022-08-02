@@ -5,8 +5,8 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php // include_once('include/page-loader.php'); ?>
-  <?php include_once('include/topnav-04.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
+  <?php include_once('include/topnav-05.php'); ?>
 
   <section class="banner-04">
     <div class="slide-container">
@@ -473,39 +473,53 @@
     </div>
   </section>
 
-  <section class="section-20 section-padding">
+  <section class="section-20 section-padding pb-0">
     <div class="container">
-      <div class="section-cards d-flex jc-center" data-aos="fade-up" data-aos-delay="0">
-        <a class="section-card" href="#">
-          <div class="icon">
-            <em class="fa-solid fa-phone"></em>
+      <div class="grids jc-center">
+        <div class="grid xl-70 lg-80 sm-100 mt-0">
+          <div class="gallery-grids">
+            <div class="grid md-1-3 sm-100">
+              <a class="section-card type-1" href="#">
+                <div class="icon">
+                  <em class="fa-solid fa-phone"></em>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-300 lh-xs">โทรศัพท์ :</h6>
+                  <p class="mt-1">0-2323-4060</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid md-1-3 sm-100">
+              <a class="section-card type-2" href="#">
+                <div class="icon">
+                  <em class="fa-solid fa-fax"></em>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-300 lh-xs">โทรสาร :</h6>
+                  <p class="mt-1">
+                    0-2323-4060, <br /> 
+                    0-2323-3619
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="grid md-1-3 sm-100">
+              <a class="section-card type-3" href="#">
+                <div class="icon">
+                  <em class="fa-solid fa-envelope"></em>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-300 lh-xs">อีเมล :</h6>
+                  <p class="mt-1">
+                    dltspk@gmail.com, <br />
+                    dlt_spk@hotmail.co.th
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="text-container pl-6">
-            <h6 class="fw-300 lh-xs">โทรศัพท์ :</h6>
-            <p>0-2323-4060</p>
-          </div>
-        </a>
-        <a class="section-card" href="#">
-          <div class="icon">
-            <em class="fa-solid fa-fax"></em>
-          </div>
-          <div class="text-container pl-6">
-            <h6 class="fw-300 lh-xs">โทรสาร :</h6>
-            <p>0-2323-4060,</p>
-            <p>0-2323-3619</p>
-          </div>
-        </a>
-        <a class="section-card" href="#">
-          <div class="icon">
-            <em class="fa-solid fa-envelope"></em>
-          </div>
-          <div class="text-container pl-6">
-            <h6 class="fw-300 lh-xs">อีเมล :</h6>
-            <p>dltspk@gmail.com,</p>
-            <p>dlt_spk@hotmail.co.th</p>
-          </div>
-        </a>
-      </div>    
+        </div>
+      </div>
     </div>
   </section>
    

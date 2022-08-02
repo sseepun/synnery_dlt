@@ -21,13 +21,15 @@
         </a>
       </div>
       <div class="grid lg-40 md-100 sm-100">
-        <div class="footer-middle d-flex ai-end jc-center h-full">
+        <div class="footer-text">
           <p class="sm fw-100">ผู้เยี่ยมชมวันนี้ <span class="h4 fw-500 ml-2">831</span></p>
           <p class="sm fw-100 ml-2">ผู้เยี่ยมชมทั้งหมด <span class="h4 fw-500 ml-2">942,675</span></p>
         </div>  
       </div>
     </div>
-    <div class="footer-bottom">
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
       <p class="fw-100">ลิขสิทธิ์ 2565 : กรมการขนส่งทางบก</p>
     </div>
   </div>

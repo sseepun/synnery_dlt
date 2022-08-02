@@ -171,6 +171,10 @@ nav.footer.style-04{background:#000000; color:#ffffff;}
 nav.footer.style-04 .footer-socials .social{background:#ffffff; color:#000000;}
 nav.footer.style-04 .footer-bottom{border-color:rgba(255,255,255,.3);}
 
+/* Footer Style-05  */
+nav.footer.style-05{background:#000000; color:#ffffff;}
+nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.15);}
+
 
 /* Accessibility & Quick Links */
 nav.side-panel .panel{border-color:rgba(255,255,255,.3);}
@@ -454,6 +458,10 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
   background:#ffffff; box-shadow:0px 3px 6px 4px rgba(255,255,255,.075);
 }
 .section-19 .btn-swiper .btn{background:#000000; color:#ffffff;}
+
+/* Section 20 */
+.section-20 .section-card{background:#ffffff; color:#000000;}
+.section-20 .section-card .icon{border-color:#000000;}
 
 /* Section 22 */
 .section-22 > .img-bg{background:#000000;}
