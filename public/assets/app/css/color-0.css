@@ -327,7 +327,7 @@ nav.footer.style-04 .footer-bottom{border-color:rgba(255,255,255,.3);}
 
 /* Footer Style-05  */
 nav.footer.style-05{background:#191b29; color:#ffffff;}
-nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.1);}
+nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.15);}
 
 
 /* Accessibility & Quick Links */
@@ -660,10 +660,11 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-19 .btn-swiper .btn:hover{background:#271148;}
 
 /* Section 20 */
-.section-20 .section-card:nth-child(1){background:#a05fe1; color:#ffffff;}
-.section-20 .section-card:nth-child(2){background:#663399; color:#ffffff;}
-.section-20 .section-card:nth-child(3){background:#271148; color:#ffffff;}
-.section-20 .section-card .icon{border:1px solid #ffffff;}
+.section-20 .section-card{color:#ffffff;}
+.section-20 .section-card.type-1{background:#a05fe1;}
+.section-20 .section-card.type-2{background:#663399;}
+.section-20 .section-card.type-3{background:#271148;}
+.section-20 .section-card .icon{border-color:#ffffff;}
 
 /* Section 22 */
 .section-22 > .img-bg{background:#271148;}
