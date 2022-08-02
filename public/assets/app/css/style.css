@@ -1066,6 +1066,18 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-card-20 .icon{
     width:1rem; height:1rem;
 }
+
+
+/* Special Card 21 */
+.ss-card-21 .text-container{
+    position:relative; padding:2.5rem 1rem 1rem 1rem;
+    transition:background .25s, padding .25s;
+}
+.ss-card-21:hover .text-container{
+    padding:2.5rem 1rem 2.25rem 1rem; 
+    clip-path:polygon(0 0,100% 0,100% calc(100% - 2rem),calc(100% - 2rem) 100%,0 100%);
+}
+.ss-card-21 .text-container .ss-tags{position:absolute; top:0; left:0;}
     
 
 
