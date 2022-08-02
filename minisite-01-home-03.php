@@ -23,7 +23,7 @@
     ];
   ?>
 
-  <section class="section-29 section-padding">
+  <section class="section-27 section-padding">
     <div class="container">
       <h3 class="text-center color-03">ข่าวสารประชาสัมพันธ์</h3>
       <div class="tab-container">
@@ -44,23 +44,22 @@
          </div>
           <div class="grid lg-80 md-70">
             <div class="grids">
-              <div class="grid lg-50">
+              <div class="grid lg-50 mt-0">
                 <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
                   <?php foreach($categories as $i=>$d){?>
                     <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                       <?php for($j=0; $j<1; $j++){?>
                         <div class="ss-card ss-card-21">
-                          <div class="ss-img">
+                          <div class="ss-img vertical-2">
                             <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
                           </div>
-                          <div class="line-1"></div><div class="line-2"></div>
                         </div>
                       <?php }?>
                     </div>
                   <?php }?>
                 </div>  
               </div> 
-              <div class="grid lg-50">
+              <div class="grid lg-50 mt-0">
                 <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
                   <?php foreach($categories as $i=>$d){?>
                     <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
@@ -98,7 +97,7 @@
                   <?php for($j=0; $j<4; $j++){?>
                     <div class="grid lg-25">
                       <div class="ss-card ss-card-21">
-                        <div class="ss-img square">
+                        <div class="ss-img vertical-2">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
                           <div class="hover-container">
                           <div class="icon sm">
