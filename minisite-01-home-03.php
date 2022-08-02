@@ -26,54 +26,91 @@
   <section class="section-29 section-padding">
     <div class="container">
       <h3 class="text-center color-03">ข่าวสารประชาสัมพันธ์</h3>
-      <div class="grids">
-        <div class="grid lg-30">
-          <div class="tab-container">
-            <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
-                <?php foreach($categories as $i=>$d){?>
-                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                    <h3 class="fw-300 lh-xs">ประเภท</h3>
-                </div>
-                <?php }?>
-            </div>
+      <div class="tab-container">
+        <div class="grids">
+          <div class="grid lg-20 md-30">
+            <h5 class="color-06 fw-600">ประเภท</h5>
             <div class="tabs tabs-04 mt-4" data-aos="fade-up" data-aos-delay="150">
               <div class="wrapper">
                 <?php foreach($categories as $i=>$d){?>
                   <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                    <p class="lg fw-400"><?= $d['title'] ?></p>
+                    <p class="lg color-14 fw-400"><?= $d['title'] ?></p>
+                    <div class="ss-sep-03 bg-15"></div>
                   </div>
                 <?php }?>
               </div>
             </div>
-            <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
-              <?php foreach($categories as $i=>$d){?>
-                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                  <?php for($j=0; $j<3; $j++){?>
-                    <div class="grid lg-1-3 sm-50">
-                       <div class="ss-card ss-card-05">
-                         <div class="ss-img">
-                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= ($i+$j+1)%4+1 ?>.jpg');"></div>
-                        </div>
+            <a class="p d-block text-center" href="#">อ่านทั้งหมด</a>
+         </div>
+          <div class="grid lg-80 md-70">
+            <div class="grids">
+              <div class="grid lg-50">
+                <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
+                  <?php foreach($categories as $i=>$d){?>
+                    <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                      <?php for($j=0; $j<1; $j++){?>
+                        <div class="ss-card ss-card-05">
+                          <div class="ss-img">
+                            <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
+                          </div>
                           <div class="line-1"></div><div class="line-2"></div>
                         </div>
+                      <?php }?>
                     </div>
-                   <?php }?>
+                  <?php }?>
+                </div>  
+              </div> 
+              <div class="grid lg-50">
+                <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
+                  <?php foreach($categories as $i=>$d){?>
+                    <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                      <div class="ss-tags">
+                        <h3 class="tag fw-300 lh-xs bg-03"><?= $d['title'] ?></h3>
+                      </div>
+                      <div class="d-flex ai-center mt-2">
+                        <div class="date">
+                          <p>17 กุมภาพันธ์ 2565</p>
+                        </div>
+                        <div class="icon ml-6 pl-6">
+                          <img src="public/assets/app/images/icon/53.png" alt="Icon" /> 
+                          <span class="color-16 ml-1">200</span>
+                        </div>
+                      </div>
+                      <h5 class="fw-400">
+                        กรมการขนส่งทางบก เผย!! มีผู้ให้บริการรถยนต์รับจ้างผ่านระบบแอปพลิเคชันผ่าน...
+                      </h5>
+                      <p class="lg color-16 mt-2">
+                        ตามที่นายศักดิ์สยาม​ ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม ได้มี
+                        นโยบายให้กระทรวงคมนาคมออกกฎกระทรวงรถยนต์รับจ้างผ่านระบบอิเล็กทรอนิกส์ พ.ศ. 2564
+                      </p>
+                    </div>
+                  <?php }?>
                 </div>
-              <?php }?>
+              </div>
             </div>
           </div>
         </div>
-        <div class="grid lg-70">
-          <div class="grids">
-            <div class="grid lg-50">
-
-            </div>   
-            <div class="grid lg-50">
-
-            </div>     
-          </div>
-        </div>        
-      </div>  
+        <div class="grid lg-100">
+          <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
+            <?php foreach($categories as $i=>$d){?>
+              <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                <div class="grids">
+                  <?php for($j=0; $j<4; $j++){?>
+                    <div class="grid lg-25">
+                      <div class="ss-card ss-card-05">
+                        <div class="ss-img square">
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
+                        </div>
+                        <div class="line-1"></div><div class="line-2"></div>
+                      </div>
+                    </div>
+                  <?php }?>
+                </div>
+              </div>
+            <?php }?>
+          </div> 
+        </div>
+      </div>
     </div>
   </section>
    
