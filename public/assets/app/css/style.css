@@ -139,12 +139,6 @@ p.xs, .p.xs, li.xs, label.xs{font-size:1.0625rem;}
 }
 .btn.btn-action.style-02 .icon{font-size:.875rem; margin-top:.125rem;}
 
-
-.btn.btn-action.style-03{
-    font-size:1.375rem; font-weight:300;
-    padding:.6875rem 1.25rem .625rem 1.25rem;
-}
-
 .btn.btn-action.btn-xs{
     font-size:1.0625rem; font-weight:300; padding:.4rem 1rem .275rem 1rem; min-width:8rem;
 }
@@ -1072,21 +1066,6 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-card-20 .icon{
     width:1rem; height:1rem;
 }
-
-
-/* Special Card 21 */
-.ss-card-21 .text-container{
-    position:relative; padding:2.5rem 1rem 1rem 1rem;
-    transition:background .25s, padding .25s;
-}
-.ss-card-21 .text-container .title{
-    min-height:5rem;
-}
-.ss-card-21:hover .text-container{
-    padding:2.5rem 1rem 2.25rem 1rem; 
-    clip-path:polygon(0 0,100% 0,100% calc(100% - 2rem),calc(100% - 2rem) 100%,0 100%);
-}
-.ss-card-21 .text-container .ss-tags{position:absolute; top:0; left:0;}
     
 
 
@@ -1149,7 +1128,6 @@ fieldset{padding:0; margin:0; border:0;}
 /* Special Separation */
 .ss-sep-01{width:3.5rem; height:.3125rem; margin:0 auto; border-radius:1000em;}
 .ss-sep-02{width:100%; height:1px; margin-top:1rem;}
-.ss-sep-03{width:100%; height:1px; margin:1rem 0;}
 
 
 /* Special Tags */

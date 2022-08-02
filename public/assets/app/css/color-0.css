@@ -23,11 +23,8 @@ html, body, table.table{color:#000000;}
 .color-09, .h-color-09:hover{color:#a14ff3!important;}
 .color-10, .h-color-10:hover{color:#271148!important;}
 .color-11, .h-color-11:hover{color:#81808c!important;}
-.color-12, .h-color-12:hover{color:#f2f2f2!important;}
-.color-13, .h-color-13:hover{color:#8e8f8f!important;}
-.color-14, .h-color-14:hover{color:#6e6e6e!important;}
-.color-15, .h-color-15:hover{color:#c7cbd1!important;}
-.color-16, .h-color-16:hover{color:#3c3c3c!important;}
+.color-12, .h-color-11:hover{color:#f2f2f2!important;}
+.color-13, .h-color-11:hover{color:#8e8f8f!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -50,9 +47,6 @@ html, body, table.table{color:#000000;}
 .bg-11{background:#81808c!important;}
 .bg-12{background:#f2f2f2!important;}
 .bg-13{background:#8e8f8f!important;}
-.bg-14{background:#6e6e6e!important;}
-.bg-15{background:#c7cbd1!important;}
-.bg-16{background:#3c3c3c!important;}
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -75,9 +69,6 @@ html, body, table.table{color:#000000;}
 .bcolor-11{border-color:#81808c!important;}
 .bcolor-12{border-color:#f2f2f2!important;}
 .bcolor-13{border-color:#8e8f8f!important;}
-.bcolor-14{border-color:#6e6e6e!important;}
-.bcolor-15{border-color:#c7cbd1!important;}
-.bcolor-16{border-color:#3c3c3c!important;}
 
 
 /* Buttons */
@@ -119,8 +110,6 @@ html, body, table.table{color:#000000;}
 .btn.btn-07, .btn.btn-07:focus{color:#ffffff; background:#663399; border-color:#663399;}
 .btn.btn-07::before{background:#fd7e14; border-color:#fd7e14;}
 .btn.btn-07:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
-
-.btn.btn-08, .btn.btn-08:focus{color:#3c3c3c; border:2px solid #3c3c3c;}
 
 .btns > .btn-more:hover{color:#550469;}
 .btns > .btn-more .icon{background:#550469; color:#ffffff;}
@@ -501,10 +490,6 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Special Card 20 */
 .ss-card-20{background:#ffffff;}
 
-/* Special Card 21 */
-.ss-card-21 .text-container{background:#f0f0f0;}
-.ss-card-21:hover .text-container{background:#a376e5; color:#ffffff;}
-
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
 .ss-img .icon-float{background:#663399; color:#ffffff;}
@@ -695,11 +680,6 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-26 .slick-dots button{background:#e6e1ec;}
 .section-26 .slick-dots li.slick-active button{background:#d6bf64;}
 
-/* Section 27 */
-.section-27{background:#f8f8f8;}
-.section-27 .icon-bars{background:#68459b;}
-.section-27 .btn-more .icon{background:#68459b; color:#ffffff;}
-
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,
@@ -728,7 +708,3 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .tab-container .tabs.tabs-03 .tab:hover{color:#663399;}
 .tab-container .tabs.tabs-03 .tab.active{color:#663399;}
 .tab-container .tabs.tabs-03 .tab::after{background:#663399}
-
-/* Tabs 04 */
-.tab-container .tabs.tabs-04 .tab{color:#6e6e6e;}
-.tab-container .tabs.tabs-04 .tab.active{color:#76108f;}
