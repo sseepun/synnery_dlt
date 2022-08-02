@@ -737,5 +737,5 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .tab-container .tabs.tabs-03 .tab::after{background:#663399}
 
 /* Tabs 04 */
-.tab-container .tabs.tabs-04 .tab{color:#6e6e6e;}
+.tab-container .tabs.tabs-04 .tab{color:#6e6e6e; border-color:#c7cbd1;}
 .tab-container .tabs.tabs-04 .tab.active{color:#76108f;}

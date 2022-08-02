@@ -33,7 +33,7 @@
           <div class="grid lg-20 md-100 sm-100">
             <div class="d-flex ai-center" data-aos="fade-up" data-aos-delay="150">
               <div class="icon-bars">
-                <img src="public/assets/app/images/icon/54.png" alt="Icon" />
+                <img src="public/assets/app/images/icon/57.png" alt="Icon" />
               </div>
               <h5 class="color-06 fw-600 ml-2">ประเภท</h5>
             </div>
@@ -42,7 +42,6 @@
                 <?php foreach($categories as $i=>$d){?>
                   <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                     <p class="lg fw-400"><?= $d['title'] ?></p>
-                    <div class="ss-sep-03 bg-15"></div>
                   </div>
                 <?php }?>
               </div>
@@ -84,7 +83,7 @@
                             <p>17 กุมภาพันธ์ 2565</p>
                           </div>
                           <div class="icon ml-6 pl-6">
-                            <img src="public/assets/app/images/icon/53.png" alt="Icon" /> 
+                            <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
                             <span class="color-16 ml-1">200</span>
                           </div>
                         </div>
@@ -121,7 +120,7 @@
                         <div class="ss-img vertical-2">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
                           <div class="hover-container">
-                          <div class="icon sm">
+                          <div class="icon">
                             <img src="public/assets/app/images/icon/16.png" alt="Icon" />
                           </div>
                         </div>
@@ -135,10 +134,10 @@
                             <p>17 กุมภาพันธ์ 2565</p>
                           </div>
                           <div class="icon ml-6 pl-6">
-                            <img src="public/assets/app/images/icon/53.png" alt="Icon" /> 
+                            <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
                             <span class="color-16 ml-1">200</span>
                           </div>
-                      </div>
+                        </div>
                         <a class="title p lg fw-300 lh-sm mt-2" href="#">
                            กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
                         </a>
@@ -159,20 +158,21 @@
     <div class="container">
       <h3 class="fw-500 lh-xs color-03" data-aos="fade-up" data-aos-delay="0">แบบคำขอ</h3> 
       <p class="color-16">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
-      <div class="grids">
+      <div class="grids mt-0">
         <div class="lg-40">
           <div class="ss-card ss-card-23">
-            <div class="text-container">
-              <div class="icon">
-                <img src="public/assets/app/images/icon/55.png" alt="Icon" />
-              </div>   
-              <a class="p lg">
-                คำขอต่ออายุใบอนุญาตประกอบการขนส่ง
-              </a> 
-              <div class="icon">
-                <img src="public/assets/app/images/icon/56.png" alt="Icon" />    
-              </div>  
-            </div>        
+            <?php for($i=0; $i<4; $i++){?>
+              <div class="text-container mt-6">
+                <div class="d-flex ai-center">
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon/55.png" alt="Icon" />
+                  </div>   
+                <a class="p lg ml-3">
+                  คำขอต่ออายุใบอนุญาตประกอบการขนส่ง
+                </a>      
+                </div> 
+              </div>    
+            <?php }?>
           </div>
         </div>    
         <div class="lg-60">

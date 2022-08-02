@@ -1124,6 +1124,11 @@
     .tab-container .tabs.tabs-03 .tab::after{display:none;}
 }
 
+/* Tabs 04 */
+.tab-container .tabs.tabs-04 .tab{
+    padding:1rem 0; border-bottom:1px solid transparent;
+}
+
 
 /* Table Footer */
 .table-footer{display:flex; align-items:center; justify-content:center; flex-wrap:wrap;}
