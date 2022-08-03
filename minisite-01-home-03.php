@@ -8,6 +8,34 @@
   <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-06.php'); ?>
 
+  <section class="banner-06">
+    <div class="slide-container">
+      <div class="slides">
+        <?php for($i=0; $i<7; $i++){?>
+          <div class="slide">
+            <div class="wrapper">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/06.jpg');"></div>
+              <div class="container"></div>
+            </div>
+          </div>
+        <?php }?>
+      </div>
+      <div class="dot-wrapper">
+        <div class="container">
+          <div class="dot-container"></div>
+        </div>
+      </div>
+      <div class="arrow-container">
+        <div class="arrow arrow-prev">
+          <img src="public/assets/app/images/icon/59.png" alt="Arrow" />
+        </div>
+        <div class="arrow arrow-next">
+          <img src="public/assets/app/images/icon/60.png" alt="Arrow" />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <?php
     $categories = [
       [ 

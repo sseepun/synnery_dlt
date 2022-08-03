@@ -371,55 +371,80 @@ $(function(){ 'use strict';
         });
     }
 
-     // Banner 04
-     var banner04 = $('.banner-04');
-     if(banner04.length){
+    // Banner 04
+    var banner04 = $('.banner-04');
+    if(banner04.length){
          banner04.each(function(){
-             var self = $(this),
-                 options = {
-                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                     prevArrow: self.find('.arrow.arrow-prev'),
-                     nextArrow: self.find('.arrow.arrow-next'),
-                 };
-             if(self.hasClass('img-only')){
-                 options = {
-                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                     prevArrow: self.find('.arrow.arrow-prev'),
-                     nextArrow: self.find('.arrow.arrow-next'),
-                 };
-             }
-             self.find('.slides').slick(options);
-         });
-     }
+            var self = $(this),
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            if(self.hasClass('img-only')){
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            }
+            self.find('.slides').slick(options);
+        });
+    }
 
-      // Banner 05
-      var banner05 = $('.banner-05');
-      if(banner05.length){
-          banner05.each(function(){
-              var self = $(this),
-                  options = {
-                      centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                      focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                      dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                      prevArrow: self.find('.arrow.arrow-prev'),
-                      nextArrow: self.find('.arrow.arrow-next'),
-                  };
-              if(self.hasClass('img-only')){
-                  options = {
-                      centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                      focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                      dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                      prevArrow: self.find('.arrow.arrow-prev'),
-                      nextArrow: self.find('.arrow.arrow-next'),
-                  };
-              }
-              self.find('.slides').slick(options);
-          });
-      }
+    // Banner 05
+    var banner05 = $('.banner-05');
+    if(banner05.length){
+        banner05.each(function(){
+            var self = $(this),
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            if(self.hasClass('img-only')){
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            }
+            self.find('.slides').slick(options);
+        });
+    }
+    
+    // Banner 06
+    var banner06 = $('.banner-06');
+    if(banner06.length){
+        banner06.each(function(){
+            var self = $(this),
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            if(self.hasClass('img-only')){
+                options = {
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
+                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
+                };
+            }
+            self.find('.slides').slick(options);
+        });
+    }
 
       
 
