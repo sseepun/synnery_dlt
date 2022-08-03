@@ -1072,12 +1072,14 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 /* Special Card 21 */
+.ss-card-21{padding:0 0 1.25rem 0; transition:padding .25s;}
+.ss-card-21:hover{padding:0;}
 .ss-card-21 .text-container{
     position:relative; padding:2.5rem 1rem 1rem 1rem;
     transition:background .25s, padding .25s;
 }
 .ss-card-21 .text-container .title{
-    min-height:5rem;
+    min-height:5rem; -webkit-line-clamp:2;
 }
 .ss-card-21:hover .text-container{
     padding:2.5rem 1rem 2.25rem 1rem; 
@@ -1087,7 +1089,10 @@ fieldset{padding:0; margin:0; border:0;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{
-   padding:1rem;
+   padding:1rem; min-width:70%;
+}
+.ss-card-23 .icon:last-child{
+    min-width:4.5rem; height:auto; cursor:pointer; transition:all .25s;
 }
 
 

@@ -46,13 +46,13 @@
                 <?php }?>
               </div>
             </div>
-            <div class="d-flex ai-center jc-center btn-more mt-2" data-aos="fade-up" data-aos-delay="150">
+            <div class="d-flex ai-center jc-center btn-more mt-6" data-aos="fade-up" data-aos-delay="150">
               <a class="p d-block text-center" href="#">อ่านทั้งหมด</a> 
               <div class="icon ml-2">
                 <em class="fa-solid fa-angle-right"></em>
               </div>
             </div>
-         </div>
+          </div>
           <div class="grid lg-80 md-100 sm-100">
             <div class="grids">
               <div class="grid lg-50 md-100 sm-100 mt-0">
@@ -120,28 +120,28 @@
                         <div class="ss-img vertical-2">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
                           <div class="hover-container">
-                          <div class="icon">
-                            <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                            <div class="icon">
+                              <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                            </div>
                           </div>
-                        </div>
                         </div>
                         <div class="text-container">
-                        <div class="ss-tags">
-                          <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
-                        </div>
-                        <div class="d-flex ai-center mt-2">
-                          <div class="date">
-                            <p>17 กุมภาพันธ์ 2565</p>
+                          <div class="ss-tags">
+                            <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
                           </div>
-                          <div class="icon ml-6 pl-6">
-                            <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
-                            <span class="color-16 ml-1">200</span>
+                          <div class="d-flex ai-center mt-2">
+                            <div class="date">
+                              <p>17 กุมภาพันธ์ 2565</p>
+                            </div>
+                            <div class="icon ml-6 pl-6">
+                              <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
+                              <span class="color-16 ml-1">200</span>
+                            </div>
                           </div>
+                          <a class="title p lg fw-300 lh-sm mt-2" href="#">
+                              กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
+                          </a>
                         </div>
-                        <a class="title p lg fw-300 lh-sm mt-2" href="#">
-                           กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
-                        </a>
-                      </div>
                       </div>
                     </div>
                   <?php }?>
@@ -156,33 +156,105 @@
 
   <section class="section-28 section-padding">
     <div class="container">
-      <h3 class="fw-500 lh-xs color-03" data-aos="fade-up" data-aos-delay="0">แบบคำขอ</h3> 
-      <p class="color-16">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
-      <div class="grids mt-0">
-        <div class="lg-40">
-          <div class="ss-card ss-card-23">
+      <div class="grids">
+        <div class="grid lg-40">
+          <h3 class="fw-500 lh-xs color-03" data-aos="fade-up" data-aos-delay="0">แบบคำขอ</h3> 
+          <p class="color-16" data-aos="fade-up" data-aos-delay="150">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
+          <div class="ss-card ss-card-23 mt-6" data-aos="fade-up" data-aos-delay="300">
             <?php for($i=0; $i<4; $i++){?>
-              <div class="text-container mt-6">
-                <div class="d-flex ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/55.png" alt="Icon" />
-                  </div>   
-                <a class="p lg ml-3">
-                  คำขอต่ออายุใบอนุญาตประกอบการขนส่ง
-                </a>      
+              <div class="d-flex mt-1">
+                <div class="text-container">
+                  <div class="d-flex ai-center">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/55.png" alt="Icon" />
+                    </div>   
+                    <a class="title p lg ml-3" href="#">
+                      คำขอต่ออายุใบอนุญาตประกอบการขนส่ง
+                    </a>      
+                  </div> 
                 </div> 
-              </div>    
+                <div class="icon d-flex ai-center jc-center">
+                   <img src="public/assets/app/images/icon/56.png" alt="Icon" />
+                </div>
+              </div> 
             <?php }?>
           </div>
+          <div class="d-flex ai-center jc-center btn-more mt-6" data-aos="fade-up" data-aos-delay="300">
+            <a class="p d-block text-center" href="#">อ่านทั้งหมด</a> 
+            <div class="icon ml-2">
+              <em class="fa-solid fa-angle-right"></em>
+            </div>
+          </div>
         </div>    
-        <div class="lg-60">
-
+        <div class="grid lg-60 mt-0">
+          <div class="blocks">
+            <div class="block">
+              <div class="text-wrapper">
+                <h3 class="fw-500 lh-xs color-white" data-aos="fade-up" data-aos-delay="0">
+                  คลังวิดีโอ
+                </h3> 
+              </div>
+            </div>
+          </div>
         </div>          
       </div>
     </div>
   </section>
+
+  <section class="section-29" data-aos="fade-up" data-aos-delay="0">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-03.jpg')"></div>
+    <div class="container">
+      <div class="grids">
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab main" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/28.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="fw-300">CALL CENTER</p>
+              <h3 class="lg fw-400 lh-3xs">1584</h3>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/29.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">จัดซื้อจัดจ้าง</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/30.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">ค้นหาสำนักงาน</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+        <div class="grid lg-25 md-50 mt-0">
+          <a class="section-tab" href="#">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/31.png" alt="Icon" />
+            </div>
+            <div class="text-wrapper">
+              <p class="lg fw-300">ติดต่อกรม</p>
+              <div class="arrow"><em class="fa-solid fa-chevron-right"></em></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section
+
    
-  <?php // include_once('include/footer-04.php'); ?>
-  <?php include_once('include/script.php'); ?>
+ <?php include_once('include/footer-06.php'); ?>
+ <?php include_once('include/script.php'); ?> 
 </body>
 </html>
