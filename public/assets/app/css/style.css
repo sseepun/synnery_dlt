@@ -1113,6 +1113,12 @@ fieldset{padding:0; margin:0; border:0;}
     min-width:4.5rem; height:auto; cursor:pointer; transition:all .25s;
 }
 
+/* Special Card 24 */
+.ss-card-24 .ss-img{width:50%; padding:40% 0 0 0;}
+.ss-card-24 .ss-img > .img-bg{width:9.6875rem; height:7.8125rem;}
+.ss-card-24:hover .icon{opacity:1 !important; cursor:pointer;} 
+.ss-card-24:hover .text-container > .title{font-size:1.375rem;} 
+
 
 
 /* Special Image */

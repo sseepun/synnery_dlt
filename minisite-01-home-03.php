@@ -188,20 +188,24 @@
               </div> 
             <?php }?>
           </div>
-          <div class="d-flex ai-center jc-center btn-more mt-6" data-aos="fade-up" data-aos-delay="300">
-            <a class="p d-block text-center" href="#">อ่านทั้งหมด</a> 
-            <div class="icon ml-2">
-              <em class="fa-solid fa-angle-right"></em>
-            </div>
+          <div class="btns jc-center pt-6 mt-1">
+            <a class="btn btn-more" href="#">
+              อ่านทั้งหมด
+              <div class="icon ml-2">
+                <em class="fa-solid fa-angle-right"></em>
+              </div>
+            </a> 
           </div>
         </div>    
         <div class="grid lg-60 mt-0">
           <div class="blocks">
             <div class="block">
               <div class="text-wrapper">
-                <h3 class="fw-500 lh-xs color-white" data-aos="fade-up" data-aos-delay="0">
-                  คลังวิดีโอ
-                </h3> 
+                <div class="ss-title-03 jc-start">
+                  <div class="wrapper">
+                    <h3 class="fw-400 color-white lh-2xs">คลังวิดีโอ</h3>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -209,6 +213,43 @@
       </div>
     </div>
   </section>
+
+  <div class="section-30 section-padding">
+    <div class="container">
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="slides">
+          <?php for($i=0; $i<8; $i++){?>
+            <div class="slide">
+              <div class="ss-card ss-card-24 d-flex">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/6<?= ($i+$j+1)%4+0 ?>.jpg');"></div>
+                </div>
+                <div class="text-container ml-3">
+                  <a class="title p fw-400 " href="#">ความรู้เกี่ยวกับการสอบใบขับขี่</a>
+                  <div class="btns mt-3">
+                    <a class="btn btn-more" href="#">
+                      <div class="icon ml-2 bg-03">
+                        <em class="fa-solid fa-angle-right"></em>
+                      </div>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="btns jc-center pt-6 mt-1">
+          <a class="btn btn-more" href="#">
+            อ่านทั้งหมด
+            <div class="icon ml-2 bg-03">
+              <em class="fa-solid fa-angle-right"></em>
+            </div>
+          </a> 
+        </div>
+      </div>
+    </div>
+     
+  </div>
 
   <section class="section-29" data-aos="fade-up" data-aos-delay="0">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-03.jpg')"></div>

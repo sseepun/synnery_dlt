@@ -799,7 +799,6 @@
     .section-17 .rc-container{width:50%;}
 }
 
-
 /* Section 18 */
 .section-18{position:relative; padding-top:15rem;}
 .section-18 > .img-bg{
@@ -830,7 +829,6 @@
         justify-content:center; margin:1.5rem 0 0 0;
     }
 }
-
 
 /* Section 19 */
 .section-19 .swiper-container{width:100%; height:24vw; transition:opacity .6s ease;}
@@ -987,6 +985,7 @@
 
 
 /* Section 28 */
+.section-28.section-padding{padding-top:0!important;}
 .section-28 .text-container{min-height:3rem;}
 .section-28 .block{
     position:relative; width:45%; padding:2rem 0 0 2rem; height:100%;
@@ -1034,6 +1033,21 @@
     .section-29 .section-tab.main::after{display:block;}
 }
 
+
+/* Section 30 */
+.section-30 > .img-bg{
+    position:absolute; top:0; left:0; right:0; height:27.5rem; background-size:cover;
+    background-position:center;
+}
+.section-30 .text-container .icon{opacity:0;}
+.section-30 .slide-container{position:relative; margin:1.5rem 0 0 0;}
+.section-30 .slides{margin:0 -.5rem; width:calc(100% + 1rem);}
+@media screen and (max-width:767.98px){
+    .section-30 .btns{
+        position:relative; bottom:unset; right:unset; width:100%; 
+        justify-content:center; margin:1.5rem 0 0 0;
+    }
+}
 
 /* Tab Container */
 .tab-container{position:relative; display:block; width:100%;}
