@@ -1046,16 +1046,19 @@
 
 
 /* Section 28 */
-.section-28 .blocks{width:100%; display:flex; flex-wrap:wrap;}
+.section-28 .blocks{width:100%; display:flex; position:relative;}
 .section-28 .text-container{min-height:3rem;}
 .section-28 .block{
-    position:relative; width:45%; padding:1.5rem;
+    position:relative; width:40%; padding:1.5rem; 
+}
+.section-28 .subblocks{
+    width:40%;
 }
 .section-28 .subblock{
-    position:relative; padding:1.5rem;
+    position:relative; padding:1.5rem; 
 }
-.section-28 .subblock > .img-bg{
-    position:absolute; top:0; bottom:0; left:0; width:50vw;
+.section-28 .blocks > .img-bg{
+    position:absolute; top:0; bottom:0; left:0; width:60vw;
     background-size:cover; background-position:center;
 }
 .section-28 .btn-more .icon{

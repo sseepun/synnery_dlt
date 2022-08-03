@@ -773,7 +773,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 /* Section 28 */
 .section-28{background:#f0f0f0;}
-.section-28 .block{background:#523180;}
+.section-28 .block{ background: rgba(82, 49, 128, 0.7) /* Green background with 30% opacity */}
 .section-28 .btn-more .icon{background:#68459b; color:#ffffff;}
 
 /* Section 29 */
