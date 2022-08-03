@@ -47,7 +47,7 @@ input[type=file].sgray, select.sgray, textarea.sgray{background:#000000!importan
 .page-loader .text .sub{color:#591768;}
 
 
-/* Super Topnav */
+/* Super Topnav Style 03 */
 nav.stopnav.style-03{border-color:rgba(255,255,0,.3);}
 nav.stopnav.style-03 .option-box,
 nav.stopnav.style-03 .a-full{border-color:rgba(255,255,0,.3);}
@@ -67,6 +67,23 @@ nav.stopnav.style-03 .submenu-dropdown{
   border-color:#ffff00; background:rgba(0,0,0,.96); color:#ffff00;
 }
 nav.stopnav.style-03 .submenu:hover > *:first-child{background:#ffff00; color:#000000;}
+
+/* Super Topnav Style 06 */
+nav.stopnav.style-06{border-color:rgba(255,255,0,.3);}
+nav.stopnav.style-06 .option-box,
+nav.stopnav.style-06 .a-full{border-color:rgba(255,255,0,.3);}
+nav.stopnav.style-06 .a-text:hover, nav.stopnav.style-06 .a-text.active{color:#ffff00;}
+nav.stopnav.style-06 .a-text::after, nav.stopnav.style-06 .a-img::after{background:#ffff00;}
+nav.stopnav.style-06 .a-full:hover{background:#ffff00; color:#000000;}
+nav.stopnav.style-06 .a-full.lang{
+  background:#000000; color:#ffff00; border-right:1px solid rgba(255,255,0,.3);
+}
+nav.stopnav.style-06 .a-full.lang:hover,
+nav.stopnav.style-06 .a-full.lang.active{background:#ffff00; color:#000000;}
+nav.stopnav.style-06 .a-btn{background:#000000; color:#ffff00;}
+nav.stopnav.style-06 .option:hover .a-btn{background:#ffff00; color:#000000;}
+nav.stopnav.style-06 .a-btn .icon{background:#ffff00; color:#000000;}
+nav.stopnav.style-06 .option:hover .a-btn .icon{background:#000000; color:#ffff00;}
 
 
 /* Topnav */
@@ -104,6 +121,12 @@ nav.topnav.style-04 .option-detail .set.main{background:#ffff00; color:#000000;}
 nav.topnav.style-04 .hamburger > *{background:#ffff00;}
 nav.topnav.style-04 .option.sidenav-toggle::before,
 nav.topnav.style-04 .option.sidenav-toggle{background:none;}
+
+/* Topnav Style 06 */
+nav.topnav.style-06{background:#000000;}
+nav.topnav.style-06 .menu.active > *:first-child{background:#ffff00; color:#000000;}
+nav.topnav.style-06 .hamburger > *{background:#000000;}
+nav.topnav.style-06 .options .option{border-color:rgba(255,255,0,.3);}
 
 
 /* Sidenav */

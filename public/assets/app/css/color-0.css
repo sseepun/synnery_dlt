@@ -162,7 +162,7 @@ input[type=file].sgray, select.sgray, textarea.sgray{background:#e3e4e6!importan
 .page-loader .text .sub{color:#591768;}
 
 
-/* Super Topnav */
+/* Super Topnav Style 03 */
 nav.stopnav.style-03{background:#68459b; color:#ffffff;}
 nav.stopnav.style-03 .option-box,
 nav.stopnav.style-03 .a-full{border-color:rgba(255,255,255,.3);}
@@ -178,6 +178,23 @@ nav.stopnav.style-03 .submenu-dropdown{
   border-color:#f9c816; background:rgba(104,96,155,.96); color:#ffffff;
 }
 nav.stopnav.style-03 .submenu:hover > *:first-child{color:#f9c816;}
+
+/* Super Topnav Style 06 */
+nav.stopnav.style-06{background:#8a60c7; color:#ffffff;}
+nav.stopnav.style-06 > .stopnav-wrapper::before{background:#a180d2;}
+nav.stopnav.style-06 .option-box,
+nav.stopnav.style-06 .a-full{border-color:rgba(255,255,255,.3);}
+nav.stopnav.style-06 .a-text:hover, nav.stopnav.style-06 .a-text.active{color:#f9c816;}
+nav.stopnav.style-06 .a-text::after, nav.stopnav.style-06 .a-img::after{background:#f9c816;}
+nav.stopnav.style-06 .a-full:hover{background:#76108f; color:#ffffff;}
+nav.stopnav.style-06 .a-full.lang{background:#ffffff; color:#3c3c3c;}
+nav.stopnav.style-06 .a-full.lang:hover,
+nav.stopnav.style-06 .a-full.lang.active{background:#76108f; color:#ffffff;}
+nav.stopnav.style-06 .a-btn{background:#540468; color:#ffffff;}
+nav.stopnav.style-06 .a-btn .icon{background:#f9c816; color:#ffffff;}
+nav.stopnav.style-06 .option-icon:hover{color:#f9c816;}
+nav.stopnav.style-06 .option-icon .icon,
+nav.stopnav.style-06 .option-icon .chev{color:#000000;}
 
 
 /* Topnav */
@@ -209,7 +226,7 @@ nav.topnav.style-01 .hamburger:hover > *{background:#d6bf64;}
 nav.topnav.style-01 .option.sidenav-toggle::before,
 nav.topnav.style-01 .option.sidenav-toggle{background:none;}
 
-/* Topnav Style-03 */
+/* Topnav Style 03 */
 nav.topnav.style-03{background:#ffffff; border-color:#c7cbd1;}
 nav.topnav.style-03 .logo{color:#3c3c3c;}
 nav.topnav.style-03 .logo:hover, nav.topnav.style-03 .logo h6{color:#68459b;}
@@ -231,6 +248,17 @@ nav.topnav.style-04.sticky .hamburger > *{background:#000000;}
 nav.topnav.style-04 .hamburger:hover > *{background:#d6bf64;}
 nav.topnav.style-04 .option.sidenav-toggle::before,
 nav.topnav.style-04 .option.sidenav-toggle{background:none;}
+
+/* Topnav Style 06 */
+nav.topnav.style-06{background:#ffffff; border-color:rgba(0,0,0,.1);}
+nav.topnav.style-06 .logo{color:#3c3c3c;}
+nav.topnav.style-03 .logo:hover, nav.topnav.style-03 .logo h6{color:#76108f;}
+nav.topnav.style-06 .menu:hover > *:first-child{color:#76108f;}
+nav.topnav.style-06 .menu.active > *:first-child{background:#76108f; color:#ffffff;}
+nav.topnav.style-06 .sidenav-toggle::before{background:#76108f;}
+nav.topnav.style-06 .sidenav-toggle:hover::before{background:#76108f;}
+nav.topnav.style-06 .hamburger > *{background:#ffffff;}
+nav.topnav.style-06 .options .option{border-color:rgba(0,0,0,.1);}
 
 
 /* Sidenav */
