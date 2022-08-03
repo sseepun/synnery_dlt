@@ -332,10 +332,18 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 /* Special Card 19 */
 .ss-card-19 .text-container{background:#ffffff; color:#000000;}
 
+/* Special Card 24 */
+.ss-card-24 .icon{background:#ffffff; color:#000000;}
+
 
 /* Special Image */
 .ss-img .hover-container{background:rgba(0,0,0,.5);}
 .ss-img .icon-float{background:#000000; color:#ffffff;}
+
+
+/* Special Item 01 */
+.ss-item-01{background:#ffffff; color:#000000; border:1px solid #ffffff;}
+.ss-item-01 > .icon{background:#000000; color:#ffffff;}
 
 
 /* Special List */
@@ -529,6 +537,19 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 /* Section 27 */
 .section-27 .section-title .icon{background:#ffffff; color:#000000;}
 
+/* Section 28 */
+.section-28 .block.bg-color::before{background:rgba(0,0,0,.7)}
+.section-28 .block .btns > .btn-more{color:#ffffff;}
+.section-28 .block .btns > .btn-more .icon{background:#ffffff; color:#000000;}
+
+/* Section 29 */
+.section-29{border-top:1px solid rgba(255,255,255,.3);}
+.section-29 > .img-bg{background:#000000!important;}
+.section-29 .section-tab{color:#ffffff;}
+.section-29 .section-tab .arrow{color:#ffffff;}
+.section-29 .section-tab.main::before, .section-29 .section-tab.main::after,
+.section-29 .section-tab.main{background:#000000;}
+
 
 /* Tabs 01 */
 .tab-container .tabs.tabs-01::before,
@@ -560,3 +581,8 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 /* Tabs 04 */
 .tab-container .tabs.tabs-04 .tab{color:#ffffff; border-color:rgba(255,255,255,.3);}
 .tab-container .tabs.tabs-04 .tab .alert{background:#ffffff; color:#000000;}
+
+/* Tabs 05 */
+.tab-container .tabs.tabs-05 .tab{border-color:#ffffff; color:#ffffff;}
+.tab-container .tabs.tabs-05 .tab:hover,
+.tab-container .tabs.tabs-05 .tab.active{background:#ffffff; color:#000000;}
