@@ -614,6 +614,14 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .info-02 .section-tab.main::before, .info-02 .section-tab.main::after,
 .info-02 .section-tab.main{background:#440254;}
 
+/* Info 03 */
+.info-03 .info-card{
+  background:#ffffff; color:#76108f; border-color:rgba(0,0,0,.04)!important;
+  box-shadow:0px 3px 4px 3px rgba(0,0,0,.02);
+}
+.info-03 .info-card:hover{color:#ffffff;}
+.info-03 .info-card .chev{color:#ffffff;}
+
 
 /* Paginate */
 .paginate .page.page-prev, .paginate .page.page-next,
@@ -751,7 +759,6 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-26 .slick-dots li.slick-active button{background:#d6bf64;}
 
 /* Section 27 */
-.section-27{background:#f8f8f8;}
 .section-27 .section-title .icon{background:#68459b; color:#ffffff;}
 
 /* Section 28 */

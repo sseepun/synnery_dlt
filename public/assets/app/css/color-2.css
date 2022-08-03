@@ -265,6 +265,7 @@ nav.side-panel .option-row .icon + *::before{background:#ffff00;}
 }
 .ss-card-06 .card-footer .block::after{background:rgba(0,0,0,.3);}
 .ss-card-06 .more{background:#000000; color:#ffff00;}
+.ss-card-06 .btn.btn-action.btn-08{border-color:#000000!important;}
 
 /* Special Card 07 */
 .ss-card-07{
@@ -383,6 +384,14 @@ nav.side-panel .option-row .icon + *::before{background:#ffff00;}
 .info-02 .section-tab .arrow{background:#ffff00; color:#000000;}
 .info-02 .section-tab.main::before, .info-02 .section-tab.main::after,
 .info-02 .section-tab.main{background:#000000;}
+
+/* Info 03 */
+.info-03 .info-card{
+  background:#ffff00; color:#000000; border-color:rgba(0,0,0,.04)!important;
+  box-shadow:0px 3px 4px 3px rgba(0,0,0,.02);
+}
+.info-03 .info-card:hover{color:#ffff00;}
+.info-03 .info-card .chev{color:#ffff00;}
 
 
 /* Paginate */

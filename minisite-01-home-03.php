@@ -39,6 +39,103 @@
   <?php
     $categories = [
       [ 
+        'title' => 'จองทำใบขับขี่',
+        'icon' => 'public/assets/app/images/icon/71.png',
+        'icon_active' => 'public/assets/app/images/icon/71-active.png'
+      ], [
+        'title' => 'ระบบรายงาน<br />ความพึงพอใจแท็กซี่',
+        'icon' => 'public/assets/app/images/icon/72.png',
+        'icon_active' => 'public/assets/app/images/icon/72-active.png'
+      ], [
+        'title' => 'สอบถามข้อมูลค่า<br />ภาษีรถประจำปี',
+        'icon' => 'public/assets/app/images/icon/73.png',
+        'icon_active' => 'public/assets/app/images/icon/73-active.png'
+      ], [
+        'title' => 'ชำระภาษีรถผ่าน<br />อินเตอร์เน็ต',
+        'icon' => 'public/assets/app/images/icon/74.png',
+        'icon_active' => 'public/assets/app/images/icon/74-active.png'
+      ], [
+        'title' => 'ประมูลเลข<br />ทะเบียนรถสวย',
+        'icon' => 'public/assets/app/images/icon/75.png',
+        'icon_active' => 'public/assets/app/images/icon/75-active.png'
+      ], [
+        'title' => 'จองเลขทะเบียนรถ',
+        'icon' => 'public/assets/app/images/icon/76.png',
+        'icon_active' => 'public/assets/app/images/icon/76-active.png'
+      ], [
+        'title' => 'บริการข้อมูลกฏหมาย',
+        'icon' => 'public/assets/app/images/icon/77.png',
+        'icon_active' => 'public/assets/app/images/icon/77-active.png'
+      ], [
+        'title' => 'เข้าสู่ระบบ',
+        'icon' => 'public/assets/app/images/icon/78.png',
+        'icon_active' => 'public/assets/app/images/icon/78-active.png'
+      ]
+    ];
+  ?>
+  <section class="info-03 section-padding" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="info-cards">
+        <?php foreach($categories as $d){?>
+          <a class="info-card" href="#">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-08.jpg');"></div>
+            <div class="chev"><em class="fa-solid fa-chevron-right"></em></div>
+            <div class="wrapper">
+              <div class="text-container">
+                <p class="lg lh-sm"><?= $d['title'] ?></p>
+              </div>
+              <div class="icon">
+                <img class="inactive" src="<?= $d['icon'] ?>" alt="Icon" />
+                <img class="active" src="<?= $d['icon_active'] ?>" alt="Icon Active" />
+              </div>
+            </div>
+          </a>
+        <?php }?>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-04">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/23.jpg');"></div>
+    <div class="container">
+      
+      <div class="grids jc-center">
+        <div class="grid xl-75 lg-90 md-100 sm-75 mt-0">
+          <div class="ss-card ss-card-06 img-right" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img bradius-0">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/24.jpg');"></div>
+            </div>
+            <div class="text-container bradius-0">
+              <div class="ss-title-03 style-02 jc-start">
+                <div class="wrapper">
+                  <h6 class="fw-400 color-06 lh-2xs">เกี่ยวกับ</h6>
+                  <h3 class="lh-3xs">สำนักงานขนส่ง</h3>
+                </div>
+              </div>
+              <div class="space-l">
+                <p class="lg fw-400">จังหวัดสุราษฎร์ธานี</p>
+                <p class="fw-300 mt-2">
+                  เป็นกรมที่ทำหน้าที่ควบคุมและจัดระเบียบการขนส่งทางถนนภายในประเทศและระหว่างประเทศ 
+                  จดทะเบียนและเก็บภาษีรถ และออกใบอนุญาตขับรถ พัฒนาระบบการขนส่งทางถนนและการใช้รถ 
+                  ดำเนินการตามกฎหมายว่าด้วยการขนส่งทางบก
+                </p>
+                <div class="btns pt-6">
+                  <a class="btn btn-action btn-sm style-03 btn-08" href="#">
+                    <span>อ่านต่อ</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <?php
+    $categories = [
+      [ 
         'title' => 'ข่าวสารประชาสัมพันธ์', 
       ], [
         'title' => 'ข่าวประกาศกรมขนส่ง', 
