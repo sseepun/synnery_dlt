@@ -187,7 +187,7 @@
     </div>
   </section>
 
-  <section class="section-28 section-padding">
+  <section class="section-28">
     <div class="container">
       <div class="grids">
         <div class="grid lg-40">
@@ -229,12 +229,68 @@
           <div class="blocks">
             <div class="block">
               <div class="text-wrapper">
-                <div class="ss-title-03 jc-start">
+                <div class="ss-title-03 style-02 jc-start">
                   <div class="wrapper">
                     <h3 class="fw-400 color-white lh-2xs">คลังวิดีโอ</h3>
                   </div>
                 </div>
+                <div class="tab-container">
+                  <div class="tab-contents">
+                    <?php for($j=0; $j<1; $j++){?>
+                      <div class="ss-card ss-card-25 mt-2">
+                        <ul>
+                          <li><a>1</a></li>
+                          <li><a>2</a></li>
+                          <li><a>3</a></li>
+                        </ul>
+                        <div class="ss-img vertical-2">
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/6<?= ($i+$j)%1+4 ?>.jpg');"></div>
+                            <div class="icon">
+                              <em class="fa-solid fa-play"></em>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                          <div class="ss-tags">
+                            <div class="tag no-br ws-nowrap fw-300">ปัญหาฝุ่น PM</div>
+                          </div>
+                          <div class="d-flex ai-center mt-2">
+                            <p class="sm">17 กุมภาพันธ์ 2565</p>
+                            <div class="ml-6 pl-6">
+                              <img src="public/assets/app/images/icon/61.png" alt="Icon" height="10" /> 
+                              <span class="p sm ml-1">200</span>
+                            </div>
+                          </div>
+                          <a class="title p lg fw-300 lh-sm mt-1" href="#">
+                            รอบรู้เรื่องขนส่ง EP3 - คุมเข้มตรวจควันดำรถบรรทุกและรถโดยสาร แก้ปัญหาฝุ่น
+                            รอบรู้เรื่องขนส่ง EP3 - คุมเข้มตรวจควันดำรถบรรทุกและรถโดยสาร แก้ปัญหาฝุ่น
+                            รอบรู้เรื่องขนส่ง EP3 - คุมเข้มตรวจควันดำรถบรรทุกและรถโดยสาร แก้ปัญหาฝุ่น
+                          </a>
+                        </div>
+                        <div class="btns jc-center pt-6 mt-1">
+                          <a class="btn btn-more color-white" href="#">
+                            อ่านทั้งหมด
+                            <div class="icon ml-2 bg-white color-03">
+                              <em class="fa-solid fa-angle-right"></em>
+                            </div>
+                          </a> 
+                        </div>
+                    </div>
+                    <?php }?>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="subblocks">
+              <div class="subblock">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/24.jpg');"></div>
+                <div class="text-wrapper">
+                  <div class="ss-title-03 style-02 jc-start">
+                    <div class="wrapper">
+                      <h3 class="fw-400 color-white lh-2xs">คลังภาพ</h3>
+                    </div>
+                  </div>   
+                </div>  
+              </div>       
             </div>
           </div>
         </div>          

@@ -1119,6 +1119,19 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-card-24:hover .icon{opacity:1 !important; cursor:pointer;} 
 .ss-card-24:hover .text-container > .title{font-size:1.375rem;} 
 
+/* Special Card 25 */ 
+.ss-card-25 .ss-img{position:relative;}
+.ss-card-25 .ss-img .icon{
+    position:absolute; transform:translate(-50%, -50%); top:50%; left:50%; border-radius:50%;
+    width:3rem; height:3rem; display:flex; justify-content:center; align-items:center;
+}
+.ss-card-25 ul{list-style:none; display:flex; justify-content:end;}
+.ss-card-25 ul li{
+    display:flex; justify-content:center; align-items:center; border:2px solid transparent; 
+    border-radius:50%; width:2rem; height:2rem; cursor:pointer; margin:0 0 0 .5rem;
+}
+.ss-card-25 .text-container .title{-webkit-line-clamp:2;}
+
 
 
 /* Special Image */
