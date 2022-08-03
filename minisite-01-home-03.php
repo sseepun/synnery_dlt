@@ -6,8 +6,7 @@
 </head>
 <body class="loading">
   <?php // include_once('include/page-loader.php'); ?>
-  <?php // include_once('include/topnav-04.php'); ?>
-
+  <?php include_once('include/topnav-06.php'); ?>
 
   <?php
     $categories = [
@@ -22,133 +21,139 @@
       ], 
     ];
   ?>
-
   <section class="section-27 section-padding">
     <div class="container">
-      <h3 class="text-center color-03" data-aos="fade-up" data-aos-delay="150">
-        ข่าวสารประชาสัมพันธ์
-      </h3>
       <div class="tab-container">
-        <div class="grids">
-          <div class="grid lg-20 md-100 sm-100">
-            <div class="d-flex ai-center" data-aos="fade-up" data-aos-delay="150">
-              <div class="icon-bars">
-                <img src="public/assets/app/images/icon/57.png" alt="Icon" />
-              </div>
-              <h5 class="color-06 fw-600 ml-2">ประเภท</h5>
-            </div>
-            <div class="tabs tabs-04 mt-4" data-aos="fade-up" data-aos-delay="150">
-              <div class="wrapper">
-                <?php foreach($categories as $i=>$d){?>
-                  <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                    <p class="lg fw-400"><?= $d['title'] ?></p>
-                  </div>
-                <?php }?>
-              </div>
-            </div>
-            <div class="d-flex ai-center jc-center btn-more mt-6" data-aos="fade-up" data-aos-delay="150">
-              <a class="p d-block text-center" href="#">อ่านทั้งหมด</a> 
-              <div class="icon ml-2">
-                <em class="fa-solid fa-angle-right"></em>
-              </div>
-            </div>
-          </div>
-          <div class="grid lg-80 md-100 sm-100">
-            <div class="grids">
-              <div class="grid lg-50 md-100 sm-100 mt-0">
-                <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
-                  <?php foreach($categories as $i=>$d){?>
-                    <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                      <?php for($j=0; $j<1; $j++){?>
-                        <div class="ss-card ss-card-22">
-                          <div class="ss-img vertical-2">
-                            <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
-                          </div>
-                        </div>
-                      <?php }?>
-                    </div>
-                  <?php }?>
-                </div>  
-              </div> 
-              <div class="grid lg-50 md-100 sm-100">
-                <div class="tab-contents pl-5" data-aos="fade-up" data-aos-delay="0">
-                  <?php foreach($categories as $i=>$d){?>
-                    <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                      <div class="ss-card ss-card-22">
-                        <div class="ss-tags">
-                          <h3 class="tag lh-xs bg-03"><?= $d['title'] ?></h3>
-                        </div>
-                        <div class="d-flex ai-center mt-2">
-                          <div class="date">
-                            <p>17 กุมภาพันธ์ 2565</p>
-                          </div>
-                          <div class="icon ml-6 pl-6">
-                            <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
-                            <span class="color-16 ml-1">200</span>
-                          </div>
-                        </div>
-                        <div class="text-container">
-                          <h5 class="fw-400">
-                            กรมการขนส่งทางบก เผย!! มีผู้ให้บริการรถยนต์รับจ้างผ่านระบบแอปพลิเคชันผ่าน...
-                          </h5>
-                          <p class="desc lg color-16 mt-2">
-                            ตามที่นายศักดิ์สยาม​ ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม ได้มี
-                            นโยบายให้กระทรวงคมนาคมออกกฎกระทรวงรถยนต์รับจ้างผ่านระบบอิเล็กทรอนิกส์ พ.ศ. 2564
-                          </p>
-                      </div>
-                      </div>
-                    </div>
-                  <?php }?>
-                  <div class="btns d-flex mt-6">
-                    <a href="#" class="btn btn-action style-03 btn-08">
-                      อ่านต่อ
-                    </a>
-                  </div>
+        <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
+          <?php foreach($categories as $i=>$d){?>
+            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+              <div class="ss-title-03">
+                <div class="wrapper">
+                  <h3 class="fw-400 color-03 lh-2xs"><?= $d['title'] ?></h3>
+                  <p class="lg">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
                 </div>
               </div>
             </div>
-          </div>
+          <?php }?>
         </div>
-        <div class="grid lg-100">
-          <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
-            <?php foreach($categories as $i=>$d){?>
-              <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                <div class="grids no-gap">
-                  <?php for($j=0; $j<4; $j++){?>
-                    <div class="grid lg-25">
-                      <div class="ss-card ss-card-21">
+
+        <div class="grids pt-4">
+          <div class="grid xl-20 lg-25 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
+            <div class="section-title">
+              <div class="icon">
+                <img src="public/assets/app/images/icon/57.png" alt="Icon" />
+              </div>
+              <h5 class="color-06 fw-500 ws-nowrap ml-3">ประเภท</h5>
+            </div>
+            <div class="tabs tabs-04 mt-4">
+              <?php foreach($categories as $i=>$d){?>
+                <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                  <p class="fw-400"><?= $d['title'] ?></p>
+                  <?php if($i==0){?><div class="alert">10</div><?php }?>
+                </div>
+              <?php }?>
+            </div>
+            <div class="btns jc-center pt-6 mt-1">
+              <a class="btn btn-more" href="#">
+                อ่านทั้งหมด
+                <div class="icon ml-2">
+                  <em class="fa-solid fa-angle-right"></em>
+                </div>
+              </a> 
+            </div>
+          </div>
+          <div class="grid xl-80 lg-75 md-100 sm-100" data-aos="fade-up" data-aos-delay="300">
+            <div class="tab-contents">
+              <?php foreach($categories as $i=>$d){?>
+                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                  <?php for($j=0; $j<1; $j++){?>
+                    <div class="ss-card ss-card-22">
+                      <div class="img-container">
                         <div class="ss-img vertical-2">
-                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j)%5+5 ?>.jpg');"></div>
                           <div class="hover-container">
                             <div class="icon">
                               <img src="public/assets/app/images/icon/16.png" alt="Icon" />
                             </div>
                           </div>
                         </div>
-                        <div class="text-container">
+                      </div>
+                      <div class="text-container">
+                        <div class="wrapper">
                           <div class="ss-tags">
-                            <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
+                            <h3 class="tag lh-xs bg-03">การเดินทาง</h3>
                           </div>
-                          <div class="d-flex ai-center mt-2">
-                            <div class="date">
-                              <p>17 กุมภาพันธ์ 2565</p>
-                            </div>
-                            <div class="icon ml-6 pl-6">
-                              <img src="public/assets/app/images/icon/58.png" alt="Icon" /> 
-                              <span class="color-16 ml-1">200</span>
+                          <div class="d-flex ai-center mt-3">
+                            <p class="sm">17 กุมภาพันธ์ 2565</p>
+                            <div class="ml-6 pl-6">
+                              <img src="public/assets/app/images/icon/58.png" alt="Icon" height="10" /> 
+                              <span class="p sm ml-1">200</span>
                             </div>
                           </div>
-                          <a class="title p lg fw-300 lh-sm mt-2" href="#">
-                              กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
-                          </a>
+                          <div class="mt-1">
+                            <a class="title h5 fw-400 lh-sm h-color-06" href="#">
+                              กรมการขนส่งทางบก เผย!! มีผู้ให้บริการรถยนต์รับจ้างผ่านระบบแอปพลิเคชันผ่าน
+                              กรมการขนส่งทางบก เผย!! มีผู้ให้บริการรถยนต์รับจ้างผ่านระบบแอปพลิเคชันผ่าน
+                            </a>
+                            <p class="desc mt-3">
+                              ตามที่นายศักดิ์สยาม​ ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม ได้มี
+                              นโยบายให้กระทรวงคมนาคมออกกฎกระทรวงรถยนต์รับจ้างผ่านระบบอิเล็กทรอนิกส์ พ.ศ. 2564
+                              ตามที่นายศักดิ์สยาม​ ชิดชอบ รัฐมนตรีว่าการกระทรวงคมนาคม ได้มี
+                              นโยบายให้กระทรวงคมนาคมออกกฎกระทรวงรถยนต์รับจ้างผ่านระบบอิเล็กทรอนิกส์ พ.ศ. 2564
+                            </p>
+                          </div>
+                          <div class="btns pt-6">
+                            <a class="btn btn-action btn-sm style-03 btn-08" href="#">
+                              <span>อ่านต่อ</span>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   <?php }?>
                 </div>
+              <?php }?>
+          </div>
+        </div>
+
+        <div class="tab-contents" data-aos="fade-up" data-aos-delay="450">
+          <?php foreach($categories as $i=>$d){?>
+            <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+              <div class="grids no-gap">
+                <?php for($j=0; $j<4; $j++){?>
+                  <div class="grid lg-25">
+                    <div class="ss-card ss-card-21">
+                      <div class="ss-img vertical-2">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/5<?= ($i+$j+1)%5+5 ?>.jpg');"></div>
+                        <div class="hover-container">
+                          <div class="icon">
+                            <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-container">
+                        <div class="ss-tags">
+                          <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
+                        </div>
+                        <div class="d-flex ai-center">
+                          <p class="sm">17 กุมภาพันธ์ 2565</p>
+                          <div class="ml-6 pl-6">
+                            <img src="public/assets/app/images/icon/58.png" alt="Icon" height="10" /> 
+                            <span class="p sm ml-1">200</span>
+                          </div>
+                        </div>
+                        <a class="title p lg fw-300 lh-sm mt-1" href="#">
+                          กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
+                          กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
+                          กรมการขนส่งทางบก เตือนภัย!!! ระวังมิจฉาชีพหลอกทำใบขับขี่ปลอมบน
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <?php }?>
               </div>
-            <?php }?>
-          </div> 
+            </div>
+          <?php }?>
         </div>
       </div>
     </div>
@@ -158,8 +163,12 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-40">
-          <h3 class="fw-500 lh-xs color-03" data-aos="fade-up" data-aos-delay="0">แบบคำขอ</h3> 
-          <p class="color-16" data-aos="fade-up" data-aos-delay="150">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
+          <div class="ss-title-03 jc-start">
+            <div class="wrapper">
+              <h3 class="fw-400 color-03 lh-2xs">แบบคำขอ</h3>
+              <p class="lg">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
+            </div>
+          </div>
           <div class="ss-card ss-card-23 mt-6" data-aos="fade-up" data-aos-delay="300">
             <?php for($i=0; $i<4; $i++){?>
               <div class="d-flex mt-1">

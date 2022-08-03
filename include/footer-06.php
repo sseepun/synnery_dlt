@@ -7,13 +7,14 @@
 <!-- Footer -->
 <nav class="footer style-06">
   <div class="footer-top">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-07.jpg');"></div>
     <div class="container">
       <div class="grids">
 
         <div class="grid lg-25 sm-100 mt-0">
           <div class="block main">
             <a class="logo" href="#">
-              <img src="public/assets/app/images/logo-03.png" alt="Logo" />
+              <img src="public/assets/app/images/logo-05.png" alt="Logo" />
             </a>
             <h6 class="fw-400 lh-sm color-03 mt-2">สำนักงานขนส่งจังหวัดสุราษฎร์ธานี</h6>
             <p class="sm lh-sm">
@@ -78,9 +79,9 @@
                 
                 <h6 class="fw-400 lh-xs color-07 mt-4">สมัครรับจดหมายข่าว</h6>
                 <form action="">
-                  <div class="input-icon mt-1">
+                  <div class="input-icon bradius-0 p-0 mt-1">
                     <input 
-                      type="text" class="sm" placeholder="กรุณาใส่อีเมลของคุณ" 
+                      type="text" class="sm bradius-0" placeholder="กรุณาใส่อีเมลของคุณ" 
                       style="border-color:transparent!important;" required 
                     />
                     <button type="submit" class="icon w-auto">
@@ -130,7 +131,7 @@
             © สงวนสิทธิ์ 2565 กรมการขนส่งทางบก
           </p>
         </div>
-        <div class="space-b" style="max-width:10rem;">
+        <div class="mt-4" style="max-width:10rem;">
           <img class="img" src="public/assets/app/images/misc/stat.png" alt="Stat">
         </div>
       </div>

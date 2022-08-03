@@ -175,6 +175,17 @@ nav.footer.style-04 .footer-bottom{border-color:rgba(255,255,255,.3);}
 nav.footer.style-05{background:#000000; color:#ffffff;}
 nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.15);}
 
+/* Footer Style 06 */
+nav.footer.style-06{color:#000000;}
+nav.footer.style-06 .input-icon{background:#ffffff;}
+nav.footer.style-06 .footer-socials .social{background:#000000; color:#ffffff;}
+nav.footer.style-06 .footer-bottom{color:#ffffff; border-top:1px solid rgba(255,255,255,.3);}
+nav.footer.style-06 .count-web > *{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,.8),
+  rgba(0,0,0,.9),rgba(0,0,0,.8));
+  border-color:rgba(0,0,0,.3)!important; color:#ffffff;
+}
+
 
 /* Accessibility & Quick Links */
 nav.side-panel .panel{border-color:rgba(255,255,255,.3);}
@@ -318,6 +329,9 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 /* Special Title 01 */
 .ss-title-01{background-image:linear-gradient(to right,#ffffff,#ffffff);}
 .ss-title-01::before{background-image:linear-gradient(to right,#ffffff,#ffffff);}
+
+/* Special Title 03 */
+.ss-title-03 > .wrapper::before, .ss-title-03 > .wrapper::after{background:#ffffff;}
 
 
 /* Banner 01 */
@@ -463,6 +477,9 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .section-20 .section-card{background:#ffffff; color:#000000;}
 .section-20 .section-card .icon{border-color:#000000;}
 
+/* Special Card 21 */
+.ss-card-21 .text-container{background:#ffffff; color:#000000;}
+
 /* Section 22 */
 .section-22 > .img-bg{background:#000000;}
 .section-22 .slick-dots button{background:rgba(255,255,255,.3);}
@@ -476,6 +493,9 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .section-26 .slick-list.draggable{box-shadow:0px 4px 8px 6px rgba(255,255,255,.03);}
 .section-26 .slick-dots button{background:rgba(255,255,255,.3);}
 .section-26 .slick-dots li.slick-active button{background:#ffffff;}
+
+/* Section 27 */
+.section-27 .section-title .icon{background:#ffffff; color:#000000;}
 
 
 /* Tabs 01 */
@@ -504,3 +524,7 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .tab-container .tabs.tabs-03 .tab:hover{color:#000000;}
 .tab-container .tabs.tabs-03 .tab.active{color:#000000;}
 .tab-container .tabs.tabs-03 .tab::after{background:#000000}
+
+/* Tabs 04 */
+.tab-container .tabs.tabs-04 .tab{color:#ffffff; border-color:rgba(255,255,255,.3);}
+.tab-container .tabs.tabs-04 .tab .alert{background:#ffffff; color:#000000;}
