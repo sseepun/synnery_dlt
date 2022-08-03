@@ -28,6 +28,7 @@ html, body, table.table{color:#000000;}
 .color-14, .h-color-14:hover{color:#6e6e6e!important;}
 .color-15, .h-color-15:hover{color:#c7cbd1!important;}
 .color-16, .h-color-16:hover{color:#3c3c3c!important;}
+.color-17, .h-color-17:hover{color:#744faa!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -53,6 +54,8 @@ html, body, table.table{color:#000000;}
 .bg-14{background:#6e6e6e!important;}
 .bg-15{background:#c7cbd1!important;}
 .bg-16{background:#3c3c3c!important;}
+.bg-17{background:#744faa!important;}
+
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -78,7 +81,7 @@ html, body, table.table{color:#000000;}
 .bcolor-14{border-color:#6e6e6e!important;}
 .bcolor-15{border-color:#c7cbd1!important;}
 .bcolor-16{border-color:#3c3c3c!important;}
-
+.bcolor-17{border-color:#744faa!important;}
 
 /* Buttons */
 .btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#194e84; border-color:#194e84;}
@@ -557,6 +560,19 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-23 .icon:last-child:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.05);}
 .ss-card-23 .icon:last-child:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+/* Special Card 24 */
+.ss-card-24:hover .text-container > .title{color:#744faa;} 
+
+/* Special Card 25 */
+.ss-card-25 ul li{border-color:#c0a1ed;}
+.ss-card-25 ul li a{color:#ffffff;}
+.ss-card-25 ul li:hover{background:#ffffff;}
+.ss-card-25 ul li:hover a{color:#3c3c3c;}
+.ss-card-25 .text-container{color:#ffffff;}
+.ss-card-25 .ss-tags .tag{background:#d6bef7; color:#3c3c3c;}
+.ss-card-25 .ss-img .icon-play{color:#ffffff;}
+.ss-card-25 .icon-play{background:#74459d;}
+
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
 .ss-img .icon-float{background:#663399; color:#ffffff;}
@@ -581,6 +597,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 /* Special Title 03 */
 .ss-title-03 > .wrapper::before, .ss-title-03 > .wrapper::after{background:#76108f;}
+.ss-title-03.style-02 > .wrapper::before, .ss-title-03.style-02 > .wrapper::after{background:#a376e5;}
 
 
 /* Banner 01 */
@@ -763,7 +780,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 
 /* Section 28 */
 .section-28{background:#f0f0f0;}
-.section-28 .block{background:#523180;}
+.section-28 .block{ background: rgba(82, 49, 128, 0.7) /* Green background with 30% opacity */}
 .section-28 .btn-more .icon{background:#68459b; color:#ffffff;}
 
 /* Section 29 */
