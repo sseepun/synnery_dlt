@@ -246,7 +246,7 @@
                         </ul>
                         <div class="ss-img vertical-2">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/6<?= ($i+$j)%1+4 ?>.jpg');"></div>
-                            <div class="icon">
+                            <div class="icon-play">
                               <em class="fa-solid fa-play"></em>
                             </div>
                         </div>
@@ -301,9 +301,11 @@
                         </ul>
                         <div class="ss-img vertical-2">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/6<?= ($i+$j)%1+4 ?>.jpg');"></div>
+                          <div class="hover-container">
                             <div class="icon">
-                              <em class="fa-solid fa-play"></em>
+                              <em class="fa-solid fa-camera"></em>
                             </div>
+                          </div>
                         </div>
                         <div class="text-container">
                           <div class="ss-tags">
