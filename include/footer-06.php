@@ -15,15 +15,15 @@
             <a class="logo" href="#">
               <img src="public/assets/app/images/logo-03.png" alt="Logo" />
             </a>
-            <h6 class="fw-400 lh-sm color-03 mt-2">กรมการขนส่งทางบก</h6>
+            <h6 class="fw-400 lh-sm color-03 mt-2">สำนักงานขนส่งจังหวัดสุราษฎร์ธานี</h6>
             <p class="sm lh-sm">
-              1032 ถนนพหลโยธิน แขวงจอมพล เขตจตุจักร <br /> กรุงเทพมหานคร 10900
+              148/79 ม.5 ถ.กาญจนวิถี ต.บางกุ้ง อ.เมือง จ.สุราษฎร์ธานี 84000
             </p>
-            <p class="sm fw-400 lh-sm color-03 mt-2">โทรศัพท์ (หมายเลขกลาง) :</p>
-            <h4 class="lh-3xs">0-2271-8888</h4>
+            <p class="sm fw-400 lh-sm color-03 mt-2">โทรศัพท์:</p>
+            <h4 class="lh-3xs">0-7728-3993</h4>
             <p class="sm lh-sm mt-2">
               <span class="fw-400 color-03">โทรสาร :</span> 0-2271-8805 <br />
-              <span class="fw-400 color-03">อีเมล์ :</span> webmaster@dlt.mail.go.th
+              <span class="fw-400 color-03">อีเมล์ :</span> suratthani@dlt.mail.go.th
             </p>
             <div class="footer-socials pt-3">
               <a class="social social-fw" href="#">
@@ -34,9 +34,6 @@
               </a>
               <a class="social social-ig" href="#">
                 <em class="fa-brands fa-instagram"></em>
-              </a>
-              <a class="social social-yt" href="#">
-                <em class="fa-brands fa-youtube"></em>
               </a>
             </div>
           </div>
@@ -52,7 +49,7 @@
                 <a class="d-block p sm h-color-07 mt-1" href="#">โครงสร้างการบริหารงาน</a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">หน้าที่รับผิดชอบ</a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">
-                  การประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานภาครัฐ
+                  การประเมินคุณธรรมและความโปร่งใสใน <br> การดำเนินงานของหน่วยงานภาครัฐ
                 </a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">ทิศทางองค์กร</a>
               </div>
@@ -101,8 +98,16 @@
                   </div>
                 </div>
                 <div class="grid md-1-3 sm-100">
-                  <div class="space-b" style="max-width:10rem;">
-                    <img class="img" src="public/assets/app/images/misc/stat.png" alt="Stat">
+                <p class="sm fw-300 lh-sm mt-1">จำนวนผู้เข้าชม</p>
+                  <div class="counts mt-1">
+                    <div class="count-web">
+                    <div>0</div>
+                    <div>1</div>
+                    <div>4</div>
+                    <div>0</div>
+                    <div>0</div>
+                    <div>6</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -125,16 +130,8 @@
             © สงวนสิทธิ์ 2565 กรมการขนส่งทางบก
           </p>
         </div>
-        <div class="counts">
-          <div class="count-web">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-          </div>
-          <p class="sm fw-300 lh-sm mt-1">จำนวนผู้เข้าชม</p>
+        <div class="space-b" style="max-width:10rem;">
+          <img class="img" src="public/assets/app/images/misc/stat.png" alt="Stat">
         </div>
       </div>
     </div>

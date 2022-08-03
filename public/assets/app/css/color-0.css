@@ -355,7 +355,7 @@ nav.footer.style-06 .footer-socials .social.social-ig{
 }
 nav.footer.style-06 .footer-socials .social.social-yt{background:#c0200f; color:#ffffff;}
 nav.footer.style-06 .footer-socials .social::before{background:#9608b4;}
-nav.footer.style-06 .footer-bottom{background:#f9c816;}
+nav.footer.style-06 .footer-bottom{background:#f8f8f8;}
 nav.footer.style-06 .count-web > *{
   background-image:linear-gradient(to bottom,#222222,#39383d,#222222);
   border-color:#000000!important; color:#ffffff;
@@ -733,9 +733,9 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .section-28 .btn-more .icon{background:#68459b; color:#ffffff;}
 
 /* Section 29 */
-.section-29 .section-tab{color:#ffffff;}
+.section-29 .section-tab{color:#ffffff; background:#744faa;}
 .section-29 .section-tab:hover{color:#f9c816;}
-.section-29 .section-tab .arrow{background:#f9c816; color:#ffffff;}
+.section-29 .section-tab .arrow{color:#ffffff;}
 .section-29 .section-tab.main::before, .section-29 .section-tab.main::after,
 .section-29 .section-tab.main{background:#68459b;}
 

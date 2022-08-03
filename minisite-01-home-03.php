@@ -252,9 +252,8 @@
       </div>
     </div>
   </section
-
    
  <?php include_once('include/footer-06.php'); ?>
- <?php include_once('include/script.php'); ?> 
+ <?php include_once('include/script.php'); ?>  
 </body>
 </html>
