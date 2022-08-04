@@ -55,12 +55,32 @@
 }
 
 
+
 /* Super Topnav */
 nav.stopnav{
   position:absolute; display:block; width:100%; padding:0;
   border-bottom:1px solid transparent; z-index:96;
 }
 nav.stopnav + .stopnav-spacer{display:block; width:100%;}
+
+/* Super Topnav Style 02 */
+nav.stopnav.style-02 .wrapper{display:flex; justify-content:flex-end; width:100%; height:38px;}
+nav.stopnav.style-02 .option{position:relative; display:flex;}
+nav.stopnav.style-02 .option .title{
+  display:flex; align-items:center; font-size:17px; font-weight:300; padding:0 12px;
+}
+nav.stopnav.style-02 .option-box{
+  display:flex; border-left:1px solid transparent; border-right:1px solid transparent;
+  padding:0 6px;
+}
+nav.stopnav.style-02 .option-box.socials{
+  border-right:0!important;
+}
+nav.stopnav.style-02 .a-text{
+  position:relative; display:flex; align-items:center; justify-content:center;
+  padding:0 10px; cursor:pointer; font-size:17px; transition:color .25s;
+}
+
 
 /* Super Topnav Style 03 */
 nav.stopnav.style-03 .wrapper{display:flex; justify-content:flex-end; width:100%; height:38px;}
@@ -290,6 +310,9 @@ nav.topnav.style-01 .show-tablet{display:none!important;}
 @media screen and (max-width:575.98px){
   nav.topnav.style-01 .logo .text-wrapper{display:none;}
 }
+
+/* Topnav Style 02 */
+
 
 /* Topnav Style 03 */
 nav.topnav.style-03 .logo{
@@ -561,7 +584,7 @@ nav.footer .footer-socials .social::after{
 /* Footer Style 01 */
 nav.footer.style-01{position:relative; width:100%; padding:0;}
 nav.footer.style-01 > .img-bg{
-  position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+  position:absolute; top:-20rem; bottom:0; left:0; right:0; background-size:cover;
   background-position:center;
 }
 nav.footer.style-01 > .container{position:relative;}

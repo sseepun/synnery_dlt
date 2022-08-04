@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-02.php'); ?>
 
   <section class="banner-01">
@@ -14,7 +14,7 @@
         <?php for($i=0; $i<7; $i++){?>
           <div class="slide">
             <div class="wrapper">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/02.jpg');"></div>
+              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/0<?= ($i+1)%2+7?>.jpg');"></div>
               <div class="container"></div>
             </div>
           </div>
@@ -199,15 +199,15 @@
               <div class="grids">
                 <?php for($j=0; $j<3; $j++){?>
                   <div class="grid md-1-3 sm-100">
-                    <div class="ss-card ss-card-01">
+                    <a class="ss-card ss-card-01" href="#">
                       <div class="ss-img horizontal">
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+$j)%3+1 ?>.jpg');"></div>
                       </div>
                       <div class="text-container">
-                        <a class="title p lg fw-400 lh-sm h-color-p" href="#">
+                        <div class="title p lg fw-400 lh-sm h-color-p">
                           กรมการขนส่งทางบก มีความห่วงใยและเข้าใจถึง
                           ผลกระทบจากราคาพลังงาน ขอให้ผู้ประกอบการ
-                        </a>
+                        </div>
                         <p class="desc sm mt-2">
                           ผู้ขับรถบรรทุก และผู้ขับรถแท็กซี่ แสดงออกอย่างเหมาะสม
                           ภายใต้ขอบเขตของกฎหมาย และหลีกเลี่ยง
@@ -216,14 +216,14 @@
                         </p>
                         <div class="card-footer">
                           <div class="date p sm">8 กุมภาพันธ์ 2565</div>
-                          <a class="more p sm h-color-p" href="#">
+                          <div class="more p sm h-color-p">
                             อ่านรายละเอียด
                             <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-                          </a>
+                          </div>
                         </div>
                       </div>
                       <div class="line-1"></div><div class="line-2"></div>
-                    </div>
+                    </a>
                   </div>
                 <?php }?>
               </div>
@@ -454,7 +454,7 @@
   <section class="section-04" data-aos="fade-up" data-aos-delay="0">
     <div class="container">
       <div class="section-tabs">
-        <a class="section-tab main" href="#">
+        <div class="section-tab main" href="#">
           <div class="icon">
             <img src="public/assets/app/images/icon/04.png" alt="Icon" />
           </div>
@@ -462,7 +462,7 @@
             <p class="sm">Call Center</p>
             <h2 class="fw-400 lh-3xs color-01">1584</h2>
           </div>
-        </a>
+        </div>
         <a class="section-tab" href="#">
           <div class="icon"><em class="fa-solid fa-book"></em></div>
           <div class="text-wrapper">

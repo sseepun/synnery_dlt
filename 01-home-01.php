@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading bg-sgray">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-01.php'); ?>
 
   <section class="banner-03">
@@ -220,71 +220,32 @@
   </section>
 
   <section class="section-10 section-padding pb-0">
-    <div class="container">
-      <h3 class="fw-300 lh-xs text-center" data-aos="fade-up" data-aos-delay="0">
-        ป้ายแบรนเนอร์
-      </h3>
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
+  <div class="container">
+      <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
         <div class="slides">
-          <?php for($i=0; $i<2; $i++){?>
+          <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  คู่มือการใช้ระบบบริหารจัดการอุปกรณ์และเครื่องมือด้าน ICT สำหรับคนพิการ
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/22.png" alt="Icon" />
-                  </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long color-p p-3"></em>
+              <div class="ss-card ss-card-26 bg-white">
+                <div class="text-container">
+                  <a class="title p lg lh-sm fw-400 h-color-05" href="#">
+                    รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
                   </a>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  โครงการศึกษา M-MAP ระยะที่ 2
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/23.png" alt="Icon" />
+                  <div class="card-footer">
+                    <div class="blocks">
+                      <div class="block">
+                        <div class="icon">
+                          <img src="public/assets/app/images/icon/2<?= $i%4+2 ?>.png" class="img"/>
+                        </div> 
+                      </div>
+                      <div class="block">
+                        <a class="more" href="#">
+                          <em class="fa-solid fa-arrow-right-long"></em>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
                 </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  ข้อมูลผลการคำนวณต้นทุนต่อหน่วยผลผลิต ประจำปี
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/24.png" alt="Icon" />
-                  </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="slide">
-              <div class="section-card" href="#">
-                <a class="p title lg fw-400 h-color-05 lh-sm" href="#">
-                  E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ
-                </a>
-                <div class="card-footer d-flex jc-space-between ai-center">
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/25.png" alt="Icon" />
-                  </div>
-                  <a class="more" href="#">
-                    <em class="fa-solid fa-arrow-right-long"></em>
-                  </a>
-                </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
           <?php }?>
@@ -292,9 +253,9 @@
         <div class="dot-container"></div>
         <div class="btns" data-aos="fade-up" data-aos-delay="300">
           <a href="#" class="btn btn-action style-02 btn-02">
-            <span>อ่านทั้งหมด</span> 
+            <span>ดูทั้งหมด</span> 
             <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right-long"></em>
+              <em class="fa-solid fa-arrow-right"></em>
             </div>
           </a>
         </div>
@@ -310,6 +271,7 @@
           <a class="section-card main" href="#" data-aos="fade-up" data-aos-delay="0">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.png');"></div>
+              <div class="bg-filter"></div>
             </div>
             <div class="text-container">
               <div class="wrapper">
@@ -323,6 +285,7 @@
           <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="150">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.png');"></div>
+              <div class="bg-filter"></div>
             </div>
             <div class="text-container">
               <div class="wrapper">
@@ -335,6 +298,7 @@
           <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="300">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.png');"></div>
+              <div class="bg-filter"></div>
             </div>
             <div class="text-container">
               <div class="wrapper">
@@ -347,6 +311,7 @@
           <a class="section-card" href="#" data-aos="fade-up" data-aos-delay="450">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.png');"></div>
+              <div class="bg-filter"></div>
             </div>
             <div class="text-container">
               <div class="wrapper">

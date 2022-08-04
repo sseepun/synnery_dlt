@@ -752,35 +752,24 @@
 
 
 /* Section 10 */
-.section-10{position:relative; height:100%; min-height:400px; z-index:1;}
-.section-10 .slide-container{position:relative; margin:2.5rem 0 0 0;}
-.section-10 .slides{overflow:hidden; border-radius:.5rem;}
-.section-10 .section-card{
-    display:flex; flex-direction:column; justify-content:center;  height:100%; padding:1.5rem; 
-    transition:background .25s, color .25s;
-}
-.section-10 .section-card .title{min-height:7rem;}
-.section-10 .section-card .more{
-    display:flex; align-items:center; justify-content:center; border-radius:1000em;
-    padding:0rem 0 0 0; width:2.5rem; height:1.5rem;
-}
-.section-10 .dot-container{display:block; margin:2.5rem 0 0 0;}
+.section-10 .slide-container{position:relative; z-index:2;}
+.section-10 .slick-list.draggable{border-radius:.5rem; overflow:hidden;}
+.section-10 .dot-container{display:block; margin:2.25rem 0 0 0;}
 .section-10 .slick-dots{
     display:flex; width:100%; align-items:center; justify-content:center;
     list-style:none; padding:0; margin:0;
 }
 .section-10 .slick-dots li{display:block; margin:0 .3125rem;}
 .section-10 .slick-dots button{
-    display:block; font-size:0; width:.625rem; height:.625rem; border-radius:.3125rem;
-    cursor:pointer; padding:0; box-shadow:none; border:0; margin:0; outline:none;
+    display:block; font-size:0; width:.6875rem; height:.6875rem; border-radius:50%;
+    padding:0; box-shadow:none; border:0; margin:0; outline:none; cursor:pointer;
     transition:width .25s;
 }
-.section-10 .slick-dots li.slick-active button{width:1.5rem;}
 .section-10 .btns{position:absolute; bottom:-1rem; right:0; width:auto;}
 @media screen and (max-width:767.98px){
     .section-10 .btns{
-        position:relative; bottom:unset; right:unset; width:100%; justify-content:center;
-        margin:1.5rem 0 0 0;
+        position:relative; bottom:unset; right:unset; width:100%; 
+        justify-content:center; margin:1.5rem 0 0 0;
     }
 }
 
@@ -788,12 +777,17 @@
 /* Section 11 */
 .section-11{position:relative; margin:-10rem 0 0 0; padding-top:18rem;}
 .section-11 > .pattern{
-    position:absolute; top:0; bottom:0; left:0; right:0;
+    position:absolute; top:-50rem !important; bottom:0rem; left:0; right:0;
     background-size:cover; background-position:center;
 }
 .section-11 .section-card{
     position:relative; display:block; border-radius:.5rem; overflow:hidden; height:100%;
 }
+.section-11 .section-card .bg-filter{
+    position:absolute; content:""; top:0; left:0; right:0;
+    width:100%; height:100%; opacity:0; transition:opacity .25s;
+}
+.section-11 .section-card:hover .bg-filter{opacity:.8; }
 .section-11 .section-card .text-container{
     position:absolute; bottom:0; left:0; right:0; padding:.75rem 1rem;
     display:flex; justify-content:center;
