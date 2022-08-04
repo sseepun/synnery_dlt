@@ -12,10 +12,12 @@
     <div class="slide-container">
       <div class="slides">
         <?php for($i=0; $i<7; $i++){?>
-          <div class="slide">
+          <div class="slide" id="banner-02-<?= $i ?>">
             <div class="wrapper">
               <div class="img-bg" style="background-image:url('public/assets/app/images/banner/03.jpg');"></div>
-              <div class="container"></div>
+              <div class="container">
+                <h2 class="op-0 pe-none pos-absolute">Banner</h2>
+              </div>
             </div>
           </div>
         <?php }?>
@@ -71,7 +73,7 @@
               <img src="public/assets/app/images/hero/06.png" alt="Icon" />
             </div>
             <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">จองทำใบขับขี่</p>
+              <h6 class="p xs fw-400 lh-sm">จองทำใบขับขี่</h6>
             </div>
             <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
           </a>

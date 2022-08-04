@@ -308,6 +308,7 @@ $(function(){ 'use strict';
         banner01.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -316,6 +317,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -333,6 +335,7 @@ $(function(){ 'use strict';
         banner02.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -341,6 +344,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -358,6 +362,7 @@ $(function(){ 'use strict';
         banner03.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -366,6 +371,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -383,6 +389,7 @@ $(function(){ 'use strict';
          banner04.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -391,6 +398,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -408,6 +416,7 @@ $(function(){ 'use strict';
         banner05.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -416,6 +425,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -433,6 +443,7 @@ $(function(){ 'use strict';
         banner06.each(function(){
             var self = $(this),
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -441,6 +452,7 @@ $(function(){ 'use strict';
                 };
             if(self.hasClass('img-only')){
                 options = {
+                    infinite: false,
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
@@ -462,7 +474,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 5,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
@@ -495,7 +507,7 @@ $(function(){ 'use strict';
         section05.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                slidesToShow: 8, swipeToSlide: true, infinite: true,
+                slidesToShow: 8, swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: false, arrows: true,
                 prevArrow: self.find('.arrow.arrow-prev'),
@@ -517,7 +529,7 @@ $(function(){ 'use strict';
         section07.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                slidesToShow: 8, swipeToSlide: true, infinite: true,
+                slidesToShow: 8, swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: false, arrows: true,
                 prevArrow: self.find('.arrow.arrow-prev'),
@@ -540,7 +552,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
@@ -559,7 +571,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
@@ -579,7 +591,7 @@ $(function(){ 'use strict';
              var self = $(this);
              self.find('> .slides').slick({
                  centerMode: true, centerPadding: '0px', slidesToShow: 4,
-                 swipeToSlide: true, infinite: true,
+                 swipeToSlide: true, infinite: false,
                  focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                  dots: true, appendDots: self.find('.dot-container'), arrows: false,
                  responsive: [
@@ -598,7 +610,7 @@ $(function(){ 'use strict';
               var self = $(this);
               self.find('> .slides').slick({
                   centerMode: true, centerPadding: '0px', slidesToShow: 4,
-                  swipeToSlide: true, infinite: true,
+                  swipeToSlide: true, infinite: false,
                   focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                   dots: true, appendDots: self.find('.dot-container'), arrows: false,
                   responsive: [
@@ -619,7 +631,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 6,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
@@ -641,7 +653,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 5,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
@@ -662,7 +674,7 @@ $(function(){ 'use strict';
             var self = $(this);
             self.find('> .slides').slick({
                 centerMode: true, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: true,
+                swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
                 responsive: [
