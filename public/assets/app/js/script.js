@@ -264,14 +264,20 @@ $(function(){ 'use strict';
                 tabContents = self.find('.tab-contents > .tab-content');
             tabs.click(function(e){
                 var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
+                    oldTargets = tabContents.filter('.active'),
                     slideContainers = target.find('.slide-container');
                 if(target.length){
                     e.preventDefault();
                     tabs.removeClass('active');
                     $(this).addClass('active');
 
-                    tabContents.removeClass('active');
-                    target.addClass('active');
+                    tabContents.removeClass('fade-in');
+                    oldTargets.addClass('fade-out');
+                    target.addClass('fade-in');
+                    setTimeout(function(){
+                        tabContents.removeClass('fade-in fade-out active');
+                        target.addClass('active');
+                    }, 600);
                     
                     if(slideContainers.length){
                         slideContainers.each(function(){

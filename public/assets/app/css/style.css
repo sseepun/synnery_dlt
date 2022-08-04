@@ -613,6 +613,10 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 .ss-card .filter{position:absolute; top:0; bottom:0; left:0; right:0;}
+.ss-card .bg-filter{
+    position:absolute; top:0; bottom:0; left:0; right:0; opacity:0; transition:opacity .25s;
+}
+.ss-card:hover .bg-filter{opacity:.8;}
 
 .ss-card .line-1, .ss-card .line-2{pointer-events:none;}
 .ss-card .line-1::before, .ss-card .line-1::after,
@@ -679,7 +683,7 @@ fieldset{padding:0; margin:0; border:0;}
 /* Special Card 03 */
 .ss-card-03 .ss-img{padding:120% 0 0 0; overflow:hidden; border-radius:.5rem;}
 .ss-card-03 .text-container{position:absolute; top:0; bottom:0; left:0; right:0; padding:.625rem;}
-.ss-card-03 .filter{border-radius:.5rem;}
+.ss-card-03 .filter, .ss-card-03 .bg-filter{border-radius:.5rem;}
 .ss-card-03 .icon{
     position:absolute; bottom:.625rem; right:.625rem;
     display:flex; align-items:center; justify-content:center; font-size:.625rem;
@@ -1214,6 +1218,12 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-img .icon-float.bottom{bottom:0;}
 .ss-img .icon-float.left{left:0;}
 .ss-img .icon-float.right{right:0;}
+
+.ss-img .bg-filter{
+    content:''; position:absolute; top:0; bottom:0; left:0; right:0;
+    opacity:0; transition:opacity .25s;
+}
+.section-card:hover .ss-img .bg-filter{opacity:.8;}
 
 
 /* Special Item 01 */

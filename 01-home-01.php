@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading bg-sgray">
-  <?php // include_once('include/page-loader.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-01.php'); ?>
 
   <section class="banner-03">

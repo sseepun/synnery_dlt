@@ -189,7 +189,7 @@
           <div class="tabs-title">
             <div class="tab-contents">
               <?php foreach($category as $i=>$d){?>
-                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                <div class="tab-content no-fade <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
                   <h3 class="title sm fw-500 lh-2xs no-br"><?= $d['title'] ?></h3>
                   <p class="sm">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
                 </div>
@@ -283,7 +283,7 @@
           <div class="tabs-title">
             <div class="tab-contents">
               <?php foreach($category as $i=>$d){?>
-                <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
+                <div class="tab-content no-fade <?= $i==0? 'active': '' ?>" data-tab="t02_<?= $i ?>">
                   <h3 class="title sm fw-500 lh-2xs no-br"><?= $d['title'] ?></h3>
                   <p class="sm">กรมการขนส่งทางบกพร้อมให้ข้อมูลข่าวสารที่เป็นประโยชน์สำหรับคุณ</p>
                 </div>

@@ -451,6 +451,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
     rgba(26,68,124,.4),rgba(26,68,124,0),rgba(26,68,124,0),rgba(26,68,124,0),
     rgba(26,68,124,0));
 }
+.ss-card .bg-filter{background-image:linear-gradient(60deg,#ff24f7 0%,#781ce2 100%);}
 
 /* Special Card 01 */
 .ss-card-01 .text-container{border-color:#c2c2c2;}
@@ -582,6 +583,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Special Image */
 .ss-img .hover-container{background:rgba(249,200,22,.5);}
 .ss-img .icon-float{background:#663399; color:#ffffff;}
+.ss-img .bg-filter{background-image:linear-gradient(60deg,#ff24f7 0%,#781ce2 100%);}
 
 
 /* Special Item 01 */
@@ -730,7 +732,6 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 /* Section 11 */
 .section-11{background:#271148;}
 .section-11 .section-card{color:#ffffff;}
-.section-11 .section-card .bg-filter{background-image:linear-gradient(60deg,#ff24f7 0%,#781ce2 100%);}
 
 /* Section 13 */
 .section-13 .section-card .text-container{ 

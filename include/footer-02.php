@@ -24,6 +24,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/09.jpg');"></div>
                 </div>
                 <div class="filter filter-01"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">ระบบบันทึกการ<br />จัดระเบียบ</p>
                   <p class="sm fw-300">รถโดยสารสาธารณะ</p>
@@ -38,6 +39,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/10.jpg');"></div>
                 </div>
                 <div class="filter filter-02"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">ห้องสมุดดิจิตัล</p>
                   <p class="sm fw-300">กรมการขนส่งทางบก</p>
@@ -52,6 +54,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
                 </div>
                 <div class="filter filter-03"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">ข้อมูล<br />ผู้รับผิดชอบดูแล</p>
                   <p class="sm fw-300">ความปลอดภัยในการขนส่ง</p>
@@ -66,6 +69,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
                 </div>
                 <div class="filter filter-04"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">ข้อมูล<br />ผู้ประกอบการ</p>
                   <p class="sm fw-300">รถเช่าเหมาที่แนะนำ</p>
@@ -80,6 +84,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
                 </div>
                 <div class="filter filter-05"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">คู่มือ</p>
                   <p class="sm fw-300">บริการประชาชน</p>
@@ -94,6 +99,7 @@
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/14.jpg');"></div>
                 </div>
                 <div class="filter filter-06"></div>
+                <div class="bg-filter"></div>
                 <div class="text-container">
                   <p class="lg fw-300 lh-xs">ข้อกำหนดการขนส่ง</p>
                   <p class="sm fw-300">สินค้าอันตรายทางถนน<br />ของประเศไทย</p>
