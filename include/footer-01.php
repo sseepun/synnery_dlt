@@ -83,11 +83,11 @@
               <h6 class="fw-100 lh-sm mt-2 ml-1">กฎหมายที่เกี่ยวข้อง</h6>
             </div>
           </div>
-          <ul class="list-items">
+          <div class="list-items">
             <a class="p fw-200 h-color-05" href="#">นโยบาย</a>
             <a class="p fw-200 h-color-05" href="#">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
             <a class="p fw-200 h-color-05" href="#">นโยบายการรักษาความมั่นคงปลอดภัยของเว็บไซต์</a>
-          </ul>
+          </div>
         </div>
       </div>
     </div>

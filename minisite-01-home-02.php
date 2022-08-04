@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-05.php'); ?>
 
   <section class="banner-04">
@@ -38,6 +38,14 @@
         <?php }?>
       </div>
       <div class="dot-container" data-aos="fade-up" data-aos-delay="0"></div>
+      <div class="arrow-container">
+        <div class="arrow arrow-prev">
+          <img src="public/assets/app/images/icon/05.png" alt="Arrow" />
+        </div>
+        <div class="arrow arrow-next">
+          <img src="public/assets/app/images/icon/06.png" alt="Arrow" />
+        </div>
+      </div>
     </div>
   </section>
 
@@ -53,7 +61,7 @@
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="section-card" href="#">
+              <div class="section-card">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+5 ?>.jpg');"></div>
                 </div>
@@ -103,13 +111,13 @@
               <div class="card-footer">
                 <div class="blocks">
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                       16 กุมภาพันธ์ 2565
                     </p>
                   </div>
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-regular fa-eye"></em></div>
                       285
                     </p>
@@ -135,13 +143,13 @@
               <div class="card-footer">
                 <div class="blocks">
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                       16 กุมภาพันธ์ 2565
                     </p>
                   </div>
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-regular fa-eye"></em></div>
                       285
                     </p>
@@ -168,13 +176,13 @@
               <div class="card-footer">
                 <div class="blocks">
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                       16 กุมภาพันธ์ 2565
                     </p>
                   </div>
                   <div class="block">
-                    <p clas="sm">
+                    <p class="sm">
                       <div class="icon"><em class="fa-regular fa-eye"></em></div>
                       285
                     </p>
@@ -222,13 +230,13 @@
                     <div class="card-footer">
                       <div class="blocks-icon">
                         <div class="block-icon">
-                          <p clas="sm">
+                          <p class="sm">
                             <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                             16 กุมภาพันธ์ 2565
                           </p>
                         </div>
                         <div class="block-icon">
-                          <p clas="sm">
+                          <p class="sm">
                             <div class="icon"><em class="fa-regular fa-eye"></em></div>
                             248
                           </p>
@@ -407,19 +415,19 @@
                     <p class="sm fw-500 lh-3xs mt-4">ภานุมาศ รักเกียรติเผ่า</p>
                     <div class="blocks">
                       <div class="block">
-                        <p clas="sm">
+                        <p class="sm">
                           <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
                           16 กุมภาพันธ์ 2565
                         </p>
                       </div>
                       <div class="block">
-                        <p clas="sm">
+                        <p class="sm">
                           <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
                             12
                         </p>
                       </div>
                       <div class="block">
-                        <p clas="sm">
+                        <p class="sm">
                           <div class="icon"><em class="fa-regular fa-eye"></em></div>
                           285
                         </p>
@@ -427,6 +435,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
           <?php }?>
@@ -451,9 +460,9 @@
           <div class="swiper-slide">
             <div class="img-bg" style="background-image:url('public/assets/app/images/bg/2<?= $i%3 ?>.jpg')"></div>
             <div class="text-container">
-              <p class="h6" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">
+              <h6 data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">
                 85 สายทาง 145 จุดเสี่ยง ที่ต้องระมัดระวังในการเดินทาง
-              </p>
+              </h6>
             </div>
           </div>
         <?php }?>

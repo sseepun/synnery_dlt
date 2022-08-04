@@ -309,7 +309,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -318,7 +318,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -336,7 +336,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -345,7 +345,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -363,7 +363,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -372,7 +372,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -390,7 +390,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -399,7 +399,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -417,7 +417,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -426,7 +426,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -444,7 +444,7 @@ $(function(){ 'use strict';
             var self = $(this),
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -453,7 +453,7 @@ $(function(){ 'use strict';
             if(self.hasClass('img-only')){
                 options = {
                     infinite: false,
-                    centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
+                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
                     dots: true, appendDots: self.find('.dot-container'), arrows: true,
                     prevArrow: self.find('.arrow.arrow-prev'),
@@ -473,7 +473,7 @@ $(function(){ 'use strict';
         info01.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 5,
+                centerMode: false, centerPadding: '0px', slidesToShow: 5,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -551,7 +551,7 @@ $(function(){ 'use strict';
         section10.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                centerMode: false, centerPadding: '0px', slidesToShow: 4,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -570,7 +570,7 @@ $(function(){ 'use strict';
         section13.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                centerMode: false, centerPadding: '0px', slidesToShow: 4,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -590,7 +590,7 @@ $(function(){ 'use strict';
          section18.find('.slide-container').each(function(){
              var self = $(this);
              self.find('> .slides').slick({
-                 centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                 centerMode: false, centerPadding: '0px', slidesToShow: 4,
                  swipeToSlide: true, infinite: false,
                  focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                  dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -609,7 +609,7 @@ $(function(){ 'use strict';
           section18.find('.slide-container').each(function(){
               var self = $(this);
               self.find('> .slides').slick({
-                  centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                  centerMode: false, centerPadding: '0px', slidesToShow: 4,
                   swipeToSlide: true, infinite: false,
                   focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                   dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -630,7 +630,7 @@ $(function(){ 'use strict';
         section22.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 6,
+                centerMode: false, centerPadding: '0px', slidesToShow: 6,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -652,7 +652,7 @@ $(function(){ 'use strict';
         section25.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 5,
+                centerMode: false, centerPadding: '0px', slidesToShow: 5,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
@@ -673,7 +673,7 @@ $(function(){ 'use strict';
         section26.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: '0px', slidesToShow: 4,
+                centerMode: false, centerPadding: '0px', slidesToShow: 4,
                 swipeToSlide: true, infinite: false,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
                 dots: true, appendDots: self.find('.dot-container'), arrows: false,

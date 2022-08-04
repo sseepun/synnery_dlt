@@ -138,13 +138,13 @@
                       <div class="card-footer">
                         <div class="blocks">
                           <div class="block">
-                            <p clas="sm">
+                            <p class="sm">
                               <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                               16 กุมภาพันธ์ 2565
                             </p>
                           </div>
                           <div class="block">
-                            <p clas="sm">
+                            <p class="sm">
                               <div class="icon"><em class="fa-regular fa-eye"></em></div>
                               285
                             </p>
@@ -180,13 +180,13 @@
                         <div class="card-footer">
                           <div class="blocks">
                             <div class="block">
-                              <p clas="sm">
+                              <p class="sm">
                                 <div class="icon"><em class="fa-solid fa-calendar-days"></em></div>
                                 16 กุมภาพันธ์ 2565
                               </p>
                             </div>
                             <div class="block">
-                              <p clas="sm">
+                              <p class="sm">
                                 <div class="icon"><em class="fa-regular fa-eye"></em></div>
                                 285
                               </p>
@@ -227,14 +227,14 @@
             <div class="slide">
               <div class="ss-card ss-card-26 bg-white">
                 <div class="text-container">
-                  <a class="title p lg lh-sm fw-400 h-color-05" href="#">
-                    รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
+                  <a class="title lg lh-sm fw-400 h-color-05" href="#">
+                    <h6 class="p lg">รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร</h6>
                   </a>
                   <div class="card-footer">
                     <div class="blocks">
                       <div class="block">
                         <div class="icon">
-                          <img src="public/assets/app/images/icon/2<?= $i%4+2 ?>.png" class="img"/>
+                          <img src="public/assets/app/images/icon/2<?= $i%4+2 ?>.png" class="img" alt="icon"/>
                         </div> 
                       </div>
                       <div class="block">

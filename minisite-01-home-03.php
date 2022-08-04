@@ -15,7 +15,9 @@
           <div class="slide">
             <div class="wrapper">
               <div class="img-bg" style="background-image:url('public/assets/app/images/banner/06.jpg');"></div>
-              <div class="container"></div>
+              <div class="container">
+                <h2 class="op-0 pe-none pos-absolute">Banner</h2>
+              </div>
             </div>
           </div>
         <?php }?>
@@ -82,7 +84,7 @@
             <div class="chev"><em class="fa-solid fa-chevron-right"></em></div>
             <div class="wrapper">
               <div class="text-container">
-                <p class="lg lh-sm"><?= $d['title'] ?></p>
+                <h6 class="p lg lh-sm"><?= $d['title'] ?></h6>
               </div>
               <div class="icon">
                 <img class="inactive" src="<?= $d['icon'] ?>" alt="Icon" />

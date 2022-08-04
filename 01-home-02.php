@@ -12,10 +12,12 @@
     <div class="slide-container">
       <div class="slides">
         <?php for($i=0; $i<7; $i++){?>
-          <div class="slide">
+          <div class="slide" id="banner-01-<?= $i ?>">
             <div class="wrapper">
               <div class="img-bg" style="background-image:url('public/assets/app/images/banner/0<?= ($i+1)%2+7?>.jpg');"></div>
-              <div class="container"></div>
+              <div class="container">
+                <h2 class="op-0 pe-none pos-absolute">Banner</h2>
+              </div>
             </div>
           </div>
         <?php }?>
@@ -45,7 +47,7 @@
               <div class="filter"></div>
               <img class="hero" src="public/assets/app/images/hero/03.png" alt="Hero" />
               <div class="text-wrapper">
-                <p class="sm lh-2xs">จองทำใบขับขี่</p>
+                <h6 class="p sm lh-2xs">จองทำใบขับขี่</h6>
               </div>
               <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
             </a>
@@ -406,6 +408,7 @@
 
   <section class="section-02" data-aos="fade-up" data-aos-delay="0">
     <div class="slide-container">
+      <h2 class="op-0 pe-none pos-absolute">slide</h2>
       <div class="slides">
         <?php for($i=0; $i<10; $i++){?>
           <div class="slide">
@@ -433,7 +436,7 @@
                 ติดตามอัพเดททุกความเคลื่อนไหวของ <br />
                 กรมการขนส่งทางบกได้ง่ายๆ
               </p>
-              <form action="">
+              <form action="/">
                 <div class="input-icon mt-2">
                   <input 
                     type="text" class="fgray" placeholder="Your e-mail Address" 
@@ -454,7 +457,7 @@
   <section class="section-04" data-aos="fade-up" data-aos-delay="0">
     <div class="container">
       <div class="section-tabs">
-        <div class="section-tab main" href="#">
+        <div class="section-tab main">
           <div class="icon">
             <img src="public/assets/app/images/icon/04.png" alt="Icon" />
           </div>

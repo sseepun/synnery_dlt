@@ -175,8 +175,16 @@
     transition:width .25s;
 }
 .banner-04 .slick-dots li.slick-active button{width:3rem;}
+.banner-04 .arrow-container{
+    position:absolute; top:0; bottom:0; left:0; right:0; pointer-events:none;
+    display:flex; align-items:center; justify-content:space-between;
+}
+.banner-04 .arrow{display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;}
+.banner-04 .arrow:hover{opacity:.75;}
+.banner-04 .arrow img{display:block; height:3rem; width:auto;}
 @media screen and (max-width:767.98px){
     .banner-04 .slide{min-height:580px;}
+    .banner-04 .arrow-container{display:none;}
 }
 
 .banner-04 .slide .animate{
@@ -946,7 +954,7 @@
 .section-18 .slide-container{position:relative; margin:1.5rem 0 0 0;}
 .section-18 .slick-list.draggable{z-index:3;}
 .section-18 .slides{margin:0 -.5rem; width:calc(100% + 1rem);}
-.section-18 .slide{padding:0 .5rem 2rem .5rem;}
+.section-18 .slide{padding:1.5625rem .5rem 2rem .5rem !important;}
 .section-18 .dot-container{display:block; margin:1rem 0 0 0;}
 .section-18 .slick-dots{
     display:flex; width:100%; align-items:center; justify-content:center;

@@ -78,14 +78,14 @@
                 <a class="d-block p sm h-color-07 mt-1" href="#">เสนอแนะ</a>
                 
                 <h6 class="fw-400 lh-xs color-07 mt-4">สมัครรับจดหมายข่าว</h6>
-                <form action="">
+                <form action="/">
                   <div class="input-icon bradius-0 p-0 mt-1">
                     <input 
                       type="text" class="sm bradius-0" placeholder="กรุณาใส่อีเมลของคุณ" 
                       style="border-color:transparent!important;" required 
                     />
                     <button type="submit" class="icon w-auto">
-                      <p class="sm pl-4 pr-4">สมัคร</p>
+                      <span class="p sm pl-4 pr-4">สมัคร</span>
                     </button>
                   </div>
                 </form>

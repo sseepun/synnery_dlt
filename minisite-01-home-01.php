@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-04.php'); ?>
 
   <section class="banner-05">
@@ -38,6 +38,7 @@
         <?php }?>
       </div>
       <div class="dot-container" data-aos="fade-up" data-aos-delay="0"></div>
+      
     </div>
   </section>
 
@@ -51,7 +52,7 @@
         <div class="slides">
           <?php for($i=0; $i<8; $i++){?>
             <div class="slide">
-              <div class="ss-card ss-card-19" href="#">
+              <div class="ss-card ss-card-19">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/4<?= $i%6+0 ?>.jpg');"></div>
                 </div>
@@ -131,11 +132,11 @@
 
   <section class="section-padding">
     <div class="container">
-      <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
-        ข่าวประกาศ
-      </h3> 
       <div class="grids pt-2">
-        <div class="grid lg-50 md-100 sm-100 mt-0">
+        <div class="grid lg-50 md-100 sm-100 mt-0 pt-6">
+          <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
+            ข่าวประกาศ
+          </h3> 
           <div class="grids">
             <div class="grid lg-50 md-50 sm-50">
               <div class="ss-card ss-card-13" data-aos="fade-up" data-aos-delay="150">
@@ -243,7 +244,10 @@
             </div>
           </div>
         </div> 
-        <div class="grid lg-50 md-100 sm-100 mt-0">
+        <div class="grid lg-50 md-100 sm-100 mt-0 pt-6">
+          <h3 class="text-center color-10 fw-300" data-aos="fade-up" data-aos-delay="0">
+            อื่นๆ  
+          </h3> 
           <div class="grids">
             <div class="grid lg-50 md-50 sm-100">
               <div class="ss-card ss-card-14" data-aos="fade-up" data-aos-delay="450">
@@ -275,7 +279,7 @@
               <div class="ss-card ss-card-15" data-aos="fade-up" data-aos-delay="450">
                 <div class="ss-img"></div>
                 <div class="text-container">
-                  <form action="">
+                  <form action="/">
                     <p class="title lg lh-sm">แบบสำรวจความคิดเห็น</p>
                     <p class="desc sm mt-2">
                       ท่านมีความคิดเห็นเกี่ยวกับประโยชน์ของข้อมูลและสารสนเทศที่เผยแพร่
@@ -417,6 +421,7 @@
             <div class="slide">
               <div class="ss-card ss-card-18 bg-white">
                 <div class="text-container">
+                  <h6 class="op-0 pe-none pos-absolute">h6</h6>
                   <a class="title p lg lh-sm fw-400 h-color-05" href="#">
                     รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
                   </a>
@@ -424,7 +429,7 @@
                     <div class="blocks">
                       <div class="block">
                         <div class="icon">
-                          <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img"/>
+                          <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img" alt="Icon"/>
                         </div> 
                       </div>
                       <div class="block">
