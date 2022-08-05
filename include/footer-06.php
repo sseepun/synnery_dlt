@@ -43,7 +43,7 @@
         <div class="grid lg-75 sm-100 mt-0">
           <div class="grids">
             <div class="grid md-1-3 mt-0">
-              <div class="block">
+              <div class="block sub-heading">
                 <h5 class="lh-xs color-07">เกี่ยวกับกรม</h5>
                 <a class="d-block p sm h-color-07 mt-1" href="#">ประวัติความเป็นมา</a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">ผู้บริหารระดับสูง</a>
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="grid md-1-3 mt-0">
-              <div class="block">
+              <div class="block sub-heading">
                 <h5 class="lh-xs color-07">บริการผ่านอินเตอร์เน็ต</h5>
                 <a class="d-block p sm h-color-07 mt-1" href="#">ระบบรายงานความพึงพอใจแท็กซี่</a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">สอบถามข้อมูลค่าภาษีรถประจำปี</a>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="grid md-1-3 mt-0">
-              <div class="block">
+              <div class="block sub-heading">
                 <h5 class="lh-xs color-07">อื่น</h5>
                 <a class="d-block p sm h-color-07 mt-1" href="#">RSS</a>
                 <a class="d-block p sm h-color-07 mt-1" href="#">Intranet</a>

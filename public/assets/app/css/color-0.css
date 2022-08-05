@@ -384,6 +384,7 @@ nav.footer.style-05{background:#191b29; color:#ffffff;}
 nav.footer.style-05 .footer-bottom{border-color:rgba(255,255,255,.15);}
 
 /* Footer Style 06 */
+nav.footer.style-06 .sub-heading a:before{background:#4e025f;}
 nav.footer.style-06 .input-icon{background:#540368;}
 nav.footer.style-06 .input-icon:hover::before{background:#4e025f;}
 nav.footer.style-06 .footer-socials .social.social-fw{background:#1878f1; color:#ffffff;}
