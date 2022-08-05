@@ -169,6 +169,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
@@ -195,6 +196,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
@@ -221,6 +223,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
             <div class="grid lg-50 md-50 sm-50">
@@ -247,6 +250,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
           </div>

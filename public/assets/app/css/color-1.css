@@ -286,6 +286,8 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-08 .socials > .social:hover{background:#000000; color:#ffffff;}
 
 /* Special Card 09 */
+.ss-card-09 .line-1::before, .ss-card-09 .line-1::after,
+.ss-card-09 .line-2::before, .ss-card-09 .line-2::after{background:#000000;}
 .ss-card-09 .text-container{
   background:#ffffff; color:#000000; border:1px solid #000000;
   box-shadow:0px 3px 6px 4px rgba(255,255,255,.04);
@@ -303,6 +305,8 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-12 .card-footer .more{background:#000000; color:#ffffff;}
 
 /* Special Card 13 */
+.ss-card-13 .line-1::before, .ss-card-13 .line-1::after,
+.ss-card-13 .line-2::before, .ss-card-13 .line-2::after{background:#000000;}
 .ss-card-13 .text-container{background:#ffffff; color:#000000;}
 .ss-card-13 .card-footer{border-color:rgba(0,0,0,.15);}
 .ss-card-13 .card-footer .icon{color:#000000;}
@@ -319,12 +323,16 @@ nav.side-panel .option-row .icon + *::before{background:#ffffff;}
 .ss-card-15 .rc-container > label::after{background:#ffffff;}
 
 /* Special Card 16 */
+.ss-card-16 .line-1::before, .ss-card-16 .line-1::after,
+.ss-card-16 .line-2::before, .ss-card-16 .line-2::after{background:#000000;}
 .ss-card-16{background:#ffffff; color:#000000;}
 .ss-card-16 .card-footer{border-color:rgba(0,0,0,.15);}
 .ss-card-16 .icon{color:#000000;}
 .ss-card-16 .card-footer .block::after{background:rgba(0,0,0,.15);}
 
 /* Special Card 18 */
+.ss-card-18 .line-1::before, .ss-card-18 .line-1::after,
+.ss-card-18 .line-2::before, .ss-card-18 .line-2::after{background:#000000;}
 .ss-card-18{background:#ffffff; color:#000000;}
 .ss-card-18::before{background:rgba(0,0,0,.1);}
 .ss-card-18 .more{background:#000000; color:#ffffff;}
