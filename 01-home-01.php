@@ -7,6 +7,7 @@
 <body class="loading bg-sgray">
   <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-01.php'); ?>
+  <?php include_once('include/options.php'); ?>
 
   <section class="banner-03">
     <div class="slide-container">

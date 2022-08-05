@@ -1,7 +1,3 @@
-<!-- Back to Top -->
-<a class="back-to-top style-05 active" href="#">
-  <em class="fas fa-chevron-up"></em>
-</a>
 
 <!-- Footer -->
 <nav class="footer style-05">

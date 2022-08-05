@@ -1,10 +1,4 @@
 
-
-<!-- Back to Top -->
-<a class="back-to-top style-04 active" href="#">
-  <em class="fas fa-chevron-up"></em>
-</a>
-
 <!-- Footer -->
 <nav class="footer style-04">
   <img class="img-bg" src="public/assets/app/images/bg/pattern-03.png" alt="Pattern" />
