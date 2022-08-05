@@ -1137,7 +1137,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 /* Special Card 26 */
-.ss-card-26{position:relative; border-right:1px solid transparent;}
+.ss-card-26{position:relative;}
 .ss-card-26::before{content:''; position:absolute; top:0; bottom:0; right:-.5px; width:1px;}
 .ss-card-26 .text-container{padding:1.25rem 1.5rem;}
 .ss-card-26 .text-container .title{min-height:4.5625rem; -webkit-line-clamp:3;}

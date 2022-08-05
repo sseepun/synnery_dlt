@@ -577,7 +577,7 @@ nav.side-panel .option-row .icon + *::before{background:#591768;}
 .ss-card-25 .icon-play{background:#74459d;}
 
 /* Special Card 26 */
-.ss-card-26{border-color:rgba(0,0,0,.1);}
+.ss-card-26::before{background:rgba(0,0,0,.1);}
 .ss-card-26 .more{background:#e6e1ec; color:#663399;}
 .ss-card-26 .more:hover{background:#663399; color:#e6e1ec;}
 
