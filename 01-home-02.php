@@ -28,6 +28,14 @@
           <div class="dot-container"></div>
         </div>
       </div>
+      <div class="arrow-container">
+        <div class="arrow arrow-prev">
+          <img src="public/assets/app/images/icon/05.png" alt="Arrow" />
+        </div>
+        <div class="arrow arrow-next">
+          <img src="public/assets/app/images/icon/06.png" alt="Arrow" />
+        </div>
+      </div>
     </div>
   </section>
 
