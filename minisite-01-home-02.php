@@ -5,8 +5,9 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php // include_once('include/page-loader.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-05.php'); ?>
+  <?php include_once('include/options.php'); ?>
 
   <section class="banner-04">
     <div class="slide-container">
