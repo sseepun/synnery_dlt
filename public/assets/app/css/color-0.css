@@ -164,13 +164,6 @@ input[type=file].sgray, select.sgray, textarea.sgray{background:#e3e4e6!importan
 .page-loader .text{color:rgba(0,0,0,.15);}
 .page-loader .text .sub{color:#591768;}
 
-/* Super Topnav Style 02 */
-nav.stopnav.style-02{background-image:linear-gradient(45deg,#e6c972,#350840); color:#ffffff;}
-nav.stopnav.style-02 .option-box{border-color:rgba(255,255,255,.3);}
-
-
-
-
 
 /* Super Topnav Style 03 */
 nav.stopnav.style-03{background:#68459b; color:#ffffff;}
@@ -237,7 +230,16 @@ nav.topnav.style-01 .option.sidenav-toggle::before,
 nav.topnav.style-01 .option.sidenav-toggle{background:none;}
 
 /* Topnav Style 02 */
-nav.topnav.style-02{background-image:linear-gradient(45deg,#e6c972,#ffffff);}
+nav.topnav.style-02 .topnav-top{color:#ffffff;}
+nav.topnav.style-02 .topnav-top a:hover{color:#e0b14a;}
+nav.topnav.style-02 .a-text, nav.topnav.style-02 .a-icon,
+nav.topnav.style-02 .flags{border-color:rgba(255,255,255,.3);}
+nav.topnav.style-02 .menu > *:first-child::before{background:rgba(0,0,0,.15);}
+nav.topnav.style-02 .menu:hover > *:first-child,
+nav.topnav.style-02 .menu.active > *:first-child{color:#6e3e96;}
+nav.topnav.style-02 .menu.main > *:first-child{background:#e0b14a; color:#ffffff;}
+nav.topnav.style-02 .menu.main:hover > *:first-child{background:#6e3e96;}
+nav.topnav.style-02 .hamburger > *{background:#191919;}
 
 /* Topnav Style 03 */
 nav.topnav.style-03{background:#ffffff; border-color:#c7cbd1;}
@@ -416,6 +418,7 @@ nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-c
 }
 nav.side-panel .option-row{color:#000000;}
 nav.side-panel .option-row .icon + *::before{background:#591768;}
+nav.side-panel .hamburger > *{background:#ffffff;}
 
 
 /* Special Card */

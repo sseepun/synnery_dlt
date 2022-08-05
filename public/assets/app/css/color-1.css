@@ -114,6 +114,16 @@ nav.topnav.style-01 .hamburger > *{background:#ffffff;}
 nav.topnav.style-01 .option.sidenav-toggle::before,
 nav.topnav.style-01 .option.sidenav-toggle{background:none;}
 
+/* Topnav Style 02 */
+nav.topnav.style-02{color:#000000;}
+nav.topnav.style-02 .logo{color:#000000;}
+nav.topnav.style-02 .topnav-top{color:#ffffff;}
+nav.topnav.style-02 .a-text, nav.topnav.style-02 .a-icon,
+nav.topnav.style-02 .flags{border-color:rgba(255,255,255,.3);}
+nav.topnav.style-02 .menu > *:first-child::before{background:rgba(0,0,0,.15);}
+nav.topnav.style-02 .menu.main > *:first-child{background:#000000; color:#ffffff;}
+nav.topnav.style-02 .hamburger > *{background:#000000;}
+
 /* Topnav Style 04 */
 nav.topnav.style-04{border-color:rgba(255,255,255,.3); background:transparent; color:#ffffff;}
 nav.topnav.style-04.sticky{background:#000000; color:#ffffff;}
@@ -224,6 +234,7 @@ nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-c
 }
 nav.side-panel .option-row{color:#ffffff;}
 nav.side-panel .option-row .icon + *::before{background:#ffffff;}
+nav.side-panel .hamburger > *{background:#ffffff;}
 
 
 /* Special Card */

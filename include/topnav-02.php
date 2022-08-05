@@ -1,77 +1,121 @@
-<!-- Super Topnav -->
-<?php if(false){?>
-  <nav class="stopnav style-02">
-    <div class="container">
-      <div class="wrapper">
-        <div class="option">
-          <div class="a-text">
-            <em class="fa-solid fa-phone mr-2"></em> 0-2271-8888
-          </div>
-          <div class="option-box">
-            <div class="a-text">
-              <em class="fa-solid fa-envelope mr-2"></em> webmaster@mail.dlt.go.th
-            </div>
-          </div>
-        </div>
-        <div class="option">
-          <div class="a-text">
-            <img src="public/assets/app/images/icon/79.png" alt="Sitemap">
-          </div>
-          <div class="option-box">
-            <div class="a-text">
-              <em class="fa-solid fa-envelope mr-2"></em>
-            </div>
-          </div>
-        </div>
-        <div class="option">
-          <div class="a-text"><em class="fa-solid fa-phone mr-2"></em></div>
-          <div class="a-text"><em class="fa-solid fa-phone mr-2"></em></div>
-          <div class="option-box">
-            <div class="a-text">
-              <em class="fa-solid fa-envelope mr-2"></em>
-            </div>
-          </div>
-        </div>
-        <div class="option">
-          <div class="a-text">
-            <em class="fa-solid fa-magnifying-glass"></em>
-          </div>
-          <div class="option-box .socials">
-            <div class="a-text">
-              <em class="fa-brands fa-facebook-f mr-2"></em>
-              <em class="fa-brands fa-instagram mr-2"></em>
-              <em class="fa-brands fa-twitter mr-2"></em>
-              <em class="fa-brands fa-pinterest-p mr-2"></em>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-<?php }?>
 
 <!-- Topnav -->
-<?php if(false){?>
-  <nav class="topnav style-02">
+<nav class="topnav style-02">
+  <div class="wrapper">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-09.jpg');"></div>
     <div class="container">
-      <div>
-        <a class="logo" href="#">
-          <div class="img-container">
-            <!-- <img src="public/assets/app/images/logo-03.png" alt="Website Logo" /> -->
+      <a class="logo" href="#">
+        <img src="public/assets/app/images/logo-02.png" alt="Website Logo" />
+        <div class="text-wrapper">
+          <h5 class="fw-400 lh-sm">กรมการขนส่งทางบก</h5>
+          <p class="sm fw-300">Department of Land Transportation</p>
+        </div>
+      </a>
+      <div class="topnav-wrapper">
+        <div class="topnav-top">
+          <a class="a-text hide-tablet" href="#">
+            <div class="icon"><em class="fa-solid fa-phone"></em></div>
+            0-2271-8888
+          </a>
+          <a class="a-text hide-tablet" href="#">
+            <div class="icon"><em class="fa-solid fa-envelope"></em></div>
+            webmaster@mail.dlt.go.th
+          </a>
+          <a class="a-icon" href="#">
+            <em class="fa-solid fa-sitemap"></em>
+          </a>
+          <div class="flags hide-tablet">
+            <a class="a-flag active" href="#">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/misc/th-flag.png');"></div>
+            </a>
+            <a class="a-flag" href="#">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/misc/us-flag.png');"></div>
+            </a>
           </div>
-        </a>
-
-        <div class="menu-container">
-          <?php
-            foreach([
-              'เกี่ยวกับกรม', 'สื่อประชาสัมพันธ์', 'ติดต่อราชการ', 'ข้อเสนอแนะถึงเรา', 'รับเรื่องร้องเรียน', 'เมนูไฮไลท์'
-            ] as $i=>$d){
-          ?>
-          <?php }?>
+          <a class="a-icon" href="#">
+            <em class="fa-solid fa-magnifying-glass"></em>
+          </a>
+          <div class="socials">
+            <a class="a-social" href="#">
+              <em class="fa-brands fa-facebook-f"></em>
+            </a>
+            <a class="a-social" href="#">
+              <em class="fa-brands fa-instagram"></em>
+            </a>
+            <a class="a-social" href="#">
+              <em class="fa-brands fa-twitter"></em>
+            </a>
+            <a class="a-social" href="#">
+              <em class="fa-brands fa-pinterest-p"></em>
+            </a>
+          </div>
+        </div>
+        <div class="topnav-bottom">
+          <div class="menu-container hide-tablet" id="topnav-menu">
+            <div class="menu active">
+              <a href="/">
+                <div class="text-hide">หน้าแรก</div>
+                <div class="icon icon-hide"><em class="fa-solid fa-house"></em></div>
+              </a>
+            </div>
+            <?php
+              foreach([
+                'เกี่ยวกับกรม', 'สื่อประชาสัมพันธ์', 'ติดต่อราชการ', 'ข้อเสนอแนะ', 'รับเรื่องร้องเรียน', 'เมนูไฮไลท์'
+              ] as $i=>$d){
+            ?>
+              <div class="menu has-children <?= $i==5? 'main': '' ?>">
+                <a href="#" data-dropdown="<?= $i ?>">
+                  <?= $d ?>
+                </a>
+                <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
+                  <div class="submenu-container">
+                    <div class="submenu-wrapper">
+                      <div class="submenu">
+                        <a href="#">ทิศทางองค์กร</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">ภารกิจ 4 ด้าน</a>
+                      </div>
+                      <div class="submenu">
+                          <a href="#">การแบ่งส่วนราชการกรมโยธาธิการและผังเมือง</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">อำนาจหน้าที่ของกรมและส่วนราชการ</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">ประวัติความเป็นมาและตราสัญลักษณ์</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">โครงสร้างองค์กร</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">ทำเนียบผู้บริหารกรมฯ</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">ผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">รายงานผล</a>
+                      </div>
+                      <div class="submenu">
+                        <a href="#">แผนงาน</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php }?>
+          </div>
+          <div class="options show-tablet">
+            <a class="option sidenav-toggle" href="#">
+              <div class="hamburger">
+                <div></div><div></div><div></div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </nav>
-<?php }else{?>
-  <img class="img" src="public/assets/app/images/topnav-02.jpg" alt="Topnav" />
-<?php }?>
+  </div>
+</nav>
+<div class="topnav-spacer"></div>
