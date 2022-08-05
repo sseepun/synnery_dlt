@@ -175,16 +175,8 @@
     transition:width .25s;
 }
 .banner-04 .slick-dots li.slick-active button{width:3rem;}
-.banner-04 .arrow-container{
-    position:absolute; top:0; bottom:0; left:0; right:0; pointer-events:none;
-    display:flex; align-items:center; justify-content:space-between;
-}
-.banner-04 .arrow{display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;}
-.banner-04 .arrow:hover{opacity:.75;}
-.banner-04 .arrow img{display:block; height:3rem; width:auto;}
 @media screen and (max-width:767.98px){
     .banner-04 .slide{min-height:580px;}
-    .banner-04 .arrow-container{display:none;}
 }
 
 .banner-04 .slide .animate{
@@ -226,8 +218,16 @@
     padding:0; box-shadow:none; border:0; margin:0; outline:none; cursor:pointer;
     transition:width .25s;
 }
+.banner-05 .arrow-container{
+    position:absolute; top:0; bottom:0; left:0; right:0; pointer-events:none;
+    display:flex; align-items:center; justify-content:space-between;
+}
+.banner-05 .arrow{display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;}
+.banner-05 .arrow:hover{opacity:.75;}
+.banner-05 .arrow img{display:block; height:3rem; width:auto;}
 @media screen and (max-width:767.98px){
     .banner-05 .slide{min-height:580px;}
+    .banner-05 .arrow-container{display:none;}
 }
 
 .banner-05 .slide .animate{

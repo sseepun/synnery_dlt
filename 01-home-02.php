@@ -27,14 +27,6 @@
           <div class="dot-container"></div>
         </div>
       </div>
-      <div class="arrow-container">
-        <div class="arrow arrow-prev">
-          <img src="public/assets/app/images/icon/05.png" alt="Arrow" />
-        </div>
-        <div class="arrow arrow-next">
-          <img src="public/assets/app/images/icon/06.png" alt="Arrow" />
-        </div>
-      </div>
     </div>
   </section>
 
@@ -276,6 +268,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container color-white">
               <div class="hero">
                 <img src="public/assets/app/images/hero/01.png" alt="Hero" />
@@ -298,6 +291,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container color-white">
               <h4 class="fw-300 lh-3xs">Network</h4>
               <div class="icon">
@@ -320,6 +314,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/03.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container color-white">
               <h4 class="fw-300 lh-3xs">Eminence</h4>
               <div class="icon">
@@ -342,6 +337,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/04.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container">
               <h4 class="fw-300 lh-3xs">Digital</h4>
               <h4 class="fw-200 lh-3xs">Technology</h4>
@@ -365,6 +361,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/05.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container">
               <h4 class="fw-300 lh-3xs">Legitimacy</h4>
               <div class="icon">
@@ -387,6 +384,7 @@
             <div class="ss-img vertical">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/06.jpg');"></div>
             </div>
+            <div class="bg-filter"></div>
             <div class="text-container">
               <h4 class="fw-300 lh-3xs">Transparency</h4>
               <div class="icon">
