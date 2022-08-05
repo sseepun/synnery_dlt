@@ -30,7 +30,7 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p class="fw-100">ลิขสิทธิ์ 2565 : กรมการขนส่งทางบก</p>
+      <p class="xs fw-100">ลิขสิทธิ์ 2565 : กรมการขนส่งทางบก</p>
     </div>
   </div>
 </nav>

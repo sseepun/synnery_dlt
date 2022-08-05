@@ -24,10 +24,9 @@
               </p>
               <p class="fw-100">
                 โทรศัพท์ :
-                <span class="color-09">0-2323-4060</span>
-              </p>
-              <p class="fw-100">
-                โทรสาร : <span class="color-09">0-2323-4060 , 0-2323-3619 (เฉพาะวันเละเวลาราชการเท่านั้น)</span>
+                <span class="color-09 mr-2">0-2323-4060</span>
+                โทรสาร : 
+                <span class="color-09">0-2323-4060 , 0-2323-3619</span>
               </p>
               <p class="fw-100">
                 อีเมล : <span class="color-09 h-color-05">dltspk@gmail.com , dlt_spk@hotmail.co.th</span>

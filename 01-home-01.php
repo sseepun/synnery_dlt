@@ -220,6 +220,9 @@
   </section>
 
   <section class="section-10 section-padding pb-0">
+  <h3 class="fw-300 lh-xs text-center mb-6">
+    ป้ายแบรนเนอร์
+  </h3>
   <div class="container">
       <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
         <div class="slides">

@@ -709,7 +709,7 @@ nav.footer.style-03 .count-web > *:last-child{border-right:1px solid transparent
 /* Footer Style 04 */
 nav.footer.style-04{position:relative; width:100%; padding-top:14rem; margin-top:-9rem;}
 nav.footer.style-04 > .img-bg{
-  position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+  position:absolute; top:-18rem; bottom:0; left:-18rem; right:0; background-size:cover;
   background-position:center;
 }
 nav.footer.style-04 > .container{position:relative;}

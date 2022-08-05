@@ -328,7 +328,6 @@
 
         <div class="blocks">
           <div class="img-bg" style="background-image:url('public/assets/app/images/bg/25.jpg');"></div>
-          
           <div class="block bg-color">
             <div class="tab-container" data-aos="fade-up" data-aos-delay="150">
               <div class="ss-title-03 style-02 jc-start">
@@ -354,6 +353,7 @@
                             <img src="public/assets/app/images/icon/16.png" alt="Icon" />
                           </div>
                         </div>
+                       <div class="line-1"></div><div class="line-2"></div>
                       </div>
                       <div class="text-container">
                         <div class="ss-tags">
@@ -412,6 +412,7 @@
                             <img src="public/assets/app/images/icon/16.png" alt="Icon" />
                           </div>
                         </div>
+                        <div class="line-1"></div><div class="line-2"></div>
                       </div>
                       <div class="text-container">
                         <div class="ss-tags">
@@ -445,7 +446,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -472,6 +472,7 @@
                     </a> 
                   </div>
                 </div>
+               <div class="line-1"></div><div class="line-2"></div>
               </div>
             </div>
           <?php }?>
