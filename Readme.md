@@ -1,5 +1,5 @@
 
-# DPT HTML
+# DLT HTML
 Need PHP server to run this project.
 
 # Install
