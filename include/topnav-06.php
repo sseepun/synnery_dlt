@@ -1,4 +1,25 @@
 
+<?php
+  $submenu = '<div class="submenu-dropdown">
+      <div class="submenu-container">
+        <div class="submenu-wrapper">
+          <div class="submenu">
+            <a href="#">ทิศทางองค์กร</a>
+          </div>
+          <div class="submenu">
+            <a href="#">ภารกิจ 4 ด้าน</a>
+          </div>
+          <div class="submenu">
+              <a href="#">การแบ่งส่วนราชการกรมโยธาธิการและผังเมือง</a>
+          </div>
+          <div class="submenu">
+            <a href="#">อำนาจหน้าที่ของกรมและส่วนราชการ</a>
+          </div>
+        </div>
+      </div>
+    </div>';
+?>
+
 <!-- Super Topnav -->
 <nav class="stopnav style-06">
   <div class="stopnav-wrapper">
@@ -84,35 +105,37 @@
             <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
               <div class="submenu-container">
                 <div class="submenu-wrapper">
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">ทิศทางองค์กร</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">ภารกิจ 4 ด้าน</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
-                      <a href="#">การแบ่งส่วนราชการกรมโยธาธิการและผังเมือง</a>
+                  <div class="submenu has-children">
+                    <a href="#">การแบ่งส่วนราชการกรมโยธาธิการและผังเมือง</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">อำนาจหน้าที่ของกรมและส่วนราชการ</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">ประวัติความเป็นมาและตราสัญลักษณ์</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">โครงสร้างองค์กร</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">ทำเนียบผู้บริหารกรมฯ</a>
+                    <?= $submenu ?>
                   </div>
-                  <div class="submenu">
+                  <div class="submenu has-children">
                     <a href="#">ผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
-                  </div>
-                  <div class="submenu">
-                    <a href="#">รายงานผล</a>
-                  </div>
-                  <div class="submenu">
-                    <a href="#">แผนงาน</a>
+                    <?= $submenu ?>
                   </div>
                 </div>
               </div>

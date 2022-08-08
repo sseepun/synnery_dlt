@@ -287,8 +287,10 @@ nav.sidenav .submenu > *:first-child{border-color:rgba(255,255,255,.3);}
 nav.sidenav .option > .dropdown{background:#ffffff;}
 nav.sidenav .menu > *:first-child{color:#000000;}
 nav.sidenav .menu:hover > *:first-child{color:#68459b;}
+nav.sidenav .submenu{color:#ffffff;}
+nav.sidenav .submenu .dropdown-toggle{color:#ffffff;}
 nav.sidenav .submenu > *:first-child{background:#68459b; color:#ffffff;}
-nav.sidenav .submenu .submenu > *:first-child{background:#76108f; color:#232323;}
+nav.sidenav .submenu .submenu > *:first-child{background:#76108f; color:#ffffff;}
 nav.sidenav .submenu:hover > *:first-child{color:#f9c816;}
 nav.sidenav .dropdown-toggle{color:#232323;}
 nav.sidenav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}

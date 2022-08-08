@@ -147,6 +147,7 @@
     </span>
   </div>
 </nav>
+<div class="access-filter"></div>
 
 <!-- Back to Top -->
 <a class="back-to-top style-01 active" href="#">

@@ -6,7 +6,6 @@ $(function(){ 'use strict';
     var sidenav = $('nav.sidenav'),
         sidenavMenus = sidenav.find('.menu-container'),
         sidenavToggle = $('nav .sidenav-toggle');
-    var accessPanel = $('.side-panel.access-panel');
 
     if(topnav.length){
         // Generate Sidenav
@@ -162,6 +161,10 @@ $(function(){ 'use strict';
     accessibility.find('> .wrapper > .icon, .panel-row:first-child').click(function(e){
         e.preventDefault();
         accessibility.toggleClass('active');
+    });
+    $('.access-filter').click(function(e){
+        e.preventDefault();
+        accessibility.removeClass('active');
     });
 
     
