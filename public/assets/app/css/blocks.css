@@ -746,6 +746,14 @@
     position:absolute; top:-26rem; bottom:0rem; left:-12rem; right:0;
     background-size:cover; background-position:center;
 }
+@media screen and (max-width:1199.98px){
+    .section-08.clone > .pattern{top:-30rem; bottom:0rem; left:-20rem;}
+}
+@media screen and (max-width:767.98px){
+    .section-08 > .pattern{opacity:0;}
+    .section-08.clone > .pattern{opacity:0;}
+}
+
 
 
 /* Section 09 */
