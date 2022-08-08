@@ -738,6 +738,14 @@
 /* Section 08 */
 .section-08{position:relative; z-index:1;}
 .section-08 .grids{--gs:2px;}
+.section-08 > .pattern{
+    position:absolute; top:0; bottom:0rem; left:2rem; right:0;
+    background-size:cover; background-position:center;
+}
+.section-08.clone > .pattern{
+    position:absolute; top:-26rem; bottom:0rem; left:-12rem; right:0;
+    background-size:cover; background-position:center;
+}
 
 
 /* Section 09 */

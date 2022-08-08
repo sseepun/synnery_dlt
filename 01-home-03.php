@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-03.php'); ?>
   <?php include_once('include/options.php'); ?>
   
@@ -15,7 +15,7 @@
         <?php for($i=0; $i<7; $i++){?>
           <div class="slide" id="banner-02-<?= $i ?>">
             <div class="wrapper">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/03.jpg');"></div>
+              <div class="img-bg" style="background-image:url('public/assets/app/images/banner/1<?= ($i)%3+0 ?>.jpg');"></div>
               <div class="container">
                 <h2 class="op-0 pe-none pos-absolute">Banner</h2>
               </div>
@@ -185,9 +185,9 @@
     ];
   ?>
   <section class="section-08 section-padding pt-0 bg-sgray">
+    <img class="pattern" src="public/assets/app/images/bg/pattern-07.png" alt="Pattern" />
     <div class="container">
       <div class="tab-container">
-
         <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
           <div class="tabs-title">
             <div class="tab-contents">
@@ -278,7 +278,8 @@
       ]
     ];
   ?>
-  <section class="section-08 section-padding pt-0 bg-white">
+  <section class="section-08 section-padding clone pt-0 bg-white">
+    <img class="pattern" src="public/assets/app/images/bg/pattern-08.png" alt="Pattern" />
     <div class="container">
       <div class="tab-container">
 
@@ -411,7 +412,7 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-25 md-50 mt-0">
-          <a class="section-tab main" href="#">
+          <div class="section-tab main" href="#">
             <div class="icon">
               <img src="public/assets/app/images/icon/28.png" alt="Icon" />
             </div>
@@ -419,7 +420,7 @@
               <p class="fw-300">CALL CENTER</p>
               <h3 class="lg fw-400 lh-3xs color-04">1584</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="grid lg-25 md-50 mt-0">
           <a class="section-tab" href="#">
