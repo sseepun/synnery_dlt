@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/page-loader.php'); ?>
+  <?php // include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-06.php'); ?>
   <?php include_once('include/options.php'); ?>
 
@@ -496,7 +496,7 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-25 md-50 mt-0">
-          <a class="section-tab main" href="#">
+          <div class="section-tab main">
             <div class="icon">
               <img src="public/assets/app/images/icon/28.png" alt="Icon" />
             </div>
@@ -504,7 +504,7 @@
               <p class="fw-300">CALL CENTER</p>
               <h3 class="lg fw-400 lh-3xs">1584</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="grid lg-25 md-50 mt-0">
           <a class="section-tab" href="#">

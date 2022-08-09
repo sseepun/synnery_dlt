@@ -4,7 +4,7 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="loading bg-sgray">
   <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-03.php'); ?>
   <?php include_once('include/options.php'); ?>
@@ -184,7 +184,7 @@
       ]
     ];
   ?>
-  <section class="section-08 section-padding pt-0 bg-sgray">
+  <section class="section-08 section-padding pt-0" style="z-index:2;">
     <img class="pattern" src="public/assets/app/images/bg/pattern-07.png" alt="Pattern" />
     <div class="container">
       <div class="tab-container">
