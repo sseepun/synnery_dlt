@@ -270,7 +270,7 @@
         <span class="op-0">ข่าวสารประชาสัมพันธ์</span>
       </h3>
     </div>
-    <div class="info-cards">
+    <div class="info-cards mt-4">
       <div class="info-card" data-aos="fade-up" data-aos-delay="450">
         <div class="wrapper">
           <div class="ss-card ss-card-02">
@@ -283,6 +283,9 @@
                 <img src="public/assets/app/images/hero/01.png" alt="Hero" />
               </div>
               <h4 class="fw-300 lh-3xs">Objective</h4>
+              <div class="icon">
+                <img src="public/assets/app/images/icon/03.png" alt="Icon" />
+              </div>
             </div>
             <div class="line-1"></div><div class="line-2"></div>
           </div>

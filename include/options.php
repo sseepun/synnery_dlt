@@ -137,14 +137,14 @@
         </div>
       </div>
     </div>
-    <span class="icon main cursor-pointer">
+    <div class="icon main cursor-pointer">
       <img class="icon-inactive" src="https://www.dpt.go.th/assets/app/images/icon/access.png" alt="Access">
       <div class="icon-active">
         <div class="hamburger active">
           <div></div><div></div><div></div>
         </div>
       </div>
-    </span>
+    </div>
   </div>
 </nav>
 <div class="access-filter"></div>

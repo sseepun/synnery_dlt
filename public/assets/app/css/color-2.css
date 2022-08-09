@@ -443,7 +443,7 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 .section-02 .slick-dots button::before{border-color:#ffff00;}
 
 /* Section 03 */
-.section-03{background:#ffff00; color:#000000;}
+.section-03{background:#ffffff; color:#ffff00;}
 .section-03 .input-icon{background:#000000;}
 .section-03 .input-icon > .icon{color:#ffff00;}
 .section-03 input[type=text]{background:#ffff00!important; color:#000000!important;}
