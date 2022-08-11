@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php // include_once('include/page-loader.php'); ?>
+  <?php include_once('include/page-loader.php'); ?>
   <?php include_once('include/topnav-06.php'); ?>
   <?php include_once('include/options.php'); ?>
 
@@ -453,10 +453,10 @@
 
   <div class="section-30 section-padding">
     <div class="container">
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
+      <div class="swiper-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-wrapper">
           <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
+            <div class="swiper-slide">
               <div class="ss-card ss-card-24">
                 <div class="img-container">
                   <div class="ss-img vertical-2">

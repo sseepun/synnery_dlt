@@ -497,9 +497,9 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 .section-09 .section-card .icon{background:#000000;}
 
 /* Section 10 */
-.section-10 .slick-list.draggable{box-shadow:0px 4px 8px 6px rgba(255,255,255,.03);}
-.section-10 .slick-dots button{background:rgba(255,255,0,.3);}
-.section-10 .slick-dots li.slick-active button{background:#ffff00;}
+.section-10 .inner-wrapper{box-shadow:0px 4px 8px 6px rgba(255,255,255,.03);}
+.section-10 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-10 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 .section-10 .more{background:#000000; color:#ffff00;}
 
 /* Section 11 */

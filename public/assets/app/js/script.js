@@ -551,19 +551,23 @@ $(function(){ 'use strict';
     // Section 10
     var section10 = $('.section-10');
     if(section10.length){
-        section10.find('.slide-container').each(function(){
+        section10.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let mySwiper10 = new Swiper(self.find('.inner-wrapper'), {
+                speed: 800,
+                slidesPerView: 4,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            mySwiper10.init();
         });
     }
 
@@ -586,46 +590,70 @@ $(function(){ 'use strict';
         });
     }
 
-
-     // Section 18
-     var section18 = $('.section-18');
-     if(section18.length){
-         section18.find('.slide-container').each(function(){
-             var self = $(this);
-             self.find('> .slides').slick({
-                 centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                 swipeToSlide: true, infinite: false,
-                 focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                 dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                 responsive: [
-                     { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                     { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                     { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                 ]
-             });
-         });
+    // Section 18
+    var section18 = $('.section-18');
+    if(section18.length){
+        section18.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: false, centerPadding: '0px', slidesToShow: 4,
+                swipeToSlide: true, infinite: false,
+                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
+                dots: true, appendDots: self.find('.dot-container'), arrows: false,
+                responsive: [
+                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
+                ]
+            });
+        });
     }
 
-      // Section 30
-      var section18 = $('.section-30');
-      if(section18.length){
-          section18.find('.slide-container').each(function(){
-              var self = $(this);
-              self.find('> .slides').slick({
-                  centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                  swipeToSlide: true, infinite: false,
-                  focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                  dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                  responsive: [
-                      { breakpoint: 1199.98, settings: { slidesToShow: 3, } },
-                      { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                      { breakpoint: 575.98, settings: { slidesToShow: 1 } },
-                  ]
-              });
-          });
-     }
- 
-
+    // Section 19
+    var section19 = $('.section-19');
+    if(section19.length){
+        section19.find('.swiper-container').each(function(){
+            var self = $(this);
+            let mySwiper19 = new Swiper(self, {
+                init: false,
+                loop: true,
+                speed: 800,
+                slidesPerView: 2,
+                spaceBetween: 240,
+                centeredSlides : true,
+                effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+                coverflowEffect: {
+                    rotate: 10,
+                    stretch: 0,
+                    depth: 500,
+                    modifier: 1,
+                    slideShadows : true
+                },
+                grabCursor: true,
+                parallax: true,
+                pagination: {
+                    el: self.find('.swiper-pagination'),
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: self.find('.btn-prev'),
+                    prevEl: self.find('.btn-next'),
+                },
+                breakpoints: {
+                    1199.98: { spaceBetween: 180, slidesPerView: 1.9 },
+                    991.98: { spaceBetween: 150, slidesPerView: 1.7 },
+                    767.98: { spaceBetween: 160, slidesPerView: 1.4 },
+                    575.98: { spaceBetween: 110, slidesPerView: 1.2 }
+                },
+                on: {
+                    imagesReady: function(){
+                        this.el.classList.remove('loading');
+                    }
+                }
+            });
+            mySwiper19.init();
+        });
+    }
 
     // Section 22
     var section22 = $('.section-22');
@@ -648,7 +676,6 @@ $(function(){ 'use strict';
         });
     }
 
-
     // Section 25
     var section25 = $('.section-25');
     if(section25.length){
@@ -669,7 +696,6 @@ $(function(){ 'use strict';
         });
     }
 
-
     // Section 26
     var section26 = $('.section-26');
     if(section26.length){
@@ -689,6 +715,27 @@ $(function(){ 'use strict';
             });
         });
     }
+
+    // Section 30
+    var section30 = $('.section-30');
+    if(section30.length){
+        section30.find('.swiper-container').each(function(){
+            var self = $(this);
+            let mySwiper30 = new Swiper(self, {
+                speed: 800,
+                slidesPerView: 4,
+                spaceBetween: 8,
+                grabCursor: true,
+                breakpoints: {
+                    1199.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
+            });
+            mySwiper30.init();
+        });
+    }
+
 
     // Footer Style 02
     var footerStyle02 = $('nav.footer.style-02');

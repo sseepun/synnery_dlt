@@ -23,7 +23,7 @@
                     <span class="text-xl fw-400">รถสาธาณะแบบวิถีใหม่</span>
                   </h3>
                 </div>
-                <p class="lg fw-200 mt-3 animate" style="--delay:.55s;">
+                <p class="lg fw-200 mt-3 xs-no-br animate" style="--delay:.55s;">
                   ไม่ว่าจะเป็นรถเมล์ รถโดยสารประจำทาง <br> และรถโดยสารไม่ประจำทาง
                   รถยนต์รับจ้าง (แท็กซี่) และรถบริการ รถจักรยานยนต์สาธารณะ <br>
                   และรถรับจ้างอื่นๆ ควรปฏิบัติดังนี้
@@ -527,47 +527,5 @@
    
   <?php include_once('include/footer-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-  <script>
-    var mySwiper = new Swiper('.swiper-container', {
-      init: false,
-      loop: true,
-      speed: 800,
-      slidesPerView: 2,
-      spaceBetween: 240,
-      centeredSlides : true,
-      effect: 'coverflow', // 'cube', 'fade', 'coverflow',
-      coverflowEffect: {
-        rotate: 10,
-        stretch: 0,
-        depth: 500,
-        modifier: 1,
-        slideShadows : true
-      },
-      grabCursor: true,
-      parallax: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.btn-prev',
-        prevEl: '.btn-next',
-      },
-      breakpoints: {
-        1199.98: { spaceBetween: 180, slidesPerView: 1.9 },
-        991.98: { spaceBetween: 150, slidesPerView: 1.7 },
-        767.98: { spaceBetween: 160, slidesPerView: 1.4 },
-        575.98: { spaceBetween: 110, slidesPerView: 1.2 }
-      },
-      on: {
-        imagesReady: function(){
-          this.el.classList.remove('loading');
-        }
-      }
-    });
-    mySwiper.init();
-  </script>
 </body>
 </html>
