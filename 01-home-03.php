@@ -39,133 +39,71 @@
     </div>
   </section>
 
-  <section class="section-06" data-aos="fade-in" data-aos-delay="0">
-    <div class="section-tabs">
-      <a class="ss-card" href="#">
-        <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-01.jpg');"></div>
-        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-01-hover.jpg');"></div>
-        <div class="hero"><img src="public/assets/app/images/hero/04.png" alt="Hero" /></div>
-        <div class="text-wrapper">
-          <h5 class="color-04 lh-xs">การให้บริการอินเทอร์เน็ต</h5>
-          <h6 class="color-white lh-xs">e-services</h6>
-        </div>
-        <div class="line-1"></div>
-      </a>
-      <a class="ss-card" href="#">
-        <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-02.jpg');"></div>
-        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-02-hover.jpg');"></div>
-        <div class="hero"><img src="public/assets/app/images/hero/05.png" alt="Hero" /></div>
-        <div class="text-wrapper">
-          <h5 class="color-04 lh-xs">คลังความรู้สำหรับประชาชน</h5>
-          <h6 class="color-white lh-xs">Knowledge Center</h6>
-        </div>
-        <div class="line-1"></div>
-      </a>
-    </div>
-  </section>
-
-  <section class="section-07" data-aos="fade-up" data-aos-delay="0">
-    <div class="slide-container">
-      <div class="slides">
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/06.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <h6 class="p xs fw-400 lh-sm">จองทำใบขับขี่</h6>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/07.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">ระบบรายงาน<br />ความพึงพอใจแท็กซี่</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/08.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">สอบถามข้อมูลค่าภาษี<br />รถประจำปี</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/09.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">ชำระภาษีรถผ่าน<br />อินเตอร์เน็ต</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/10.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">ประมูลเลข<br />ทะเบียนรถสวย</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/11.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">จองเลขทะเบียนรถ</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/12.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">บริการข้อมูลกฏหมาย</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
-        <div class="slide">
-          <a class="wrapper text-center ws-nowrap" href="#">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
-            <div class="hero">
-              <img src="public/assets/app/images/hero/13.png" alt="Icon" />
-            </div>
-            <div class="text-wrapper">
-              <p class="xs fw-400 lh-sm">ใบรับรองระบบการจ่ายตรงเงิน<br />บำเหน็จบำนาญและเงินอื่น</p>
-            </div>
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
-        </div>
+  <div class="tab-container">
+    <section class="section-06" data-aos="fade-in" data-aos-delay="0">
+      <div class="tabs section-tabs">
+        <a class="tab ss-card card-left active" href="#" data-tab="0">
+          <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-01.jpg');"></div>
+          <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-01-hover.jpg');"></div>
+          <div class="hero"><img src="public/assets/app/images/hero/04.png" alt="Hero" /></div>
+          <div class="text-wrapper">
+            <h5 class="color-04 lh-xs">การให้บริการอินเทอร์เน็ต</h5>
+            <h6 class="color-white lh-xs">e-services</h6>
+          </div>
+          <div class="line-1"></div>
+        </a>
+        <a class="tab ss-card card-right" href="#" data-tab="1">
+          <div class="img-bg op-100" style="background-image:url('public/assets/app/images/bg/pattern-02.jpg');"></div>
+          <div class="img-bg" style="background-image:url('public/assets/app/images/bg/pattern-02-hover.jpg');"></div>
+          <div class="hero"><img src="public/assets/app/images/hero/05.png" alt="Hero" /></div>
+          <div class="text-wrapper">
+            <h5 class="color-04 lh-xs">คลังความรู้สำหรับประชาชน</h5>
+            <h6 class="color-white lh-xs">Knowledge Center</h6>
+          </div>
+          <div class="line-1"></div>
+        </a>
       </div>
+    </section>
+    
+    <?php
+      $categories = [
+        [ 'title' => 'จองทำใบขับขี่' ],
+        [ 'title' => 'ระบบรายงาน<br />ความพึงพอใจแท็กซี่' ],
+        [ 'title' => 'สอบถามข้อมูลค่าภาษี<br />รถประจำปี' ],
+        [ 'title' => 'ชำระภาษีรถผ่าน<br />อินเตอร์เน็ต' ],
+        [ 'title' => 'ประมูลเลข<br />ทะเบียนรถสวย' ],
+        [ 'title' => 'จองเลขทะเบียนรถ' ],
+        [ 'title' => 'บริการข้อมูลกฏหมาย' ],
+        [ 'title' => 'ใบรับรองระบบการจ่ายตรงเงิน<br />บำเหน็จบำนาญและเงินอื่น' ],
+      ];
+    ?>
+    <div class="tab-contents" data-aos="fade-up" data-aos-delay="150">
+      <?php for($i=0; $i<2; $i++){?>
+        <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
+          <section class="section-07">
+            <div class="slide-container">
+              <div class="slides">
+                <?php foreach($categories as $j=>$k){?>
+                  <div class="slide">
+                    <a class="wrapper text-center ws-nowrap" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
+                      <div class="hero">
+                        <img src="public/assets/app/images/hero/<?= sprintf('%02d', ($i+$j)%8+6) ?>.png" alt="Icon" />
+                      </div>
+                      <div class="text-wrapper">
+                        <h6 class="p xs fw-400 lh-sm"><?= $k['title'] ?></h6>
+                      </div>
+                      <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+                    </a>
+                  </div>
+                <?php }?>
+              </div>
+            </div>
+          </section>
+        </div>
+      <?php }?>
     </div>
-  </section>
+  </div>
 
   <?php
     $category = [

@@ -678,26 +678,26 @@
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center; opacity:0; transition:opacity .25s;
 }
-.section-06 .ss-card:hover .img-bg{opacity:1;}
+.section-06 .ss-card:hover .img-bg, .section-06 .ss-card.active .img-bg{opacity:1;}
 .section-06 .ss-card .text-wrapper{position:relative; text-align:center; padding:2.5rem 0;}
 .section-06 .ss-card .hero{
     position:absolute; top:0; bottom:0; display:flex; align-items:center; opacity:0;
     padding:1.25rem 0 0 0; transition:opacity .25s;
 }
-.section-06 .ss-card:hover .hero{opacity:1;}
-.section-06 .ss-card:nth-child(odd) .hero{right:-5rem;}
-.section-06 .ss-card:nth-child(even) .hero{left:-5rem;}
+.section-06 .ss-card:hover .hero, .section-06 .ss-card.active .hero{opacity:1;}
+.section-06 .ss-card.card-left .hero{right:-5rem;}
+.section-06 .ss-card.card-right .hero{left:-5rem;}
 .section-06 .ss-card .hero img{display:block; height:150%; width:auto;}
 @media screen and (max-width:1199.98px){
     .section-06 .ss-card .text-wrapper{padding:2rem 0;}
     .section-06 .ss-card .hero img{height:140%;}
-    .section-06 .ss-card:nth-child(odd) .hero{right:-4.5rem;}
-    .section-06 .ss-card:nth-child(even) .hero{left:-4.5rem;}
+    .section-06 .ss-card.card-left .hero{right:-4.5rem;}
+    .section-06 .ss-card.card-right .hero{left:-4.5rem;}
 }
 @media screen and (max-width:991.98px){
     .section-06 .ss-card .text-wrapper{padding:1.5rem 0;}
-    .section-06 .ss-card:nth-child(odd) .hero{right:-3.5rem;}
-    .section-06 .ss-card:nth-child(even) .hero{left:-3.5rem;}
+    .section-06 .ss-card.card-left .hero{right:-3.5rem;}
+    .section-06 .ss-card.card-right .hero{left:-3.5rem;}
 }
 @media screen and (max-width:767.98px){
     .section-06 .ss-card .hero{display:none;}

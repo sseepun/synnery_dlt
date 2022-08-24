@@ -269,7 +269,8 @@ $(function(){ 'use strict';
                 var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
                     oldTargets = tabContents.filter('.active'),
                     slideContainers = target.find('.slide-container');
-                if(target.length){
+                if($(this).hasClass('active')) e.preventDefault();
+                if(target.length && !$(this).hasClass('active')){
                     e.preventDefault();
                     tabs.removeClass('active');
                     $(this).addClass('active');
