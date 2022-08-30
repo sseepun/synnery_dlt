@@ -10,10 +10,10 @@
           <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
         </a>
       </div>
-      <div class="slide-container mt-4" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
+      <div class="swiper-container mt-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-wrapper">
           <?php for($i=0; $i<2; $i++){?>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/09.jpg');"></div>
@@ -28,7 +28,7 @@
                 <div class="line-1"></div><div class="line-2"></div>
               </a>
             </div>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/10.jpg');"></div>
@@ -43,7 +43,7 @@
                 <div class="line-1"></div><div class="line-2"></div>
               </a>
             </div>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
@@ -58,7 +58,7 @@
                 <div class="line-1"></div><div class="line-2"></div>
               </a>
             </div>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
@@ -73,7 +73,7 @@
                 <div class="line-1"></div><div class="line-2"></div>
               </a>
             </div>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
@@ -88,7 +88,7 @@
                 <div class="line-1"></div><div class="line-2"></div>
               </a>
             </div>
-            <div class="slide">
+            <div class="swiper-slide">
               <a class="ss-card ss-card-03 color-white" href="#">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/bg/14.jpg');"></div>

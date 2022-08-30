@@ -49,35 +49,39 @@
           ระบบสำนักงานออนไลน์
         </h3>  
         <div class="ss-sep-01 mt-1"></div>  
-      </div> 
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
-          <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
-              <div class="section-card">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+5 ?>.jpg');"></div>
-                </div>
-                <div class="card-footer d-flex">
-                  <div class="text-container">
-                    <p class="title">การอบรมต่ออายุใบอนุญาตขับรถ ( E-learning )</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <?php for($i=0; $i<8; $i++){?>
+              <div class="swiper-slide">
+                <div class="section-card">
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/1<?= $i%4+5 ?>.jpg');"></div>
                   </div>
-                  <div class="icon">
-                    <img src="public/assets/app/images/icon/3<?= $i%4+2 ?>.png" alt="Icon" />
+                  <div class="card-footer d-flex">
+                    <div class="text-container">
+                      <p class="title">การอบรมต่ออายุใบอนุญาตขับรถ ( E-learning )</p>
+                    </div>
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/3<?= $i%4+2 ?>.png" alt="Icon" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          <?php }?>
-        </div>
-        <div class="dot-container"></div>
-        <div class="btns">
-          <a href="#" class="btn btn-action style-02 btn-05">
-            <span>ดูทั้งหมด</span> 
-            <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right"></em>
-            </div>
-          </a>
+            <?php }?>
+          </div>
+          <div class="dot-wrapper">
+            <div class="dot-container"></div>
+          </div>
+          <div class="btns">
+            <a href="#" class="btn btn-action style-02 btn-05">
+              <span>ดูทั้งหมด</span> 
+              <div class="icon ml-3">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -392,10 +396,10 @@
           กระดานถามตอบ
         </h3>
       </div> 
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
+      <div class="swiper-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-wrapper">
           <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
+            <div class="swiper-slide">
               <div class="ss-card ss-card-09">
                 <div class="text-container">
                   <div class="avatar">
@@ -433,7 +437,9 @@
             </div>
           <?php }?>
         </div>
-        <div class="dot-container"></div>
+        <div class="dot-wrapper">
+          <div class="dot-container"></div>
+        </div>
         <div class="btns d-flex mt-6">
           <a href="#" class="btn btn-action style-02 btn-05">
             <span>อ่านทั้งหมด</span> 

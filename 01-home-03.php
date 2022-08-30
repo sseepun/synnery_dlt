@@ -10,10 +10,10 @@
   <?php include_once('include/options.php'); ?>
   
   <section class="banner-02">
-    <div class="slide-container">
-      <div class="slides">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
         <?php for($i=0; $i<7; $i++){?>
-          <div class="slide" id="banner-02-<?= $i ?>">
+          <div class="swiper-slide">
             <div class="wrapper">
               <div class="img-bg" style="background-image:url('public/assets/app/images/banner/1<?= ($i)%3+0 ?>.jpg');"></div>
               <div class="container">
@@ -123,7 +123,9 @@
     ];
   ?>
   <section class="section-08 section-padding pt-0" style="z-index:2;">
-    <img class="pattern" src="public/assets/app/images/bg/pattern-07.png" alt="Pattern" />
+    <div class="pattern">
+      <img src="public/assets/app/images/bg/pattern-07.png" alt="Pattern" />
+    </div>
     <div class="container">
       <div class="tab-container">
         <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
@@ -216,12 +218,17 @@
       ]
     ];
   ?>
-  <section class="section-08 section-padding clone pt-0 bg-white">
-    <img class="pattern" src="public/assets/app/images/bg/pattern-08.png" alt="Pattern" />
+  <section class="section-08 section-padding pt-0 bg-white">
+    <div class="pattern style-02">
+      <img src="public/assets/app/images/bg/pattern-10.png" alt="Pattern" />
+    </div>
+    <div class="pattern style-03">
+      <img src="public/assets/app/images/bg/pattern-11.png" alt="Pattern" />
+    </div>
     <div class="container">
       <div class="tab-container">
 
-        <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
+        <div class="tabs tabs-02 bg-white" data-aos="fade-up" data-aos-delay="0">
           <div class="tabs-title">
             <div class="tab-contents">
               <?php foreach($category as $i=>$d){?>
@@ -301,36 +308,40 @@
   <section class="info-01 section-padding">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
     <div class="container pos-relative">
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
-        <div class="slides">
-          <?php for($i=0; $i<6; $i++){?>
-            <div class="slide">
-              <div class="ss-card ss-card-04 type-2">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%4+1 ?>.jpg')"></div>
-                  <div class="hover-container">
-                    <div class="icon sm">
-                      <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+      <div data-aos="fade-up" data-aos-delay="0">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <?php for($i=0; $i<6; $i++){?>
+              <div class="swiper-slide">
+                <div class="ss-card ss-card-04 type-2 transparent">
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%4+1 ?>.jpg')"></div>
+                    <div class="hover-container">
+                      <div class="icon sm">
+                        <img src="public/assets/app/images/icon/16.png" alt="Icon" />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="text-container">
-                  <a class="title p fw-400 lh-sm" href="#">
-                    ข้อกำหนดการขนส่ง
-                    การส่งสินค้าอันตรายทางถนน
-                    ของเประเทศไทย
-                  </a>
+                  <div class="text-container">
+                    <a class="title p fw-400 lh-sm" href="#">
+                      ข้อกำหนดการขนส่ง
+                      การส่งสินค้าอันตรายทางถนน
+                      ของเประเทศไทย
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          <?php }?>
-        </div>
-        <div class="dot-container"></div>
-        <div class="btns">
-          <a class="btn-more" href="#">
-            อ่านทั้งหมด
-            <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
-          </a>
+            <?php }?>
+          </div>
+          <div class="dot-wrapper">
+            <div class="dot-container"></div>
+          </div>
+          <div class="btns">
+            <a class="btn-more" href="#">
+              อ่านทั้งหมด
+              <div class="icon"><em class="fa-solid fa-chevron-right"></em></div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="quote-container" data-aos="fade-up" data-aos-delay="150">
@@ -350,7 +361,7 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-25 md-50 mt-0">
-          <div class="section-tab main" href="#">
+          <div class="section-tab main">
             <div class="icon">
               <img src="public/assets/app/images/icon/28.png" alt="Icon" />
             </div>

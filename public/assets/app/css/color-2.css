@@ -260,6 +260,8 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 .ss-card-04:hover .text-container{background:#000000; color:#ffff00;}
 .ss-card-04 .card-footer .view .icon{color:#000000;}
 .ss-card-04:hover .card-footer .view .icon{color:#ffff00;}
+.ss-card-04.transparent .text-container{background:transparent; color:#000000;}
+.ss-card-04.transparent .card-footer .view .icon{color:#000000;}
 
 /* Special Card 05 */
 .ss-card-05 .text-container{
@@ -396,6 +398,11 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 .banner-01 .slick-dots li.slick-active button{background:#000000;}
 .banner-01 .slick-dots button::before{border-color:#ffff00;}
 
+/* Banner 02 */
+.banner-02 .swiper-pagination-bullet{background:rgba(0,0,0,.3);}
+.banner-02 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#000000;}
+.banner-02 .swiper-pagination-bullet::before{border-color:#000000;}
+
 /* Banner 03 */
 .banner-03 .slick-dots button{background:#ffff00;}
 
@@ -405,9 +412,9 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 
 /* Info 01 */
 .info-01{background:#f0f0f0;}
-.info-01 .slick-dots button{border-color:#000000;}
-.info-01 .slick-dots li button:hover,
-.info-01 .slick-dots li.slick-active button{background:#000000;}
+.info-01 .swiper-pagination-bullet{border-color:#000000;}
+.info-01 .swiper-pagination-bullet:hover,
+.info-01 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#000000;}
 .info-01 .btns > .btn-more{color:#000000;}
 .info-01 .btns > .btn-more .icon{background:#000000; color:#ffff00;}
 .info-01 .quote-container{color:#000000;}
@@ -510,7 +517,8 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 .section-13 .section-card > .card-footer{border:1px solid #ffff00;}
 .section-13 .section-card .text-container{background:#ffff00; color:#000000;}
 .section-13 .section-card .icon{background:#000000;}
-.section-13 .slick-dots button{background:#ffff00;}
+.section-13 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-13 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 
 /* Section 15 */
 .section-15{color:#ffff00;}
@@ -527,8 +535,8 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 
 /* Section 18 */
 .section-18 .title-black{color:#000000;}
-.section-18 .slick-dots button{background:rgba(255,255,0,.3);}
-.section-18 .slick-dots li.slick-active button{background:#ffff00;}
+.section-18 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-18 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 
 /* Section 19 */
 .section-19 .swiper-slide .text-container{color:#ffff00;}
@@ -546,17 +554,17 @@ nav.side-panel .hamburger > *{background:#ffff00;}
 
 /* Section 22 */
 .section-22 > .img-bg{background:#000000;}
-.section-22 .slick-dots button{background:rgba(255,255,0,.3);}
-.section-22 .slick-dots li.slick-active button{background:#ffff00;}
+.section-22 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-22 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 
 /* Section 25 */
-.section-25 .slick-dots button{background:rgba(255,255,0,.3);}
-.section-25 .slick-dots li.slick-active button{background:#ffff00;}
+.section-25 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-25 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 
 /* Section 26 */
-.section-26 .slick-list.draggable{box-shadow:0px 4px 8px 6px rgba(255,255,0,.03);}
-.section-26 .slick-dots button{background:rgba(255,255,0,.3);}
-.section-26 .slick-dots li.slick-active button{background:#ffff00;}
+.section-26 .swiper-container{box-shadow:0px 4px 8px 6px rgba(255,255,0,.03);}
+.section-26 .swiper-pagination-bullet{background:rgba(255,255,0,.3);}
+.section-26 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#ffff00;}
 
 /* Section 27 */
 .section-27 .section-title .icon{background:#ffff00; color:#000000;}
