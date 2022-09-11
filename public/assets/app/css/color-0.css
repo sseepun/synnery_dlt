@@ -29,6 +29,7 @@ html, body, table.table{color:#000000;}
 .color-15, .h-color-15:hover{color:#c7cbd1!important;}
 .color-16, .h-color-16:hover{color:#3c3c3c!important;}
 .color-17, .h-color-17:hover{color:#744faa!important;}
+.color-18, .h-color-18:hover{color:#6d2587!important;}
 
 .bg-p{background:#591768!important;}
 .bg-s{background:#194e84!important;}
@@ -55,7 +56,7 @@ html, body, table.table{color:#000000;}
 .bg-15{background:#c7cbd1!important;}
 .bg-16{background:#3c3c3c!important;}
 .bg-17{background:#744faa!important;}
-
+.bg-18{background:#6d2587!important;}
 
 .bcolor-p{border-color:#591768!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -82,6 +83,7 @@ html, body, table.table{color:#000000;}
 .bcolor-15{border-color:#c7cbd1!important;}
 .bcolor-16{border-color:#3c3c3c!important;}
 .bcolor-17{border-color:#744faa!important;}
+.bcolor-18{border-color:#6d2587!important;}
 
 /* Buttons */
 .btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#194e84; border-color:#194e84;}

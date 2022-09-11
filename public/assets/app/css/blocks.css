@@ -900,13 +900,13 @@
 /* Section 15 */
 .section-15{overflow:hidden;}
 .section-15 .blocks{width:100%; display:flex; flex-wrap:wrap;}
-.section-15 .block{position:relative; width:60%; padding:3.5rem 2rem 3.5rem 0;}
+.section-15 .block{position:relative; width:50%; padding:3.5rem 2rem 3.5rem 0;}
 .section-15 .block > .img-bg{
-    position:absolute; top:0; bottom:0; right:0; width:60vw;
+    position:absolute; top:0; bottom:0; right:0; width:50vw;
     background-size:cover; background-position:center;
 }
 .section-15 .block > .text-wrapper{position:relative;}
-.section-15 .subblocks{position:relative; width:40%;}
+.section-15 .subblocks{position:relative; width:50%;}
 .section-15 .subblock{position:relative; width:100%; padding:3.5rem 0 3.5rem 2rem;}
 .section-15 .subblock > .img-bg{
     position:absolute; top:0; bottom:0; left:0; width:50vw;

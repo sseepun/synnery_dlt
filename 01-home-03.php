@@ -232,9 +232,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <div class="ss-tags">
-                          <div class="tag no-br ws-nowrap"><?= $d['title'] ?></div>
-                        </div>
+                        
                         <a class="title p lg fw-400 lh-sm" href="#">
                           กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
                           กรมการขนส่งทางบก ส่งความสุขและความปรารถนาดี ในช่วงเทศกาลตรุษจีน
