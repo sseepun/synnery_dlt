@@ -56,10 +56,10 @@
       <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
         ระบบสำนักงานออนไลน์
       </h3>    
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
+      <div class="swiper-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-wrapper">
           <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
+            <div class="swiper-slide">
               <div class="ss-card ss-card-19">
                 <div class="ss-img square">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/4<?= $i%6+0 ?>.jpg');"></div>
@@ -71,7 +71,9 @@
             </div>
           <?php }?>
         </div>
-        <div class="dot-container"></div>
+        <div class="dot-wrapper">
+          <div class="dot-container"></div>
+        </div>
         <div class="btns" data-aos="fade-up" data-aos-delay="300">
           <a href="#" class="btn btn-action style-02 btn-02">
             <span>ดูทั้งหมด</span> 
@@ -333,58 +335,62 @@
     <div class="container">
       <h3 class="text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
         กระดานถามตอบ
-      </h3> 
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="150">
-        <div class="slides">
-          <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
-              <div class="ss-card ss-card-16">
-                <div class="text-container">
-                  <div class="d-flex ai-center">
-                    <div class="avatar">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%5+5 ?>.png');"></div>
+      </h3>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <?php for($i=0; $i<8; $i++){?>
+              <div class="swiper-slide">
+                <div class="ss-card ss-card-16">
+                  <div class="text-container">
+                    <div class="d-flex ai-center">
+                      <div class="avatar">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= $i%5+5 ?>.png');"></div>
+                      </div>
+                      <div class="d-flex flex-column jc-center ml-3">
+                        <p class="sm fw-500">ภานุมาศ รักเกียรติเผ่า</p>
+                        <div class="d-flex ai-center">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
+                            16 กุมภาพันธ์ 2565
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="d-flex flex-column jc-center ml-3">
-                      <p class="sm fw-500">ภานุมาศ รักเกียรติเผ่า</p>
-                      <div class="d-flex ai-center">
-                        <p class="sm color-11">
-                          <div class="icon"><em class="fa-regular fa-pen-to-square"></em></div>
-                          16 กุมภาพันธ์ 2565
-                        </p>
+                    <a class="title p sm fw-400 h-color-05 mt-4" href="#">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
+                    <div class="card-footer">
+                      <div class="blocks">
+                        <div class="block">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
+                              12
+                          </p>
+                        </div>
+                        <div class="block">
+                          <p class="sm color-11">
+                            <div class="icon"><em class="fa-regular fa-eye"></em></div>
+                            285
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <a class="title p sm fw-400 h-color-05 mt-4" href="#">ต่อภาษีออนไลน์ไป ตั้งแต่ 29 ม.ค. - 11 ก.พ. ยังไม่ได้รับป้ายภาษี</a>
-                  <div class="card-footer">
-                    <div class="blocks">
-                      <div class="block">
-                        <p class="sm color-11">
-                          <div class="icon"><em class="fa-regular fa-comment-dots"></em></div>
-                            12
-                        </p>
-                      </div>
-                      <div class="block">
-                        <p class="sm color-11">
-                          <div class="icon"><em class="fa-regular fa-eye"></em></div>
-                          285
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <div class="line-1"></div><div class="line-2"></div>
                 </div>
-                <div class="line-1"></div><div class="line-2"></div>
               </div>
-            </div>
-          <?php }?>
-        </div>
-        <div class="dot-container"></div>
-        <div class="btns d-flex mt-6" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-action style-02 btn-02">
-            <span>อ่านทั้งหมด</span> 
-            <div class="icon ml-3">
-              <em class="fa-solid fa-arrow-right"></em>
-            </div>
-          </a>
+            <?php }?>
+          </div>
+          <div class="dot-wrapper">
+            <div class="dot-container"></div>
+          </div>
+          <div class="btns d-flex mt-6" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="btn btn-action style-02 btn-02">
+              <span>อ่านทั้งหมด</span> 
+              <div class="icon ml-3">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -427,37 +433,41 @@
 
   <section class="section-26">
     <div class="container">
-      <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
-        <div class="slides">
-          <?php for($i=0; $i<8; $i++){?>
-            <div class="slide">
-              <div class="ss-card ss-card-18 bg-white">
-                <div class="text-container">
-                  <h6 class="op-0 pe-none pos-absolute">h6</h6>
-                  <a class="title p lg lh-sm fw-400 h-color-05" href="#">
-                    รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
-                  </a>
-                  <div class="card-footer">
-                    <div class="blocks">
-                      <div class="block">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img" alt="Icon"/>
-                        </div> 
-                      </div>
-                      <div class="block">
-                        <a class="more" href="#">
-                          <em class="fa-solid fa-arrow-right-long"></em>
-                        </a>
+      <div data-aos="fade-up" data-aos-delay="0">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <?php for($i=0; $i<8; $i++){?>
+              <div class="swiper-slide">
+                <div class="ss-card ss-card-18 bg-white">
+                  <div class="text-container">
+                    <h6 class="op-0 pe-none pos-absolute">h6</h6>
+                    <a class="title p lg lh-sm fw-400 h-color-05" href="#">
+                      รับและตรวจสอบ เรื่องร้องเรียน รถโดยสารสาร
+                    </a>
+                    <div class="card-footer">
+                      <div class="blocks">
+                        <div class="block">
+                          <div class="icon">
+                            <img src="public/assets/app/images/icon/4<?= $i%4+1 ?>.png" class="img" alt="Icon"/>
+                          </div> 
+                        </div>
+                        <div class="block">
+                          <a class="more" href="#">
+                            <em class="fa-solid fa-arrow-right-long"></em>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="line-1"></div><div class="line-2"></div>
                 </div>
-                <div class="line-1"></div><div class="line-2"></div>
               </div>
-            </div>
-          <?php }?>
+            <?php }?>
+          </div>
         </div>
-        <div class="dot-container"></div>
+        <div class="dot-wrapper">
+          <div class="dot-container"></div>
+        </div>
       </div>
     </div>
   </section>

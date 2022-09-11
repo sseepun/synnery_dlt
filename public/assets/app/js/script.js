@@ -269,7 +269,8 @@ $(function(){ 'use strict';
                 var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
                     oldTargets = tabContents.filter('.active'),
                     slideContainers = target.find('.slide-container');
-                if(target.length){
+                if($(this).hasClass('active')) e.preventDefault();
+                if(target.length && !$(this).hasClass('active')){
                     e.preventDefault();
                     tabs.removeClass('active');
                     $(this).addClass('active');
@@ -335,27 +336,22 @@ $(function(){ 'use strict';
     // Banner 02
     var banner02 = $('.banner-02');
     if(banner02.length){
-        banner02.each(function(){
-            var self = $(this),
-                options = {
-                    infinite: false,
-                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                    prevArrow: self.find('.arrow.arrow-prev'),
-                    nextArrow: self.find('.arrow.arrow-next'),
-                };
-            if(self.hasClass('img-only')){
-                options = {
-                    infinite: false,
-                    centerMode: false, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                    focusOnSelect: true, autoplay: false, autoplaySpeed: 6000, speed: 600,
-                    dots: true, appendDots: self.find('.dot-container'), arrows: true,
-                    prevArrow: self.find('.arrow.arrow-prev'),
-                    nextArrow: self.find('.arrow.arrow-next'),
-                };
-            }
-            self.find('.slides').slick(options);
+        banner02.find('.swiper-container').each(function(){
+            var self = $(this);
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 1,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: self.find('.arrow.arrow-next'),
+                    prevEl: self.find('.arrow.arrow-prev'),
+                },
+            });
+            temp.init();
         });
     }
     
@@ -473,20 +469,25 @@ $(function(){ 'use strict';
     // Info 01
     var info01 = $('.info-01');
     if(info01.length){
-        info01.find('.slide-container').each(function(){
+        info01.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 5,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 5,
+                spaceBetween: 2,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    1199.98: { slidesPerView: 4 },
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
@@ -554,7 +555,7 @@ $(function(){ 'use strict';
         section10.find('.swiper-container').each(function(){
             var self = $(this);
             let mySwiper10 = new Swiper(self.find('.inner-wrapper'), {
-                speed: 800,
+                speed: 600,
                 slidesPerView: 4,
                 grabCursor: true,
                 pagination: {
@@ -574,38 +575,48 @@ $(function(){ 'use strict';
     // Section 13
     var section13 = $('.section-13');
     if(section13.length){
-        section13.find('.slide-container').each(function(){
+        section13.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 4,
+                spaceBetween: 16,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
     // Section 18
     var section18 = $('.section-18');
     if(section18.length){
-        section18.find('.slide-container').each(function(){
+        section18.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 4,
+                spaceBetween: 16,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
@@ -617,7 +628,7 @@ $(function(){ 'use strict';
             let mySwiper19 = new Swiper(self, {
                 init: false,
                 loop: true,
-                speed: 800,
+                speed: 600,
                 slidesPerView: 2,
                 spaceBetween: 240,
                 centeredSlides : true,
@@ -636,8 +647,8 @@ $(function(){ 'use strict';
                     clickable: true,
                 },
                 navigation: {
-                    nextEl: self.find('.btn-prev'),
-                    prevEl: self.find('.btn-next'),
+                    nextEl: self.find('.btn-next'),
+                    prevEl: self.find('.btn-prev'),
                 },
                 breakpoints: {
                     1199.98: { spaceBetween: 180, slidesPerView: 1.9 },
@@ -658,61 +669,75 @@ $(function(){ 'use strict';
     // Section 22
     var section22 = $('.section-22');
     if(section22.length){
-        section22.find('.slide-container').each(function(){
+        section22.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 6,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 1299.98, settings: { slidesToShow: 5, } },
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 6,
+                spaceBetween: 16,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    1299.98: { slidesPerView: 5 },
+                    1199.98: { slidesPerView: 4 },
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
     // Section 25
     var section25 = $('.section-25');
     if(section25.length){
-        section25.find('.slide-container').each(function(){
+        section25.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 5,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 5,
+                spaceBetween: 16,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    1199.98: { slidesPerView: 4 },
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
     // Section 26
     var section26 = $('.section-26');
     if(section26.length){
-        section26.find('.slide-container').each(function(){
+        section26.each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: false, centerPadding: '0px', slidesToShow: 4,
-                swipeToSlide: true, infinite: false,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: true, appendDots: self.find('.dot-container'), arrows: false,
-                responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
-                ]
+            let temp = new Swiper(self.find('.swiper-container'), {
+                speed: 600,
+                slidesPerView: 4,
+                spaceBetween: 0,
+                grabCursor: true,
+                pagination: {
+                    el: self.find('.dot-container'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98: { slidesPerView: 1 }
+                }
             });
+            temp.init();
         });
     }
 
@@ -722,7 +747,7 @@ $(function(){ 'use strict';
         section30.find('.swiper-container').each(function(){
             var self = $(this);
             let mySwiper30 = new Swiper(self, {
-                speed: 800,
+                speed: 600,
                 slidesPerView: 4,
                 spaceBetween: 8,
                 grabCursor: true,
@@ -740,21 +765,25 @@ $(function(){ 'use strict';
     // Footer Style 02
     var footerStyle02 = $('nav.footer.style-02');
     if(footerStyle02.length){
-        footerStyle02.find('.slide-container').each(function(){
+        footerStyle02.find('.swiper-container').each(function(){
             var self = $(this);
-            self.find('> .slides').slick({
-                slidesToShow: 6, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 6000, speed: 600,
-                dots: false, arrows: true,
-                prevArrow: self.find('.arrow.arrow-prev'),
-                nextArrow: self.find('.arrow.arrow-next'),
-                responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
-                ]
+            let temp = new Swiper(self, {
+                speed: 600,
+                slidesPerView: 6,
+                spaceBetween: 16,
+                grabCursor: true,
+                navigation: {
+                    nextEl: self.find('.arrow.arrow-next'),
+                    prevEl: self.find('.arrow.arrow-prev'),
+                },
+                breakpoints: {
+                    1199.98: { slidesPerView: 5 },
+                    991.98: { slidesPerView: 4 },
+                    767.98: { slidesPerView: 3 },
+                    575.98: { slidesPerView: 2 }
+                }
             });
+            temp.init();
         });
     }
 
